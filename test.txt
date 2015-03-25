@@ -1,0 +1,1 @@
+docker run -e "CONT_INPUT_FASTA=sample.fa" -e "CONT_OUTPUT_FILE=result" -v $PWD:$PWD -w $PWD clustalo
