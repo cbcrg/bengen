@@ -8,7 +8,7 @@ CONT_THREADS=${CONT_THREADS:=1}
 
 case $TASK in
     normal)
-    clustalo -i $CONT_INPUT_FASTA -o $CONT_OUTPUT_FILE --threads $CONT_THREADS --force 2> clustalo_log
+    clustalo -i $CONT_INPUT_FASTA -o $CONT_OUTPUT_FILE --outfmt msf --threads $CONT_THREADS --force 2> clustalo_log
     ;;
     
 #    large)

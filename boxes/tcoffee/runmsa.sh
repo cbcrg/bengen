@@ -8,7 +8,8 @@ CONT_THREADS=${CONT_THREADS:=1}
 
 case $TASK in
     normal)
-    t_coffee -multi_core=$CONT_THREADS -in=$CONT_INPUT_FASTA > $CONT_OUTPUT_FILE 2> tcoffee_log
+    t_coffee -multi_core=$CONT_THREADS -in=$CONT_INPUT_FASTA -output msf -run_name __aln &> tcoffee_log
+    mv __aln.msf $CONT_OUTPUT_FILE
     ;;
     
 #    large)
