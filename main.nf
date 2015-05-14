@@ -58,7 +58,7 @@ process aln {
   set group, id, file(fasta) from dataset 
   
   output: 
-  set group, id, file('aln.msf') into msf_files
+  set method, group, id, file('aln.msf') into msf_files
   
   """
   # define the container inputs
@@ -80,15 +80,16 @@ process score {
     
     input:
     file bali_home
-    set group, id, file(msf) from msf_files
+    set method, group, id, file(msf) from msf_files
     
     output: 
-    set group, id, file('bb3.out') into bb3 
+    set method, group, id, file('bb3.out') into bb3 
     
+    // creates a file containing the SP and TC scores 
     """
     bali_score $bali_home/$group/${id}.xml $msf | grep auto | awk '{ print \$3, \$4 }' > bb3.out
     """
 
 }
 
-bb3.println { group, id, file -> "$group $id ${file.text.trim()}" }
+bb3.println { method, group, id, file -> "$method $group $id ${file.text.trim()}" }
