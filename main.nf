@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2014, Centre for Genomic Regulation (CRG) and the authors.
+ * Copyright (c) 2013-2016, Centre for Genomic Regulation (CRG) and the authors.
  *
  *   This file is part of 'Piper-NF'.
  *
@@ -43,7 +43,8 @@ dataset = Channel
  */ 
 boxes = [
   'bengen/tcoffee',
-  'bengen/clustalo'
+  'bengen/clustalo',
+  'bengen/mafft'
 ]
 
 
@@ -51,24 +52,19 @@ boxes = [
  * Execute an alignment job for each input sequence in the dataset 
  */
 process aln {
-  container true
+  tag "$method"
+  container "$method"
   
   input: 
   each method from boxes
   set group, id, file(fasta) from dataset 
   
   output: 
-  set method, group, id, file('aln.msf') into msf_files
+  set method, group, id, file('aln.{fa,msf}') into alignments
   
-  """
-  # define the container inputs
-  CONT_INPUT_FASTA=$fasta
-  CONT_OUTPUT_FILE=aln.msf
-  
-  # invoke the container execution 
-  $method 
-  """
-
+  script:
+  template method
+    
 }
 
 
@@ -76,18 +72,29 @@ process aln {
  * Evaluate the alignment score with BaliBase
  */
 process score {
+    tag "$method"
     container 'bengen/bb3'
     
     input:
     file bali_home
-    set method, group, id, file(msf) from msf_files
+    set method, group, id, file(aln) from alignments
     
     output: 
     set method, group, id, file('bb3.out') into bb3 
     
     // creates a file containing the SP and TC scores 
     """
-    bali_score $bali_home/$group/${id}.xml $msf | grep auto | awk '{ print \$3, \$4 }' > bb3.out
+    ## normalise FASTA alignment to MSF format
+    [[ $aln == *.fa ]] && t_coffee -other_pg seq_reformat aln.fa -output msf > aln.msf
+
+    ## assert the `aln.msf` is not empty
+    [[ -s aln.msf ]] || ( echo Missing alignment MSF file; exit 1 )
+
+    ## run BALI SCORE
+    bali_score $bali_home/$group/${id}.xml aln.msf | grep auto | awk '{ print \$3, \$4 }' > bb3.out
+
+    ## assert the output is not empty
+    [[ -s bb3.out ]] || ( echo Missing BB3 score output; exit 1 )
     """
 
 }

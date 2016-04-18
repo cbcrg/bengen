@@ -9,9 +9,3 @@ RUN wget -q http://mafft.cbrc.jp/alignment/software/mafft-7.130-with-extensions-
   cd / && \
   rm -rf mafft-7.130-with-extensions && \
   rm mafft-7.130-with-extensions-src.tgz 
-  
-  
-ADD runmsa.sh /root/runmsa.sh
-RUN chmod +x /root/runmsa.sh
-
-ENTRYPOINT ["/root/runmsa.sh"]  

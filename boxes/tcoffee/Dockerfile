@@ -15,7 +15,3 @@ ENV CACHE_4_TCOFFEE /tmp/cache/
 ENV LOCKDIR_4_TCOFFEE /tmp/lck/
 ENV TMP_4_TCOFFEE /tmp/tmp/  
 
-
-ADD runmsa.sh /root/runmsa.sh
-RUN chmod +x /root/runmsa.sh
-ENTRYPOINT ["/root/runmsa.sh"]  
