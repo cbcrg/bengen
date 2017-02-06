@@ -7,7 +7,7 @@ RUN wget -q http://www.tcoffee.org/Packages/Stable/Version_11.00.8cbe486/linux/T
   rm -rf T-COFFEE_installer_Version_11.00.8cbe486_linux_x64.tar.gz
   
 ENV SATE_HOME /opt/sate/  
-ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/blast/bin:/opt/sate/sate-core/bin:/opt/tcoffee/bin:/opt/tcoffee/plugins/linux/
+ENV PATH=$PATH:/opt/tcoffee/bin:/opt/tcoffee/plugins/linux/
 ENV TEMP /tmp
 ENV DIR_4_TCOFFEE /opt/tcoffee
 ENV EMAIL_4_TCOFFEE tcoffee.msa@gmail.com
