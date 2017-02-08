@@ -18,7 +18,7 @@
  */
 
 // define the dataset to process  
-params.dataset = "RV11/BB11001.tfa"
+params.dataset = "RV11/BB11002.tfa"
 
 // defines the BALiBASE home path 
 params.balibase = "$baseDir/bb3_release"
@@ -44,7 +44,12 @@ dataset = Channel
 boxes = [
   'bengen/tcoffee',
   'bengen/clustalo',
-  'bengen/mafft'
+  'bengen/mafft',
+  'bengen/muscle',
+  'bengen/prank',
+  'bengen/msaprobs',
+  'bengen/kalign', 
+  'bengen/dialign'
 ]
 
 
@@ -60,7 +65,7 @@ process aln {
   set group, id, file(fasta) from dataset 
   
   output: 
-  set method, group, id, file('aln.{fa,msf}') into alignments
+  set method, group, id, file('aln.{fa,msf,1.fas,ms}') into alignments
   
   script:
   template method
@@ -71,6 +76,11 @@ process aln {
 /* 
  * Evaluate the alignment score with BaliBase
  */
+
+
+//formats = [  '*.fa', '*.1.fas' ]  
+
+
 process score {
     tag "$method"
     container 'bengen/bb3'
@@ -78,6 +88,7 @@ process score {
     input:
     file bali_home
     set method, group, id, file(aln) from alignments
+    //each format from formats
     
     output: 
     set method, group, id, file('bb3.out') into bb3 
@@ -85,7 +96,11 @@ process score {
     // creates a file containing the SP and TC scores 
     """
     ## normalise FASTA alignment to MSF format
+  
     [[ $aln == *.fa ]] && t_coffee -other_pg seq_reformat aln.fa -output msf > aln.msf
+    [[ $aln == *.1.fas ]] && t_coffee -other_pg seq_reformat aln.1.fas -output msf > aln.msf
+    
+
 
     ## assert the `aln.msf` is not empty
     [[ -s aln.msf ]] || ( echo Missing alignment MSF file; exit 1 )

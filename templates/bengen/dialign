@@ -1,0 +1,2 @@
+dialign -msf -fn aln $fasta
+mv aln.ms aln.msf

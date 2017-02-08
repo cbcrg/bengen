@@ -1,0 +1,1 @@
+msaprobs $fasta -num_threads $task.cpus >aln.fa
