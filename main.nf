@@ -49,7 +49,11 @@ boxes = [
   'bengen/prank',
   'bengen/msaprobs',
   'bengen/kalign', 
-  'bengen/dialign'
+  'bengen/dialign', 
+  'bengen/clustalw',
+  'bengen/probcons'
+  
+  
 ]
 
 
@@ -65,7 +69,7 @@ process aln {
   set group, id, file(fasta) from dataset 
   
   output: 
-  set method, group, id, file('aln.{fa,msf,1.fas,ms}') into alignments
+  set method, group, id, file('aln.{fa,msf}') into alignments
   
   script:
   template method
@@ -78,7 +82,7 @@ process aln {
  */
 
 
-//formats = [  '*.fa', '*.1.fas' ]  
+
 
 
 process score {
@@ -88,7 +92,7 @@ process score {
     input:
     file bali_home
     set method, group, id, file(aln) from alignments
-    //each format from formats
+
     
     output: 
     set method, group, id, file('bb3.out') into bb3 
@@ -98,7 +102,7 @@ process score {
     ## normalise FASTA alignment to MSF format
   
     [[ $aln == *.fa ]] && t_coffee -other_pg seq_reformat aln.fa -output msf > aln.msf
-    [[ $aln == *.1.fas ]] && t_coffee -other_pg seq_reformat aln.1.fas -output msf > aln.msf
+    
     
 
 
