@@ -51,7 +51,10 @@ boxes = [
   'bengen/kalign', 
   'bengen/dialign', 
   'bengen/clustalw',
-  'bengen/probcons'
+  'bengen/probcons',
+  'bengen/sate',
+  'bengen/pasta',
+  'bengen/upp'
   
   
 ]
@@ -100,11 +103,7 @@ process score {
     // creates a file containing the SP and TC scores 
     """
     ## normalise FASTA alignment to MSF format
-  
     [[ $aln == *.fa ]] && t_coffee -other_pg seq_reformat aln.fa -output msf > aln.msf
-    
-    
-
 
     ## assert the `aln.msf` is not empty
     [[ -s aln.msf ]] || ( echo Missing alignment MSF file; exit 1 )

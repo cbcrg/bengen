@@ -1,0 +1,3 @@
+python /pasta/run_pasta.py  -d protein -o . -i $fasta  --num-cpus=$task.cpus 
+mv *.aln aln.fa
+
