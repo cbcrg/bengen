@@ -1,0 +1,23 @@
+
+
+#Usage: FastSP -r reference_alignment_file -e estimated_alignmet_file [-o output_file] [-c GAP_CHARS] [-ml mask out lower case characters in estimated]  [-mlr mask out lower case characters in reference]
+#Output: 
+#	SP-Score:	 number of shared homologies (aligned pairs) / total number of homologies in the reference alignment. 
+#	Modeler: 	 number of shared homologies (aligned pairs) / total number of homologies in the estimated alignment. 
+#	SP-FN:   	 1 - SP-Score
+#	SP-FP:   	 1 - Modeler
+#	Compression:   	 number of columns in the estimated alignment / number of columns in the reference alignment 
+#	TC:      	 number of correctly aligned columns / total number of aligned columns in the reference alignment. 
+
+#FastSP is a Java program for computing alignment error (SP-FN) quickly and using little memory.
+#USAGE
+#java -jar FastSP_1.6.0.jar -r reference_alignment_file -e estimated_alignment_file
+
+
+#Convert MSF reference alignment to FASTA
+[[ $datasets_home/${id}.* == $datasets_home/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${id}.msf.ref > $datasets_home/${id}.fa.ref
+
+#FASTSP
+java -jar ~/../FastSP_1.6.0.jar -r $datasets_home/${id}.fa.ref -e aln.fa> score.out
+
+

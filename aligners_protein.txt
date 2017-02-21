@@ -1,0 +1,13 @@
+bengen/tcoffee
+bengen/clustalo
+bengen/mafft
+bengen/muscle
+bengen/prank
+bengen/msaprobs
+bengen/dialign
+bengen/clustalw
+bengen/probcons
+bengen/sate
+bengen/pasta
+bengen/upp
+bengen/kalign

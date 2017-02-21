@@ -1,1 +1,3 @@
 prank -d=$fasta -quiet -o=aln 
+mv aln.1.fas aln.fa
+

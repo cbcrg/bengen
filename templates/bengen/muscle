@@ -1,1 +1,1 @@
-muscle -in $fasta -msfout aln.msf 
+muscle -in $fasta -fastaout aln.fa 

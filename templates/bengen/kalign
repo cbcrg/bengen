@@ -1,1 +1,1 @@
-kalign -i $fasta -o aln.msf -q -f msf
+kalign -i $fasta -o aln.fa -q -f fasta
