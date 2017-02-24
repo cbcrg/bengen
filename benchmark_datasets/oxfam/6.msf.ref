@@ -1,0 +1,26 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   199  Type: P  February 24, 2017 9:32  Check:    0  ..
+
+ Name: 3adk-1-DOMAK  Len:   199  Check: 4335  Weight:  1.00
+ Name: 1uky-1-AUTO.1 Len:   199  Check: 3872  Weight:  1.00
+
+//
+
+              1                                                   50
+3adk-1-DOMAK  meeklkkSKI IFVVGGPGSG KGTQCEKIVQ KYGYTHLSTG DLLRAEvssg
+1uky-1-AUTO.1 pafspdqVSV IFVLGGPGAG KGTQCEKLVK DYSFVHLSAG DLLRAEqgr-
+
+              51                                                 100
+3adk-1-DOMAK  sargkMLSei me----kgql vPLETVLDML RDAMVAKv-d tskgFLIDGY
+1uky-1-AUTO.1 --agsQYGel ikncikegqi vPQEITLALL RNAISDNvka nkhkFLIDGF
+
+              101                                                150
+3adk-1-DOMAK  PREVKQGEEF ERKIGQPTLL LYVDAGPETM TKRLLKRGET sgrvddneET
+1uky-1-AUTO.1 PRKMDQAISF ERDIVESKFI LFFDCPEDIM LERLLERGKT sgrsddniES
+
+              151                                               199
+3adk-1-DOMAK  IKKRLETYYK ATEPVIAFYE KRGIVRKVNA EGSVDDVFSQ VCTHLDtlk
+1uky-1-AUTO.1 IKKRFNTFKE TSMPVIEYFE TKSKVVRVRC DRSVEDVYKD VQDAIRdsl
+
