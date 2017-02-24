@@ -15,9 +15,9 @@
 
 
 #Convert MSF reference alignment to FASTA
-[[ $datasets_home/${id}.* == $datasets_home/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${id}.msf.ref > $datasets_home/${id}.fa.ref
+[[ $datasets_home/${dataset_name}/${id}.* == $datasets_home/${dataset_name}/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${dataset_name}/${id}.msf.ref > $datasets_home/${dataset_name}/${id}.fa.ref
 
 #FASTSP
-java -jar ~/../FastSP_1.6.0.jar -r $datasets_home/${id}.fa.ref -e aln.fa> score.out
+java -jar ~/../FastSP_1.6.0.jar -r $datasets_home/${dataset_name}/${id}.fa.ref -e aln.fa> score.out
 
 

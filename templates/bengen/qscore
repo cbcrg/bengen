@@ -11,10 +11,10 @@
 #              = (# correctly aligned columns) / (# aligned columns in reference)
 
 ##convert MSF reference alignment to FASTA format
-[[ $datasets_home/${id}.* == $datasets_home/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${id}.msf.ref > $datasets_home/${id}.fa.ref
+[[ $datasets_home/${dataset_name}/${id}.* == $datasets_home/${dataset_name}/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${dataset_name}/${id}.msf.ref > $datasets_home/${dataset_name}/${id}.fa.ref
 
 ##QSCORE
-qscore -test aln.fa -ref $datasets_home/${id}.fa.ref > score.out
+qscore -test aln.fa -ref $datasets_home/${dataset_name}/${id}.fa.ref -modeler -cline> score.out
 
 
 

@@ -47,7 +47,6 @@ while (<LARGEseq>)
 $/="\n";
 
 if (%hashFinal){
-        print "FIIIIILLEEEE";
 	open OUT, ">$out_file";
 	foreach $key( sort { $hashStru{$a} <=> $hashStru{$b} } (keys %hashStru) ){ print OUT ">".$key."\n".$hashFinal{$key}."\n";  }
 	#foreach $key2 (keys %NOThashFinal){ print OUT ">".$key2."\n".$NOThashFinal{$key2}."\n";  }

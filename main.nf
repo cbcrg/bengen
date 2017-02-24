@@ -26,7 +26,7 @@
 
 params.aligners = "bengen/test-align.txt"
 params.scores="bengen/test-score.txt"
-
+params.renderer="csv"
 /*
 *Define which dataset to use
 *
@@ -37,6 +37,8 @@ params.dataset= "balibase"
 
 datasets_home= file(params.datasets_directory)
 
+params.output_dir = ("$baseDir")
+params.out = ("output"+".${params.renderer}")
 
 
 //Reads which aligners to use
@@ -125,12 +127,67 @@ process score {
 
 }
 
+
 /*
-* Print the results
+* Write CSV output files
 */
 
-score_output.println { score, method, dataset_name, id, file -> "$score $method $dataset_name $id ${file.text.trim()}" }
+process write_output {
+  container "pditommaso/dkrbase:1.2"
+  tag "$score + $method + $dataset_name"
+
+  input:
+  
+  set score, method, dataset_name, id, file(scorefile) from score_output
+
+  output:
+  file 'output_csv_temp' into  output
+
+  script:
+
+  """
+  score_clean=\$(echo $score|cut -d'/' -f2 )
+  method_clean=\$(echo $method|cut -d'/' -f2 )
+	
+  parser.pl \$method_clean $dataset_name $id \$score_clean ${params.renderer} ${scorefile} > output_csv_temp
+  """
+}
 
 
 
+
+/*
+* save the results in one csv file
+*/
+
+ output.collectFile(name:"${params.out}" , storeDir:"${params.output_dir}").subscribe{println it.text}
+
+
+ 
+
+/*
+* convert output format
+
+
+process convert_output {
+
+  container "pditommaso/dkrbase:1.2"
+  tag "$score + $method + $dataset_name"
+
+  input:
+  
+  set file(ocsv) from csv
+
+  output:
+  file 'output.html' into  output_html
+
+  script:
+
+  if(params.renderer=="html")
+  """
+  
+  CSVtoHTML.pl $ocsv > output.${params.renderer}
+  """
+}
+*/
 
