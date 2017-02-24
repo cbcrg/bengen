@@ -17,7 +17,8 @@
  *   along with Piper-NF.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
+// IMPORT
+import groovy.text.SimpleTemplateEngine
 
 /*
 * Define which file contains the information about which aligner and which score to use
@@ -27,6 +28,7 @@
 params.aligners = "bengen/test-align.txt"
 params.scores="bengen/test-score.txt"
 params.renderer="csv"
+
 /*
 *Define which dataset to use
 *
@@ -36,6 +38,11 @@ params.datasets_directory="$baseDir/benchmark_datasets"
 params.dataset= "balibase"
 
 datasets_home= file(params.datasets_directory)
+
+/*
+*Define where the output is going to be stored
+*
+*/
 
 params.output_dir = ("$baseDir")
 params.out = ("output"+".${params.renderer}")
@@ -127,67 +134,28 @@ process score {
 
 }
 
+/* 
+ * Create the output file
+ */
 
-/*
-* Write CSV output files
-*/
+def map =[]
+score_output.subscribe onNext:  { score, method, dataset, id, file ->  map << [score: score, method: method,dataset:dataset,id:id,file:file]},
+onComplete: { allResults = [all:map]; createOutput("${params.renderer}")}
 
-process write_output {
-  container "pditommaso/dkrbase:1.2"
-  tag "$score + $method + $dataset_name"
 
-  input:
-  
-  set score, method, dataset_name, id, file(scorefile) from score_output
+def createOutput(String format){
 
-  output:
-  file 'output_csv_temp' into  output
+        def engine = new SimpleTemplateEngine();
+	def file = new File("$baseDir/templates_output/"+format+".txt") ;
+	def template = engine.createTemplate(file.text).make(allResults);
+	println template.toString();
 
-  script:
-
-  """
-  score_clean=\$(echo $score|cut -d'/' -f2 )
-  method_clean=\$(echo $method|cut -d'/' -f2 )
-	
-  parser.pl \$method_clean $dataset_name $id \$score_clean ${params.renderer} ${scorefile} > output_csv_temp
-  """
 }
 
 
 
 
-/*
-* save the results in one csv file
-*/
-
- output.collectFile(name:"${params.out}" , storeDir:"${params.output_dir}").subscribe{println it.text}
 
 
- 
 
-/*
-* convert output format
-
-
-process convert_output {
-
-  container "pditommaso/dkrbase:1.2"
-  tag "$score + $method + $dataset_name"
-
-  input:
-  
-  set file(ocsv) from csv
-
-  output:
-  file 'output.html' into  output_html
-
-  script:
-
-  if(params.renderer=="html")
-  """
-  
-  CSVtoHTML.pl $ocsv > output.${params.renderer}
-  """
-}
-*/
 

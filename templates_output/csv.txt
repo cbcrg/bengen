@@ -1,0 +1,30 @@
+<% 
+
+
+all.each {
+
+	String out = "${it.file.text}"
+
+	String s = "${it.score}".replace("bengen/","");
+	switch(s){
+		case "baliscore":
+			out= out.replace(" ",",");
+		break
+
+		case "qscore":
+			out=out.replace(";",",");
+			out=out.replaceAll("Test.*ref,","");
+			out=out.replaceAll("\\w*=","");
+		break
+
+		case "fastsp":
+			out=out.replaceAll(".* ","");
+			out=out.replaceAll("\\n",",");
+			out=out.replaceAll(",\$","\n");
+		break
+	}
+	
+	%>$it.score,$it.method,$it.dataset,$it.id,$out<%
+	
+
+ } %>
