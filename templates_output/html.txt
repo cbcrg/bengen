@@ -3,35 +3,11 @@
 all.each {
 
 	
-	String out = "${it.file.text}"
-
-	String s = "${it.score}".replace("bengen/","");
-
-	
-
-	switch(s){
-		case "baliscore":
-			out= out.replace(" ",",");
-		break
-
-		case "qscore":
-			out=out.replace(";",",");
-			out=out.replaceAll("Test.*ref,","");
-			out=out.replaceAll("\\w*=","");
-		break
-
-		case "fastsp":
-			out=out.replaceAll(".* ","");
-			out=out.replaceAll("\\n",",");
-			out=out.replaceAll(",\$","\n");
-		break
-	}
-	
 	
 	%><tr><td>$it.score</td><td>$it.method</td><td>$it.dataset</td><td>$it.id</td><%
-	String[] cells = out.split(",");
-	for (i = 0; i <cells.length; i++) {
-	   %> <td>${cells[i]}</td><%;
+	it.scores.each{
+	
+	   %> <td>$it</td><%;
 	}
 
          %></tr><%;	

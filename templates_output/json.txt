@@ -1,75 +1,28 @@
-<% all.each {
+<% 
 
-String out = "${it.file.text}"
+baliscore_names=['SP','TC']; 
+qscore_names=['Q','TC','Cline','Modeler'];
+fastsp_names=['SP-Score','Modeler', 'SP-FN', 'SP-FP', 'Compression', 'TC'];
 
-	String s = "${it.score}".replace("bengen/","");
+ 
+%>{ "data":[<%
+initial = true ;
 
+all.each {
 	
-
-	switch(s){
-		case "baliscore":
-			String[] cells= out.split(" ");
-			%>{
-			'score': '$it.score',
-			'method: '$it.method',
-			'dataset': '$it.dataset',
-			'id': '$it.id',
-			'SP': '${cells[0]}',
-			'TC': '${cells[1]}'
-			}
-
-			<%;	
-			
-		break
-
-		case "qscore":
-
-			out=out.replaceAll("Test.*ref,","");
-			out=out.replaceAll("\\w*=","");
-			String[] cells= out.split(";");
-			%>{
-			'score': '$it.score',
-			'method: '$it.method',
-			'dataset': '$it.dataset',
-			'id': '$it.id',
-			'Q': '${cells[2]}',
-			'TC': '${cells[3]}',
-			'Cline': '${cells[4]}',
-			'Modeler': '${cells[5]}'			
-}
-
-			<%;
-
-
-
-			
-		break
-
-		case "fastsp":
-			out=out.replaceAll(".* ","");
-			out=out.replaceAll("\\n",",");
-			out=out.replaceAll(",\$","\n");
-			String[] cells= out.split(",");
-			%>{
-			'score': '$it.score',
-			'method: '$it.method',
-			'dataset': '$it.dataset',
-			'id': '$it.id',
-			'SP-Score': '${cells[0]}',
-			'Modeler': '${cells[1]}',
-			'SP-FN': '${cells[2]}',
-			'SP-FP': '${cells[3]}',
-			'Compression': '${cells[4]}',
-			'TC': '${cells[5]}'			
-}
-
-			<%;
-		break
+	if(initial==true){
+		initial=false; %>{"score":"$it.score","method":"$it.method","dataset":"$it.dataset","id":"$it.id"<%; 
 	}
+	else{
+		%>,{"score":"$it.score","method":"$it.method","dataset":"$it.dataset","id":"$it.id"<% 
+	} 
 
+	it.scores.eachWithIndex { value, index -> %>,"${fastsp_names[index]}":$value<%  }
 
+	%>}<%
 
+} 
 
+%>]}<%
 
-
-} %>
+%>

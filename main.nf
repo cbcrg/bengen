@@ -18,8 +18,8 @@
  */
 
 // IMPORT
-import groovy.text.SimpleTemplateEngine
-
+import groovy.text.*
+import java.io.*
 /*
 * Define which file contains the information about which aligner and which score to use
 *
@@ -27,20 +27,23 @@ import groovy.text.SimpleTemplateEngine
 
 params.aligners = "bengen/test-align.txt"
 params.scores="bengen/test-score.txt"
-params.renderer="csv"
 
 /*
 *Define which dataset to use
-*
 */
 
 params.datasets_directory="$baseDir/benchmark_datasets"
+datasets_home= file(params.datasets_directory)
 params.dataset= "balibase"
 
-datasets_home= file(params.datasets_directory)
+/*
+*Define output format 
+*/
+
+params.renderer="csv"
 
 /*
-*Define where the output is going to be stored
+*Define output path
 *
 */
 
@@ -57,8 +60,12 @@ boxes_score = file(params.scores).readLines().findAll { it.size()>0 }
 
 
 /* 
- * Creates a channel emitting a tiple for each file in the datase composed 
+ * Creates a channel emitting a triple for each file in the datase composed 
  * by the following element: 
+ *
+ * -Name of the dataset (e.g. Balibase,Oxfam..)
+ * -Name of the file (e.g. B11001_RV11 )
+ * -the file itself
  * 
  */
 
@@ -135,27 +142,78 @@ process score {
 }
 
 /* 
- * Create the output file
+ * Create the output file 
  */
 
 def map =[]
-score_output.subscribe onNext:  { score, method, dataset, id, file ->  map << [score: score, method: method,dataset:dataset,id:id,file:file]},
-onComplete: { allResults = [all:map]; createOutput("${params.renderer}")}
 
 
-def createOutput(String format){
+score_output.subscribe onNext:  {  score, method, dataset, id ,file->  map << [score: score, method: method,dataset:dataset,id:id,scores:scoreFileParser(file.toString(),score)] },
+onComplete: { def allResults = [all:map]; createOutput("${params.renderer}", allResults, "${params.output_dir}/${params.out}")}
 
-        def engine = new SimpleTemplateEngine();
-	def file = new File("$baseDir/templates_output/"+format+".txt") ;
-	def template = engine.createTemplate(file.text).make(allResults);
-	println template.toString();
 
+def createOutput(String format, allResults, outputPath){
+	//create the file template
+	def f = new File("$baseDir/templates_output/"+format+".txt") ;
+	def template = new SimpleTemplateEngine().createTemplate(f.text).make(allResults);
+	
+	//write the file
+	def destination = new BufferedWriter(new FileWriter(outputPath));	
+	template.writeTo(destination);
+	destination.close();
+
+	
+	//print for testing
+	print "#####\n${template.toString()} ####\n";
 }
 
 
+def scoreFileParser(String path , String score){
+
+	def scores=[]
+	File file = new File(path)
+	String fileString = file.text
+
+	String s = score.replace("bengen/","");
+	switch(s){
+		case "baliscore":
+			scores =  fileString.split(" ")
+		break
 
 
+		case "qscore":
+			fileString=fileString.replaceAll("Test.*.ref;","");
+			fileString=fileString.replaceAll("\\w*=","");
+			scores =  fileString.split(";")
+		break
+		
+		case "fastsp":
+			fileString=fileString.replaceAll(".* ","");
+			fileString=fileString.replaceAll("\\n",",");
+			fileString=fileString.replaceAll(",\$","\n");
+			scores =  fileString.split(",")
+		break
+	
+	}	
+
+	return scores; 
+}
 
 
+//TEST FUNCTION
+def testcreateOutput() {
+   
+  def list = [
+     ['score': 'baliscore', 'method': 'tcoffee', 'dataset' :'dataset', 'id' :'id', 'file' : file('test1'), scores : scoreFileParser('test1', 'baliscore')], 
+     ['score': 'baliscore', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('test2'), scores : scoreFileParser('test2', 'baliscore')],
+      ['score': 'qscore', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('test2'), scores : scoreFileParser('testq', 'qscore')],
+	['score': 'fastsp', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('testf'), scores : scoreFileParser('testf', 'fastsp')]
+   ]
+
+
+  createOutput('json', [all: list] , "testOUT" )
+}
+ 
+ 
 
 
