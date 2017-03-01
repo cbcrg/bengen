@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 #	Baliscore 
 #---------------------------
@@ -20,5 +20,7 @@ $datasets_home/${dataset_name}/${id}.fa.ref > $datasets_home/${dataset_name}/${i
 
 
 ##BALI SCORE
-bali_score $datasets_home/${dataset_name}/${id}.msf.ref aln.msf | grep auto | awk '{ print \$3, \$4 }' > score.out
+bali_score $datasets_home/${dataset_name}/${id}.msf.ref aln.msf | grep auto | awk '{ print "SP="\$3 ";TC="\$4 }' > score.out
+
+
 

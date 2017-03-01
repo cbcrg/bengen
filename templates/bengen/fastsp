@@ -18,6 +18,10 @@
 [[ $datasets_home/${dataset_name}/${id}.* == $datasets_home/${dataset_name}/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${dataset_name}/${id}.msf.ref > $datasets_home/${dataset_name}/${id}.fa.ref
 
 #FASTSP
-java -jar ~/../FastSP_1.6.0.jar -r $datasets_home/${dataset_name}/${id}.fa.ref -e aln.fa> score.out
+java -jar ~/../FastSP_1.6.0.jar -r $datasets_home/${dataset_name}/${id}.fa.ref -e aln.fa> score_temp.out
 
+tr '\n' ';' < score_temp.out | sed 's/ /=/g'  >score1.out
 
+echo '' >> score1.out
+
+sed 's/.\$//g' score1.out > score.out

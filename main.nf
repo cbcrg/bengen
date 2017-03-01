@@ -183,19 +183,7 @@ def scoreFileParser(String path , String score){
 }
 
 
-//TEST FUNCTION
-def testcreateOutput() {
-   
-  def list = [
-     ['score': 'baliscore', 'method': 'tcoffee', 'dataset' :'dataset', 'id' :'id', 'file' : file('test1'), scores : scoreFileParser('test1', 'baliscore')], 
-     ['score': 'baliscore', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('test2'), scores : scoreFileParser('test2', 'baliscore')],
-      ['score': 'qscore', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('test2'), scores : scoreFileParser('testq', 'qscore')],
-	['score': 'fastsp', 'method': 'clustalo', 'dataset': 'dataset', 'id': 'id', 'file': file('testf'), scores : scoreFileParser('testf', 'fastsp')]
-   ]
 
-
-  createOutput('json', [all: list] , "testOUT" )
-}
  
  
 

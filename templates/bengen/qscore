@@ -14,9 +14,9 @@
 [[ $datasets_home/${dataset_name}/${id}.* == $datasets_home/${dataset_name}/${id}.msf.ref ]] && mview -in msf -out fasta $datasets_home/${dataset_name}/${id}.msf.ref > $datasets_home/${dataset_name}/${id}.fa.ref
 
 ##QSCORE
-qscore -test aln.fa -ref $datasets_home/${dataset_name}/${id}.fa.ref -modeler -cline> score.out
+qscore -test aln.fa -ref $datasets_home/${dataset_name}/${id}.fa.ref -modeler -cline> score_temp.out
 
 
-
+sed 's/Test.*.ref;//g' score_temp.out> score.out
  
 
