@@ -134,7 +134,7 @@ process score {
     
 
     output: 
-    set score, method, dataset_name, id, file('score.out') into score_output
+    set score, method, dataset_name, id, file('score.out')  into score_output
     
     script :	
     template score
@@ -149,7 +149,7 @@ def map =[]
 
 
 score_output.subscribe onNext:  {  score, method, dataset, id ,file->  map << [score: score, method: method,dataset:dataset,id:id,scores:scoreFileParser(file.toString(),score)] },
-onComplete: { def allResults = [all:map]; createOutput("${params.renderer}", allResults, "${params.output_dir}/${params.out}")}
+onComplete: { def allResults = [all:map]; createOutput("${params.renderer}", allResults, "${params.output_dir}/${params.out}");  }
 
 
 def createOutput(String format, allResults, outputPath){
@@ -170,33 +170,16 @@ def createOutput(String format, allResults, outputPath){
 
 def scoreFileParser(String path , String score){
 
-	def scores=[]
-	File file = new File(path)
-	String fileString = file.text
+	String fileString = new File(path).text
 
-	String s = score.replace("bengen/","");
-	switch(s){
-		case "baliscore":
-			scores =  fileString.split(" ")
-		break
+	scores = fileString.split(";")
+	scores_hash = [:]
 
-
-		case "qscore":
-			fileString=fileString.replaceAll("Test.*.ref;","");
-			fileString=fileString.replaceAll("\\w*=","");
-			scores =  fileString.split(";")
-		break
-		
-		case "fastsp":
-			fileString=fileString.replaceAll(".* ","");
-			fileString=fileString.replaceAll("\\n",",");
-			fileString=fileString.replaceAll(",\$","\n");
-			scores =  fileString.split(",")
-		break
-	
-	}	
-
-	return scores; 
+	scores.each{ 
+		temp = it.split("=")	
+		scores_hash.put(temp[0],temp[1])	
+	}
+	return scores_hash; 
 }
 
 

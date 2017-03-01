@@ -1,1 +1,3 @@
 bengen/baliscore
+bengen/qscore
+bengen/fastsp
