@@ -25,8 +25,8 @@ import java.io.*
 *
 */
 
-params.aligners = "bengen/test-align.txt"
-params.scores="bengen/test-score.txt"
+params.aligners = "$baseDir/test-align.txt"
+params.scores="$baseDir/test-score.txt"
 
 /*
 *Define which dataset to use
