@@ -2,16 +2,21 @@
 
 ### Introduction
 
-Docker based Multiple sequence aligners benchmark prototype
+Bengen is a Containerization-based Multiple Sequence Aligners prototype.
 
-* Elegant
-* Reproducible solution 
-* Easy to expand 
+It allows to test each selcted MSA in the project on each selected Dataset using each selected scoring function. 
+
+Bengen provides an **elegant structure** for a benchmarking workflow. **Reproducibility** is allowed thanks to Docker containers usage. Moreover it is extremely easy for a user to integrate new MSAs or Scoring functions and **expand the project**.
+
+### How does it work?
+
+Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.
+
+Every MSA as well as very Scoring function is encapsulated in a Docker Container in order to ensure reproducibility of the results.
+
+![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
 
 ## GETTING STARTED
-
-
-
 
 ### Dependencies 
 In order to run bengen on your machine **Docker** and **Nextlfow** need to be installed.
@@ -21,7 +26,7 @@ In order to run bengen on your machine **Docker** and **Nextlfow** need to be in
 
 ### Setup 
 
-You first need to clone the Bengen repository by running the command : 
+You first need to clone the Bengen repository 
 ```
 git clone https://github.com/cbcrg/bengen
 ```
