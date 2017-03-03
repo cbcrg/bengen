@@ -1,20 +1,20 @@
 /*
- * Copyright (c) 2013-2016, Centre for Genomic Regulation (CRG) and the authors.
+ * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
  *
- *   This file is part of 'Piper-NF'.
+ *   This file is part of 'Bengen'.
  *
- *   Piper-NF is free software: you can redistribute it and/or modify
+ *   Bengen is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
  *   (at your option) any later version.
  *
- *   Piper-NF is distributed in the hope that it will be useful,
+ *   Bengen is distributed in the hope that it will be useful,
  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
  *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *   GNU General Public License for more details.
  *
  *   You should have received a copy of the GNU General Public License
- *   along with Piper-NF.  If not, see <http://www.gnu.org/licenses/>.
+ *   along with Bengen.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 // IMPORT
@@ -25,8 +25,8 @@ import java.io.*
 *
 */
 
-params.aligners = "$baseDir/test-align.txt"
-params.scores="$baseDir/test-score.txt"
+params.aligners = "$baseDir/aligners.txt"
+params.scores="$baseDir/scores.txt"
 
 /*
 *Define which dataset to use
@@ -47,7 +47,7 @@ params.renderer="csv"
 *
 */
 
-params.output_dir = ("$baseDir")
+params.output_dir = ("$baseDir/output")
 params.out = ("output"+".${params.renderer}")
 
 
