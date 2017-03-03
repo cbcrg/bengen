@@ -102,7 +102,7 @@ nextflow run bengen/main.nf -resume
 
 You can easily integrate your new MSA in Bengen by using a script that automatically does the work for you.
 
-In the bengen directory that you cloned you can find the ** add-aligner.sh **  script. 
+In the bengen directory that you cloned you can find the **add-aligner.sh**  script. 
 
 
 
