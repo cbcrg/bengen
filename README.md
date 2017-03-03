@@ -88,7 +88,13 @@ In order to run bengen on your machine after having followed the steps under the
 ```
 nextflow run bengen/main.nf
 ```
+**!Tip**
+You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.
 
+
+```
+nextflow run bengen/main.nf -resume
+```
 
 ## MODIFY BENGEN 
 
@@ -113,7 +119,7 @@ Example :
 bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
 ```
 
-###Contribute to the project
+##CONTRIBUTE TO THE PROJECT
 If you wish to contribute to the project you can integrate your new MSA in the public project.
 
 You need to follow these steps : 
@@ -123,7 +129,7 @@ You need to follow these steps :
 3. **Upload the docker images** on dockerhub 
 
 Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
-<br>
+<br><br>
 ![alt tag](https://github.com/luisas/prova/blob/master/Bengen2.0.png)
 
 #Final Notes
