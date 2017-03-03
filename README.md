@@ -16,7 +16,7 @@ Aligner tools are stored as Docker images in the Docker hub. A unique ID is assi
 
 Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).
 
-GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease.  
+GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease. <br> 
 
 
 ![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
@@ -53,9 +53,7 @@ Now you are ready to use Bengen!
 nextflow run bengen/main.nf
 ```
 
-<div style="	width:100px;
-	height:100px;background-color: #b2b2b2;">prova
-  prova</div>
+
 ## MODIFY BENGEN 
 
 ### Add a Multiple Sequence Aligner 
@@ -79,4 +77,14 @@ bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/com
 ```
 
 ###Contribute to the project
+If you wish to contribute to the project you can integrate your new MSA in the public project.
+
+You need to follow these steps : 
+
+1. Clone the repository and modify it by adding your new MSa
+2. Do a pull request to merge the project
+3. Upload the docker images on dockerhub 
+
+Afterwards the maintainer of the project will recieve a notification and accept it if the modification is relevant to the project. Then the maintainer triggers the computation and the new reults are going to be shown on a public HTML page.
+<br>
 ![alt tag](https://github.com/luisas/prova/blob/master/Bengen2.0.png)
