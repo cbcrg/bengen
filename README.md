@@ -12,7 +12,12 @@ Bengen provides an **elegant structure** for a benchmarking workflow. **Reproduc
 
 Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.
 
-Every MSA as well as very Scoring function is encapsulated in a Docker Container in order to ensure reproducibility of the results.
+Aligner tools are stored as Docker images in the Docker hub. A unique ID is assigned to each image. This guarantees the containers immutability and the full replicability of the benchmark over time.  
+
+Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).
+
+GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease.  
+
 
 ![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
 
@@ -62,15 +67,16 @@ You can easily integrate your new MSA in Bengen either following a couple of man
 #### Using a provided Script
 In the bengen directory that you cloned you can find the ** add-aligner.sh **  script
 
+
  **-n|--name** =Name of your MSA  &emsp; &emsp; _compulsory_<br>
  **-d|--dockerfile**= Complete Path to your Dockerfile &ensp;&ensp;  _compulsory_<br>
 **-t|--template** =Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
 **--add** No argument. If called automatically adds the MSA to the aligners.txt file &ensp;&ensp; _optional_<br>
 **--make** No argument. If used, calls the make command creating the image for the new MSA &ensp;&ensp; _optional_<br>
-
 Example : 
 ```
 bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
 ```
 
 ###Contribute to the project
+![alt tag](https://github.com/luisas/prova/blob/master/Bengen2.0.png)
