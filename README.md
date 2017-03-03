@@ -45,10 +45,46 @@ make
 Now you are ready to use Bengen!
 
 ## CONFIGURATION 
+The overall benchmark is driven by a configuration file that allows the definition of different components 
 
+* **params.dataset** : Defines which dataset to use. Right now only the datasets provided in the benchmark_dataset directory are allowed. If you want to use them all you can use : params.dataset="*".
+* **params.renderer** : Choose which renderer to use among the ones provided (csv, html, json ) 
+* **params.out** : choose how the outputfile should be named 
+
+Example of configuration file content : 
+```
+docker.enabled = true
+
+params.dataset= "balibase"
+params.renderer="csv"
+
+params.out = ("output"+".${params.renderer}")
+```
+**Important** 
+Inside of the bengen directory you can find the _aligners.txt_ file and the _scores.txt_ file.
+They define which aligner to use and which score function to use.
+You can modify them by adding/removing lines with the name of the aligners/scores you want to run( bengen/NameOfAlignerOrScore ).
+
+Example of aligners.txt:
+```
+bengen/mafft
+bengen/tcoffee
+bengen/clustalo
+```
+Example of scores.txt: 
+
+```
+bengen/qscore
+bengen/baliscore
+```
+
+**!**    You can see **which aligners/scores are already integrated** in the project by looking respectively in the boxes or boxes_score directories. You can find these in the bengen directory.
 
 
 ## RUNNING BENGEN LOCALLY 
+
+In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.
+
 ```
 nextflow run bengen/main.nf
 ```
@@ -58,19 +94,20 @@ nextflow run bengen/main.nf
 
 ### Add a Multiple Sequence Aligner 
 
-You can easily integrate your new MSA in Bengen either following a couple of manual steps or using a script that automatically runs those steps.
+You can easily integrate your new MSA in Bengen by using a script that automatically does the work for you.
 
-#### Manually 
-
-#### Using a provided Script
-In the bengen directory that you cloned you can find the ** add-aligner.sh **  script
+In the bengen directory that you cloned you can find the ** add-aligner.sh **  script. 
 
 
- **-n|--name** =Name of your MSA  &emsp; &emsp; _compulsory_<br>
- **-d|--dockerfile**= Complete Path to your Dockerfile &ensp;&ensp;  _compulsory_<br>
-**-t|--template** =Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
-**--add** No argument. If called automatically adds the MSA to the aligners.txt file &ensp;&ensp; _optional_<br>
-**--make** No argument. If used, calls the make command creating the image for the new MSA &ensp;&ensp; _optional_<br>
+
+ARGUMENTS: 
+ * **-n|--name** =Name of your MSA  &emsp; &emsp; _compulsory_<br>
+ * **-d|--dockerfile**= Complete Path to your Dockerfile &ensp;&ensp;  _compulsory_<br>
+ * **-t|--template** =Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
+ * **--add** No argument. If called automatically adds the MSA to the aligners.txt file &ensp;&ensp; _optional_<br>
+ * **--make** No argument. If used, calls the make command creating the image for the new MSA &ensp;&ensp; _optional_<br>
+
+<br>
 Example : 
 ```
 bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
@@ -81,10 +118,13 @@ If you wish to contribute to the project you can integrate your new MSA in the p
 
 You need to follow these steps : 
 
-1. Clone the repository and modify it by adding your new MSa
-2. Do a pull request to merge the project
-3. Upload the docker images on dockerhub 
+1. **Clone** the repository and modify it by adding your new MSa
+2. Do a **pull request** to merge the project
+3. **Upload the docker images** on dockerhub 
 
-Afterwards the maintainer of the project will recieve a notification and accept it if the modification is relevant to the project. Then the maintainer triggers the computation and the new reults are going to be shown on a public HTML page.
+Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
 <br>
 ![alt tag](https://github.com/luisas/prova/blob/master/Bengen2.0.png)
+
+#Final Notes
+The project is still under construction.
