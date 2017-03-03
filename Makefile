@@ -4,6 +4,6 @@ all:
 	p=$$(dirname $$x); \
 	pn=$$(echo $$p | sed 's/boxes.*\///g'); \
 	cd $$p; \
-	docker build -t bengen/$$pn .\
+	docker pull bengen/$$pn \
 	); \
 	done

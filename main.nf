@@ -20,35 +20,14 @@
 // IMPORT
 import groovy.text.*
 import java.io.*
-/*
-* Define which file contains the information about which aligner and which score to use
-*
-*/
+
 
 params.aligners = "$baseDir/aligners.txt"
 params.scores="$baseDir/scores.txt"
-
-/*
-*Define which dataset to use
-*/
-
+params.output_dir = ("$baseDir/output")
 params.datasets_directory="$baseDir/benchmark_datasets"
 datasets_home= file(params.datasets_directory)
-params.dataset= "balibase"
 
-/*
-*Define output format 
-*/
-
-params.renderer="csv"
-
-/*
-*Define output path
-*
-*/
-
-params.output_dir = ("$baseDir/output")
-params.out = ("output"+".${params.renderer}")
 
 
 //Reads which aligners to use

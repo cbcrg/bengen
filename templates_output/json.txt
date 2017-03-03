@@ -15,7 +15,7 @@ all.each {
 		%>,{"score":"$it.score","method":"$it.method","dataset":"$it.dataset","id":"$it.id"<% 
 	} 
 
-	it.scores.eachWithIndex {k,v-> %>,$k:$v<%  }
+	it.scores.each{k,v-> %>,$k:$v<%  }
 
 	%>}<%
 

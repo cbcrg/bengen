@@ -58,7 +58,7 @@ ALERT=" Please read the instruction on how to use this script on https://github.
 [[ ${ADD} == "YES" ]] && { grep -q "bengen/${NAME}" "aligners.txt" || echo "bengen/${NAME}" >> aligners.txt; }
 
 ## call the make command if required
-[[ ${MAKE} == "YES" ]] && { make;  }
+[[ ${MAKE} == "YES" ]] && { bash createimage.sh -d=${DOCKERPATH} --name=${NAME} ;  }
 
 
 
