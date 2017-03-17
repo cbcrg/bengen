@@ -27,7 +27,7 @@ params.scores="$baseDir/scores.txt"
 params.output_dir = ("$baseDir/output")
 params.datasets_directory="$baseDir/benchmark_datasets"
 datasets_home= file(params.datasets_directory)
-
+params.score="bengen/baliscore"
 
 
 //Reads which aligners to use
@@ -35,9 +35,9 @@ boxes = file(params.aligners).readLines().findAll { it.size()>0 }
 
 
 //Reads which score to use
-boxes_score = file(params.scores).readLines().findAll { it.size()>0 }
+//boxes_score = file(params.scores).readLines().findAll { it.size()>0 }
 
-
+boxes_score=["$params.score"]
 /* 
  * Creates a channel emitting a triple for each file in the datase composed 
  * by the following element: 
@@ -86,6 +86,7 @@ process extract_subaln {
   
   input: 
   set method, dataset_name, id, file(aln) from alignments
+
   file datasets_home 
   
   
@@ -103,8 +104,8 @@ process extract_subaln {
  */
 
 process score {
-    tag "$score + $method + $dataset_name"
-    container "$score"
+    tag "${params.score} + $method + $dataset_name"
+    container "${params.score}"
     
     input: 
     set method, dataset_name, id, file(aln) from extracted_alignments
@@ -143,7 +144,7 @@ def createOutput(String format, allResults, outputPath){
 
 	
 	//print for testing
-	print "#####\n${template.toString()} ####\n";
+	print "${template.toString()}";
 }
 
 

@@ -1,2 +1,0 @@
-bengen/baliscore
-bengen/qscore

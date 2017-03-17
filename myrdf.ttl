@@ -1,0 +1,128 @@
+@prefix : <http://bengen.com/#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix edam: <http://edamontology.org/> .
+
+
+#------------------MSAs--------------#
+
+
+#Msa
+_:pasta rdf:type edam:operation_0492 .
+_:pasta rdfs:label "pasta" .
+#input
+
+_:pasta edam:has_input _:pasta-input.
+
+_:pasta-input edam:has_format edam:format_1929 .
+_:pasta-input rdf:type edam:edam:data_2976 .
+
+#output
+_:pasta edam:has_output _:pasta-output .
+
+_:pasta-output rdf:type edam:data_1384 .
+_:pasta-output edam:has_format edam:format_1984 .
+
+#topic
+_:pasta edam:has_topic edam:topic_0091 .
+
+#Msa
+_:mafft rdf:type edam:operation_0492 .
+_:mafft rdfs:label "mafft" .
+#input
+
+_:mafft edam:has_input _:mafft-input.
+
+_:mafft-input edam:has_format edam:format_1929 .
+_:mafft-input rdf:type edam:edam:data_2976 .
+
+#output
+_:mafft edam:has_output _:mafft-output .
+
+_:mafft-output rdf:type edam:data_1384 .
+_:mafft-output edam:has_format edam:format_1984 .
+
+#topic
+_:mafft edam:has_topic edam:topic_0091 .
+
+
+#Msa
+_:clustalo rdf:type edam:operation_0492 .
+_:clustalo rdfs:label "clustalo" .
+#input
+
+_:clustalo edam:has_input _:clustalo-input.
+
+_:clustalo-input edam:has_format edam:format_1929 .
+_:clustalo-input rdf:type edam:edam:data_2976 .
+
+#output
+_:clustalo edam:has_output _:clustalo-output .
+
+_:clustalo-output rdf:type edam:data_1384 .
+_:clustalo-output edam:has_format edam:format_1984 .
+
+#topic
+_:clustalo edam:has_topic edam:topic_0091 .
+
+
+
+
+
+
+
+
+# ------------------SCORING FUNCTIONS ---------------------------#
+
+
+#Sf
+_:baliscore rdf:type edam:operation_0259 . 
+_:baliscore rdfs:label "baliscore" .
+#input 
+_:baliscore edam:has_input  _:baliscore-input. 
+
+_:baliscore-input rdf:type edam:data_1384 .
+_:baliscore-input edam:has_format  edam:format_2332  .
+
+
+
+#sf
+_:qscore rdf:type edam:operation_0259 . 
+_:qscore rdfs:label "qscore" .
+#input 
+_:qscore edam:has_input  _:qscore-input. 
+
+_:qscore-input rdf:type edam:data_1384 .
+_:qscore-input edam:has_format  edam:format_1984  .
+
+
+
+
+# ----------------------------DATASETs---------------------------#
+
+_:balibase rdf:type edam:data_1384 .  
+_:balibase rdfs:label "balibase" . 
+_:balibase edam:has_format edam:format_2332 .
+
+
+_:prefab rdf:type edam:data_1384 .  
+_:prefab rdfs:label "prefab4" . 
+_:prefab edam:has_format edam:format_1984 .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
