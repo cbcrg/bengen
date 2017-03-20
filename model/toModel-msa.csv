@@ -1,0 +1,3 @@
+id, version, label,type,  input, output,input_format, output_format, topic
+clustalo,1.0,clustalo,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091
+

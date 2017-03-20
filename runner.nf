@@ -34,8 +34,61 @@ rdf_f= file(params.rdf_file)
 params.query_file="query.rq"
 query_f= file(params.query_file)
 
-params.constraints_file="constraints.csv"
+params.constraints_file="constraints.txt"
 constraints_f= file(params.constraints_file)
+
+
+/*
+* CREATE Metadata complete file 
+* 
+*/
+
+process get_metadata{
+
+  
+
+  output: 
+  
+  set file('toModel-msa1.csv'), file('toModel-sf1.csv'), file('toModel-db1.csv') into metadata_csv
+
+  """
+
+  cat "$baseDir/model/toModel-msa.csv" > toModel-msa1.csv
+  cat "$baseDir/model/toModel-sf.csv" > toModel-sf1.csv
+  cat "$baseDir/model/toModel-db.csv" > toModel-db1.csv
+  """
+
+
+
+}
+
+
+
+
+
+/*
+* CREATE RDF from Metadata
+*/
+
+
+process create_rdf{
+
+  input: 
+  set file(msa), file(sf), file(db) from metadata_csv	 
+  
+  output: 
+  file('myrdf.ttl') into rdf_db
+
+  """
+
+  create-rdf.sh "$baseDir" >  myrdf.ttl
+	
+  """
+
+
+
+}
+
 
 
 
@@ -47,14 +100,18 @@ process create_query {
 
 	input: 
 	file constraints_f
+	file (rdf_db) from rdf_db
 	
 	output: 
-	file('query1.rq') into query_ttl
+	set file('query1.rq'), file(rdf_db) into query_ttl
+	
 	
 	"""
 	
-	cat "$baseDir/${params.query_file}" > query1.rq
-	
+        request=`cat "$constraints_f"`
+
+	cat "$baseDir/${params.query_file}" | sed "s/#insert here#/\$request/g" > query1.rq
+		
 	"""
 
 
@@ -76,15 +133,15 @@ process create_run {
 
 	input: 
 	
-	file (query) from query_ttl 
-	file rdf_f
+	set file (query), file (rdf_db) from query_ttl 
+	
 	
 	output: 
 	
 	file('run.csv') into run_table
 	
 	"""
-	sparql -data=$rdf_f -query=$query -results=csv| tail -n +2 > run.csv
+	sparql -data=$rdf_db -query=$query -results=csv| tail -n +2 > run.csv
 	
 	"""
 

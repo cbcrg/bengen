@@ -10,21 +10,14 @@ prefix : <http://bengen.com/#>
 select distinct ?sf_name ?msa_name ?db_name   where { 
 
   
-  ?msa rdf:type edam:operation_0492 .
+  ?msa rdf:type "edam:operation_0492" .
   ?msa rdfs:label ?msa_name .
  
-  ?db rdf:type edam:data_1384 .
+  ?db rdf:type "edam:data_1384" .
   ?db rdfs:label ?db_name .
 
-  ?sf rdf:type edam:operation_0259 .
+  ?sf rdf:type "edam:operation_0259" .
   ?sf rdfs:label ?sf_name .
-
- 
- 
-
- #NOT NOW ---- Msa input == type dataset 
- #?msa edam:has_input ?input_msa .
- #?db rdf:type ?input_msa .
 
  # Msa output ==input sf
  ?msa edam:has_output ?msa_out .
@@ -43,7 +36,7 @@ select distinct ?sf_name ?msa_name ?db_name   where {
  ?sf_input rdf:type ?db_type . 
  ?sf_input edam:has_format ?db_format .
 
- 
+ #insert here#
 
 
 }
