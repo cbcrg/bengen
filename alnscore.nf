@@ -22,22 +22,65 @@ import groovy.text.*
 import java.io.*
 
 
+params.json="false"
+params.csv="false"
+params.html="false"
+
+if("$params.json" == true ){ params.renderer="json"}
+else if ("$params.html" == true){params.renderer="html" }
+else{params.renderer="csv" }
+
+
+ 
 params.aligners = "$baseDir/aligners.txt"
 params.scores="$baseDir/scores.txt"
-params.output_dir = ("$baseDir/output")
+params.dataset="*"
+
 params.datasets_directory="$baseDir/benchmark_datasets"
 datasets_home= file(params.datasets_directory)
-params.score="bengen/baliscore"
 
 
-//Reads which aligners to use
-boxes = file(params.aligners).readLines().findAll { it.size()>0 }
+params.output_dir = ("$baseDir/output")
+params.out = ("output"+".${params.renderer}")
 
 
-//Reads which score to use
-//boxes_score = file(params.scores).readLines().findAll { it.size()>0 }
 
-boxes_score=["$params.score"]
+//per default uses the files aligners.txt and scores.txt
+//if asked in the command line one aligner and one scoring function can be used
+params.score="false"
+params.aligner="false"
+
+
+
+/* 
+ * Define the scores to be used, depending on command line parameters
+ * 
+ */
+
+if( "${params.score}" == "false"){
+  boxes_score = file(params.scores).readLines().findAll { it.size()>0 }	
+}
+else {
+  boxes_score=["bengen/$params.score"]
+}
+
+
+/* 
+ * Define the aligners to be used, depending on command line parameters
+ * 
+ */
+
+if( "${params.aligner}" == "false"){
+  boxes = file(params.aligners).readLines().findAll { it.size()>0 }	
+}
+else{
+  boxes=["bengen/$params.aligner"]
+}
+
+
+
+
+
 /* 
  * Creates a channel emitting a triple for each file in the datase composed 
  * by the following element: 
@@ -59,7 +102,7 @@ dataset_fasta = Channel
  */
 
 process aln {
-  tag "$method"
+  tag "$method, $dataset_name"
   container "$method"
   
   input: 
@@ -104,8 +147,8 @@ process extract_subaln {
  */
 
 process score {
-    tag "${params.score} + $method + $dataset_name"
-    container "${params.score}"
+    tag "$score + $method + $dataset_name"
+    container "$score"
     
     input: 
     set method, dataset_name, id, file(aln) from extracted_alignments
