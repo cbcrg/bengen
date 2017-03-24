@@ -126,7 +126,7 @@ foreach my $key ( keys %hash) {
 
 	
 	#Run Nextflow
-	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score bengen/".$sf;
+	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf;
 
 	my $output = `$command`;
 

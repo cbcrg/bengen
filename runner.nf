@@ -29,7 +29,7 @@ run_f = file(params.result_file)
  
 
 params.rdf_file="myrdf.ttl"
-rdf_f= file(params.rdf_file)
+database_file= file(params.rdf_file)
 
 params.query_file="query.rq"
 query_f= file(params.query_file)
@@ -37,57 +37,8 @@ query_f= file(params.query_file)
 params.constraints_file="constraints.txt"
 constraints_f= file(params.constraints_file)
 
-
-/*
-* CREATE Metadata complete file 
-* 
-*/
-
-process get_metadata{
-
-  
-
-  output: 
-  
-  set file('toModel-msa1.csv'), file('toModel-sf1.csv'), file('toModel-db1.csv') into metadata_csv
-
-  """
-
-  cat "$baseDir/model/toModel-msa.csv" > toModel-msa1.csv
-  cat "$baseDir/model/toModel-sf.csv" > toModel-sf1.csv
-  cat "$baseDir/model/toModel-db.csv" > toModel-db1.csv
-  """
-
-
-
-}
-
-
-
-
-
-/*
-* CREATE RDF from Metadata
-*/
-
-
-process create_rdf{
-
-  input: 
-  set file(msa), file(sf), file(db) from metadata_csv	 
-  
-  output: 
-  file('myrdf.ttl') into rdf_db
-
-  """
-
-  create-rdf.sh "$baseDir" >  myrdf.ttl
-	
-  """
-
-
-
-}
+params.edam_file="EDAM_1.16.owl"
+edam= file(params.edam_file)
 
 
 
@@ -100,17 +51,17 @@ process create_query {
 
 	input: 
 	file constraints_f
-	file (rdf_db) from rdf_db
+	file database_file
 	
 	output: 
-	set file('query1.rq'), file(rdf_db) into query_ttl
+	set file('query.rq'), file(database_file) into query_ttl
 	
 	
 	"""
 	
         request=`cat "$constraints_f"`
 
-	cat "$baseDir/${params.query_file}" | sed "s/#insert here#/\$request/g" > query1.rq
+	cat "$baseDir/${params.query_file}" | sed "s/#insert here#/\$request/g" > query.rq
 		
 	"""
 
@@ -129,11 +80,11 @@ process create_query {
 
 process create_run {
 	
-	//container: "bengen/sparql"
+	//container: "bengen/apache-jena"
 
 	input: 
 	
-	set file (query), file (rdf_db) from query_ttl 
+	set file (query), file (database_file) from query_ttl 
 	
 	
 	output: 
@@ -141,7 +92,7 @@ process create_run {
 	file('run.csv') into run_table
 	
 	"""
-	sparql -data=$rdf_db -query=$query -results=csv| tail -n +2 > run.csv
+	sparql  -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
 	
 	"""
 
