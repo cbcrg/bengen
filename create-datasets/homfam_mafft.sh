@@ -1,13 +1,6 @@
-#metadata 
 
 
-
-[[ -d  "homfam_mafft" ]]  && { echo \
-$'\n'$'\n'$'\t'SCRIPT NOT EXECUTED \!\!$'\n'\
--------------------------------------$'\n'\
-A directory called homfam_mafft exists already.$'\n'\
-Please remove it and all its contents before running the script.$'\n'\
-E.g. rm -rf homfam_mafft $'\n'$'\n' ; exit 0 ;  }
+[[ -d  "homfam_mafft" ]]  && rm -r homfam_mafft
 
 mkdir homfam_mafft 
 cd homfam_mafft

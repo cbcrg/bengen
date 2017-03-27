@@ -1,4 +1,3 @@
-
 prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 prefix owl:<http://www.w3.org/2002/07/owl#>
@@ -9,10 +8,13 @@ prefix : <http://bengen.com/#>
 
 select distinct ?sf_name ?msa_name ?db_name   where { 
 
-  ?msa rdf:type edam:operation_0492 .
+  ?msa_type rdfs:subClassOf edam:operation_0292 .
+  ?msa rdf:type ?msa_type .
   ?msa rdfs:label ?msa_name .
  
-  ?db rdf:type edam:data_1384 .
+
+  ?db_type rdfs:subClassOf edam:data_0863 .	
+  ?db rdf:type ?db_type .
   ?db rdfs:label ?db_name .
 
   ?sf rdf:type edam:operation_0259 .

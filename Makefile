@@ -7,3 +7,12 @@ all:
 	docker pull bengen/$$pn \
 	); \
 	done
+	
+	for x in $$(ls -d containers/*/Dockerfile); do \
+	(\
+	p=$$(dirname $$x); \
+	pn=$$(echo $$p | sed 's/containers\///g'); \
+	cd $$p; \
+	docker pull bengen/$$pn \
+	); \
+	done

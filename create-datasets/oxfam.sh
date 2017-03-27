@@ -1,11 +1,5 @@
-#metadata 
 
-[[ -d  "oxfam" ]]  && { echo \
-$'\n'$'\n'$'\t'SCRIPT NOT EXECUTED \!\!$'\n'\
--------------------------------------$'\n'\
-A directory called oxfam exists already.$'\n'\
-Please remove it and all its contents before running the script.$'\n'\
-E.g. rm -rf oxfam $'\n'$'\n' ; exit 0 ;  }
+[[ -d  "oxfam" ]]  && rm -r oxfam
 
 wget -q https://mafft.sb.ecei.tohoku.ac.jp/material/dataset/benchmark/oxfam.tgz 
 tar xf oxfam.tgz 

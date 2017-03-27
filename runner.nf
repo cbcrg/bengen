@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
  *
@@ -40,6 +41,51 @@ constraints_f= file(params.constraints_file)
 params.edam_file="EDAM_1.16.owl"
 edam= file(params.edam_file)
 
+params.structural="false"
+params.tree_based="false"
+params.genome="false"
+
+
+//create the file if it does not exist
+File f = new File("results.csv");
+if(!f.exists())
+    f.createNewFile();
+
+
+
+/*
+* CREATE constraints file 
+*/
+process create_constraints {
+
+	
+	output: 
+	file('constraints.txt') into cons
+	
+	script: 
+	
+	if( "${params.structural}" == "true")
+	
+	"""
+	  request="?msa rdf:type edam:operation_0294 ."
+	  echo \$request >  constraints.txt
+	"""
+	else if( "${params.tree_based}" == "true")
+	
+	"""
+	  request="?msa rdf:type edam:operation_0499 ."
+	  echo \$request >  constraints.txt
+
+	"""
+	else
+	
+	"""	
+	echo "#insert here#" >  constraints.txt
+	"""
+
+}
+
+
 
 
 
@@ -50,25 +96,24 @@ edam= file(params.edam_file)
 process create_query {
 
 	input: 
-	file constraints_f
 	file database_file
-	
+	file(constraints) from cons
+
 	output: 
 	set file('query.rq'), file(database_file) into query_ttl
-	
+
 	
 	"""
-	
-        request=`cat "$constraints_f"`
+	request=`cat "$constraints"`
 
 	cat "$baseDir/${params.query_file}" | sed "s/#insert here#/\$request/g" > query.rq
-		
-	"""
+
+	"""	
+
+
 
 
 }
-
-
 
 
 
@@ -92,7 +137,7 @@ process create_run {
 	file('run.csv') into run_table
 	
 	"""
-	sparql  -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
+	sparql  -data=$edam -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
 	
 	"""
 
@@ -118,12 +163,29 @@ process create_results{
 
         
 	"""
-	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run
+	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run > results.csv
       
 	"""
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

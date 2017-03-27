@@ -14,13 +14,8 @@
 mview -in fasta -out msf aln.fa > aln.msf
 
 
-##convert FASTA reference alignment to MSF format
-[[ -f $datasets_home/${dataset_name}/${id}.fa.ref ]] && mview -in fasta -out msf \
-$datasets_home/${dataset_name}/${id}.fa.ref > $datasets_home/${dataset_name}/${id}.msf.ref
-
-
 ##BALI SCORE
-bali_score $datasets_home/${dataset_name}/${id}.msf.ref aln.msf | grep auto | awk '{ print "SP="\$3 ";TC="\$4 }' > score.out
+bali_score $datasets_home/${dataset_name}/${id}.xml.ref aln.msf | grep auto | awk '{ print "SP="\$3 ";TC="\$4 }' > score.out
 
 
 

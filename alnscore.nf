@@ -30,7 +30,7 @@ if("$params.json" == true ){ params.renderer="json"}
 else if ("$params.html" == true){params.renderer="html" }
 else{params.renderer="csv" }
 
-
+params.newBase="$baseDir"
  
 params.aligners = "$baseDir/aligners.txt"
 params.scores="$baseDir/scores.txt"
@@ -102,6 +102,8 @@ dataset_fasta = Channel
  */
 
 process aln {
+  
+  publishDir "${params.newBase}/alignments/$method/$dataset_name/$id"
   tag "$method, $dataset_name"
   container "$method"
   

@@ -1,16 +1,5 @@
-# METADATA...
 
-
-
-#HOMFAM_Clustalo  
-
-
-[[ -d  "homfam_clustalo" ]]  && { echo \
-$'\n'$'\n'$'\t'SCRIPT NOT EXECUTED \!\!$'\n'\
--------------------------------------$'\n'\
-A directory called homfam_clustalo exists already.$'\n'\
-Please remove it and all its contents before running the script.$'\n'\
-E.g. rm -rf homfam_clustalo $'\n'$'\n' ; exit 0 ;  }
+[[ -d  "homfam_clustalo" ]]  && rm -r homfam_clustalo 
 
 mkdir homfam_clustalo 
 cd homfam_clustalo 
