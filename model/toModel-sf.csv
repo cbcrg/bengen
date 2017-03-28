@@ -1,2 +1,4 @@
 id,version,label,type,input,input_format,topic
-baliscore,1.0,baliscore,edam:operation_0259,edam:data_1384,edam:format_1984,edam:topic_0091
+baliscore,3.01,baliscore,edam:operation_0259,edam:data_1384,edam:format_2555,edam:topic_0091
+qscore,2.1,qscore,edam:operation_0259,edam:data_1384,edam:format_1984,edam:topic_0091
+fastsp,1.6.0,fastsp,edam:operation_0259,edam:data_1384,edam:format_1984,edam:topic_0091

@@ -1,1 +1,2 @@
 ?db rdf:type ?db_type .
+?msa rdf:type edam:operation_0294 .

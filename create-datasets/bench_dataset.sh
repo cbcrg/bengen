@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#No directory with the name benchmark_datasets should already exist in directory the script is executed
+
 directory=$(pwd)
 
 cd ..
@@ -13,22 +13,22 @@ cd benchmark_datasets
 
 #HOMFAM_Clustalo  
 
-bash $directory/homfam_clustalo.sh
+bash $directory/create-datasets/homfam_clustalo.sh 
 
  
 #Prefab
 
-bash $directory/prefab4.sh
+bash $directory/create-datasets/prefab4.sh 
 
 
 #BaliBase
 
-bash $directory/balibase.sh
+bash $directory/create-datasets/balibase.sh 
 
 #HOMFAM_mafft
 
-bash $directory/homfam_mafft.sh
+bash $directory/create-datasets/homfam_mafft.sh 
 
 #OXFam
 
-bash $directory/oxfam.sh
+bash $directory/create-datasets/oxfam.sh 

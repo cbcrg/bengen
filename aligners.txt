@@ -1,2 +1,1 @@
 bengen/clustalo
-bengen/mafft
