@@ -28,7 +28,6 @@ result_f= file(params.result_file)
 params.run_file ="run.csv"
 run_f = file(params.result_file)
  
-
 params.rdf_file="myrdf.ttl"
 database_file= file(params.rdf_file)
 
@@ -45,11 +44,16 @@ params.structural="false"
 params.tree_based="false"
 params.genome="false"
 
+params.subset="false"
+
+
 
 //create the file if it does not exist
 File f = new File("results.csv");
 if(!f.exists())
     f.createNewFile();
+
+
 
 
 
@@ -125,7 +129,7 @@ process create_query {
 
 process create_run {
 	
-	//container: "bengen/apache-jena"
+	container "bengen/apache-jena"
 
 	input: 
 	
@@ -163,7 +167,7 @@ process create_results{
 
         
 	"""
-	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run > results.csv
+	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run ${params.subset} > results.csv
       
 	"""
 

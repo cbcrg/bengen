@@ -15,7 +15,7 @@ mview -in fasta -out msf aln.fa > aln.msf
 
 
 ##BALI SCORE
-bali_score $datasets_home/${dataset_name}/${id}.xml.ref aln.msf | grep auto | awk '{ print "SP="\$3 ";TC="\$4 }' > score.out
+bali_score $datasets_home/${id}.*.ref aln.msf | grep auto | awk '{ print "SP="\$3 ";TC="\$4 }' > score.out
 
 
 

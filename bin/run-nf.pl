@@ -10,7 +10,7 @@ use Data::Dumper;
 #
 
 
-my ($dir, $aligners_file, $result_file, $run_file) = @ARGV;
+my ($dir, $aligners_file, $result_file, $run_file, $subset ) = @ARGV;
 
 
 my %hash = ();
@@ -124,9 +124,9 @@ foreach my $key ( keys %hash) {
 	print $fh "bengen/".$msa;
 	close ($fh);
 
-	
 	#Run Nextflow
-	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir;
+	
+	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir." --subset ".$subset;
 
 	my $output = `$command`;
 
@@ -138,9 +138,6 @@ foreach my $key ( keys %hash) {
 	open( $f, '>>', "$result_file") or die "Could not open file  $!";
 	print $f $output;
 	close ($f);
-
-
-
 
 	print $output;
 

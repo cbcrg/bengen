@@ -9,10 +9,10 @@
 #               Q is the same as the Balibase SP score and Sauder et al. Developer score.
 #TC        Balibase total column score
 #              = (# correctly aligned columns) / (# aligned columns in reference)
-#f > $datasets_home/${dataset_name}/${id}.fa.ref
+#f > $datasets_home/${id}.fa.ref
 
 ##QSCORE
-qscore -test aln.fa -ref $datasets_home/${dataset_name}/${id}.fa.ref -modeler -cline -ignoretestcase -ignorerefcase > score_temp.out
+qscore -test aln.fa -ref $datasets_home/${id}.fa.ref -modeler -cline -ignoretestcase -ignorerefcase > score_temp.out
 
 
 sed 's/Test.*.ref;//g' score_temp.out> score.out

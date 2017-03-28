@@ -36,8 +36,40 @@ params.aligners = "$baseDir/aligners.txt"
 params.scores="$baseDir/scores.txt"
 params.dataset="*"
 
-params.datasets_directory="$baseDir/benchmark_datasets"
-datasets_home= file(params.datasets_directory)
+
+params.subset="false"
+
+
+params.id=0
+
+/* 
+ * Creates a channel emitting a triple for each file in the datase composed 
+ * by the following element: 
+ *
+ * -Name of the dataset (e.g. Balibase,Oxfam..)
+ * -Name of the file (e.g. B11001_RV11 )
+ * -the file itself
+ * 
+ */
+
+
+if( "${params.subset}" == "false" ){
+	params.datasets_directory="$baseDir/benchmark_datasets/${params.dataset}"
+	datasets_home= file(params.datasets_directory)
+	
+	dataset_fasta = Channel
+            .fromPath("${params.datasets_directory}/*.fa")
+            .map { tuple( it.parent.name, it.baseName, it ) }
+}else{
+	params.datasets_directory="$baseDir/benchmark_datasets/${params.dataset}/${params.subset}"
+	datasets_home= file(params.datasets_directory)
+	
+	dataset_fasta = Channel
+            .fromPath("${params.datasets_directory}/*.fa")
+            .map { tuple( it.parent.parent.name, it.baseName, it )  }
+}
+
+
 
 
 params.output_dir = ("$baseDir/output")
@@ -81,19 +113,7 @@ else{
 
 
 
-/* 
- * Creates a channel emitting a triple for each file in the datase composed 
- * by the following element: 
- *
- * -Name of the dataset (e.g. Balibase,Oxfam..)
- * -Name of the file (e.g. B11001_RV11 )
- * -the file itself
- * 
- */
 
-dataset_fasta = Channel
-            .fromPath("${params.datasets_directory}/${params.dataset}/*.fa")
-            .map { tuple( it.parent.name, it.baseName, it ) }
 
 
 
@@ -139,7 +159,7 @@ process extract_subaln {
   set method, dataset_name, id, file('aln.fa') into extracted_alignments
   
   """
-  extract_aln.pl $datasets_home/${dataset_name}/${id}.fa.ref $aln
+  extract_aln.pl $datasets_home/${id}.fa.ref $aln
   """
 }
 
