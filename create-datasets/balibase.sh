@@ -1,9 +1,11 @@
 
 
 
-[[ -d  "balibase" ]]  && rm -r balibase 
+[[ -d  "balibase" ]]  && rm -rf balibase 
 mkdir balibase 
 cd balibase
+mkdir all
+cd all
 
 wget -q http://www.lbgi.fr/balibase/BalibaseDownload/BAliBASE_R1-5.tar.gz 
 tar xf BAliBASE_R1-5.tar.gz 
@@ -22,6 +24,6 @@ rm -rf $group ;}
 
 
 
-
+cd .. 
 cd ..
 echo "Balibase downloaded!"

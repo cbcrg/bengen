@@ -1,9 +1,12 @@
 
 
-[[ -d  "homfam_mafft" ]]  && rm -r homfam_mafft
+[[ -d  "homfam_mafft" ]]  && rm -rf homfam_mafft
 
 mkdir homfam_mafft 
 cd homfam_mafft
+
+mkdir all 
+cd all 
 
 wget -q https://mafft.sb.ecei.tohoku.ac.jp/material/dataset/benchmark/homfam.tgz 
 tar xf homfam.tgz 
@@ -12,6 +15,9 @@ rm -rf homfam.tgz
 mv homfam/large/* . 
 mv homfam/medium/* . 
 mv homfam/small/* . 
+
+
+
 
 all_ref=`ls *.rfa` 
 fam_names=`for i in $all_ref;{ echo $i | awk -F. '{ print $1 }'; }` 

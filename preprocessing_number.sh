@@ -1,17 +1,21 @@
+
 dir=$1 
+
+[[ -z $dir ]] && { echo " parameter compulsory " ; exit 0 ; }
 
 cd $dir 
 
-
 datasets=`ls`
+
 for dataset in $datasets;{
 
 	cd $dataset;
-	current=$(pwd)
+	
 	#creates subsets depending on number of the sequences to align 
-
+	verysmall_small_threshold=100;
 	small_medium_threshold=3000;
 	medium_large_threshold=10000;
+	large_ultralarge_threshold=100000;
 
 
 	# prepare folders 
@@ -22,21 +26,28 @@ for dataset in $datasets;{
 	};
 
 
-
+	rm_create very-small
 	rm_create small;
 	rm_create medium;
 	rm_create large;
+	rm_create ultra-large; 
 
 
 
-	
+	current="$(pwd)/all"; 
+	cd "all"; 
+	#echo $current; 
+
 	#adds both (linked) fa and ref file in folder
 	add(){
 
 			ln -s $current/$i $dir/$dataset/$1/$i 
 			name=`echo $i | awk -F. '{ print $1 }' `
-			ref=`ls $name.*.ref`
-			ln -s $current/$ref $dir/$dataset/$1/$ref 
+			ref=`ls | grep  "$name.*.ref" `
+			for ref_j in $ref;{
+				ln -s $current/$ref_j $dir/$dataset/$1/$ref_j 
+			}
+
 
 
 	};
@@ -48,18 +59,27 @@ for dataset in $datasets;{
 
 	for i in $all_test ;{ 
 		num_seq=`grep ">" $i | wc -l` ;	
-	
-		if [ $num_seq -gt $medium_large_threshold ];then
+		
+		if [ $num_seq -gt $large_ultralarge_threshold ];then
+	 		add ultra-large
+
+		elif [ $num_seq -gt $medium_large_threshold ];then
 	 		add large
 
 		elif [ $num_seq -gt $small_medium_threshold ];then
-			add medium
+	 		add medium
+
+		elif [ $num_seq -gt $verysmall_small_threshold ];then
+			add small
 
 		else
-			add small
+			add very-small
 		fi;
 	};
 
-	cd ..;
+	cd ../..;
 }
+
+
+echo "Preprocessing numbers completed!"
 

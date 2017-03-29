@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
  *
@@ -167,7 +166,7 @@ process create_results{
 
         
 	"""
-	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run ${params.subset} > results.csv
+	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run  > results.csv
       
 	"""
 

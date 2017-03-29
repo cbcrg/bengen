@@ -2,16 +2,16 @@ prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 prefix owl:<http://www.w3.org/2002/07/owl#>
 prefix edam:<http://edamontology.org/>
-prefix : <http://bengen.com/#> 
+prefix bengen: <http://bengen.com/> 
 
 
 
-select distinct ?sf_name ?msa_name ?db_name   where { 
+select distinct ?sf_name ?msa_name ?db_name ?msa_scale where { 
 
   ?msa_type rdfs:subClassOf edam:operation_0292 .
   ?msa rdf:type ?msa_type .
   ?msa rdfs:label ?msa_name .
- 
+  ?msa bengen:scale ?msa_scale . 
 
   ?db_type rdfs:subClassOf edam:data_0863 .	
   ?db rdf:type ?db_type .
@@ -27,7 +27,7 @@ select distinct ?sf_name ?msa_name ?db_name   where {
 
  ?sf edam:has_input  ?sf_input .
  ?sf_input rdf:type ?msa_out_type .
- ?sf_input edam:has_format ?msa_out_format .
+ #?sf_input edam:has_format ?msa_out_format .
 
 
  # Type (ref) dataset == input sf

@@ -36,11 +36,22 @@ params.aligners = "$baseDir/aligners.txt"
 params.scores="$baseDir/scores.txt"
 params.dataset="*"
 
+params.output_dir = ("$baseDir/output")
+params.out = ("output"+".${params.renderer}")
 
+//deafult values
 params.subset="false"
+params.id="false"
+files="${params.dataset}/all"
+file= "*"
 
 
-params.id=0
+//Set the path to the files to be analyzed depending on the command line commands
+if( "${params.id}" != "false"){ files="${params.dataset}/all" ; file= "${params.id}"}
+else if( "${params.subset}" != "false" ){ files="${params.dataset}/${params.subset}" }
+else{ files="${params.dataset}/all"}
+
+
 
 /* 
  * Creates a channel emitting a triple for each file in the datase composed 
@@ -51,29 +62,12 @@ params.id=0
  * -the file itself
  * 
  */
+params.datasets_directory="$baseDir/benchmark_datasets/$files"
+datasets_home= file(params.datasets_directory)
 
-
-if( "${params.subset}" == "false" ){
-	params.datasets_directory="$baseDir/benchmark_datasets/${params.dataset}"
-	datasets_home= file(params.datasets_directory)
-	
-	dataset_fasta = Channel
-            .fromPath("${params.datasets_directory}/*.fa")
-            .map { tuple( it.parent.name, it.baseName, it ) }
-}else{
-	params.datasets_directory="$baseDir/benchmark_datasets/${params.dataset}/${params.subset}"
-	datasets_home= file(params.datasets_directory)
-	
-	dataset_fasta = Channel
-            .fromPath("${params.datasets_directory}/*.fa")
-            .map { tuple( it.parent.parent.name, it.baseName, it )  }
-}
-
-
-
-
-params.output_dir = ("$baseDir/output")
-params.out = ("output"+".${params.renderer}")
+dataset_fasta = Channel
+	.fromPath("${params.datasets_directory}/${file}.fa")
+	.map { tuple(it.parent.parent.name, it.baseName, it ) }
 
 
 

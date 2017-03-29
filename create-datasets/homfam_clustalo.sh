@@ -1,8 +1,11 @@
 
-[[ -d  "homfam_clustalo" ]]  && rm -r homfam_clustalo 
+[[ -d  "homfam_clustalo" ]]  && rm -rf homfam_clustalo 
 
 mkdir homfam_clustalo 
 cd homfam_clustalo 
+
+mkdir all 
+cd all 
 
 wget -q http://www.clustal.org/omega/homfam-20110613-25.tar.gz 
 tar xf homfam-20110613-25.tar.gz
