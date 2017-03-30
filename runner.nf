@@ -30,6 +30,9 @@ run_f = file(params.result_file)
 params.rdf_file="myrdf.ttl"
 database_file= file(params.rdf_file)
 
+params.rdf_families_file="myrdf_families.ttl"
+database_families= file(params.rdf_families_file)
+
 params.query_file="query.rq"
 query_f= file(params.query_file)
 
@@ -100,10 +103,11 @@ process create_query {
 
 	input: 
 	file database_file
+	file database_families
 	file(constraints) from cons
 
 	output: 
-	set file('query.rq'), file(database_file) into query_ttl
+	set file('query.rq'), file(database_file), file(database_families) into query_ttl
 
 	
 	"""
@@ -131,8 +135,8 @@ process create_run {
 	container "bengen/apache-jena"
 
 	input: 
-	
-	set file (query), file (database_file) from query_ttl 
+	set file (query), file (database_file),file (database_families) from query_ttl 
+
 	
 	
 	output: 
@@ -140,7 +144,7 @@ process create_run {
 	file('run.csv') into run_table
 	
 	"""
-	sparql  -data=$edam -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
+	sparql  -data=$edam -data=$database_families -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
 	
 	"""
 

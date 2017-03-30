@@ -6,12 +6,15 @@ prefix bengen: <http://bengen.com/>
 
 
 
-select distinct ?sf_name ?msa_name ?db_name ?msa_scale where { 
 
+select distinct ?sf_name ?msa_name ?db_name ?id_label ?threshold_label where { 
+
+
+  #DEFAULT QUERY	
   ?msa_type rdfs:subClassOf edam:operation_0292 .
   ?msa rdf:type ?msa_type .
   ?msa rdfs:label ?msa_name .
-  ?msa bengen:scale ?msa_scale . 
+
 
   ?db_type rdfs:subClassOf edam:data_0863 .	
   ?db rdf:type ?db_type .
@@ -38,6 +41,18 @@ select distinct ?sf_name ?msa_name ?db_name ?msa_scale where {
  ?sf_input edam:has_format ?db_format .
 
  #insert here#
+ ?id rdf:type bengen:family.
+ ?id rdfs:label ?id_label .	
+ ?id bengen:size ?id_size.
+
+ ?threshold rdf:type bengen:threshold.
+ ?threshold rdfs:label ?threshold_label.
+ ?threshold bengen:value ?size_constraint.
+
+ ?msa bengen:scale ?threshold_label . 
+
+ FILTER (?id_size <= ?size_constraint).
+ 
 
 
 }

@@ -10,12 +10,11 @@ use Data::Dumper;
 #
 
 
-my ($dir, $aligners_file, $result_file, $run_file, $subset ) = @ARGV;
+my ($dir, $aligners_file, $result_file, $run_file ) = @ARGV;
 
 
 my %hash = ();
 my %result_hash= ();
-my $info;
 
 
 
@@ -35,8 +34,8 @@ while( defined( my $line = <IN> ) ){
 	my $sf = $splitted[0];
 	my $msa = $splitted[1];
 	my $db = $splitted[2];
-	
-	
+	my $id = $splitted[3];
+
 	my $key = $sf.",".$db.",".$msa;
 	
 	if (! $result_hash{$key}){
@@ -64,17 +63,23 @@ print Dumper \%result_hash;
 open IN  ,'<', "$run_file" or die "can't open file  for reading: $!";
 
 while( defined( my $line = <IN> ) ){
+	
 
+
+	
 	#prepare the parameters	
 	#chomp $line; 
 	my @splitted = split /,/, $line; 
 	print $line ; 
 	my $sf = $splitted[0];
 	my $msa = $splitted[1];
-	my $db = $splitted[2];	 	
+	my $db = $splitted[2];	
+	my $id = $splitted[3];
+ 	
 	$db=~ s/\n//g; 
-	chop $db;
-	my $key = $sf.",".$db;
+	#chop $db;
+	my $key = $sf.",".$db.",".$id;
+	
 
 	#key_result to look if the triplet has already been computed	
 	my $key_result = $sf.",".$db.",".$msa;
@@ -104,6 +109,15 @@ print Dumper \%hash;
 
 
 
+	my $f; 
+	open( $f, '>', "/home/lsantus/bengen/vvv") or die "Could not open file  $!";
+	print $f "hey\n";
+	print $f Dumper \%result_hash;
+	print $f Dumper \%hash;
+	close ($f);
+
+
+
 ## RUN NEXTFLOW AND STORE THE RESULTS  
 
 
@@ -113,10 +127,11 @@ foreach my $key ( keys %hash) {
 	my @array = split /,/, $key;
 	my $sf = $array[0];
 	my $db = $array[1];
+	my $id = $array[2];
 	my $msa = $hash{$key};
 	#format msa name --> bengen/msa 
 	$msa=~ s/,/\nbengen\//g;
-	
+
 
 	#Add ALL the aligners to run into the aligners file
 	my $fh;
@@ -126,7 +141,7 @@ foreach my $key ( keys %hash) {
 
 	#Run Nextflow
 	
-	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir." --subset ".$subset;
+	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir." --id ".$id;
 
 	my $output = `$command`;
 
@@ -142,18 +157,4 @@ foreach my $key ( keys %hash) {
 	print $output;
 
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
