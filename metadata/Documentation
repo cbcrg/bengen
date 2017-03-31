@@ -1,0 +1,20 @@
+Infos about metadata : 
+
+
+MSA :  Input Protein Sequences --> Output Sequence Alignment ( Proteins ) 
+
+SF : Input : sequence Alignment 
+
+TEST : Sequence Set 
+
+REF : Sequence Alignment 
+
+
+CONSTRAINTS : 
+
+- SF (input+format) == REF (type+format)
+- MSA (input+format) == TEST (type+format)
+- MSA (output) == SF (input)
+- REF (id) ==TEST (id)
+- TEST (size) <= MSA (max_count)
+

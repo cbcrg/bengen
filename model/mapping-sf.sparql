@@ -4,12 +4,12 @@ PREFIX edam: <http://edamontology.org/>
 
 CONSTRUCT {
   
-    ?URI rdf:type ?type;
+    ?URI a ?type;
 	 rdfs:label ?label;
  	 edam:has_input ?URI_INPUT;
          edam:has_topic ?topic.
 
-   ?URI_INPUT rdf:type ?input; 
+   ?URI_INPUT a ?input; 
               edam:has_format ?input_format.
   
 
@@ -20,8 +20,8 @@ CONSTRUCT {
 FROM <file:toModel-sf.csv>
 
 WHERE{
- BIND (URI(CONCAT('http://bengen.com/#', ?id, '-', ?version)) AS ?URI)
- BIND (URI(CONCAT('http://bengen.com/#', ?input,'-',?input_format)) AS ?URI_INPUT)
+ BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format)) AS ?URI_INPUT)
 
 }
 

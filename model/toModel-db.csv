@@ -1,2 +1,6 @@
-id,version,label,type,format,topic
-balibase, 1.0,balibase,edam:data_1384,edam:format_2555,edam:topic_0091
+name,version
+balibase,4.0
+prefab,4.0
+homfam_clustalo,1.0
+homfam_mafft,1.0
+oxfam,1.0

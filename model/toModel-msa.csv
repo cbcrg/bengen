@@ -1,3 +1,3 @@
-id,version,label,type,input,output,input_format,output_format,topic,scale
-clustalo,1.0,clustalo,edam:operation_0499,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,very-small
-mafft,1.0,mafft,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,very-small
+id,version,label,type,input,output,input_format,output_format,topic,max_count
+clustalo,1.0,clustalo,edam:operation_0499,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,100
+mafft,1.0,mafft,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,30000

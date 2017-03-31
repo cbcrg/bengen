@@ -5,9 +5,9 @@ PREFIX bengen: <http://bengen.com/>
 
 CONSTRUCT {
   
-    ?URI rdf:type ?id;
+    ?URI a ?id;
 	 rdfs:label ?label;
-	 bengen:value ?value;   
+	 rdf:value ?value;
 	 
   }
 
@@ -15,5 +15,5 @@ CONSTRUCT {
 FROM <file:toModel-threshold.csv>
 
 WHERE{
- BIND (URI(CONCAT('http://bengen.com/#', ?id ,"-",?label)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?id ,"-",?label)) AS ?URI)
 }

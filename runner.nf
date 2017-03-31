@@ -27,19 +27,19 @@ result_f= file(params.result_file)
 params.run_file ="run.csv"
 run_f = file(params.result_file)
  
-params.rdf_file="myrdf.ttl"
+params.rdf_file="metadata/operations.ttl"
 database_file= file(params.rdf_file)
 
-params.rdf_families_file="myrdf_families.ttl"
+params.rdf_families_file="metadata/families.ttl"
 database_families= file(params.rdf_families_file)
 
-params.query_file="query.rq"
+params.query_file="metadata/query.rq"
 query_f= file(params.query_file)
 
 params.constraints_file="constraints.txt"
 constraints_f= file(params.constraints_file)
 
-params.edam_file="EDAM_1.16.owl"
+params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
 
 params.structural="false"

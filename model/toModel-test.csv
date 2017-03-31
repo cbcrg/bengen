@@ -1,0 +1,6 @@
+id,type,extension,format,dataset,version,count,subset
+BB11001_RV11,edam:data_1233,.fa,edam:1929,balibase,4.0,4,RV11
+aadh,edam:data_1233,.fa,edam:1929,homfam_clustalo,1.0,3127
+aadh,edam:data_1233,.fa,edam:1929,homfam_mafft,1.0,3127
+6,edam:data_1233,.fa,edam:1929,oxfam,1.0,4767
+1a0cA_1a0dA,edam:data_1233,.fa,edam:1929,prefab4,1.0,50

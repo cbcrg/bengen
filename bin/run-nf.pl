@@ -36,7 +36,7 @@ while( defined( my $line = <IN> ) ){
 	my $db = $splitted[2];
 	my $id = $splitted[3];
 
-	my $key = $sf.",".$db.",".$msa;
+	my $key = $sf.",".$db.",".$msa.",".$id;
 	
 	if (! $result_hash{$key}){
 	  $result_hash{$key} ="true";
@@ -82,7 +82,7 @@ while( defined( my $line = <IN> ) ){
 	
 
 	#key_result to look if the triplet has already been computed	
-	my $key_result = $sf.",".$db.",".$msa;
+	my $key_result = $sf.",".$db.",".$msa.",".$id;
 	
 	
 	# if the triplet has not been computed --> add to hashmap 
@@ -110,8 +110,7 @@ print Dumper \%hash;
 
 
 	my $f; 
-	open( $f, '>', "/home/lsantus/bengen/vvv") or die "Could not open file  $!";
-	print $f "hey\n";
+	open( $f, '>', "/home/lsantus/bengen/caching-infos-current-run") or die "Could not open file  $!";
 	print $f Dumper \%result_hash;
 	print $f Dumper \%hash;
 	close ($f);
