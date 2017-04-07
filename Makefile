@@ -1,18 +1,8 @@
 all:
-	for x in $$(ls -d boxes*/*/Dockerfile); do \
+	for x in $$(cat *_docker); do \
 	(\
-	p=$$(dirname $$x); \
-	pn=$$(echo $$p | sed 's/boxes.*\///g'); \
-	cd $$p; \
-	docker pull bengen/$$pn \
+	docker pull $$x; \
 	); \
 	done
 	
-	for x in $$(ls -d containers/*/Dockerfile); do \
-	(\
-	p=$$(dirname $$x); \
-	pn=$$(echo $$p | sed 's/containers\///g'); \
-	cd $$p; \
-	docker pull bengen/$$pn \
-	); \
-	done
+

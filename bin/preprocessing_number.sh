@@ -1,7 +1,7 @@
 
 dir=$1 
 
-[[ -z $dir ]] && { echo " parameter compulsory : complete path to the benchmark datasets folder " ; exit 0 ; }
+[[ -z $dir ]] && { echo " parameter compulsory " ; exit 0 ; }
 
 cd $dir 
 

@@ -7,7 +7,7 @@ prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#>
 prefix SIO:  <http://semanticscience.org/resource/> 
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
-select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version where { 
+select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version ?max_size ?test_size where { 
 
 
   #DEFAULT QUERY	
@@ -52,7 +52,6 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version where {
 
  ?ref edam:data_1066 ?ref_id . 
  ?test edam:data_1064 ?ref_id . 
-
 
 
 #----------- TEST (size) <= MSA (max_count)
