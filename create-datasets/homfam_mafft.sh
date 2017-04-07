@@ -1,12 +1,13 @@
 
-
+bengen=$1
+benchmarkPath="$bengen/benchmark_datasets"
+cd $benchmarkPath
 [[ -d  "homfam_mafft" ]]  && rm -rf homfam_mafft
 
 mkdir homfam_mafft 
 cd homfam_mafft
 
-mkdir all 
-cd all 
+
 
 wget -q https://mafft.sb.ecei.tohoku.ac.jp/material/dataset/benchmark/homfam.tgz 
 tar xf homfam.tgz 

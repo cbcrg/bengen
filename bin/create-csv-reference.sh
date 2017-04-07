@@ -3,12 +3,15 @@
 
 #later on comman line parameter 
 
-##REF SEQUENCES
 
-benchmark_datasets="/home/lsantus/bengen/benchmark_datasets"
-#benchmark_datasets=$1
-create_datasets="/home/lsantus/bengen/create-datasets"
+path=`pwd`/`echo $0`;
+file=$(basename "$path");
+bengen=`echo $path | sed "s/\/bin\/$file//g"`;
+benchmark_datasets="$bengen/benchmark_datasets"
+create_datasets="$bengen/create-datasets"
 cd $benchmark_datasets
+
+ref="$bengen/model/toModel-reference.csv"
 
 
 all_datasets=`ls `
