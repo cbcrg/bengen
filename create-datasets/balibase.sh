@@ -6,7 +6,7 @@ subsetPath2="$bengen/create-datasets/balibase-subset2.csv"
 cd $benchmarkPath
 mkdir temp
 [[ -d  "balibase" ]]  && rm -r balibase 
-mkdir balibase 
+mkdir balibase
 cd balibase
 
 

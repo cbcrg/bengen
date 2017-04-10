@@ -1,1 +1,1 @@
-clustalw2 $fasta -type=protein -output=fasta -outfile=aln.fa -quiet 
+clustalw2 $input -type=protein -output=fasta -outfile=method.out -quiet 

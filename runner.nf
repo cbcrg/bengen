@@ -65,7 +65,7 @@ process create_run {
 	
 	output: 
 	
-	file('run_for_channel .csv') into run_table
+	file('run_for_channel.csv') into run_table
 	
 
 	script: 

@@ -7,10 +7,21 @@ prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#>
 prefix SIO:  <http://semanticscience.org/resource/> 
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
-select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version  where { 
+select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version ?URI_DATASET  where { 
+
+ ##1
+ ?ref edam:file_extension  ?ref_extension . 
+ FILTER regex(?ref_extension, ".*.ref$") .
+
+#-------- MSA (input+format) == TEST (type+format)
+
+ ?test a ?test_type .
+ ?test edam:file_extension  ?test_extension . 
+ FILTER regex(?test_extension, ".fa$") .
+ ?test edam:has_format ?test_format. 
 
 
-  #DEFAULT QUERY	
+
   ?msa_type rdfs:subClassOf edam:operation_0292 .
   ?msa a ?msa_type .
   ?msa rdfs:label ?msa_name .
@@ -18,6 +29,13 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version  where {
 
   ?sf a edam:operation_0259 .
   ?sf rdfs:label ?sf_name .
+
+#----------- TEST (size) <= MSA (max_count)
+
+ ?test SIO:SIO_000794 ?test_size . 
+ ?msa_input SIO:SIO_000794 ?max_size .
+ FILTER (?max_size >= ?test_size) .
+
 
  # Msa output ==input sf
  ?msa edam:has_output ?msa_out .
@@ -31,21 +49,14 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version  where {
 ##---- SF (input+format) == REF (type+format)
 
  ?ref a ?ref_type .
- ?ref edam:file_extension  ?ref_extension . 
- FILTER regex(?ref_extension, ".*.ref$") .
+ ##1
+
  ?ref rdfs:label ?label .
  ?ref edam:has_format ?ref_format. 
 
  ?sf_input a ?ref_type .
  ?sf_input edam:has_format ?ref_format.
 
-
-#-------- MSA (input+format) == TEST (type+format)
-
- ?test a ?test_type .
- ?test edam:file_extension  ?test_extension . 
- FILTER regex(?test_extension, ".fa$") .
- ?test edam:has_format ?test_format. 
 
 
 #----------- REF (id) ==TEST (id)
@@ -55,12 +66,6 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?db_version  where {
  ?ref oboInOwl:inSubset ?subset_ref .
  ?test oboInOwl:inSubset ?subset_ref.
 
-#----------- TEST (size) <= MSA (max_count)
-
- ?test SIO:SIO_000794 ?test_size . 
- ?msa_input SIO:SIO_000794 ?max_size .
- FILTER (?max_size >= ?test_size) .
- 
 
 #----DATASET
 

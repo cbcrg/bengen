@@ -1,1 +1,2 @@
-dialign -fa -fn aln $fasta
+dialign -fa -fn aln $input
+mv aln.fa method.out

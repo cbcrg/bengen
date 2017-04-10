@@ -11,7 +11,7 @@
 
 
 ##convert FASTA alignment to MSF format
-mview -in fasta -out msf aln.fa > aln.msf
+mview -in fasta -out msf $input > aln.msf
 
 
 ##BALI SCORE

@@ -1,1 +1,1 @@
-kalign -i $fasta -o aln.fa -q -f fasta
+kalign -i $input -o method.out -q -f fasta

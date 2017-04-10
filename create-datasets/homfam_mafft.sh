@@ -4,7 +4,7 @@ benchmarkPath="$bengen/benchmark_datasets"
 cd $benchmarkPath
 [[ -d  "homfam_mafft" ]]  && rm -rf homfam_mafft
 
-mkdir homfam_mafft 
+mkdir homfam_mafft
 cd homfam_mafft
 
 

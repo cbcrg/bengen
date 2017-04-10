@@ -5,7 +5,7 @@
 if($subSeq_file=~/.*\/(PF.*)\.sp_lib/){  $subSeq_file_name=$1; }
 if($largeSeq_file=~/.*\/(.*)\.aln/){  $largeSeq_file_name=$1; }
 
-$out_file="aln.fa";
+$out_file="method.out";
 $erout_file="$subSeq_file_name"."_error.log";
 
 $i=0;

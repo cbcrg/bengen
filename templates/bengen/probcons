@@ -1,1 +1,1 @@
-probcons $fasta > aln.fa
+probcons $input > method.out

@@ -10,18 +10,26 @@ use Data::Dumper;
 #
 
 
-my ($dir, $aligners_file, $result_file, $run_file ) = @ARGV;
+my ($dir, $methods_file, $result_file, $run_file ) = @ARGV;
 
 
 my %hash = ();
 my %result_hash= ();
 
+my $dhid;
 
+open IN  ,'<', "$dir/images_docker" or die "can't open file  for reading: $!";
+
+while( defined( my $line = <IN> ) ){		
+	my @temp= split /\//, $line ; 	
+	 $dhid=@temp[0];
+}
+close(IN);
 
 
 ##CREATE HASMAP TO SEE WHAT HAS ALREADY BEEN COMPUTED
 #
-# hash_result{Scoringfunction, Dataset, MSA}="true"
+# hash_result{Scoringfunction, Dataset, method}="true"
 
 
 open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
@@ -29,14 +37,18 @@ open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
 while( defined( my $line = <IN> ) ){	
 
 	chomp $line; 
-	$line =~ s/bengen\///g;
+
+	
+	$line =~ s/$dhid\///g;
+
 	my @splitted = split /,/, $line; 
 	my $sf = $splitted[0];
-	my $msa = $splitted[1];
+	my $method = $splitted[1];
 	my $db = $splitted[2];
 	my $id = $splitted[3];
 
-	my $key = $sf.",".$db.",".$msa.",".$id;
+
+	my $key = $sf.",".$db.",".$method.",".$id;
 	
 	if (! $result_hash{$key}){
 	  $result_hash{$key} ="true";
@@ -56,7 +68,7 @@ print Dumper \%result_hash;
 
 # READ RUN FILE AND STORE DATAS IN HASHMAP 
 #
-# hash{ScoringFunction,Dataset}=msa1,...,msaX
+# hash{ScoringFunction,Dataset}=method1,...,methodX
 
 
 
@@ -72,9 +84,10 @@ while( defined( my $line = <IN> ) ){
 	my @splitted = split /,/, $line; 
 	print $line ; 
 	my $sf = $splitted[0];
-	my $msa = $splitted[1];
+	my $method = $splitted[1];
 	my $db = $splitted[2];	
 	my $id = $splitted[3];
+
  	
 	$db=~ s/\n//g; 
 	#chop $db;
@@ -82,19 +95,19 @@ while( defined( my $line = <IN> ) ){
 	
 
 	#key_result to look if the triplet has already been computed	
-	my $key_result = $sf.",".$db.",".$msa.",".$id;
+	my $key_result = $sf.",".$db.",".$method.",".$id;
 	
 	
 	# if the triplet has not been computed --> add to hashmap 
 	if ( ! $result_hash{$key_result} ){
 		print $key_result; 
 		if ($hash{$key}){
-		  $hash{$key} =$hash{$key}.",".$msa;
+		  $hash{$key} =$hash{$key}.",".$method;
 	
 		}
 		else{
 	
-		$hash{$key}=$msa;
+		$hash{$key}=$method;
 		
 		}
 	}
@@ -110,9 +123,9 @@ print Dumper \%hash;
 
 
 	my $f; 
-	open( $f, '>', "/home/lsantus/bengen/caching-infos-current-run") or die "Could not open file  $!";
-	print $f Dumper \%result_hash;
-	print $f Dumper \%hash;
+	open( $f, '>', "$dir/caching-infos-current-run") or die "Could not open file  $!";
+	print $f Data::Dumper->Dump( [ \%result_hash ], [ qw(*cached) ] );
+	print $f Data::Dumper->Dump( [ \%hash ], [ qw(*toRun) ] );
 	close ($f);
 
 
@@ -127,20 +140,25 @@ foreach my $key ( keys %hash) {
 	my $sf = $array[0];
 	my $db = $array[1];
 	my $id = $array[2];
-	my $msa = $hash{$key};
-	#format msa name --> bengen/msa 
-	$msa=~ s/,/\nbengen\//g;
+
+	my $method = $hash{$key};
+	#format method name --> $dhid/method 
+	$method=~ s/,/\n$dhid\//g;
 
 
 	#Add ALL the aligners to run into the aligners file
 	my $fh;
-	open( $fh, '>', "$dir/$aligners_file") or die "Could not open file  $!";
-	print $fh "bengen/".$msa;
+	open( $fh, '>', "$dir/$methods_file") or die "Could not open file  $!";
+	print $fh "$dhid/".$method;
 	close ($fh);
 
 	#Run Nextflow
 	
 	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir." --id ".$id;
+
+
+	
+
 
 	my $output = `$command`;
 

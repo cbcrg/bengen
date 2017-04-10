@@ -116,11 +116,11 @@ process run_method {
   
   input: 
   each method from boxes
-  set dataset_name, id, file(fasta) from dataset_fasta 
+  set dataset_name, id, file(input) from dataset_fasta 
   
   
   output: 
-  set method, dataset_name, id, file('aln.fa') into alignments
+  set method, dataset_name, id, file('method.out') into methods_result
   
   script:
   template method
@@ -137,13 +137,13 @@ process INTERMEDIATE_extract_subaln {
   container "$method"
   
   input: 
-  set method, dataset_name, id, file(aln) from alignments
+  set method, dataset_name, id, file(aln) from methods_result
 
   file datasets_home 
   
   
   output: 
-  set method, dataset_name, id, file('aln.fa') into extracted_alignments
+  set method, dataset_name, id, file('method.out') into modified_methods_result
   
   """
   extract_aln.pl $datasets_home/${id}.fa.ref $aln
@@ -160,7 +160,7 @@ process run_score {
     container "$score"
     
     input: 
-    set method, dataset_name, id, file(aln) from extracted_alignments
+    set method, dataset_name, id, file(input) from modified_methods_result
     each score from boxes_score
     file datasets_home  
     
