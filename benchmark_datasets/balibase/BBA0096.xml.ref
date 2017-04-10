@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0096.xml</aln-name>
+<aln-score>0.52</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>G-protein coupled receptor-associated sorting protein 2</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>584</fstart><fstop>837</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>302</fstart><fstop>345</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>346</fstart><fstop>443</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>18.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>230</fstop><fcolor>1</fcolor><fscore>21.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>248</fstop><fcolor>2</fcolor><fscore>26.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>249</fstart><fstop>301</fstop><fcolor>3</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>474</fstop><fcolor>4</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>475</fstart><fstop>521</fstop><fcolor>5</fcolor><fscore>25.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>522</fstart><fstop>538</fstop><fcolor>6</fcolor><fscore>25.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>561</fstart><fstop>589</fstop><fcolor>7</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>595</fstart><fstop>663</fstop><fcolor>8</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>707</fstart><fstop>757</fstop><fcolor>9</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>549</fstart><fstop>561</fstop><fcolor>13</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>667</fstart><fstop>707</fstop><fcolor>17</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>173</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) S (in dbSNP:rs6616421).</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>374</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>828</fstart><fstop>838</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+</goxreflist>
+<length>838</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mtgaeiepsaqakpekkageeviagperendvplvvrpkvrtqattgarpktetksvpaarpkteaqamsgarpktevqvmggarpkteaqgitgarpktdaravggarsktdakaipgarpkdeaqawaqsefgteavsqaegvsqtnavawplataesgsvtkskglsmdrelvnvdaetfpg--tqgqkgiqpwfgpgeetnmgswcysrprareeasnesgfwsadetstassfwtgeetsvrswp--reesntrsrhrakhqtnprsrprskqeayvdswsgsedeasnpfsfwvgentn--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------nlfrprvreeanirsklrtnredcfesesedefykqswvlpgee-ansrfrhrdkedpntalklraqkdvdsdrvkqeprfeeeviigswfwaekeasleggasaicesepgteegaiggsaywaeeksslgavareeakpes---eeeaifgswfwdrdeacfdlnpcpvykvsdr-frdaaeelnassrpqtwdevtvefkpglfhgvgfrstspfgipeeas----emleakpknlelspegeeqesllqpdqpspeftfqydpsyrsvreirehlraresaeseswscsciqc-elkigseefeeflllmdkirdpfiheiskiamgmrsasqftrdfirdsgvvslietllnypssrvrtsflenmihmappypnlnmietficqvceetlahsvdsleqltgirmlrhltmtidyhtlianymsgflsllttanartkfhvlkmllnlsenpavakklfsakalsifvglfnieetndniqivikmfqnisniiksgkmsliddd-------fsleplisafrefeelakqlqaqidnqndpevgqqs-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>232</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>330</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>18.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>117</fstop><fcolor>1</fcolor><fscore>21.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>135</fstop><fcolor>2</fcolor><fscore>26.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>331</fstart><fstop>361</fstop><fcolor>4</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>362</fstart><fstop>408</fstop><fcolor>5</fcolor><fscore>25.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>425</fstop><fcolor>6</fcolor><fscore>25.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>448</fstart><fstop>476</fstop><fcolor>7</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>482</fstart><fstop>550</fstop><fcolor>8</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>594</fstart><fstop>644</fstop><fcolor>9</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>436</fstart><fstop>448</fstop><fcolor>13</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>554</fstart><fstop>594</fstop><fcolor>17</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>261</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>655</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------mprqsleqgprmrpr-----hgprvnlteavsqaegvsqtnavawplataesgsvtkskglsmdrelvnvdaetfpg--tqgqkgiqpwfgpgeetnmgswyysrprareeasnesgfwsadetstassfwtgeetsvrswp--reesntrsrhrakhqtnprsrprskqeayvdswsgsedeasnpfsfwvgentn--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------nlfrprvreeanirsklrtnredcfesesedefykqswvlpgee-ansrfrhrdkedpntalklraqkdvdsdrvkqeprfeeeviigswfwaekeasleggasaicesepgteegaiggsaywaeeksslgavareeakpes---eeeaifgswfwdrdeacfdlnpcpvykvsdr-frdaaeelnassrpqtwdevtvefkpglfhgvgfrstspfgipeeas----emleakpknlelspegeeqesllqpdqpspeftfqydpsyrsvreirehlraresaeseswscsciqc-elkigseefeeflllmdkirdpfiheiskiamgmrsasqftrdfirdsgvvslietllnypssrvrtsflenmihmappypnlnmietficqvceetlahsvdsleqltgirmlrhltmtidyhtlianymsgflsllttanartkfhvlkmllnlsenpavakktiqcqss------fnicgsl----------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>96</fstop><fcolor>9</fcolor><fscore>36.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>153</fstop><fcolor>10</fcolor><fscore>30.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>132</fstop><fcolor>12</fcolor><fscore>29.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>161</fstop><fcolor>14</fcolor><fscore>30.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>46</fstop><fcolor>17</fcolor><fscore>36.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>167</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>177</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mihmappypnlnmietficqvceetlahsvdsleqltgirmlrhltmtidyhtlianymsgflsllttanartkfhvlkmllnlsenpavakklfsakalsifvglfnieetndniqivikmfqnisniiksgkmsliddd-------fsleplisafrefeelakqlqaqidnqndpevgqqs-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>41</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>426</fstart><fstop>508</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>532</fstart><fstop>558</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>560</fstart><fstop>606</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>608</fstart><fstop>679</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>681</fstart><fstop>823</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>834</fstart><fstop>841</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>843</fstart><fstop>849</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>884</fstart><fstop>894</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>896</fstart><fstop>993</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>18.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>198</fstop><fcolor>1</fcolor><fscore>21.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>215</fstop><fcolor>2</fcolor><fscore>26.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>270</fstop><fcolor>3</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>997</fstart><fstop>1027</fstop><fcolor>4</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1029</fstart><fstop>1075</fstop><fcolor>5</fcolor><fscore>25.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1080</fstart><fstop>1096</fstop><fcolor>6</fcolor><fscore>25.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1119</fstart><fstop>1147</fstop><fcolor>7</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1153</fstart><fstop>1221</fstop><fcolor>8</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1265</fstart><fstop>1315</fstop><fcolor>9</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1362</fstart><fstop>1371</fstop><fcolor>10</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1319</fstart><fstop>1351</fstop><fcolor>12</fcolor><fscore>29.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1107</fstart><fstop>1119</fstop><fcolor>13</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1373</fstart><fstop>1379</fstop><fcolor>14</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1225</fstart><fstop>1265</fstop><fcolor>17</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>487</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>740</fstart><fstop>1008</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1376</fstart><fstop>1395</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>1395</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mtgaeiesgaqvkpekkpgeevvggaeiendvplvvrpkvr----------------------------------tqaqimpgarpknkskvmpgastkvetsavggarpkskakaipvsrfkeeaqmwaqprfgaerlskternsqtniiasplvstdsvlvaktkylsedrelvntdtesfprrkahyqagfqpsfrskeetnmgswccprptskqeaspnsdfkwvdks-vsslfwsgdevtakfhpgnrvkdsnrsmhmanqeantmsrsqtnqelyiasssgsedesvktpwfwardktntwsgpredpnsrsrfrskkevyvesssgsehedhleswfgagkegkfrskmragkeannrarhrakreacidfmpgsidvikkescfwpeenantfsrpmikkeararamtkeeaktkararakqearseeealigtwfwatdessmadeasiesslqvedesiigswfwteeeasmgtgassksrprtdgerigdslfgarektsmktgaeatsesilaaddeqviigswfwageevnqeaeeetifgswfwvidaasvesgvgvscesrtrseeeevigpwfwsgeqvdieagigeearpgaeeetifgswfwaenqtymdcraetscdtmqgaeeeepiigswfwtrveacvegdvnskssledkeeamip-cfgakeevsmkhgtgvrcrfmagaeetnnkscfwaekepcmypagggswksrpeeeedivnswfwsrkytkpeaiigswlwateesnid-gtgekakllteeetiinswfw-kedeaiseatdreesrpeaeegdivgswfwageedrlepaaetreedrlaaekegivgswfgareet-irreagscsksspkaeeeeviigswfweeeaspeavagvgfeskpgteeeeitvgswfwpeeeasiqagsqaveemeseteeetifgswfwdgkevseeagpccvskpeddeemiveswfwsrdkaiketgtvatceskpeneegaivgswfeaedevdnrtdngsncgsrtladedeaivgswfwagdeahfesnpspvfraicrstcsveqepdpsrrpqsweevtvqfkpgpwgrvgfpsispfrfpkeaaslfcemfggkprnmvlspegedqesllqpdqpspefpfqydpsyrsvqeirehlrakestepessscnciqc-elkigseefeellllmekirdpfiheiskiamgmrsasqftrdfirdsgvvslietllnypssrvrtsflenmirmappypnlniiqtyickvceetlaysvdspeqlsgirmirhlttttdyhtlvanymsgflsllatgnaktrfhvlkmllnlsenlfmtkellsaeavsefiglfnreetndniqivlaifenignnikketv-fsddd-------fnieplisafhkvekfakelqgktdnqndpegdqen-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>G-protein coupled receptor-associated sorting protein 1</definition>
+<organism>Rattus norvegicus (Rat).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10116</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1091</fstart><fstop>1341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>41</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>423</fstart><fstop>505</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>529</fstart><fstop>555</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>556</fstart><fstop>602</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>603</fstart><fstop>675</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>676</fstart><fstop>821</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>832</fstart><fstop>839</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>840</fstart><fstop>846</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>848</fstart><fstop>858</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>859</fstart><fstop>955</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>18.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>195</fstop><fcolor>1</fcolor><fscore>21.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>213</fstop><fcolor>2</fcolor><fscore>26.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>268</fstop><fcolor>3</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>956</fstart><fstop>986</fstop><fcolor>4</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>988</fstart><fstop>1034</fstop><fcolor>5</fcolor><fscore>25.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1039</fstart><fstop>1055</fstop><fcolor>6</fcolor><fscore>25.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1068</fstart><fstop>1096</fstop><fcolor>7</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1102</fstart><fstop>1170</fstop><fcolor>8</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1214</fstart><fstop>1264</fstop><fcolor>9</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1319</fstart><fstop>1328</fstop><fcolor>10</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1268</fstart><fstop>1300</fstop><fcolor>12</fcolor><fscore>29.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1056</fstart><fstop>1068</fstop><fcolor>13</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1330</fstart><fstop>1336</fstop><fcolor>14</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1174</fstart><fstop>1214</fstop><fcolor>17</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>771</fstart><fstop>782</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00213 LIPOCALIN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>695</fstart><fstop>1012</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0042752</goid><goclass>P</goclass><godesc>regulation of circadian rhythm</godesc><goevidence>IPI</goevidence></goxref>
+</goxreflist>
+<length>1346</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mtgaevepgaqakaenkpgdenanaaevepevplvvrpkvr------------------------------------tqmmtgarpkvkpkgtpgarpkgetsspggayakckprsipisrskhdaqvwapskfrgesmskmgkqcqisaadsplvsndsgavaqakclsvdrelanmdtesipk-kassparfqpsfgpeegtsmgswyrprpipkgeayensdfkwadkssgsssfwnrdetstrfrprksmksntrfrhmakqeantmsrhknkqefynisssdsedesaktpwfwakdkpkvwsrpkeepntrswfrskkevrvestsgsecenhtkslfwsgeeakcrskprarkgvnmrarhqakreaysdvtsgsvdknkkdswflpeekanafsksktkkeprtrampreevktkarastkqearpeeevlvgawvldtqdntmg-erismkttcveeepivgdwfwseeeasvdsetglksrprakeeqvssfclgsgkktsmesgpkatsksmpvakddeviigswfwaddeeislqaddesifgswfwgtgekslrsvgvscekmpksgekevtdswfwage-vnteaemeeqassastkgtifvpwfwsekqahmdlgtepcsdimaga-eeepiigpwfwakvdnsveaevnskssledeeepirspwfgareqpnmkyaagvgykpmaeaeeankkscvwa-kepclyptnreslkstlgekedtvdpwlwsnnyprtetitgswlwaaeegniddetgeeiklptlednvfnswswkeneetvveapnreeskpeaeeediigswfwagdedrfqpaakikeenkiapededtvgswfwgkeeasveavkggtfesvsgikeeka-tgswfwt---------------------------------dkakigagpqtv-etgsetedeaifesliwaakkdsmqtgvnrvskpkdegeg-ieswlwsgdkattesktvtvsesspengkesivkfgsrakdevinktgsgdnckfst---eaesivgpwfwegdeasfesnpvpvckaacepesstehepdpsrrpqswdevtvqfkpgpwgkagfpslnpfrfpkeaaslfaemfggkpklvevgtere----------pepqfpfqydpsyrsvreirehlkaresaqaenwscnciqc-elrigseefeelllmmdrnrdpfiheiskiamgmrgasqftrdfirnsgvisliealmnypssrartaflenmiqmaptypdlnmietyvcqvcedtfdydldssdqlsgltmithltttfdyhkvvvaylagfyyllnsgntttrfhvlklllnlseslvmtkrllitdsvsefmalfnredsdeniqiilaifeniskniqkealfaddeeeeeeeeavnleplisafreaekfakelkrktddqksp-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>82</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>129</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>202</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>348</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>366</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>367</fstart><fstop>373</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>375</fstart><fstop>385</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>386</fstart><fstop>483</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>484</fstart><fstop>514</fstop><fcolor>4</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>516</fstart><fstop>562</fstop><fcolor>5</fcolor><fscore>25.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>567</fstart><fstop>583</fstop><fcolor>6</fcolor><fscore>25.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>596</fstart><fstop>624</fstop><fcolor>7</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>630</fstart><fstop>698</fstop><fcolor>8</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>742</fstart><fstop>792</fstop><fcolor>9</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>847</fstart><fstop>856</fstop><fcolor>10</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>796</fstart><fstop>828</fstop><fcolor>12</fcolor><fscore>29.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>584</fstart><fstop>596</fstop><fcolor>13</fcolor><fscore>44.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>858</fstart><fstop>864</fstop><fcolor>14</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>702</fstart><fstop>742</fstop><fcolor>17</fcolor><fscore>35.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>280</fstart><fstop>349</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>446</fstart><fstop>548</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>874</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mesgpkatsksmpvakedevvigswfwaddeeinlqaddesifgswfwgtgenslrsvgvncekmpkagekevtdswfwagd-vnteaeveeqarsastkatifvpwfwsekqpnmdlgsepcsdimaga-eeepiigpwfwakvdnsveaevnskssledeeepirspwfgareqtdmkyaagirykpmaeaedankkscvwa-kepclyptnreclkstlgekedtvdpwlwsnnyprtktitgswlwaaeegniddetgekiklptlednafnswfwkeneesiveapkreefrpeaeeediigswfwagdedrfepaakineenkiasededtvgswfwgneeasleavrrgtfesapgikeekv-tgswfwt---------------------------------dkakvgagsqtv-etgseteeeaifesliwaakkdsiqagvkrvskpkddgniavgswlwssdkatkeaktlivseaspengkesvvkfgsrakdevinktgsgdnckhst---eaetivgawfwegdeasfesnpvpvckavcepessaehepdpsrrpqswdevtvqfkagpwgkagfppmnpfrfpkeaaslfaemfggkpklvevgpere----------pepqfpfqydpsyrsvreirehlkaresaqpenwscnciqc-elrigseefeellllmdrnrdpfiheiskiamgmrgasqftrdfirnsgvvslieallnypssrvrtrflenmvrmappypdlnmietyvcqicedtfdydldspdqlsgltmithltatsdyhkvvvnylagffyllnsgntktrfhvlklllnlsenlvmtkrllvtdsvsefmdlinreesdeniqivlaifetiskhiqkealfsddddddeeedavnlepfisafreaekiakelkrkpgnqkap-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>10</fstop><fcolor>10</fcolor><fscore>33.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>18</fstop><fcolor>14</fcolor><fscore>33.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>34</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ieplisafhkvekfakelqgktdnqndpegdqen-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>153</fstop><fcolor>9</fcolor><fscore>36.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>217</fstop><fcolor>10</fcolor><fscore>30.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>189</fstop><fcolor>12</fcolor><fscore>29.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>225</fstop><fcolor>14</fcolor><fscore>30.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>103</fstop><fcolor>17</fcolor><fscore>36.89</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>235</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mdrnrdpfiheiskiamgmrgasqftrdfirnsgvvslieallnypssrvrtrflenmvrmappypdlnmietyvcqicedtfdydldspdqlsgltmithltatsdyhkvvvnylagffyllnsgntktrfhvlklllnlsenlvmtkrllvtdsvsefmdlinreesdeniqivlaifetiskhiqkealfsddddddeeedavnlepfisafreaekiakelkrkpgnqkap-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Protein BHLHB9</definition>
+<organism>Macaca fascicularis (Crab eating macaque) (Cynomolgus monkey).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Cercopithecidae</taxon>
+<taxon>Cercopithecinae</taxon>
+</lineage>
+<taxid>9541</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>312</fstart><fstop>544</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>199</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>266</fstop><fcolor>6</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>317</fstop><fcolor>7</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>322</fstart><fstop>390</fstop><fcolor>8</fcolor><fscore>21.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>433</fstart><fstop>483</fstop><fcolor>9</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>530</fstart><fstop>539</fstop><fcolor>10</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>487</fstart><fstop>519</fstop><fcolor>12</fcolor><fscore>13.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>277</fstart><fstop>289</fstop><fcolor>13</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>541</fstart><fstop>547</fstop><fcolor>14</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>433</fstop><fcolor>17</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>521</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>547</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtgtknktraqaktekkpvtqakagaereatgvvrpvaktrakakaktgsktdavaemkavsknkvvaevkegalsepktlgramgdfsskagnestsstceneagidawfwageeatinswfwngeeagnssstkndkpeigaqvcaeelepaagadckprsgaeeeeeenvignwfwegddtsfdpnpkpvsrivkp-qplyeineknrpkdwsevtiwpnapavtpavlgfrsqapseasppsyivlasaeenacslpgatacrpsrntrscsqpipecrfdsdpciqtideirrqirirevngikpfacpckme--cymdseefeklvnllksttdplihkiariamgvhnvhpfaqefinevgvvtliesllsfpspemrkktvitlnp-psgderqrkielhvkhmcketvsfplnspgqqsglkilgqlttdfvhhyivanyfselfhllssgncktrnlvlklllnmsenptaardminmkalaalklifnqkeakanlvsgvaifinikehirkgsivvvdh--------lsyntlmaifrevkgiietm---------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>222</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>289</fstop><fcolor>6</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>312</fstart><fstop>340</fstop><fcolor>7</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>345</fstart><fstop>413</fstop><fcolor>8</fcolor><fscore>21.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>456</fstart><fstop>506</fstop><fcolor>9</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>553</fstart><fstop>562</fstop><fcolor>10</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>510</fstart><fstop>542</fstop><fcolor>12</fcolor><fscore>13.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>312</fstop><fcolor>13</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>564</fstart><fstop>570</fstop><fcolor>14</fcolor><fscore>15.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>416</fstart><fstop>456</fstop><fcolor>17</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>570</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dfdlghienqgqdwtgpynwastmagtknktraqaktekkaaiqakagaereatgvvrpvaktrakakaktgsktdavaemkavsknkvvaetkegalsepktlgkamgdftpkagnestsstckneagtdawfwageeatinswfwngeeagnsfstkndkpeigaqvcaeelepaagadckprsgaeeeeeenvignwfwegddtsfdpnpkpvsrivkp-qpvyeineknrpkdwsevtiwpnapavtpavlgfrsqapseasppsyivlasaeenacslpvatacrpsrntrscsqpipecrfdsdpciqtideirrqirirevngikpfacpckme--cymdseefeklvsllksttdplihkiariamgvhnvhpfaqefinevgvvtliesllsfpspemrkktvitlnp-psgderqrkielhvkhmcketmsfplnspgqqsglkilgqlttdfvhhyivanyfselfhllssgncktrnlvlklllnmsenptaardminmkalaalklifnqkeakanlvsgvaifinikehirkgsivvvdh--------lsyntlmaifrevkeiietm---------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>213</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>303</fstop><fcolor>7</fcolor><fscore>17.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>377</fstop><fcolor>8</fcolor><fscore>19.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>421</fstart><fstop>471</fstop><fcolor>9</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>519</fstart><fstop>528</fstop><fcolor>10</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>475</fstart><fstop>507</fstop><fcolor>12</fcolor><fscore>16.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>263</fstart><fstop>275</fstop><fcolor>13</fcolor><fscore>17.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>530</fstart><fstop>536</fstop><fcolor>14</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>544</fstart><fstop>555</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>381</fstart><fstop>421</fstop><fcolor>17</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>558</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mvdsgtearargkaeaglqdgisgpatarvngktqaeavaeaelktesvtqakagdgamtrthtvtyreamavtrevikvedttktrvmvetktkplaersivpqtkskampmsrvstvtksevkvvavieanirsyakshdkantgsrpdrreetsigmkssdedeenicswfwtgeepsvgswfwpeeetslqvykplpkiqekpkpthkptltikqkviawsraryivlvpveggeqslppegnwtlvetlietplgirpltkippyhgpyyqtlaeikkqirqrekygpnpkachcksr-gfslepkefdklvallkltkdpfiheiatmimgvspaypftqdiihdvgitvmienlvnnpnvkehpgalsmvddssesseepksgesyihqvckgiiscplnspvqlaglkllghlsikfedhyvitsyipdfltllnkgsvktkfyvlkvfsclsknhantrelisakvlsslvapfnkneskanilniieifeninfqfktkaklftkek-------ftkselisifqeakqfgqklqdlaehs-dpevrdkvirlilkl----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>28</fstop><fcolor>7</fcolor><fscore>17.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>102</fstop><fcolor>8</fcolor><fscore>19.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>196</fstop><fcolor>9</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>253</fstop><fcolor>10</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>232</fstop><fcolor>12</fcolor><fscore>16.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>261</fstop><fcolor>14</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>269</fstart><fstop>280</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>146</fstop><fcolor>17</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>283</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------qtlaeikkqirqrekygpnpkachcksr-gfslepkefdklvallkltkdpfiheiatmimgispaypftqdiihdvgitvmienlvnnpnvkehpgalsmvddssesseepksgesyihqvckgiiscplnspvqlaglkllghlsikfedhyvitsyipdfltllnkgsvktkfyvlkvfsclsknhantrelisakvlsslvapfnkneskanilniieifeninfqfktkaklftkek-------ftkselisifqeakqfgqklqdlaehs-dpevrdkvirlilkl----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Armcx5 protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>238</fstart><fstop>491</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>44</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>243</fstop><fcolor>7</fcolor><fscore>17.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>249</fstart><fstop>316</fstop><fcolor>8</fcolor><fscore>19.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>410</fstop><fcolor>9</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>458</fstart><fstop>467</fstop><fcolor>10</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>446</fstop><fcolor>12</fcolor><fscore>16.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>215</fstop><fcolor>13</fcolor><fscore>17.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>469</fstart><fstop>475</fstop><fcolor>14</fcolor><fscore>15.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>483</fstart><fstop>494</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>320</fstart><fstop>360</fstop><fcolor>17</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>497</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtlalvvitvtksevkidtgieaslkgaakatdkrsikqkpeikkevcvksragdkakevcvkssagdkakevcvksragdkakevcvksragdkasivinttdededyvcswfwtgeepsvgswfwpkeenplqvyqpppkveeepeppdtfdyalkkkaaawlrgrfivlvpieepqpslppdgnwtlvatlietplgirpltkippyggpyfqtladlknqirekekygpnpntcrcksr-tfslepvdfdklvallkltrdpfiheiatmimgispaypftqdivhdvgitvmienfvnnpnakkyprtln-inanpdapeevketeahvnkvcrdilccplncsvqveelkllvslsvkfdyhhvviyyvryfisllnkgsvkikfqilrvllclsknqantrelisaevmsslvalfhkneskanilhiieifeninfqfkkraklftkem-------ftkselisifreakefdqklqdltdhs-dpdvrdkvirlilkl----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>656</fstart><fstop>709</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>953</fstart><fstop>995</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>710</fstart><fstop>738</fstop><fcolor>7</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>745</fstart><fstop>813</fstop><fcolor>8</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>857</fstart><fstop>907</fstop><fcolor>9</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>911</fstart><fstop>943</fstop><fcolor>12</fcolor><fscore>17.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>817</fstart><fstop>857</fstop><fcolor>17</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>660</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>995</length>
+<weight>100</weight>
+<group>8</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------prvrvdqtsgggcwtgsgdqsggesrlgprdqsngeswpgtgdqtggwyctytgtqtigggpwvgvsgqdvggpkpvhmnqatggawlgtgtqvsavswtgdqvggcskpgfedqaigggfwagagdqttggsrpavsedqssggvswggagghviggsrtdqssgtswpgmgsqvsggswigsvdqtsgctksgfedqtcaggswvgtgeqtsgdswpgsrasneasggsrldpqdqasggswirsedqasgrflvsaeveanegfwfgpgseafigswcwteeatilpvagmkdeastestsgtreetsissglgdekktspeswtrseeaaltgtcdggeaktvagaeaevdpesktraeakaeaeaetkveaevrvetraeagaaattaseagaeagarveagagaeagmgfwpwngddttkgsklgteaeaetgigtgtgagtgtgtgtgtgvgagvevqavadtsmgfwfwdgagatkgsrlgteaeagvgagaqagaeavggtsmefwswdgdeatkgsrlgaeaepgtgvvaepgaetsmgfwfwnedsttkgsglgtevgaglgswtfstnvndgeeeeeedelsresspgieeislrtlfgaesedsndlrstnekdvssepgtgdkaddtkdqfdaangvdirswfytgnenkcedesssqvkvkkstesrgiypsmvpgagmgvwdgtivcseskll-hktsfpgedgfrrqvstgvkvhscncrckrtvnldphdleklicmiemtedpsvheiatnalynsadypypqeidrniggisviqsllsnpypnvrqkalnalnnisvaaenhrtvktylsqvcedtvtyplnsnvqvaglrlikhltitseyqhmvtnyiseflrllalgsgetkdhvlgmlvnfsknpsmtrdllianaptalinifskketkenilnalllfeninrhfkkrgktypqdr------fsktslyflfqrpkacakklralaadcsdpevkervevlinkl-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Armcx4 protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>80</fstart><fstop>334</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>54</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>340</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>83</fstop><fcolor>7</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>158</fstop><fcolor>8</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>252</fstop><fcolor>9</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>256</fstart><fstop>288</fstop><fcolor>12</fcolor><fscore>17.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>202</fstop><fcolor>17</fcolor><fscore>17.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>133</fstart><fstop>170</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50176 ARM_REPEAT</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>340</length>
+<weight>100</weight>
+<group>8</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------wfytgnenkcedesssqvkvkkstesrgiypsmvpgagmgvwdgtivcseskll-hktsfpgedgfrrqvstgvkvhscncrckrtvnldphdleklicmiemtedpsvheiatnalynsadypypqeidrniggisviqsllsnpypnvrqkalnalnnisvaaenhrtvktylsqvcedtvtyplnsnvqvaglrlikhltitseyqhmvtnyiseflrllalgsgetkdhvlgmlvnfsknpsmtrdllianaptalinifskketkenilnalllfeninrhfkkrgktypqdr------fsktslyflfqrpkacakklralaadcsdpevkervevlinkl-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>126</fstop><fcolor>8</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>220</fstop><fcolor>9</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>277</fstop><fcolor>10</fcolor><fscore>14.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>256</fstop><fcolor>12</fcolor><fscore>13.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>284</fstop><fcolor>14</fcolor><fscore>14.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>292</fstart><fstop>303</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>170</fstop><fcolor>17</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>306</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mggardvgwvaaglvlgagacyciyrltrgprrggrrlrpsrsaed--------------------------------------------------------------------ltdgsyddilnaeqlkkllyllestddpvitekalvtlgnnaafstnqaiirelggipivgnkinslnqsikekalnalnnlsvnvenqtkikiyvpqvcedvfadplnsavqlaglrlltnmtvtndyqhllsgsvaglfhllplgngstkvqvlklllnlsenpamtegllsvqvdssflslydgqvaneillraltlfqninnclkvegrlanqip-------fakgslffllyg-eecaqkmralachh-dvdvkekalaikpkf----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>130</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>208</fstop><fcolor>8</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>252</fstart><fstop>302</fstop><fcolor>9</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>359</fstop><fcolor>10</fcolor><fscore>14.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>338</fstop><fcolor>12</fcolor><fscore>13.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>366</fstop><fcolor>14</fcolor><fscore>14.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>374</fstart><fstop>385</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>252</fstop><fcolor>17</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>388</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mrgldgrvsvgaeygsvfnapqsrswsrkkllalrgippasvkgtaahrvgglpilagrlpegglqphflslgwfwpsctcvwpwllgslqlrgssmggardvgwvaaglvlgagacyciyrltrgprrggrrlrpsr----------------------------------------------------------------------------------saeqlkkllyllestddtvitekalvtlgnnaafstnqaiirelggipivgnkinslnqsikekalnalnnlsvnvenqtkikiyvpqvcedvfadplnsavqlaglrlltnmtvtndyqhllsgsvaglfhllllgngstkvqvlklllnlsenpamtegllsvqvdssflslydgqvaneillraltlfqninnclkvegrlanqip-------fakgslffllyg-eecaqkmralachh-dvdvkekalaikpkf----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>163</fstop><fcolor>8</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>257</fstop><fcolor>9</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>314</fstop><fcolor>10</fcolor><fscore>14.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>261</fstart><fstop>293</fstop><fcolor>12</fcolor><fscore>13.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>321</fstop><fcolor>14</fcolor><fscore>14.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>329</fstart><fstop>340</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>207</fstop><fcolor>17</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>343</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mggprgagwvaaglllgagacyciyrltrgrrrgdrelgirssksagaleegtsegqlcgrsarpqtgg-------------------------------twesqwsktsqpedltdgsyddvlnaeqlqkllyllestedpviieralitlgnnaafsvnqaiirelggipivankinhsnqsikekalnalnnlsvnvenqikikiyisqvcedvfsgplnsavqlagltlltnmtvtndhqhmlhsyitdlfqvlltgngntkvqvlklllnlsenpamtegllraqvdssflslydshvakeillrvltlfqniknclkieghlavqpt-------ftegslffllhg-eecaqkiralvdhh-daevkekvvtiipki----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>128</fstop><fcolor>8</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>222</fstop><fcolor>9</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>270</fstart><fstop>279</fstop><fcolor>10</fcolor><fscore>14.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>258</fstop><fcolor>12</fcolor><fscore>13.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>286</fstop><fcolor>14</fcolor><fscore>14.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>305</fstop><fcolor>15</fcolor><fscore>18.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>172</fstop><fcolor>17</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>308</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mggprgagwvaaglllgagacyciyrltrgrrrgdrelgirssksa------------------------------------------------------------------edltdgsyddvlnaeqlqkllyllestedpviieralitlgnnaafsvnqaiirelggipivankinhsnqsikekalnalnnlsvnvenqikikiyisqvcedvfsgslnsavqlagltlltnmtvtndhqhmlhsyitdlfqvlltgngntkvqvlklllnlsenpamtegllraqvdssflslydshvakeillrvltlfqniknclkieghlavqpt-------ftegslffllhg-eecaqkiralvdhh-daevkekvvtiipki----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>Armadillo repeat-containing X-linked protein 3</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>110</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>111</fstart><fstop>151</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 1.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>153</fstart><fstop>192</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 2.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>233</fstart><fstop>272</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 3.</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>188</fstop><fcolor>8</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>282</fstop><fcolor>9</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>339</fstop><fcolor>10</fcolor><fscore>14.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>13.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>341</fstart><fstop>347</fstop><fcolor>14</fcolor><fscore>14.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>232</fstop><fcolor>17</fcolor><fscore>16.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>163</fstart><fstop>200</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50176 ARM_REPEAT</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS51257 PROKAR_LIPOPROTEIN</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>61</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>67</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>379</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgyarkvgwvtaglvigagacyciyrltrgrkqnkekmaeggsgdvddagdcsgaryndwsdddddsnesks------ivwyppwarigteagtrararararatrarravqkraspnsddtvlspqelqkvlclvemsekpyileaalialgnnaayafnrdiirdlgglpivakilntrdpivkekalivlnnlsvnaenqrrlkvymnqvcddtitsrlnssvqlaglrlltnmtvtneyqhmlansisdffrlfsagneetklqvlklllnlaenpamtrellraqvpsslgslfnkkenkevilkllvifenindnfkweeneptqnq-------fgegslffflkefqvcadkvlgieshh-dflvkvkvgkfmaklaehmfpksqe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>385</fstart><fstop>453</fstop><fcolor>8</fcolor><fscore>24.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>497</fstart><fstop>547</fstop><fcolor>9</fcolor><fscore>24.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>593</fstart><fstop>602</fstop><fcolor>10</fcolor><fscore>33.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>551</fstart><fstop>583</fstop><fcolor>12</fcolor><fscore>24.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>604</fstart><fstop>610</fstop><fcolor>14</fcolor><fscore>33.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>618</fstart><fstop>629</fstop><fcolor>15</fcolor><fscore>28.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>457</fstart><fstop>497</fstop><fcolor>17</fcolor><fscore>24.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>376</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>632</length>
+<weight>100</weight>
+<group>6</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msrvrdagcvaagivigagawycvykytrgrdqtkkrmakpknravagtgararaglragftidlgsgfspptpvraeaedraqdeasaldtvgaeavapaassaeaqsgagsqaqeadgagvgpkaesvvgaamasaiapppgvtealgaaeapamagapkvaeapreaetsraavppgtvvpteaaaptevtegpgvaaptkvaeapgvaspteaaeapvpatptgaaaptgaaespgtsgsprtavvpgtsaakkatpgahtgaipkatsatgavpkgggkgvtrsrnggkgkgkkskvevdelgmgfrpgdgaaaaaaasanggqaflaevpdseegesgwtdtesdsdsepetqrrgrgrrpvamqkrpfpyeideilgvrdlrkvlallqksddpfiqqvalltlsnnanyscnqetirklgglpiianminktdphikekalmamnnlsenyenqgrlqvymnkvmddimasnlnsavqvvglkfltnmtitndyqhllvnsianffrllsqgggkikveilkilsnfaenpdmlkkllstqvpasfsslynsyveseilinaltlfeiiydnlrae--vfnyre-------fnkgslfylcttsgvcvkkiralanhh-dllvkvkviklvnkf----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>51</fstop><fcolor>9</fcolor><fscore>22.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>106</fstop><fcolor>10</fcolor><fscore>33.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>87</fstop><fcolor>12</fcolor><fscore>22.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>114</fstop><fcolor>14</fcolor><fscore>33.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>133</fstop><fcolor>15</fcolor><fscore>28.27</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>136</length>
+<weight>100</weight>
+<group>6</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------titndyqhllvnsianffrllsqgggkikveilkilsnfaenpdmlkkllgtqvpssfsslynsyveseilinaltlfeiifdnlrae--vfnyre-------fnkgslfylcttsgvcvkkiralanhh-dllvkvkviklvnkf----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>Armadillo repeat-containing X-linked protein 1</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>194</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>195</fstart><fstop>235</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 1.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>237</fstart><fstop>276</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 2.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>358</fstart><fstop>398</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 3.</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>197</fstop><fcolor>7</fcolor><fscore>17.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>272</fstop><fcolor>8</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>366</fstop><fcolor>9</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>423</fstop><fcolor>10</fcolor><fscore>12.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>425</fstart><fstop>431</fstop><fcolor>14</fcolor><fscore>12.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>439</fstart><fstop>450</fstop><fcolor>15</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>316</fstop><fcolor>17</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>247</fstart><fstop>284</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50176 ARM_REPEAT</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS51257 PROKAR_LIPOPROTEIN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>37</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>453</length>
+<weight>100</weight>
+<group>5</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgrtreagcvaagvvigagacycvyrlawgrdenekiwdedeestdtseig---vetvkgaktnagagsgaklqgdsevkpevslgledcpgvkekahsgshsgggleakakalfntlkeqasakagkgarvgtisgnrtlapslpcpggrgggchptrsgsraggrasgkskgkarskstrapattwpvrrgkfnfpykiddilsapdlqkvlnilertndpfiqevalvtlgnnaaysfnqnairelggvpiiakliktkdpiirektynalnnlsvnaenqgkiktyisqvcddtmvcrldsavqmaglrlltnmtvtnhyqhllsysfpdffallflgnhftkiqimkliinftenpamtrelvsckvpselislfnkewdreillniltlfenindnikneglassrke-------fsrsslfflfkesgvcvkkikalanhn-dlvvkvkvlkvltkl----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>197</fstop><fcolor>7</fcolor><fscore>17.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>272</fstop><fcolor>8</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>366</fstop><fcolor>9</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>316</fstop><fcolor>17</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>37</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>367</length>
+<weight>100</weight>
+<group>5</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgrtreagcvaagvvigagacycvyrlawgrdenekiwdedeestdtseig---vetvkgaktnagagsgaklqgdsevkpevslgledcpgvkekahsgshsgggleakakalfntlkeqasakagkgarvgtisgnrtlapslpcpggrgggchptrsgsraggrasgkskgkarskstrapattwpvrrgkfnfpykiddilsapdlqkvlnilertndpfiqevalvtlgnnaaysfnqnairelggvpiiakliktkdpiirektynalnnlsvnaenqgkiktyisqvcddtmvcrldsavqmaglrlltnmtvtnhyqhllsysfpdffallflgnhftkiqimkliinftensshdkragql--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<definition>Armadillo repeat-containing X-linked protein 1</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>197</fstart><fstop>450</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF04826 DUF634</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>198</fstart><fstop>238</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 1.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>240</fstart><fstop>279</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 2.</fnote></fitem>
+<fitem><ftype>REPEAT</ftype><fstart>361</fstart><fstop>401</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>ARM 3.</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>200</fstop><fcolor>7</fcolor><fscore>17.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>275</fstop><fcolor>8</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>319</fstart><fstop>369</fstop><fcolor>9</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>417</fstart><fstop>426</fstop><fcolor>10</fcolor><fscore>12.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>434</fstop><fcolor>14</fcolor><fscore>12.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>453</fstop><fcolor>15</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>279</fstart><fstop>319</fstop><fcolor>17</fcolor><fscore>16.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>250</fstart><fstop>287</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50176 ARM_REPEAT</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS51257 PROKAR_LIPOPROTEIN</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>194</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005488</goid><goclass>F</goclass><godesc>binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>456</length>
+<weight>100</weight>
+<group>5</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgrtreagcvaagmvigagacycvyrltwgkdeneklwdeeeeeeeeeeekscsdktekelktnvgvgargkpqddskskvevnvgpengpgvkkevhpesqsgggleakakalfktlkeqarakagrgirlpnisrnrtltsslpcpggrgggchpgrtgsrarnrtsgkvkrknrsksnkapatawpvrkgkfsfpykiddilsapdlqkvlnilertndpftqevalvtlgnnaaysfnqnairelggvpiiakliktrdpiirektynalnnlsvnsenqgkiktyisqvcddtmvcrldsavqmaglrlltnmtvtnhyqhllsysfpdffallflgnhftkiqtmkliinftenpamtrelvsckvpselislfnkewdreillniltlfenindnikseglassrke-------fsrsslfflfkesgvcvkkikalashk-dlvvkvkvlkvltkl----------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 9 23 60 38 27 11 47 32 3 100 14 15 100 100 60 0 0 0 0 0 3 18 19 29 8 3 3 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 6 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 5 0 22 19 0 3 3 3 3 3 3 100 100 100 0 0 22 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+100 100 100 100 100 75 100 46 100 100 100 44 100 45 100 63 100 100 100 72 100 28 44 45 42 100 100 75 100 39 72 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 100 73 100 45 100 100 100 100 100 28 100 46 100 22 38 100 100 100 53 45 100 22 100 100 100 76 28 100 100 100 22 45 100 29 100 45 76 76 100 100 75 100 100 19 100 43 72 100 100 68 100 100 42 46 76 100 37 42 100 53 77 100 100 38 41 76 65 29 100 35 64 34 34 43 100 100 100 100 100 57 100 100 22 32 100 100 78 75 100 23 100 100 28 100 100 100 100 44 100 38 100 100 100 100 38 100 76 0 100 100 45 22 42 100 37 100 100 100 100 100 37 46 67 100 41 100 64 100 100 100 100 23 22 100 100 100 35 46 100 38 100 100 22 42 100 100 100 100 100 100 44 100 100 100 0 22 100 100 28 100 100 64 37 100 100 44 78 75 76 100 48 100 37 63 53 68 100 51 64 57 100 19 29 100 100 100 63 100 100 100 100 100 100 100 100 45 78 57 63 100 100 45 100 23 34 100 100 100 44 100 100 100 100 100 44 100 100 100 100 100 100 100 76 100 100 45 63 44 100 100 37 100 76 100 72 100 100 78 100 100 14 100 100 100 100 100 100 100 22 100 100 100 78 100 100 100 100 24 100 66 100 33 67 100 21 100 11 76 100 67 100 42 100 23 100 100 100 25 100 100 37 100 41 44 100 26 100 100 100 100 69 100 100 100 100 100 23 29 100 33 38 46 100 100 75 100 31 23 100 100 72 100 16 100 21 100 100 100 63 100 100 75 100 100 76 46 29 35 100 100 100 45 100 75 100 100 100 45 76 100 100 44 100 100 100 100 100 100 53 75 100 100 100 100 100 46 100 100 100 44 100 75 100 75 100 33 21 43 100 54 72 64 78 100 42 0 100 48 29 29 26 58 78 33 23 100 100 72 100 46 100 75 100 51 100 100 100 78 100 100 100 100 100 68 44 78 41 75 44 28 100 100 100 100 100 75 54 41 100 69 75 44 51 19 27 45 100 76 37 67 100 100 100 100 46 61 100 21 46 100 100 100 46 100 54 5 20 100 30 67 53 49 100 70 100 100 100 100 100 100 100 20 53 100 8 5 36 5 32 26 53 53 29 8 15 1 20 1 12 12 3 3 21 18 26 33 14 5 28 20 100 100 100 57 100 100 34 9 21 59 71 17 100 46 100 100 12 20 22 100 100 100 58 100 67 0 100 44 12 100 100 17 50 17 100 49 100 44 22 18 58 29 46 16 100 100 100 5 22 100 100 100 58 100 40 100 28 6 100 100 7 14 54 100 21 9 9 100 12 100 32 100 100 0 100 100 100 100 100 100 100 22 100 100 100 56 59 100 53 28 9 100 100 18 53 100 100 100 100 100 100 100 100 100 46 100 100 21 54 7 22 3 2 100 100 100 59 100 49 10 30 100 100 12 18 56 100 70 28 5 59 2 100 100 17 100 100 67 56 100 40 100 100 100 11 100 100 0 100 100 100 100 59 100 100 56 20 14 17 21 4 100 100 27 5 17 100 46 100 100 12 100 44 22 100 20 100 100 31 40 100 21 59 21 61 56 100 12 100 100 100 100 100 100 56 100 100 20 100 100 100 3 17 100 100 100 60 12 100 100 5 100 5 100 53 33 21 15 100 100 100 12 100 3 46 44 53 100 54 70 14 100 100 21 32 100 100 100 12 71 100 100 100 100 100 17 100 100 57 100 100 100 100 100 100 100 53 100 100 100 20 63 100 100 100 46 12 38 100 100 44 59 62 100 28 100 30 100 20 12 100 100 100 100 100 1 18 38 100 100 56 3 53 31 23 8 24 28 20 9 3 46 100 22 37 15 12 46 100 100 46 35 0 12 100 100 100 100 100 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53 46 100 34 70 14 100 100 37 100 56 100 0 100 15 17 100 100 100 100 66 100 56 100 100 17 100 4 15 100 19 18 100 46 5 100 5 49 69 100 8 4 5 100 100 100 100 46 100 66 17 60 9 1 70 33 100 100 20 100 100 16 100 100 100 12 49 100 54 15 100 58 20 20 9 100 71 34 100 100 100 17 46 17 58 70 100 15 3 1 3 31 100 46 100 100 100 3 100 59 100 20 42 100 26 100 100 15 6 28 100 0 0 0 100 19 100 54 100 100 100 29 100 100 100 26 100 100 100 100 21 100 100 100 100 100 14 100 100 5 59 100 21 100 31 22 29 9 100 18 100 29 100 100 100 100 100 100 100 100 100 100 100 53 100 100 100 100 100 100 100 37 100 100 100 100 59 20 100 100 100 38 54 42 100 100 100 100 100 100 100 100 100 100 100 100 10 100 100 100 100 100 100 100 59 5 47 8 42 20 36 100 14 100 0 0 0 0 0 0 0 0 0 0 100 33 100 49 100 100 100 100 100 100 100 100 100 100 100 100 48 100 100 100 100 100 100 59 100 59 100 100 56 49 36 100 42 1 100 100 100 100 100 100 100 0 100 100 59 100 100 100 100 100 100 100 100 100 100 100 71 100 42 48 2 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 11 100 100 100 100 100 100 100 100 100 100 32 100 100 100 63 100 100 100 100 46 100 65 100 100 100 100 100 100 27 100 100 16 100 100 100 100 100 52 54 100 100 100 28 100 100 32 100 100 43 100 38 100 100 46 100 52 52 100 100 42 100 11 10 100 16 30 100 100 29 42 100 100 100 100 52 17 100 100 17 100 100 100 51 100 5 100 100 100 22 30 100 11 35 100 49 48 100 100 6 1 100 100 17 51 100 100 46 41 100 100 100 100 100 100 100 49 100 100 100 100 100 100 49 100 5 100 100 100 20 100 100 4 46 42 48 100 100 100 100 43 6 100 11 100 100 100 59 51 32 42 100 100 100 100 63 100 100 100 100 100 27 100 11 29 20 100 52 100 100 46 30 8 1 16 100 59 59 6 6 8 8 8 6 8 5 100 26 100 100 3 100 100 100 100 1 11 1 100 100 1 100 100 100 100 26 0 100 3 2 37 100 8 1 100 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_3</colsco-name>
+<colsco-owner>group_3</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 17 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 19 100 100 100 100 100 22 0 100 100 100 100 100 100 100 100 100 100 100 9 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 6 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 100 6 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 10 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_4</colsco-name>
+<colsco-owner>group_4</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 100 0 34 20 5 1 0 10 5 3 9 2 10 1 23 35 0 13 0 0 31 34 40 0 13 2 5 2 1 8 100 10 13 37 6 41 9 27 37 6 0 35 4 41 10 1 1 1 9 1 2 2 5 5 1 37 13 0 5 0 2 23 2 14 5 0 4 1 2 23 8 1 0 1 14 0 6 9 5 2 10 9 9 22 5 0 2 37 6 5 6 2 31 23 34 100 100 0 32 18 40 40 100 100 100 100 31 0 35 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 23 100 100 12 6 100 100 100 100 41 100 0 100 100 35 27 100 23 100 23 100 5 2 13 0 5 2 34 41 100 41 100 5 2 100 100 0 100 4 100 14 100 100 100 100 100 35 100 3 1 27 4 100 100 100 100 31 100 100 100 100 100 100 8 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 100 100 100 14 100 100 100 100 14 23 100 6 100 100 100 11 20 100 100 100 100 100 100 100 6 17 100 1 100 100 100 100 0 0 100 100 100 100 100 0 14 100 100 100 100 100 100 100 100 100 100 100 20 100 100 100 100 100 100 100 100 100 100 100 100 100 35 100 100 100 100 100 100 100 100 100 100 18 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 0 100 9 0 100 0 17 100 6 3 18 8 0 6 0 14 19 0 100 100 0 100 3 0 100 19 0 18 1 23 100 100 20 0 100 23 0 100 100 100 100 0 0 100 100 7 1 0 100 100 100 100 0 0 100 100 18 100 100 14 0 100 0 100 18 0 0 100 18 0 0 100 23 22 100 100 100 100 100 100 100 100 0 100 100 0 18 100 20 100 0 0 100 100 100 100 100 2 100 100 100 100 100 100 100 100 100 9 100 20 100 100 100 100 100 0 100 1 100 100 100 100 100 100 100 100 100 1 100 100 100 100 100 100 100 100 100 100 100 100 100 3 20 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 10 100 100 100 11 100 0 100 100 100 100 100 100 17 14 100 100 0 100 100 14 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_5</colsco-name>
+<colsco-owner>group_5</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_6</colsco-name>
+<colsco-owner>group_6</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 0 4 100 0 3 100 100 100 30 100 100 100 17 36 100 100 100 100 100 100 100 100 100 100 100 100 100 100 2 33 21 3 0 8 8 33 0 0 0 0 13 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 1 13 0 13 1 7 13 16 3 22 22 100 38 100 16 100 0 100 16 100 0 35 28 7 20 0 100 0 100 3 100 100 32 30 100 100 100 100 100 100 10 32 0 100 21 3 100 100 100 26 100 100 100 36 100 100 100 3 14 0 36 100 2 0 18 2 0 31 100 100 100 100 100 0 3 100 100 100 100 100 100 100 3 100 100 100 0 33 36 100 31 100 14 1 100 100 100 26 100 3 1 19 0 1 100 100 100 32 100 100 100 100 100 100 7 100 100 100 100 100 100 100 100 100 26 1 100 100 35 100 2 1 0 32 19 4 3 100 3 17 3 0 0 100 100 2 5 100 100 16 100 100 100 100 100 100 100 100 100 32 100 100 100 100 100 100 8 2 100 100 8 4 100 100 1 100 100 3 0 100 100 10 18 0 3 0 6 16 100 31 36 100 33 0 100 3 36 100 22 100 100 15 18 0 3 100 0 100 2 1 0 3 0 100 0 1 0 0 0 0 0 0 0 100 1 21 100 100 100 100 100 3 100 0 2 0 22 0 100 100 8 100 14 0 2 36 0 0 100 100 0 100 0 0 100 100 0 100 4 0 4 1 0 3 100 1 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_7</colsco-name>
+<colsco-owner>group_7</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 19 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 3 100 100 100 100 100 100 0 0 100 100 100 100 100 100 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_8</colsco-name>
+<colsco-owner>group_8</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 12 100 100 100 100 100 100 100 100 100 100 100 100 100 19 100 100 22 100 100 100 100 100 25 100 100 100 16 100 100 4 2 16 2 4 100 0 0 0 0 0 0 10 100 0 100 0 0 100 100 100 1 100 1 100 21 0 0 100 0 100 1 100 100 10 0 100 0 100 100 8 8 100 0 100 9 0 100 100 100 100 10 10 1 100 1 0 100 2 100 100 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 100 100 2 100 100 100 100 22 100 0 100 8 0 4 100 100 0 100 100 100 100 19 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 24 100 100 100 100 0 1 100 19 100 100 100 0 100 0 100 2 100 100 100 100 4 22 100 100 100 100 19 100 100 100 100 22 100 100 100 8 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 22 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 21 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 5 36 1 5 37 11 1 0 17 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 3 1 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 0 1 0 1 1 0 0 0 1 0 2 0 0 1 1 0 0 1 1 0 0 1 0 0 0 1 1 0 1 0 1 0 1 1 0 0 0 0 0 2 1 1 0 0 0 0 1 0 0 0 2 0 0 0 0 1 1 1 0 1 1 1 3 0 0 0 3 1 0 0 1 0 0 0 1 1 3 3 1 3 1 0 0 0 0 0 0 4 0 2 1 0 0 0 2 0 1 0 2 4 2 0 2 0 2 2 0 0 1 2 4 4 3 0 2 1 1 0 0 0 0 1 3 10 1 1 0 0 4 0 0 0 1 0 0 5 1 2 0 4 1 0 0 0 0 0 1 0 0 0 0 4 1 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 2 0 3 0 1 5 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 4 4 0 0 4 0 5 3 1 0 7 0 5 1 2 0 0 0 3 0 0 5 0 0 0 0 0 0 0 3 0 0 36 2 2 4 27 5 13 29 11 29 0 44 25 16 0 3 4 49 100 1 69 3 41 5 43 0 5 12 38 3 0 4 5 6 0 3 1 5 28 13 0 11 19 14 1 100 0 9 2 25 55 4 7 13 27 22 0 1 1 2 0 3 20 4 6 0 16 0 2 28 0 3 4 17 0 2 0 7 19 0 2 0 5 21 2 13 22 0 27 61 20 17 15 5 4 6 0 1 37 24 100 1 0 100 7 13 100 58 24 14 49 2 6 40 72 3 19 0 3 3 10 0 22 20 7 2 0 5 10 3 18 4 1 100 40 1 1 35 15 0 2 26 45 0 0 53 73 28 26 27 3 14 7 43 40 58 1 1 4 14 26 6 70 15 2 2 14 4 0 42 3 6 0 1 9 31 36 2 3 0 7 9 11 0 44 1 0 0 37 2 36 100 8 16 100 1 1 1 4 42 0 5 1 0 0 0 0 1 1 3 0 0 0 0 0 0 0 2 5 0 2 1 25 2 0 0 0 2 5 0 3 0 0 1 22 3 5 2 0 0 4 2 1 3 0 6 0 0 1 2 0 2 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

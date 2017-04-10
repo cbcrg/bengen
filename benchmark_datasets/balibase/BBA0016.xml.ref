@@ -1,0 +1,1410 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0016.xml</aln-name>
+<aln-score>0.59</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Ribosomal protein large subunit L19</definition>
+<organism>Thermoplasma volcanium.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermoplasmata</taxon>
+<taxon>Thermoplasmatales</taxon>
+<taxon>Thermoplasmataceae</taxon>
+</lineage>
+<taxid>50339</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mr-aetvkrivsdlkgvgtsrvyi--dtnkldkideaatrsdilalieqdvvkikqkkgisngrlkkrikqls-kdrrrgpgslrgtrnarykrkerwidtiralrdelrklkkdgkidpav-yrkyyriiksgsiksraqlvshiksagllke--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Probable 50S ribosomal protein L19</definition>
+<organism>Thermoplasma acidophilum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermoplasmata</taxon>
+<taxon>Thermoplasmatales</taxon>
+<taxon>Thermoplasmataceae</taxon>
+</lineage>
+<taxid>2303</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mr-sdsvkrivadikgvgtsrvyi--dtnkvdrvmeaatrqdvialmkqdvikikqkkgisngrlkkrikqls-kdrrrgpgslrgtkyaryprkdrwidtiralrdelrtlksegkitket-yrkyyrfiksgsirsrsqllshlksaglvge--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>THE HALOARCULA MARISMORTUI 50S COMPLEXED WITH A PRETRANSLOCATIONAL INTERMEDIATE IN PROTEIN SYNTHESIS</definition>
+<organism>HALOARCULA MARISMORTUI</organism>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>3</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>133</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>21</fstart><fstop>23</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>49</fstart><fstop>51</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>143</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----tdlsaqkrlaadvldvgknrvwf--nperqgdiadaitredvrelvdegaiqakdkkgnsrgrarerqkkra-kghqkgagsrkgkagarqnskedwesriraqrtklrelrdegtlsssq-yrdlydkagggefdsvadleryida--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Haloarcula marismortui (Halobacterium marismortui).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>2238</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>19</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>24</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>29</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>38</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>49</fstart><fstop>52</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>61</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>85</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>91</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>117</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>135</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0019843</goid><goclass>F</goclass><godesc>rRNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>148</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----tdlsaqkrlaadvldvgknrvwf--nperqgdiadaitredvrelvdegaiqakdkkgnsrgrarerqkkra-yghqkgagsrkgkagarqnskedwesriraqrtklrelrdegtlsssq-yrdlydkagggefdsvadleryidan--hgda-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>FULLY REFINED CRYSTAL STRUCTURE OF THE HALOARCULA MARISMORTUI LARGE RIBOSOMAL SUBUNIT AT 24 ANGSTROM</definition>
+<organism>HALOARCULA MARISMORTUI</organism>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>3</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>133</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>21</fstart><fstop>23</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>49</fstart><fstop>51</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>143</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----tdlsaqkrlaadvldvgknrvwf--nperqgdiadaitredvrelvdegaiqakdkkgnsrgrarerqkkra-kghqkgagsrkgkagarqnskedwesriraqrtklrelrdegtlsssq-yrdlydkagggefdsvadleryida--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>CRYSTAL STRUCTURE OF THE LARGE RIBOSOMAL SUBUNIT FROM HALOARCULA MARISMORTUI AT 24 ANGSTROM RESOLUTI</definition>
+<organism>HALOARCULA MARISMORTUI</organism>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>143</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----tdlsaqkrlaadvldvgknrvwf--nperqgdiadaitredvrelvdegaiqakdkkgnsrgrarerqkkra-kghqkgagsrkgkagarqnskedwesriraqrtklrelrdegtlsssq-yrdlydkagggefdsvadleryida--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Halobacterium salinarium (Halobacterium halobium).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>2242</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0019843</goid><goclass>F</goclass><godesc>rRNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msdlsaqkrlaadvldvgenrvwf--dpdaqseiadaitredirelvadgtidaedtqgnsrgrarerdakes-yghkkgagsrkgkagarqnekreyvagiraqrqqlrelrddgtlspaq-yremynmanggefdsvrrltnyveen--ygds-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Ribosomal protein L19e</definition>
+<organism>Methanosarcina acetivorans.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanomicrobia</taxon>
+<taxon>Methanosarcinales</taxon>
+<taxon>Methanosarcinaceae</taxon>
+</lineage>
+<taxid>2214</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>137</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>151</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msdlsnqrklaskvlgcgldrvwl--npeaseeiasaitredirglieegtikakpvkgvsrgraralaakrk-yghckghgsrkgkkgartpkkeqwikkiralrrrlkelradgaldksv-ycrlyrkakggeyrsvshlnshlesekllkke-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>70</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>121</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>136</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>9</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mmvmd-lslqrrlaasvlkcgenrvwf--dpaalediataatkqdirelieqgvikrkpvngvsrarinkrklqkr-kgrrrghgsrkgakgarmprkrmwilriralrkalrqmkaegvvdrrt-yrilyrkakggefrsvahlkiyveqm---kr--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Pyrococcus furiosus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>2261</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>150</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mntlkmqrriaaeilkcgenriwi--dperiddvasaitredikrlikegvikkkpikgqsryrakirheqkk-kgrhrgpgsrkgkktarmgkkelwiktiralrkelrklkaqkkidrkt-yrmlyirakggqfknkhqlylfleehgllkk--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>51</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>150</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mntlkmqrriaaeilkcgenriwi--dperiddvasaipredikrlikegvikkkpikgqsryrakirheqkk-kgrhrgpgsrkgkktarmgkkelwiktiralrkelrklkaqkkidrkt-yrmlyirakggqfknkhqlylfleehgllkk--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>150</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mntlkmqrriaaellkcgenrvwi--dpekvdevasaitredirrlikegvirkkpiegqsryrarirheqkk-kgrhrgpgsrkgkktarmgkkelwiktiralrrelrklkeqkkidrkt-yrmlyirakggqfknkhqlylfleehgllkk--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>51</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>151</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mktlkmqrrvaaellkcgenriwi--dpervddvasaitredirrlikegvikkkpvkgqsryrarirheqkk-kgrhrgpgsrkgkktarmgkkelwiktiralrkelrklkeqkkidrrt-yrmlyirakggqfkskhqlymfleehnllkkr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Ribosomal protein L19</definition>
+<organism>Methanopyrus kandleri.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanopyri</taxon>
+<taxon>Methanopyrales</taxon>
+<taxon>Methanopyraceae</taxon>
+</lineage>
+<taxid>2320</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mn-lrpqrrmaaeilkcgvhriwi--dperleevaraqtredirrlikegairkkpikgqsrvrarkrheqrk-kgrqrgpgrrkgakgarmpkkrawiqrirpirrklrelrdsgkidrst-yrklymmakggyfrdtshllayieendlwkk--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>70</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>121</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>136</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>9</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>151</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>miimd-vsvqrrmaaeilkcgiervwi--dptqldrvkmamskddiralikegvikkkqkkgissarvkklkeqrk-kgrrrgpgsrrgaagartppkerwmatiralrktlkqlrdsgkidrkv-yrklyrmakggafrsrshlflymrehellk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Methanococcus vannielii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanococcaceae</taxon>
+</lineage>
+<taxid>2187</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>149</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---md-vstqrriaaavldcgidrvwv--dpenlekvkmaitkddirllindgiivkkqekgissarkkevqeqkr-kgkrkgpgsrrgakgartpkkekwmntirplrtllkelrenekierss-yrklyrmakggafrsrnhmklymkehgilae--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>38</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>148</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mn-lttqkrlaadilkvgvnriwi--dperidevsraitrdgvkqlikdgaikakpkkgissyrskkiaqqkk-kgrrrgpgsikgakgarrpkkdewmttiralrkdlkemrdnreinkst-yrklykmakggafksksymktyardhdmlr---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>155</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---md-yrfqrrlaaeilgvgesriwispdpelreeiegavtkadvralikrgvikvlpekgnaghaskvrhlqrr-kgrrrgmgrrkgvatarldpkerwmhrirkirrylrylrdkqvidrkt-yrrlymlakggtfrdlaslkrymadrglvpeekir----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Ribosomal protein L19</definition>
+<organism>Pyrobaculum aerophilum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Thermoproteales</taxon>
+<taxon>Thermoproteaceae</taxon>
+</lineage>
+<taxid>13773</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>65</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>113</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>128</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>147</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------mvdvkrlaadilgvgvsriki--speaaerleevvtkddvralidqgliwaepergvsrgrwrvrhikkk-kgrrrghgsrkg---prtdeeeawkekvramrrflntlkrkgkleprv-wrqlyrmvkgnyfrdldhlktyinehkla-kepvr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Sulfolobus acidocaldarius.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2285</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>150</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mpefqlqrrlaadiagvglnnikf--nperleeveealtredikklikeravivnpkrgissgrlkerkhkrrskgegrkhgsrkgksgartgdkeiwinkirkirryirwlrdnnvidkht-yrllykrakgnyfknlsdvksylrqmghkv---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>151aa long hypothetical 50S ribosomal protein L19</definition>
+<organism>Sulfolobus tokodaii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>111955</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>151</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mpefalqrrlaaeltnvgennvkf--ntnylddiasaitrdeirklikegkiiiekkkgissgrlkekkekrrkrgekrksgsrkgpagarrgkkeqwvlkirkirtylkwlrdndvidkkt-yrlayrkakgnsfrnlsdvknylkqlgvkve--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>50S ribosomal protein L19e</definition>
+<organism>Sulfolobus solfataricus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2287</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>151</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mtnlkaqkrlaasiagvginrikv--vedyiedvqssltrdeirnlikdgkiivlkkvgisggrlkerrkkrslksegkksgsrkgkkgaranskqmwvkrvrkiraylkwlrdhkvidrht-yrelylktkggnykgvsdvrnvliqmg-kikg-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19-1</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>214</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005730</goid><goclass>C</goclass><godesc>nucleolus</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>214</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqkrlaasvmkcgkgkvwl--dpnessdismansrqnirklvkdgfiirkptkihsrsrarkmkiakm-kgrhsgygkrkgtrearlptkvlwmrrmrvlrrllkkyretkkidkhm-yhdmymrvkgnvfknkrvlmesihkskaekarektlsdqfeakraknkasrerkharre-erlakgpggdvapvaapapaatpaptaavpkkkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>Ribosomal protein L19</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>214</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>214</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqkrlaasvmkcgkgkvwl--dpnessdismansrqnirklvkdgfiirkptkihsrsrarkmkiakm-kgrhsgygkrkatrearlptkvlwmrrmrvlrrllkkyretkkidkhm-yhdmymrvkgnvfknkrvlmesihkskaekarektlsdqfeakraknkasrerkharre-erlakspggdvapvaapapaatpaptaavpkkkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>208</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>208</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqkrlassvlkcgkrkvwl--dpnegsdismansrqnirklvkdgfiirkptkihsrsrarqlniakr-kgrhsgygkrkgtrearlptkvlwmrrmrvlrrllkkyretkkidrhm-yhdmymkvkgnvfknkrvlmesihkskaekarektlsdqfeakraknkasrerkharre-erlakgpggdip------aaappaqtaevpakkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq026</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19-3</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>208</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>208</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqkrlassvlkcgkrkvwl--dpnegsdismansrqnirklvkdgfiirkptkihsrsrarqlniakr-kgrhsgygkrkgtrearlptkvlwmrrmrvlrrllkkyretkkidrhm-yhdmymkvkgnvfknkrvlmesihkskaekarektlsdqfeakraknkasrerkharre-erlakgpggdip------aaappaqtaevpakkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq027</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>209</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>209</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslkiqkrlaasvmkcgkgkvwl--dpnesgdismansrqnirklvkdgfiirkptkihsrsraralneakr-kgrhsgygkrkgtrearlptkilwmrrmrvlrrflskyreskkidrhm-yhdmymkvkgnvfknkrvlmesihkmkaekarektladqfeakriknkasrerkfarre-erlaqgpggget-----ttpagapqqpevtkkkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq028</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19-2</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>209</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>39</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>209</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslkiqkrlaasvmkcgkgkvwl--dpnesgdismansrqnirklvkdgfiirkptkihsrsraralneakr-kgrhsgygkrkgtrearlptkilwmrrmrvlrrflskyreskkidrhm-yhdmymkvkgnvfknkrvlmesihkmkaekarektladqfeakriknkasrerkfarre-erlaqgpggget-----ttpagapqqpevtkkkskk---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq029</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>141</fstart><fstop>141</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>66</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>117</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>132</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>141</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----nlrtqkrlaasvvgvgkrkvwl--dpnetseiaqansrnairklvkngtivkkavtvhsksrtrahaqskr-egrhsgygkrkgtrearlpsqvvwirrlrvlrrllakyrdagkidkhl-yhvlykeskgnafkhkralvehii---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq030</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>29</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>30</fstart><fstop>30</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>91</fstart><fstop>91</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>37</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>135</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>TAS</goevidence></goxref>
+</goxreflist>
+<length>188</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----anlrtqkrlaasvvgvgkrkvwl--dpnetseiaqansrnairklvkngtivkkavtvhsksrtrahaqskr-egrhsgygkrkgtrearlpsqvvwirrlrvlrrllakyrdagkidkhl-yhvlykeskgnafkhkralvehiiqakadaqrekalneeaearrlknraardrraqrvaekrdallkeda-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq031</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19-B</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>135</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>193</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---manlrtqkrlaasvlkcgkrkvwm--dpneiseisnansrqnirklvkdglvirkpnlmhsrfrirkthaakr-lgrhtgygkrkgtaearmpstvvwmrrqrvlrrllrkyresgkidkhl-yhtlyleakgntfkhkraliehiqrakaeanrtkliqeqqdarrarakaarqrrakaveekreqiytaaekiee-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq032</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19-A</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>67</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>134</fstart><fstop>192</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>192</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----anlrtqkrlaasvlkcgkrkvwm--dpneiseisnansrqnvrklikdglvirkpnlmhsrfrirkthaakr-lgrhtgygkrkgtaearmpsavvwmrrqrvlrrllrkyresgkidkhl-yhtlyleakgntfkhkraliehiqrakaeanrtkliqeqqdarrarakaarqrrakaveekreqlytaaekiee-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq033</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>203</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>140</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>203</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msslklqkrlaasvlrcgkkkvwl--dpneineiantnsrqnirklikdgliikkpvvvhsryrvrkntearr-kgrhcgfgkrkgtanarmptkllwmqrqrvlrrllkkyrdskkidrhl-yhdlymkckgnvfknkrvlmeyihkkkaekqrskmladqaearrqkvrearkrreeriatkkqelialhakedeiaakaatagh---------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq034</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Drosophila melanogaster (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7227</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>203</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>140</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000022</goid><goclass>P</goclass><godesc>mitotic spindle elongation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>203</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msslklqkrlaasvlrcgkkkvwl--dpneineiantnsrqnirklikdgliikkpvvvhsryrvrkntearr-kdrhcgfgkrkgtanarmptkllwmqrqpfcrrllkkyrdskkidrhl-yhdlymkckgnvfknkrvlmeyihkkkaekqrskmladqaearrqkvrearkrreeriatkkqelialhakedeiaakaatagh---------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq035</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>140</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>196</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msmlrlqkrlassvlrcgkkkvwl--dpnetneianansrqqirklikdgliirkpvtvhsrarcrkntlarr-kgrhmgigkrkgtanarmpekvtwmrrmrilrrllrryreskkidrhm-yhslylkvkgnvfknkrilmehihklkadkarkklladqaearrsktkearkrreerlqakkeeiiktlskeeetkk----------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq036</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Ictalurus punctatus (Channel catfish).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Siluriformes</taxon>
+<taxon>Ictaluridae</taxon>
+</lineage>
+<taxid>7998</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>140</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>196</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msmlrlqkrlassvlrcgkkkvwl--dpnetneianansrqairklvkdgliikkpvtvhsrarcrkntlarr-kgrhmgigkrkgtanarmpeklcwmrrmrilrrllrryreskkidrhm-yhslylrakgnvfknkrilmehihklkadrarkkllsdqaearrsktrearkrreerlqakkeeiiknlskeeegkk----------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq037</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>136</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040007</goid><goclass>P</goclass><godesc>growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0002119</goid><goclass>P</goclass><godesc>nematode larval development</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0000003</goid><goclass>P</goclass><godesc>reproduction</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>198</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msnlrlqkrlasavlkcgkhrvwl--dpnevseisgansrqsirrlvndgliirkpvtvhsrfrareyeearr-kgrhtgygkrrgtanarmpektlwirrmrvlrnllrryrdakkldkhl-yhelylrakgnnfknkknlieyifkkktenkrakqladqaqarrdknkesrkrreerqvvkraellrkisqsekviagk--------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq038</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Dictyostelium discoideum (Slime mold).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Amoebozoa</taxon>
+<taxon>Mycetozoa</taxon>
+<taxon>Dictyosteliida</taxon>
+</lineage>
+<taxid>44689</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00526 RIBOSOMAL_L19E</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>154</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005516</goid><goclass>F</goclass><godesc>calmodulin binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>186</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqkrlaasilkcgkgrvwi--dpneiadvamansrdnvrrliatgfimrkpvvvhsrsrarehnaakr-lgrhrgagnrlgtrearlpskilwirrirvlrrllkkyreakkidkhs-yrelylkakgnvfknkrtlieyivkskteklrekliqdqaqarrnknksikdrraaksaakeivssn--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq039</seq-name>
+<seq-info>
+<definition>60S RIBOSOMAL PROTEIN L19</definition>
+<organism>Encephalitozoon cuniculi (Microsporidian parasite).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Microsporidia</taxon>
+<taxon>Unikaryonidae</taxon>
+</lineage>
+<taxid>6035</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>40</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>171</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msneervrrlasdilncgkkklwl--dnneierlngastreqikqlikdnviimkqdkhtsrgrcrkrleakk-kgrhmgtgkrfgtanarmpqkkiwmkkiramramlkemrangeitked-frvfykqakghlfkhrfhmkdciikrkadeqrakelaeqakalnlsnrviss-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq040</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L19</definition>
+<organism>Guillardia theta (Cryptomonas phi).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Cryptophyta</taxon>
+<taxon>Pyrenomonadales</taxon>
+<taxon>Geminigeraceae</taxon>
+</lineage>
+<taxid>55529</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>23.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>13.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>20.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>26.22</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>190</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mssvkmhktiaskllncgkrkiwi--dpnetknilftdsrnsirklirdgfilkkkdknhsrnrirsrkeeik-lgrheglgkrkgsknsrysikliwiirirvmrnllkrlrnssklnrhl-yrslylkskgnvfknkkiltefihkakneqkrkeefldkfklmrekkkiniekkksnfnsrmseivsdilv----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq041</seq-name>
+<seq-info>
+<definition>Ribosomal protein L19-like protein</definition>
+<organism>Trypanosoma cruzi.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+<taxon>Trypanosoma</taxon>
+</lineage>
+<taxid>5693</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>198</fstart><fstop>356</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>32.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>26.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>34.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>29.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>121</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0000786</goid><goclass>C</goclass><godesc>nucleosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006334</goid><goclass>P</goclass><godesc>nucleosome assembly</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>356</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mvslklqarlaadilrcgrhrvwl--dpneaseisnansrksvrklikdgliirkpvkvhsrsrwrhmkeaks-mgrhegagrregtrearmpskelwmrrlrilrrllrkyreekkidrhi-yrelyvkakgnvfrnkrnlmehihkvknekkkerqlaeqlaakrlkdeqhrhkarkqelrkrekdrerarredaaaaaaakqkaaakkaaapsgkksakaaapakaaaapakaaappaktaaapakaaapakaaappakaaappakaaappakaaappakaaappakaaappakaaaapaktaappakaaaapaktaappaktaappakaatppakaaappakaaaapvgkkaggkk
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq042</seq-name>
+<seq-info>
+<definition>Probable ribosomal protein</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>13</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01280 Ribosomal_L19e</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>8</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>51</fstop><fcolor>3</fcolor><fscore>21.27</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>101</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mealrrimkrltrrlkmlkrllkkfcwnkkidklvyyhdmfmkvkgkvyknkcvlmesmhkssrer---kfsgsemrlalvtikscfikicsepegektasapq-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 34 2 0 3 4 0 14 40 86 36 36 73 13 27 3 2 2 100 0 15 50 40 0 3 0 0 10 16 20 1 0 7 11 33 5 1 50 5 59 53 15 44 41 11 2 100 42 10 19 21 2 71 1 1 9 2 1 21 100 0 85 5 0 64 0 33 1 6 1 1 42 7 8 0 8 23 5 2 42 19 1 100 51 9 57 100 4 7 2 60 100 0 1 5 77 25 0 54 1 1 6 71 100 12 2 100 5 0 86 36 0 75 43 6 7 3 2 41 10 5 5 5 0 51 43 0 12 100 0 0 14 11 36 26 1 17 10 11 0 5 1 37 0 0 3 16 4 7 2 4 5 1 2 20 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 100 6 11 22 36 4 26 54 60 82 100 48 24 46 42 12 29 100 84 4 65 58 100 57 0 0 100 47 100 100 1 11 22 70 15 0 62 51 82 100 27 16 64 80 62 100 44 44 42 52 2 73 53 20 100 14 2 3 6 53 100 75 1 100 0 100 11 0 3 1 45 20 16 0 2 65 100 100 2 100 1 100 65 100 8 66 82 3 26 79 27 6 22 3 13 1 3 22 18 18 79 3 45 13 31 77 25 35 100 16 40 11 23 2 15 5 71 71 37 41 14 4 0 63 16 1 22 59 4 23 1 100 100 36 6 59 83 15 79 4 1 79 7 76 0 74 1 63 2 61 18 51 13 5 50 8 61 0 12 5 27 50 0 14 16 5 18 1 31 2 41 3 2 4 3 35 7 0 6 10 0 3 0 17 11 0 5 0 0 2 1 1 3 6 4 1 1 0 0 0 2 11 13 12 9 8 9 8 9 8 9 9 8 9 9 9 9 10 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 40 1 0 3 5 0 10 23 41 36 42 38 6 23 6 2 2 65 1 3 24 27 1 6 0 0 12 14 11 1 1 6 10 26 4 0 29 0 33 39 8 7 35 21 3 65 37 10 10 19 0 50 0 1 9 3 1 6 0 0 57 6 0 46 0 25 2 1 1 1 8 7 7 0 2 29 11 1 4 17 0 65 10 18 8 65 4 4 2 56 41 0 2 1 32 1 0 22 6 1 11 23 83 1 13 83 8 0 88 27 0 4 24 2 5 2 3 49 20 11 2 1 0 43 10 0 15 70 0 1 7 49 63 4 0 26 25 7 1 1 0 38 0 1 0 20 0 13 1 3 1 0 3 8 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

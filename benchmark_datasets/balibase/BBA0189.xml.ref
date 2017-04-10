@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0189.xml</aln-name>
+<aln-score>1.10</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Eukaryotic translation initiation factor 1</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>1</fstart><fstop>3</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>38</fstart><fstop>41</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>46</fstart><fstop>49</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>71</fstart><fstop>74</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>80</fstart><fstop>87</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>90</fstart><fstop>100</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>31</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>30</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphotyrosine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>59</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) P (in dbSNP:rs3390).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>90</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) G (in dbSNP:rs3387).</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0006446</goid><goclass>P</goclass><godesc>regulation of translational initiation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006950</goid><goclass>P</goclass><godesc>response to stress</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>NAS</goevidence></goxref>
+</goxreflist>
+<length>113</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----msaiqnlhsfdpfadaskgddl-lpagtedyihiriqqr---ngrktlttvqgiad-dydkkklvkafkkkfacngtviehpeygeviqlqgdqrknicqflveiglakddqlkvhgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Eukaryotic translation initiation factor 1</definition>
+<organism>Gallus gallus (Chicken).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galliformes</taxon>
+<taxon>Phasianidae</taxon>
+<taxon>Phasianinae</taxon>
+</lineage>
+<taxid>9031</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>4</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>42</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>75</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>79</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------iqqr---ngrktlttvqgiad-dydkkklvkafkkkfacngtviehpeygeviqlqgdqrknicqflveiglakddqlkvhgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Eukaryotic translation initiation factor 1</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>15</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>39</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>72</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>30</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphotyrosine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>76</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------------------------------------r---ngrktlttvqgiad-dydkkklvkafkkkfacngtviehpeygeviqlqgdqrknicqflieiglakddqlkvhgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Eukaryotic translation initiation factor 1b</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>31</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006446</goid><goclass>P</goclass><godesc>regulation of translational initiation</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>113</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----mstiqnlqsfdpfadatkgddl-lpagledyihiriqqr---nggktlttvqgiad-dydkkklvkafkkkfacngtviehpeygeviqlqgdqrknicqfllevgivkeeqlkvhgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Anopheles gambiae (African malaria mosquito).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Anophelinae</taxon>
+</lineage>
+<taxid>7165</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>35</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>49</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>106</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>110</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------msiqnlntfdpfadaikgady---dvqdglvhiriqqr---ngrktlttvqglsa-eydlkkivrackkefacngtviehpeygevlqlqgdqrenicqwltksglakpeqlkvhgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>40</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>54</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>115</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msdldiqiptafdpfaeanagdsg-aaagskdyvhvriqqr---ngrkslttvqglkk-efsynkilkdlkkefccngtvvqdpelgqviqlqgdqrknvsnflvqagivkkehikihgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>40</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>54</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>115</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msdldiqiptafdpfaeanagdsg-aaagskdyvhvriqqr---ngrkslttvqglkk-efsynkilkdlkkefccngtvvqdpelgqviqlqgdqrknvsnflvqagivkkehikihgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Zea mays (Maize).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACCADclade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogoneae</taxon>
+</lineage>
+<taxid>4577</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>27</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>40</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>54</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>33</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>115</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msdldiqiptafdpfaeanagdsg-aaagskdyvhvriqqr---ngrkslttvqglkk-efsyskilkdlkkefccngtvvqdpelgqviqlqgdqrknvsnflvqagivkkehikihgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog 1</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>31</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>113</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mseldsqvptafdpfadanaedsg---agtkeyvhirvqqr---ngrkslttvqglkk-eysytkilkdlkkefccngtvvqdselgqviqlqgdqrknvstflvqaglvkkdnikihgf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Pimpinella brachycarpa.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>asterids</taxon>
+<taxon>campanulids</taxon>
+<taxon>Apiales</taxon>
+<taxon>Apiaceae</taxon>
+<taxon>Apioideae</taxon>
+<taxon>apioidsuperclade</taxon>
+<taxon>Pimpinellaclade</taxon>
+</lineage>
+<taxid>45043</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>31</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>113</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---mvdsdiqiptsfdpfaeaeitdat---gstkeyvhiriqqr---ngrkslttvqglkk-elsydkilkdlkkalccngtvvndkelgkviqlqgdqrknvstfivqagivkkdqikvhnf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>33</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>102</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>103</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-----mmpeicprcglpkelcvcee----iakeeqkikiyvtkr---rfgklmtiiegfdtsvidlkelakklkdicacggtvkdn-----tielqgdhrkkvaeelvkmgfsrdsieir---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Methanococcus vannielii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanococcaceae</taxon>
+</lineage>
+<taxid>2187</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>21</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>27</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>102</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------mpeicpicglpkdlcvcee----iakeeqkikvyvtkr---rfgklmtvvdgfdadlidvkdlakklkdicacggtvkkd-----sielqgdhrkkaeeilikmgfskdmidvr---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>31</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>49</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>26</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>101</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-------mkicdvcglpeelcvcee----iarevqtlkvytvrr---rfgkvmtiiegidehdidikeltkilkarcacggtakkg-----qielqgdhkkkvkevladmgfssdtieir---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Protein translation factor SUI1 homolog</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>21</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>27</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>101</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------mseicpvcglpkdlcvcee----vakeqqfiviktgkr---rygkevtiiegidkgeinleelakylksklacggtvkng-----vielqgnhvnrvkellikkgfnperikt----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>29</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>17.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>99</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>---------lvprivnpldemlfke----vlkeqqrirvytera---rygkiktiiegidekefdleeiakklkaklacggtakng-----rielqgdhrdrikkllaelgfsedlieve---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Uncharacterized protein sll0546</definition>
+<organism>Synechocystis sp. (strain PCC 6803).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Chroococcales</taxon>
+</lineage>
+<taxid>1148</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>30</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>18.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>23.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>45</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>111</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>masskpparivyqefgpvadplseeqi-dlppqqqnvriqatrs--grkgktvtvvsglqlsamgqqallkalksfcgsggtlked-----cveiqgdqrekilayllkqgykakisgg----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Uncharacterized protein yciH</definition>
+<organism>Escherichia coli (strain K12).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+</lineage>
+<taxid>83333</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>27</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>17.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>108</fstop><fcolor>1</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>32</fstart><fstop>37</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>41</fstart><fstop>44</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>51</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>57</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>73</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>82</fstart><fstop>84</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>100</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>108</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----msdsnsrlvystetgridepkaa-pvrpkgdgvvriqrqtsgrkgkgvclitgvdlddaeltklaaelkkkcgcggavkdg-----vieiqgdkrdllkslleakgmkvklagg----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>17.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>108</fstop><fcolor>1</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>108</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----msdsnsrlvystqtgrieepkta-pvrpkgdgivriqrqtsgrkgkgvclitgiemndaeltklaaelkkkcgcggavkeg-----iieiqgdkrdlikslleakgmkvklagg----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Uncharacterized protein HI1225</definition>
+<organism>Haemophilus influenzae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Pasteurellales</taxon>
+<taxon>Pasteurellaceae</taxon>
+</lineage>
+<taxid>727</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01253 SUI1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>17.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>106</fstop><fcolor>1</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>32</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS50296 SUI1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003743</goid><goclass>F</goclass><godesc>translation initiation factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006417</goid><goclass>P</goclass><godesc>regulation of translation</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006413</goid><goclass>P</goclass><godesc>translational initiation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>106</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----msds--vlvystdvgrikeekas-vvrpkgdgvvriqkqtsgrkgagvsvitgldlsdeelkklaaelkkrcgcggavkng-----iieiqgekrdllkqlleqkgfkvklsgg----
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 2 1 1 3 9 32 100 1 1 13 40 100 100 100 100 100 42 100 4 5 18 33 10 0 0 0 0 16 8 10 22 22 25 53 100 52 100 73 100 100 100 0 0 0 100 100 28 100 29 100 100 100 100 100 100 35 4 3 0 25 4 3 0 5 100 35 11 66 1 0 100 100 9 31 0 100 100 100 100 100 25 13 0 12 100 0 100 15 100 69 100 100 100 100 100 100 100 55 100 25 0 8 20 70 12 16 0 100 38 3 100 2 32 7 30 100 29 100 31 100 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 1 0 6 49 3 10 0 2 1 1 100 0 32 1 2 27 1 31 100 0 0 0 0 31 3 52 100 2 100 0 55 3 37 2 4 0 35 11 0 0 0 100 11 100 100 1 1 100 52 52 48 100 2 100 4 0 0 6 35 25 19 48 49 50 100 0 100 100 3 0 0 100 100 100 100 100 4 100 10 4 0 0 0 0 0 1 100 100 100 100 100 35 100 3 8 33 6 11 31 1 100 1 11 2 100 100 33 1 45 0 100 19 5 3 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_3</colsco-name>
+<colsco-owner>group_3</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 2 1 4 0 0 0 0 0 7 2 2 0 4 2 0 31 3 100 2 31 0 6 0 0 0 0 1 31 0 13 0 0 25 16 0 9 49 10 8 8 100 100 100 100 18 0 100 0 15 25 30 100 21 6 53 8 1 0 1 0 7 4 100 0 4 3 100 100 7 0 100 100 0 100 100 25 12 100 18 2 0 0 0 0 0 0 25 100 100 100 100 43 31 100 21 0 38 0 10 0 100 0 4 31 100 0 100 2 100 31 31 100 100 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 0 3 0 0 1 0 4 10 0 0 0 0 0 2 1 4 6 4 0 2 0 38 0 1 1 25 10 0 0 0 17 0 5 100 0 4 13 2 35 9 100 11 6 0 0 3 0 5 0 9 10 53 1 33 0 27 100 5 0 0 1 12 9 100 62 6 2 10 1 0 0 0 0 0 0 62 34 50 100 100 56 6 13 10 2 27 0 6 0 100 1 7 0 100 1 2 1 10 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

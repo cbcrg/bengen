@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0215.xml</aln-name>
+<aln-score>0.34</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Uncharacterized RNA methyltransferase yefA</definition>
+<organism>Bacillus subtilis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>1423</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>6</fstart><fstop>64</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>TRAM.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01938 TRAM</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>313</fstart><fstop>356</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02475 Met_10</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>384</fstart><fstop>458</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF05958 tRNA_U5-meth_tr</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>324</fstart><fstop>360</fstop><fcolor>0</fcolor><fscore>14.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>323</fstop><fcolor>3</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>393</fstop><fcolor>4</fcolor><fscore>12.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>388</fstart><fstop>419</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01230 TRMA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>440</fstart><fstop>450</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01231 TRMA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>64</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS50926 TRAM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>415</fstart><fstop>415</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Nucleophile By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>77</fstart><fstop>77</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Ironsulfur 4Fe4S By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>83</fstart><fstop>83</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Ironsulfur 4Fe4S By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>86</fstart><fstop>86</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Ironsulfur 4Fe4S By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>166</fstart><fstop>166</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Ironsulfur 4Fe4S By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>290</fstart><fstop>290</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>BINDING_SadenosylLmethionine By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>319</fstart><fstop>319</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>BINDING_SadenosylLmethionine via carbonyl</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>340</fstart><fstop>340</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>BINDING_SadenosylLmethionine By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>388</fstart><fstop>388</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>BINDING_SadenosylLmethionine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0051539</goid><goclass>F</goclass><godesc>4 iron, 4 sulfur cluster binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005506</goid><goclass>F</goclass><godesc>iron ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003723</goid><goclass>F</goclass><godesc>RNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008173</goid><goclass>F</goclass><godesc>RNA methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006396</goid><goclass>P</goclass><godesc>RNA processing</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>459</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------mkmkppvekneyydvtfedlthegagvakvqgfpifvpnalpeekaqikvtrvkkgfafgrlielkeesphrtdapcpiykqcggcqlqhmtyegqllfkqkqvkdvlerigkldlskvtvhptlgmedpwnyrnkaqvpvgeregglvagfyqqrshdiidmsacliqqskndeavqavkdicanygvkayneerhkgwlrhimvrygvvtgemmivfitrtsdfphkakiieditaqfphvksivqninpnktnvifgnetnviwgeeyiydligdvkfaisarsfyqvnpe-------qtkvlydkaleyaelqgeetvidaycgig--tislflakqakkvygveivpeaiedakrnaelngntn-aefavgeaetvipkwye-------egitadtlvvdpprkgc----------deallrtivemkpk-rvvyvscnpgtlardl-rvledggyvtrevqpvdmfphtnhveccvliklke------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>F26G16.17 protein</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>199</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF09445 Methyltransf_15</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>215</fstart><fstop>453</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF09445 Methyltransf_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>344</fstop><fcolor>0</fcolor><fscore>17.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>347</fstart><fstop>357</fstop><fcolor>1</fcolor><fscore>18.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>274</fstart><fstop>281</fstop><fcolor>5</fcolor><fscore>16.88</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009452</goid><goclass>P</goclass><godesc>RNA capping</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0001510</goid><goclass>P</goclass><godesc>RNA methylation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>455</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------mkkeaesliekehgtnpkisrywiqrydlfskydqgiemdeegwysvtpeeiaikqaercrgkvvidcfsgvgaididpmkialamnnakvygvanridfvtgdfmqlapslkgdvlflsppwggptyskvesykldmllprdgyslfqtalsitpniimflpknidlaqleelaclssppltleliprisisrriesnpalssrtirgvervdsltheshnmtrsmklkkrsrlkkevkstiekdngrrhkitkywiqrydlfsrydqgiemdeegwysvt-------------peeiaikqaqryrgkvvidcfsgvg--gntiqfakvcssvvaididpvkvelamnnamvygvanrvdfvigdfiqlap------------slkgdvvflsppwggpmyrdfesynldmlqprdgyslfqiaq-sitpniimflprnvd--laqveelawlsspplnleieenfvggrmkavtayfscnav-----------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Protein T08G11.4a confirmed by transcript evidence</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>346</fstart><fstop>554</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF09445 Methyltransf_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>403</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>20.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>454</fstop><fcolor>1</fcolor><fscore>15.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>402</fstop><fcolor>3</fcolor><fscore>12.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>366</fstart><fstop>375</fstop><fcolor>5</fcolor><fscore>14.38</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040007</goid><goclass>P</goclass><godesc>growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040011</goid><goclass>P</goclass><godesc>locomotion</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0002119</goid><goclass>P</goclass><godesc>nematode larval development</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040010</goid><goclass>P</goclass><godesc>positive regulation of growth rate</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009452</goid><goclass>P</goclass><godesc>RNA capping</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0001510</goid><goclass>P</goclass><godesc>RNA methylation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>566</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mssesvseeqsdyqwpwclmghfgiqfletdnsesfvegdlsrayikdyellkaskrpreekspekllqeemdeislkeidtepngeekllderdtpyevlpkwtcdkrkmkkkkekgrynyrsfeeywdvssywlhqitwlndfgnqmteenrneltkqcevmkpiypidqhkdilenpdyqqitktmieknpestfediytkhcklikkqsendfhdfqtkfvanrckdmlsrikrlgyapgfeesqlpvfhsgaeqeierpiikdirytidesyskkfcgadprdetsdepstseesqsadvssavisiknpaeirfnfdpeteqhliasnaeklyandpeiskyyyqryrlfsrldqgiimdregwfsvtpe----------aiaehiadrvvrnnvsvvvdaftgvg--gnaiqfalrgahviaidmdpvrlkcarenarvygvenyidficadffdvaatwqad----kklapkvdavflsppwggpsylkakefdlatgccpngidifdvs-lkicpniayflprntk--vsqlvelatkaksrmeieqsalnskikt--itvyygklayreelsnsskt-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>LmbW protein</definition>
+<organism>Streptomyces lincolnensis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Streptomycineae</taxon>
+<taxon>Streptomycetaceae</taxon>
+</lineage>
+<taxid>1915</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>199</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>14.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>205</fstop><fcolor>1</fcolor><fscore>25.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>151</fstop><fcolor>3</fcolor><fscore>13.60</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>318</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------misamhvchavhalaetpllerlrrgprsvddllaglheptgtgflrylanrgvlerqgetylltrlgeflttdlslarlgiyvgaygsvtgrmgdlltgkatygtdvvrdggqlglhcatlfsff-------------htpvvveamrgrgarrvldvgcgggqllvdaclrdpsltgigldidpaavevaqdlaerqgvadrvefvvgdafapadw--------pevcyeadglcvmsalh-ehfrhgeqavvelldeyaarfphqkillvgepelrydgrendddfflihvltqqglprdrsawfsvferstldcrrvytrpgagprmcfydlvprr------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>PUTATIVE TRANSFERASE</definition>
+<organism>Mycobacterium tuberculosis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+</lineage>
+<taxid>1773</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>50</fstart><fstop>147</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>19.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>150</fstop><fcolor>2</fcolor><fscore>13.33</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>212</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpgidfdalyrgespgeglppittppwdtkap-----------kdnvigwhtggwvhgdvldigcglg--dnaiylarngyqvtgldisptalttakrrasdagvdv--kfavgdatkltgytgafd------tvidcgmfhcl-----------dddgkrsyaasvhratrpgatlllscf--snamppdeewprstvseqtlrdvlggagwdieslepatvrreldgtevemafwnvraqrrgs----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH1305</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>46</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>119</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>165</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>233</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>249</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>15.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>16.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>2</fcolor><fscore>18.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>119</fstop><fcolor>6</fcolor><fscore>23.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>136</fstop><fcolor>7</fcolor><fscore>24.01</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>252</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------myelytllaeyydtiyrrriervkaeidfveeifkedakrevrrvldlacgtg--iptlelaergyevvgldlheemlrvarrkakernlki--eflqgdvleiafk-nefd---avtmffstimyf------------deedlrklfskvaealk-pggvfitdfp---cwfyggrdgpvvwneqkge-eklvimdwrevepavqklrfkrlvqilrpngevkaflvddelniytprevrllaekyfekvkiygnlkrelspndmrywivgiaksf------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>SAM-dependent methyltransferase</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>46</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>119</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>165</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>233</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>248</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>15.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>16.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>2</fcolor><fscore>18.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>119</fstop><fcolor>6</fcolor><fscore>23.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>136</fstop><fcolor>7</fcolor><fscore>24.01</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>248</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhelytvlaeyydviyrkrkelvkkeidfvedlfrreaerevkrildlacgtg--tptlelakrgyevigldlheemlqvarrksekegikv--efiqgnaleidfe-eefd---aitmffssityf------------ddysiqqlfnsikqalk-pggifvadfp---cwfysgkdypiiwdeqngd-erlvitdwreiepafqkmrfkrlvqiikpdgsvktfmvddelniytpremrllaekhfrkvkiygnlh-elkpndrrywlvaik---------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Thermotoga maritima.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Thermotogae</taxon>
+<taxon>Thermotogales</taxon>
+<taxon>Thermotogaceae</taxon>
+</lineage>
+<taxid>2336</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>43</fstart><fstop>141</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>24.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>20.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>144</fstop><fcolor>2</fcolor><fscore>25.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>116</fstop><fcolor>6</fcolor><fscore>23.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>134</fstop><fcolor>7</fcolor><fscore>24.01</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>254</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgniykrfarvfhegpytsfsrriaknfakilenfhirgkkvldvacgeg--tfaveiakqgfkvvgvdlssemlkfarkrakeesisv--vflkkdmreldfh-eefd---ivtcwfdslnyll-----------dykdlkktfekvhealk-tggaflfdmntvygllmanqegpvyiqqdgkdifevqtiefdlees--vatfyvtvferkeeelwerfdeihrergyrvkeiasalsetgfvfsfyedllskspltsysrrlwcaarkvsag----------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Putative methyltransferase</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>88</fstart><fstop>139</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>28</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>64</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>95</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>374</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>375</fstart><fstop>384</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>15.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>133</fstart><fstop>145</fstop><fcolor>1</fcolor><fscore>16.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>194</fstop><fcolor>2</fcolor><fscore>18.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>166</fstop><fcolor>4</fcolor><fscore>12.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>64</fstop><fcolor>5</fcolor><fscore>16.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>52</fstop><fcolor>8</fcolor><fscore>12.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>229</fstop><fcolor>9</fcolor><fscore>15.04</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>386</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------miseenvklaeelirkgynekkirsllk--lpdeefklalevararikakdkfs---rsdlwfdleglr----yathevvadyrgrrlkgqgvksiadvscgvg--iqliffakhgirsvgididpikiefakrnaekygvev--ewvvgdalspeii----------ekvdaevifsdparppevper-nledllpsplkiyeaykhktdsfifdlppqirrekvp---wkgefeyidlfghvnrltfyteplak--aersavilpqgarlesnpdleniveetmeperyiyeipqsidyadlinelfhkvngelklllrekrrilatsndevkseyfkrsyivvkvmpfhpvrindflrregygratlrmsvdekeywrirkkiesglsgdkrafvfkvrd--laviaeeipqaq-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH1224</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>88</fstart><fstop>138</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF08241 Methyltransf_11</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>28</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>64</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>95</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>374</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>375</fstart><fstop>384</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>15.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>133</fstart><fstop>145</fstop><fcolor>1</fcolor><fscore>16.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>194</fstop><fcolor>2</fcolor><fscore>18.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>166</fstop><fcolor>4</fcolor><fscore>12.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>64</fstop><fcolor>5</fcolor><fscore>16.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>52</fstop><fcolor>8</fcolor><fscore>12.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>229</fstop><fcolor>9</fcolor><fscore>15.04</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0008168</goid><goclass>F</goclass><godesc>methyltransferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008152</goid><goclass>P</goclass><godesc>metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>386</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------miseesvklaeelirkgysekkirsllk--lpendfklalevararikakdkfs---rndlwfnleglr----yatheavadyrgkrlkeqgiksiadvscgvg--iqliffakhgirsvgvdidpikiefarrnaekygvkv--efmvgdslspevv----------ekidadvifsdparppevper-nledllpsplkvyeaykkrvdafifdlppqirrekvp---wegefeyidlfghlnrltfyteplak--aersavilpqgvrlesdpdleniveetkeprrylyeipqaidyanlinelfhkvkgdlklllrekrrilatsndevesdyfkrsyivvktmpfhpvrindflrkegygratlrinidekeywrvrkkieaglkgekrafvfkvgn--laiiaeelhral-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein SCO4758</definition>
+<organism>Streptomyces coelicolor.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Streptomycineae</taxon>
+<taxon>Streptomycetaceae</taxon>
+</lineage>
+<taxid>1902</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>15.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>143</fstop><fcolor>3</fcolor><fscore>24.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>17.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>97</fstop><fcolor>8</fcolor><fscore>12.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>426</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mydcshgagssqspaaepgptprrrhtihrlahndpvndldflltpegralldevrdtdpvrelavatrlrrthpaelvsaalgqarlrqravakfgaedagrmfftpngve----qstrasvaayragrfaalgvasvadlccgig--gdaialaragirvlavdrdpvtaaaaranadalglag--lievreadvtevd-----------teaydavfvdparrggrgrifdpeayspplswavraartasraaalkvapgipheavp---edaeaewisdggdvkeavlwfgagaapgavr-atllpgprtlpgtglpd---pevrtpgrylyepdgavirahlvaevaaqvg-----gglldatiayvtadellptpyatayeitdrmpfnvkklkallrergvgtltvkkrgsavepeelrrkvkpqgpnsatvfltrvag----aptmlvghpar
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Mycobacterium tuberculosis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+</lineage>
+<taxid>1773</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>19.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>74</fstop><fcolor>3</fcolor><fscore>17.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>206</fstop><fcolor>9</fcolor><fscore>15.04</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>358</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mrarfgdrapwlvettllrrraagklgelcpnvgvsqwlftdealq----qataapvarhrarrla---grvvhdatcsig--telaalrelavravgsdidpvrlamarhnlaalgme----adlcradvlhpv------------trdavvvidparrsngrrrfhladyqpglgplldryr--grdvvvkcapgidfeevgrlgfegeievisyrggvreaclwsaglagsgirrrasildsgeqigddepdd---cgvrpagkwivdpdgavvraglvrnygarhg-----lwqldpqiaylsgdrlppalrg--fevleqlafderrlrqvlsaldcgaaeilvrgvaidpdalrrrlrlrgsrplavvitrigagslshvtayvcrpsr
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 11 0 0 0 0 4 0 0 0 4 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 4 0 67 30 100 0 0 3 100 0 100 0 0 0 0 11 7 0 7 31 2 1 1 0 4 9 2 9 23 60 33 0 4 1 0 25 9 0 100 5 7 2 68 2 0 0 12 4 4 0 0 0 4 100 3 0 7 36 0 0 5 3 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 1 4 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 1 8 1 1 1 0 8 1 8 0 0 0 1 1 0 0 1 8 0 1 4 0 5 0 0 0 0 0 0 6 0 0 0 0 6 0 36 100 0 0 7 100 2 7 0 40 1 0 3 0 0 0 0 0 0 0 3 2 0 0 100 3 0 25 4 22 6 0 0 0 0 0 39 100 0 3 0 100 100 0 2 100 1 2 100 6 4 1 0 8 0 5 2 25 4 100 1 0 100 5 25 100 0 0 0 7 2 2 0 2 7 10 0 4 36 100 2 22 5 1 100 1 100 100 25 7 1 3 0 100 49 1 100 1 3 4 0 100 10 5 0 0 0 0 0 0 21 0 3 49 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 4 6 25 2 0 100 100 100 100 0 0 1 0 0 6 1 0 2 0 8 5 0 0 100 0 0 0 0 1 0 5 7 0 27 1 1 0 2 4 0 1 0 5 0 2 100 0 100 0 0 100 4 100 2 0 0 0 0 13 5 100 0 100 0 100 3 0 0 100 0 31 5 6 0 0 2 0 0 0 0 0 100 0 0 0 2 0 100 1 100 0 44 100 3 1 2 0 5 42 0 1 4 0 0 0 21 0 0 0 0 4 2 2 1 6 0 39 2 40 1 32 0 1 0 49 25 0 0 100 0 100 25 2 23 0 0 1 19 1 1 0 0 0 0 0 0 0 0 0 5 0 5 100 0 0 0 43 1 100 12 12 0 2 2 0 0 0 1 4 15 0 38 1 6 0 39 6 100 1 0 0 40 31 5 1 0 100 10 2 0 5 0 100 2 2 10 14 0 0 4 0 0 3 0 32 0 0 2 18 100 27 39 17 7 0 0 0 3 0 1 0 2 2 2 13 0 27 36 1 0 0 0 8 4 0 0 25 0 0 16 0 5 2 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 3 0 0 1 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 5 1 58 2 100 1 0 7 40 0 100 0 0 0 0 2 5 0 8 22 4 0 2 0 5 4 4 9 8 69 10 1 9 0 1 11 6 0 100 10 4 4 21 2 0 0 19 6 5 0 0 0 1 2 0 0 1 18 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 3 1 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 2 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

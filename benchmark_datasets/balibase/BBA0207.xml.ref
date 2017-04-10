@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0207.xml</aln-name>
+<aln-score>0.87</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>IS1538 transposase</definition>
+<organism>Mycobacterium tuberculosis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+</lineage>
+<taxid>1773</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>322</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>347</fstart><fstop>408</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>124</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>216</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>425</fstart><fstop>459</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>19.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>45</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>134</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>250</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>300</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>322</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>341</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>359</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>364</fstart><fstop>367</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>383</fstart><fstop>390</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>406</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>369</fstart><fstop>376</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>306</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>286</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>123</fstart><fstop>293</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>416</fstart><fstop>459</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>459</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mpkfevpdgwtvqafrftldptedqakalarhfgarrkaynwtvatlkadiqawhasgtvtakpslrvlrkrwntvkddvcvntetgvawwpecskeayadgiaga--veaywnwqtsragkragk-------rvgfprfkrkgr-dqdrvsfttgamrvepdrrhltlpvigtvrthentrrierlikagrarvlaisvrrngtrldasvrvlvqrpqqpkvvhp----------------------------------------gsrvgvdvgvrrlatvatad-----------------------------gtaieqvenprplgaalrelrhvcrarsr--------ctkgsrryrerttqisrlhrrvndvrthhlhvlttrlaqth-----grivvegldatemlrqkglpgar---------arrrglsdaalgtprrhlsyktvwygsalvvadrwfpssktchacrhvqdig---------wdeqwqcdr--c-svvhqrddcaainlaryeetssivgpvgaavkr--gadrktgprpaggcearkgsspkaaeqprdgvqva--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>PROBABLE TRANSPOSASE</definition>
+<organism>Mycobacterium tuberculosis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+</lineage>
+<taxid>1773</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>322</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>347</fstart><fstop>408</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>124</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>216</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>425</fstart><fstop>459</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>19.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>45</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>134</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>250</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>300</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>322</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>341</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>359</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>364</fstart><fstop>367</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>383</fstart><fstop>390</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>406</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>369</fstart><fstop>376</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>306</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>286</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>119</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>416</fstart><fstop>459</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>459</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>makfeipegwmvqafrftldptaeqaralarhfgarrkaynwtvatlkadidawqatgiqtakpslrvlrkrwntvkndvcvnietgvvwwpecskeayadgidga--vdaywnwqnsrsgkrdgk-------rmgfprfkkkgr-dpdrvtfttgamrvepdrrhltlpvigtvrthentrrverliakgrsrvlaitvrrngtridasvrvlvqrpqqpkvtdp----------------------------------------gsrvgvdvgvrrlatvatad-----------------------------gavlervpnprpldaalnelrhvcrarsr--------ctkgsrryrertteisrlhrrvndvrthhlhcltthlakth-----grivvegldaagmlrqqglsgar---------arrrglsdaalgtprrhlsyktgwygsqlvvadrwfpssktchvcghvqeig---------waehwqcds--c-sashqrddcaainlaryedtssvvgpvgaavkr--gadrktrpgraggrearkgssrkaaeqprdgvqva--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Uncharacterized 45.4 kDa protein in snaA-snaB intergenic region</definition>
+<organism>Streptomyces pristinaespiralis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Streptomycineae</taxon>
+<taxon>Streptomycetaceae</taxon>
+</lineage>
+<taxid>38300</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>10</fstart><fstop>282</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>294</fstart><fstop>363</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>161</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>19.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>39</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>108</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>210</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>260</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>269</fstart><fstop>282</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>288</fstart><fstop>295</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>313</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>318</fstart><fstop>321</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>344</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>349</fstart><fstop>361</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>330</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>266</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>97</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>225</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>246</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>190</fstart><fstop>237</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>376</fstart><fstop>402</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>402</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------mmqqvkrafkyrfyptdeqaaelsrtfgcvrlvynkalegrtrawyge---------------------qrrvsyvqssaaltewkkteelaflsevssvplqqalrhlqtafanffak--------rskypryksrkk-srasaeytrsaftwr-ngq---ltlaktaepldirwsrplpega--epttvtvsrdragrwfvsllce-dtitpapat------------------------------------------taavgidagitslvtlstg----------------------------------ekitnpkherrdrarlakaqrdvsr--------kakgsanrkkarrkvarvharitdrrcdflhklstrlvren-----qtvviedltvrnllkngk---------------laraisdaawtelrsmleykcawygrelvvidrwfpssklcgtcgtvrgklp-------lnvrewtcd---c-gavhdrdvnaarnilaaglaas-------------acgdgirpqressrtgrssvkqepqrat-agiprl--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>IS605 transposase TnpB</definition>
+<organism>Helicobacter pylori (Campylobacter pylori).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Epsilonproteobacteria</taxon>
+<taxon>Campylobacterales</taxon>
+<taxon>Helicobacteraceae</taxon>
+</lineage>
+<taxid>210</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>279</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>290</fstart><fstop>360</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>35</fstop><fcolor>1</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>103</fstop><fcolor>2</fcolor><fscore>26.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>192</fstop><fcolor>3</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>207</fstop><fcolor>4</fcolor><fscore>15.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>257</fstop><fcolor>5</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>279</fstop><fcolor>6</fcolor><fscore>14.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>7</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>309</fstop><fcolor>8</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>317</fstop><fcolor>9</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>335</fstart><fstop>342</fstop><fcolor>10</fcolor><fscore>16.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>346</fstart><fstop>358</fstop><fcolor>11</fcolor><fscore>15.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>319</fstart><fstop>326</fstop><fcolor>12</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>263</fstop><fcolor>13</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>92</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>222</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>124</fstop><fcolor>16</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>143</fstop><fcolor>17</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>168</fstop><fcolor>18</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>243</fstop><fcolor>19</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>427</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------mlnaikfriypnaqqkeliskhfgcsrvvynyfldyrqkqyakg---------------------ikety-ftmqkvltqikrqekyhylnecnsqslqmalrqlvsaydnffsk--------rarypkfkskkn-akqsfaipqnietktetqt---ialpkfkegikaklhrdlpkds---vikqafisciadqyfcslsyetkepipkptii-----------------------------------------kkavgldmglrtlivtsdk----------------------------------igyphirfyqklekkltkaqrrlsk--------kvkdsnnrkkqakkvsrlhlacsntrddylhkisneitnqy-----dligvetlnvkalmrtyh----------------skslanaswgkfltmleykaqrkgktllsidrffpssqlcsycgvntgkkh-------esitkftcph--c-qtthhrdynasvnirnyalgmlddrhkvktdkarvgiirsdythhtnecvkacgassngvsskygnildlasygamkqekaqsl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>IS605 transposase TnpB</definition>
+<organism>Helicobacter pylori (Campylobacter pylori).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Epsilonproteobacteria</taxon>
+<taxon>Campylobacterales</taxon>
+<taxon>Helicobacteraceae</taxon>
+</lineage>
+<taxid>210</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>279</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>290</fstart><fstop>360</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>35</fstop><fcolor>1</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>103</fstop><fcolor>2</fcolor><fscore>26.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>192</fstop><fcolor>3</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>207</fstop><fcolor>4</fcolor><fscore>15.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>257</fstop><fcolor>5</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>279</fstop><fcolor>6</fcolor><fscore>14.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>7</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>309</fstop><fcolor>8</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>317</fstop><fcolor>9</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>335</fstart><fstop>342</fstop><fcolor>10</fcolor><fscore>16.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>346</fstart><fstop>358</fstop><fcolor>11</fcolor><fscore>15.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>319</fstart><fstop>326</fstop><fcolor>12</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>263</fstop><fcolor>13</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>92</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>222</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>124</fstop><fcolor>16</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>143</fstop><fcolor>17</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>168</fstop><fcolor>18</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>243</fstop><fcolor>19</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>427</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------mlnaikfriypnaqqkeliskhfgcsrvvynyfldyrqkqyakg---------------------ikety-ftmqkvltqikrqekyhylnecnsqslqmalrqlvsaydnffsk--------rarypkfkskkn-akqsfaipqnietktetqt---ialpkfkegikaklhrdlpkds---vikqafisciadqyfcslsyetkepipkptii-----------------------------------------kkavgldmglrtlivtsdk----------------------------------igyphirfyqklekkltkaqrrlsk--------kvkdsnnrkkqakkvsrlhlacsntrddylhkisneitnqy-----dligvetlnvkalmrtyh----------------skslanaswgkfltmleykaqrkgktllsidrffpssqlcsycgvntgkkh-------esitkftcph--c-ktthhrdynasvnirnyalgmlddrhkvktdkarvgiirsdythhtnecvkacgassngvsskygnildlasygamkqekaqsl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>ORF425</definition>
+<organism>Saccharopolyspora erythraea (strain NRRL 23338).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Pseudonocardineae</taxon>
+<taxon>Pseudonocardiaceae</taxon>
+</lineage>
+<taxid>405948</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>283</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>310</fstart><fstop>380</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>139</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>16</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>85</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>189</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>239</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>248</fstart><fstop>261</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>289</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>292</fstart><fstop>307</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>312</fstart><fstop>315</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>333</fstart><fstop>340</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>356</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>317</fstart><fstop>324</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>245</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>74</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>204</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>225</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>184</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>352</fstart><fstop>402</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>402</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------grpsgasrlvwnktlaerhrayhah---------------------grktscreadaaltawkktdepaflsevssvplqqtlrhqhtayanffag--------raryprfkprn--grqsahytrsafrlr-ggk---ltlakhtaplefvwswddetlatlnptmvivsrepdgrwyvtlavdtddpepqpet------------------------------------------gsavgvdlgvkdfavlstg----------------------------------ekianpkhldrkarnlaryqrqmar--------kqkgsnnrrkaktkvarahreircartdflhrtttnlvreh-----daiaiedlniagmarsakgtvakpgrnvraksglnravmdaalgefrrqleykttragktlvvidrwypssktcsacghllekls-------lstrawtcpg--c-rtrhdrdinaaknilaagravagktpgdacgadvspqgsslrqsavkqepsgaspmaipal-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>17</fstop><fcolor>1</fcolor><fscore>24.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>86</fstop><fcolor>2</fcolor><fscore>42.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>170</fstop><fcolor>3</fcolor><fscore>22.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>235</fstop><fcolor>5</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>257</fstop><fcolor>6</fcolor><fscore>19.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>285</fstop><fcolor>7</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>288</fstart><fstop>303</fstop><fcolor>8</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>311</fstop><fcolor>9</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>335</fstop><fcolor>10</fcolor><fscore>22.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>351</fstop><fcolor>11</fcolor><fscore>18.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>312</fstart><fstop>319</fstop><fcolor>12</fcolor><fscore>22.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>241</fstop><fcolor>13</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>40</fstart><fstop>75</fstop><fcolor>14</fcolor><fscore>22.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>188</fstart><fstop>200</fstop><fcolor>15</fcolor><fscore>21.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>106</fstop><fcolor>16</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>124</fstop><fcolor>17</fcolor><fscore>20.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>147</fstop><fcolor>18</fcolor><fscore>21.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>221</fstop><fcolor>19</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>382</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------mrrfagacrfvfnralarqnenheag---------------------nkyipygkmaswlvewknatetqwlkdspsqplqqslkdlerayknffrk--------raafprfkkrg--qndafrypqgvkldqensr----iflpklgwmryrnsrqvtg-----vvknvtvsqscgkwyisiqtesevstpvhps------------------------------------------asmvgldagvaklatlsdg----------------------------------tvfepvnsfqknqkklarlqrqlsr--------kvkfsnnwqkqkrkiqrlhscianirrdylhkvttavsknh-----amiviedlkvsnmsksaagtvsqpgrnvraksglnrsildqgwyemrrqlaykqlwrggqvlavppayts-qrcaycghtakenr-------lsqskfrcqv--c-gytanadvngarnilaaghavlacgemvqsgrplkqeptemiqata--------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Uncharacterized protein ydcM</definition>
+<organism>Escherichia coli (strain K12).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+</lineage>
+<taxid>83333</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>277</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>304</fstart><fstop>373</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>37</fstop><fcolor>1</fcolor><fscore>24.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>106</fstop><fcolor>2</fcolor><fscore>42.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>190</fstop><fcolor>3</fcolor><fscore>22.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>255</fstop><fcolor>5</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>264</fstart><fstop>277</fstop><fcolor>6</fcolor><fscore>19.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>305</fstop><fcolor>7</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>323</fstop><fcolor>8</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>331</fstop><fcolor>9</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>355</fstop><fcolor>10</fcolor><fscore>22.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>371</fstop><fcolor>11</fcolor><fscore>18.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>332</fstart><fstop>339</fstop><fcolor>12</fcolor><fscore>22.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>261</fstop><fcolor>13</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>95</fstop><fcolor>14</fcolor><fscore>22.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>220</fstop><fcolor>15</fcolor><fscore>21.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>126</fstop><fcolor>16</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>144</fstop><fcolor>17</fcolor><fscore>20.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>167</fstop><fcolor>18</fcolor><fscore>21.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>241</fstop><fcolor>19</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>402</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------mkrlqafkfqlrpggqqecemrrfagacrfvfnralarqnenheag---------------------nkyipygkmaswlvewknatetqwlkdspsqplqqslkdlerayknffrk--------raafprfkkrg--qndafrypqgvkldqensr----iflpklgwmryrnsrqvtg-----vvknvtvsqscgkwyisiqtesevstpvhps------------------------------------------asmvgldagvaklatlsdg----------------------------------tvfepvnsfqknqkklarlqrqlsr--------kvkfsnnwqkqkrkiqrlhscianirrdylhkvttavsknh-----amiviedlkvsnmsksaagtvsqpgrnvraksglnrsildqgwyemrrqlaykqlwrggqvlavppayts-qrcaycghtakenr-------lsqskfrcqv--c-gytanadvngarnilaaghavlacgemvqsgrplkqeptemiqata--------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Second ORF in transposon ISC1316</definition>
+<organism>Sulfolobus solfataricus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2287</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>142</fstart><fstop>211</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>132</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>143</fstop><fcolor>7</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>161</fstop><fcolor>8</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>169</fstop><fcolor>9</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>193</fstop><fcolor>10</fcolor><fscore>17.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>209</fstop><fcolor>11</fcolor><fscore>17.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>177</fstop><fcolor>12</fcolor><fscore>23.62</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>213</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mvvkltrseriyitfvvdhefpklpntg-------------------------------------------kevaidvgieklivtsdg----------------------------------eyfpnlrplekalwkvkhlhrelsr--------kkflsnnwfkakvklarayehlknlrrdlymklgkwfaehy-----dvavmegihvkqligkslrs-------------lrrrlsdvafselrdlikyqlekygkklilvnpayts-ktcakcgyvkedls-------lsdrvfvcpn--c-gwiadrdynaslnilrgsg-----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Second ORF in transposon ISC1316</definition>
+<organism>Sulfolobus solfataricus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2287</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>86</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>18</fstop><fcolor>7</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>36</fstop><fcolor>8</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>44</fstop><fcolor>9</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>68</fstop><fcolor>10</fcolor><fscore>17.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>84</fstop><fcolor>11</fcolor><fscore>17.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>23.62</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>120</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgkslrs-------------lrrrlsdvgfgelrdvlkyqlekygkklilvnpayts-ktcarcgyvkndls-------lsdrvfvcpn--c-gwiadrdynaslnilksagserslvpvelrplpvlwhgravkqeapsfmrg---------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>IS1136 DNA</definition>
+<organism>Clostridium perfringens.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Clostridia</taxon>
+<taxon>Clostridiales</taxon>
+<taxon>Clostridiaceae</taxon>
+</lineage>
+<taxid>1502</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>50</fstart><fstop>119</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>15</fstop><fcolor>5</fcolor><fscore>24.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>38</fstop><fcolor>6</fcolor><fscore>27.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>51</fstop><fcolor>7</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>69</fstop><fcolor>8</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>77</fstop><fcolor>9</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>100</fstop><fcolor>10</fcolor><fscore>31.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>117</fstop><fcolor>11</fcolor><fscore>22.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>86</fstop><fcolor>12</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>21</fstop><fcolor>13</fcolor><fscore>24.52</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>122</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------rlanirnnylhktttsivktkp----yrvviedlnikgmmknkh---------------lsdairkqgfyefkrqleykckfigielvvadrfypssktcsqcgeikkdlk-------lkdrvyncs---c-glsidrdlnasinlsrykla----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Transposase</definition>
+<organism>Synechocystis sp. (strain PCC 6803).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Chroococcales</taxon>
+</lineage>
+<taxid>1148</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>279</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>291</fstart><fstop>361</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>158</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>19.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>35</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>108</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>192</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>207</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>257</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>279</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>292</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>310</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>318</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>336</fstart><fstop>343</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>347</fstart><fstop>359</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>320</fstart><fstop>327</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>263</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>89</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>222</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>243</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>400</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------mklryqyrfyptnqqrqglaqlfgcvrvvwndalafckdseklp-----------------------syn--alskrlteckqteekiwltdvsavplqqsirnlsaayknffdsvngkrkgkkvnppkfksrr--skqsatftsagfvlkdndr----iylakigfldvvwsrplps----ipssvtvikdranryflsfvvevdpqqladng-------------------------------------------qsvgidlgiidfatlstg----------------------------------ekikspkplkaklkrlrkcqrnlar--------kqkgskrrekarlrvakvhakvkdtrtdflhklstrliren-----qtviledlntagmmknrr---------------lsraisdlgwrsfrtileakavmygrefrtisrweptsqrcsccgeiggkke-------lsvrewtclf--c-ganhdrdinaatnilvagghsetkngrggkrqttsvaasgeasthrkaiqltlfas----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>163</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>19.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>37</fstop><fcolor>1</fcolor><fscore>17.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>112</fstop><fcolor>2</fcolor><fscore>36.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>198</fstop><fcolor>3</fcolor><fscore>25.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>216</fstop><fcolor>4</fcolor><fscore>20.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>252</fstart><fstop>266</fstop><fcolor>5</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>288</fstop><fcolor>6</fcolor><fscore>15.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>301</fstop><fcolor>7</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>304</fstart><fstop>319</fstop><fcolor>8</fcolor><fscore>25.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>324</fstart><fstop>327</fstop><fcolor>9</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>346</fstart><fstop>353</fstop><fcolor>10</fcolor><fscore>30.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>369</fstop><fcolor>11</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>329</fstart><fstop>336</fstop><fcolor>12</fcolor><fscore>39.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>272</fstop><fcolor>13</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>95</fstop><fcolor>14</fcolor><fscore>18.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>231</fstop><fcolor>15</fcolor><fscore>19.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>252</fstop><fcolor>19</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>408</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------mirnkafvvrlypnaaqtelinrtlgsarfvynhflarriaaykes---------------------gkgltygqtsseltllkqaeetswlsevdkfalqnslknletayknffrtvk--qsgkkvgfprfrkkrtgesyrtqftnnniqig-egr----lklpklgwvktkgqqdiqg----kilnvtvrriheghyeasvlceveipylpaap------------------------------------------kfaagvdvgikdfaivtdg-------------------------------vrfkheqnpkyyrstlkrlrkaqqtlsr--------rkkgsarygkaktklarihkrivnkrqdflhklttslvrey-----eiigtehlkpdnmrknrr---------------lalsisdagwgefirqleykaawygrlvskvspyfpssqlchdcgfknpevk------nlavrtwtcpn--c-gethdrdenaalnirrealvaagisdtlnahggyvrpasagnglrsenhatlvv------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Transposase-like protein</definition>
+<organism>Bacillus PS3 (Thermophilic bacterium PS-3).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>2334</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>280</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>292</fstart><fstop>361</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>13.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>36</fstop><fcolor>1</fcolor><fscore>13.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>98</fstart><fstop>105</fstop><fcolor>2</fcolor><fscore>31.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>193</fstop><fcolor>3</fcolor><fscore>17.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>208</fstop><fcolor>4</fcolor><fscore>17.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>258</fstop><fcolor>5</fcolor><fscore>14.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>267</fstart><fstop>280</fstop><fcolor>6</fcolor><fscore>16.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>293</fstop><fcolor>7</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>311</fstop><fcolor>8</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>319</fstop><fcolor>9</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>347</fstart><fstop>359</fstop><fcolor>11</fcolor><fscore>15.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>321</fstart><fstop>328</fstop><fcolor>12</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>94</fstop><fcolor>14</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>223</fstop><fcolor>15</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>144</fstop><fcolor>17</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>170</fstop><fcolor>18</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>244</fstop><fcolor>19</fcolor><fscore>14.97</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>369</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------mankayqfrlyptkeqeqllaktfgcvrfvynkmleeriqmfekfk--------------------ddqes-lkqqtcptpakykkefpwlkevdslalanaqlnlqkafqhffsg--------ragfpkfknrkakqsyttnmvngnikls--dg---yiklpklkwiklkqhreipahh--iiksctitktktgkyyisilteyehqpapkev------------------------------------------qtvvgldfsmstlyvdseg----------------------------------kranyprfyrkaletlakeqrkwsr--------kkkgsnrwhkqrlkvaklhekianqrkdflhkeshklakry-----dcvviedlnmkgmsqalh---------------fgqgvhdngwgmfttflqyklveqgkklikidkwfpssktcsccgrvkesls-------lsertfrce---c-gfesdrdvnaainikhegmkrlaiv-----------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Transposase-like protein</definition>
+<organism>Borrelia burgdorferi (Lyme disease spirochete).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Spirochaetes</taxon>
+<taxon>Spirochaetales</taxon>
+<taxon>Spirochaetaceae</taxon>
+<taxon>Borrelia</taxon>
+</lineage>
+<taxid>139</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>287</fstart><fstop>354</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>13.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>30</fstop><fcolor>1</fcolor><fscore>13.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>98</fstop><fcolor>2</fcolor><fscore>31.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>189</fstop><fcolor>3</fcolor><fscore>17.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>204</fstop><fcolor>4</fcolor><fscore>17.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>254</fstop><fcolor>5</fcolor><fscore>14.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>263</fstart><fstop>276</fstop><fcolor>6</fcolor><fscore>16.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>288</fstop><fcolor>7</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>291</fstart><fstop>306</fstop><fcolor>8</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>311</fstart><fstop>314</fstop><fcolor>9</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>343</fstart><fstop>355</fstop><fcolor>11</fcolor><fscore>15.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>323</fstop><fcolor>12</fcolor><fscore>24.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>81</fstop><fcolor>14</fcolor><fscore>16.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>219</fstop><fcolor>15</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>136</fstop><fcolor>17</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>162</fstop><fcolor>18</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>240</fstop><fcolor>19</fcolor><fscore>14.97</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>355</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------kyriyfntnqkkyfskvfgcvrflynkmlsdkkdyyknn------------------------gq----nlitypskykeefpflkevdslalcsawidlnfaysnffreik--kgnkmqgfpkykskknrqtyrtnnqknsirie--ng----yknyligfiklclhrcikdne--lvknvvvekdtddkyhisitvecldtknnnetkg--------------------------------------dkeeivgidmsmkhflvssgg----------------------------------ekinhpkyllknenklkkyqrklsk--------kqkgsinraksrlrvaklhkkisnqrkdflhklsyyfvsny-----knivienlsikgmqkgmf----------------gksindlgwsefvrqlsyksewygsslykvdrdfpssklcsschiknttlr-------lsdakwtcss--c-ntlhdkdinailnlk---------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Anabaena sp.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Nostocales</taxon>
+<taxon>Nostocaceae</taxon>
+</lineage>
+<taxid>1167</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>296</fstart><fstop>364</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>98</fstart><fstop>105</fstop><fcolor>2</fcolor><fscore>35.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>197</fstop><fcolor>3</fcolor><fscore>25.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>212</fstop><fcolor>4</fcolor><fscore>27.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>248</fstart><fstop>262</fstop><fcolor>5</fcolor><fscore>18.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>271</fstart><fstop>284</fstop><fcolor>6</fcolor><fscore>21.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>297</fstop><fcolor>7</fcolor><fscore>27.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>346</fstop><fcolor>10</fcolor><fscore>31.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>362</fstop><fcolor>11</fcolor><fscore>20.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>324</fstart><fstop>331</fstop><fcolor>12</fcolor><fscore>27.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>227</fstop><fcolor>15</fcolor><fscore>19.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>174</fstop><fcolor>18</fcolor><fscore>15.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>248</fstop><fcolor>19</fcolor><fscore>18.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>326</fstart><fstop>346</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00028 ZINC_FINGER_C2H2_1</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>203</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>380</fstart><fstop>402</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005622</goid><goclass>C</goclass><godesc>intracellular</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>402</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mlvfetklegtneqyqlldeaiktarfvrnaclrywmdnqnig------------------------r--ydlsaycavlaanenfpfvaklnsmarqasaerawsaiarffdnck-qnktgkkgyprfkkeq--thgsveyktsgwklssdrryvtfsdgfkagtfklwgtrdlhfyqlkqfkrvrvvrradg-yyaqfcidqerverrept------------------------------------------lktigldvglnhfltdseg----------------------------------ntvenprhlrksekslkrlqrrlsk--------tkkgsnnrvkarnrlsrkhlkvsrqrkdfavklarcvvqss-----dlvayedlqvrnmvrnrh---------------laksisdaawtqfrqwveyfgkvfgvvtvavpphhts-qncsncgevvkks--------lstrthacph--c-ghiqdrdwnaarnilelglrtvghtgsqvsgdidlclgevtppnkssrgkrkpkk-----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Transposase homolog B</definition>
+<organism>Helicobacter pylori (Campylobacter pylori).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Epsilonproteobacteria</taxon>
+<taxon>Campylobacterales</taxon>
+<taxon>Helicobacteraceae</taxon>
+</lineage>
+<taxid>210</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>331</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>352</fstart><fstop>421</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>268</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>29.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>110</fstop><fcolor>2</fcolor><fscore>31.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>22.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>309</fstop><fcolor>5</fcolor><fscore>13.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>318</fstart><fstop>331</fstop><fcolor>6</fcolor><fscore>21.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>396</fstart><fstop>403</fstop><fcolor>10</fcolor><fscore>21.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>407</fstart><fstop>419</fstop><fcolor>11</fcolor><fscore>19.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>380</fstart><fstop>387</fstop><fcolor>12</fcolor><fscore>28.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>315</fstop><fcolor>13</fcolor><fscore>13.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>266</fstop><fcolor>15</fcolor><fscore>17.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>153</fstop><fcolor>17</fcolor><fscore>14.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>178</fstop><fcolor>18</fcolor><fscore>21.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>295</fstop><fcolor>19</fcolor><fscore>13.41</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>442</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------mkvnkgfkfrlyptkeqqdklqrcffvynqayniglnllqeqyetnkdsp-----------------pkerk-wkksseldkaikhhlnarglsfssviaqqsrmnveralkdafkvk-------drgfpkfknsks-akqsfswnnqgfsikdsdeerfkiftlmkmplmmrmhrdfpphs---kvkqiviswshrkyfvsfcveyeqditpiknp-----------------------------------------kngvgldlnildiacscgvnnhkkltdfkqyptdmkellgieideeldtkrliptysklyslkkyskkfkrlqrkqsrrvlkskqnktklggnfyktqkklnqafdksshqktdryhkitselskqf-----elvvvedlqvknmtkraklknvk------qksglnqsilntsfyqiisfldykqqhngkllvkvppqyts-ktchccgninhklk-------lnhrqywcle--c-gyrehrdinaanniiskglslfgvgnihadfkeqslsc----------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Uncharacterized protein MJ1635</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>246</fstart><fstop>292</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>304</fstart><fstop>366</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>70</fstop><fcolor>2</fcolor><fscore>12.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>203</fstop><fcolor>3</fcolor><fscore>15.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>279</fstart><fstop>292</fstop><fcolor>6</fcolor><fscore>14.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>305</fstop><fcolor>7</fcolor><fscore>19.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>318</fstop><fcolor>8</fcolor><fscore>19.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>326</fstop><fcolor>9</fcolor><fscore>19.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>341</fstart><fstop>348</fstop><fcolor>10</fcolor><fscore>19.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>327</fstart><fstop>334</fstop><fcolor>12</fcolor><fscore>19.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>414</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------msnktklkdnkellyqvvlsykvshnyplkaflie-----------------------ckn-klnecidmiwnniky--------------------tkkdnpklp----------ksnefkrelr-nkllenwnyashyidgiik---tsysilqswasnykrgyrtktkpiakrlfvrvkttlikydkekgeiritikprkdylilniknewffdkvknltigeiilkeketfltfkdnlnysdkgmivgvdsnlrsldlfhpi----------------------------------egwtrvdltelhrikevydrkidfl--------kkllkkfplramrkinrlferrrnrvkdflhkltiqlsrlfpd---aifvfedlnkrrmyksky---------------fnrkidrvnwngliekisykt-----ivilvnpayts-ticpicgsrmesq---------egqvvycsn--c-lnsfnrqlvgcynifkrglgnikeimggsgvtttgvevsfgklmtpnpnviyivdyngkyfneia-------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Uncharacterized protein MJ0013</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>162</fstart><fstop>162</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+</ftable>
+<length>162</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------mpkkknklpteivltykvkhnhdlknlpde-----------------------fik-isqraidiiweninwkekvvkhrykigkkkykyytttrlipkip----------kdndfkrelr-nrllegwefashyvdgaik---taysaieswksnylnvnrkknkpifkrpfvrvkttlmkydrkngiiritikprksi----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>104</fstop><fcolor>2</fcolor><fscore>24.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>316</fstop><fcolor>8</fcolor><fscore>22.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>346</fstop><fcolor>10</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>362</fstop><fcolor>11</fcolor><fscore>21.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>332</fstop><fcolor>12</fcolor><fscore>17.29</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>414</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mqnnssknetvvkaysipiqadgiilefieeyhrmarvvlqeilnaekft-----------------------------kferkqlrdklledwkyanhyvdsainqmlglvksyrrklrkgk-------kvrkprlrkkfvyvkstlftlkgfilkitiip---reyyleinlanypyilpllkevwsgnlrlgglflfpdklvlnfvktveyfepr----------------------------------------------dwmsidinltnvtvlaglt---------------------------------vyrfdtrelyhihrvyelkrqkiqg----------isawnkrlsekllkkysgreknrardflhklankivgiarer-rmgiiledlngikervlggsk------------slnrklskwnvrelqrlieykakwfgvpvvyvnpknss-ktcpacgghlipq---------egrlmkclk--c-glvedrdfiavlnlrmwgsgvtpkglevsrastlnerpmktnpygimaieekqriglkfhkitpkpp-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>Uncharacterized protein MJ0751</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>101</fstart><fstop>156</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01385 Transposase_2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>192</fstart><fstop>259</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>193</fstop><fcolor>7</fcolor><fscore>16.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>211</fstop><fcolor>8</fcolor><fscore>16.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>219</fstop><fcolor>9</fcolor><fscore>16.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>241</fstop><fcolor>10</fcolor><fscore>22.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>257</fstop><fcolor>11</fcolor><fscore>15.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>227</fstop><fcolor>12</fcolor><fscore>21.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>118</fstop><fcolor>15</fcolor><fscore>12.50</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------mlfkfegdkikiitaprkfitinlvvsdyqkkfieewkngnfkigeviikkdsiiipfkkvvnpknfe---------------------------------------------himtidineknitysifdkdgnvikttrldvyk---------------------------lkrihenfskkrekiqk----------klsnkpmklktlmekysgrekrkvedylhkiskflisealky-nvkilmedltnireavnkksk------------nfrrrlnrwnfsklqffieykakwdgldveyvnpsrts-klcpicgckldpn---------gqrllkcnn--c-nlvfdrdvvatfnlfkksqdvgsfrsperslmkssy------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>Uncharacterized protein MJ0856.1</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>64</fstop><fcolor>10</fcolor><fscore>21.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>11</fcolor><fscore>17.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>41</fstop><fcolor>12</fcolor><fscore>18.58</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>109</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhnisakkflgylknkclefgvkviegnpayts-ikcpncgsrlsqlykladeralpsrlmycfd--c-gfyadrdtvavfnlikrftglypfspksnepiaegtvfpdeamg----------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>URF 1</definition>
+<organism>Halobacterium phage phiH (Bacteriophage phi-H).</organism>
+<lifedomain>Viruses</lifedomain>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>dsDNAvirusesnoRNAstage</taxon>
+<taxon>Caudovirales</taxon>
+<taxon>Myoviridae</taxon>
+</lineage>
+<taxid>169684</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>103</fstart><fstop>172</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>130</fstop><fcolor>9</fcolor><fscore>25.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>151</fstop><fcolor>10</fcolor><fscore>27.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>170</fstop><fcolor>11</fcolor><fscore>19.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>138</fstop><fcolor>12</fcolor><fscore>25.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>171</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>224</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mckqgtptdpllinggrarhlrkemftt---------lkrlqerdaaqwriderfdhyqnaltdiiekasrqaieyacrfekpvvvledlsyiredldyg-------------ewmnrrlhawafarlqeriedkareagipveyirpeyts-qtchecghigyrd----------gdefrcqndecwvseyhadinaavniadrhdpwgeslplkpagddisrdgsacdsaatpteqsqprqmtlgevgseptags---------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>Uncharacterized protein aqaa05</definition>
+<organism>Aquifex aeolicus.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Aquificae</taxon>
+<taxon>Aquificales</taxon>
+<taxon>Aquificaceae</taxon>
+</lineage>
+<taxid>63363</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>184</fstart><fstop>250</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF07282 Transposase_35</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>236</fstop><fcolor>10</fcolor><fscore>20.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>252</fstop><fcolor>11</fcolor><fscore>15.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>218</fstop><fcolor>12</fcolor><fscore>34.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>112</fstop><fcolor>15</fcolor><fscore>15.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>38</fstop><fcolor>18</fcolor><fscore>17.12</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>306</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mkvykrlyellgrgykplksarlikrgkdyyigitlqkavkekkikk-----------------------------------------pryvinvdlnvqrnlacigifevdwekresklygikfvn--------------gkllrlvykrdylfeeirkkqrqtgr---------spqvgdnsrlwkkvnnlnrdialkvakeisdiarefsekge----vivvfeklkglrgrkgrskk-------------lnrkinfwmrrkiqervkelgleegfgldfvyphyts-kkcskcgyegerfsp-----sgskalflckk--c-gyvvnadvnavfnqhflylshllngggkarpvvrvgtslkspsreghnlsgvpkatttffyissllstf---------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 4 2 5 4 0 3 4 2 4 13 1 2 0 10 5 20 0 2 8 2 1 35 1 10 4 51 0 0 30 6 0 0 2 5 2 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 0 0 5 1 8 7 0 4 3 0 0 6 2 2 8 8 0 2 1 4 3 7 2 5 12 1 2 3 5 4 25 1 0 7 1 1 4 36 2 7 7 2 6 5 2 0 0 0 0 0 0 0 0 11 3 3 6 51 28 29 43 8 17 5 0 0 5 5 1 11 1 5 1 4 9 4 1 0 2 0 6 0 2 3 6 0 0 0 0 1 0 1 0 1 2 2 0 3 6 0 1 0 5 3 3 1 1 0 0 1 0 0 0 0 2 2 2 4 4 3 9 0 2 1 4 16 2 1 3 55 7 1 2 8 1 11 0 3 1 1 2 2 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 6 2 49 56 32 100 6 24 29 3 5 13 3 6 1 27 6 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 1 6 3 2 12 0 3 5 20 2 1 7 18 43 12 17 1 10 78 10 3 72 57 0 0 0 0 0 0 0 0 8 5 32 0 57 6 24 0 1 59 14 15 2 43 32 24 53 5 20 2 2 4 7 7 1 82 3 21 1 11 20 12 6 25 6 0 13 4 16 7 0 0 0 0 0 0 2 0 25 3 10 100 4 84 9 5 9 4 56 1 11 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 10 5 34 1 31 2 4 1 0 7 0 1 5 0 61 8 34 19 0 0 0 0 100 2 1 11 3 1 8 4 3 0 2 8 83 2 45 1 100 5 0 100 20 0 1 1 1 2 0 1 0 0 0 0 0 0 0 5 1 0 8 2 1 1 100 0 0 0 0 100 0 4 0 0 2 6 30 100 0 10 29 22 0 100 55 0 2 0 2 0 1 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 2 3 1 3 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 2 0 1 0 6 10 6 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 0 2 2 0 0 1 8 6 6 1 0 2 3 0 5 2 6 4 4 9 0 12 3 9 4 10 2 1 1 2 2 0 1 0 1 0 0 0 1 1 4 9 3 18 9 18 5 0 3 13 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 9 18 12 44 8 2 1 6 0 12 12 24 5 1 0 49 23 1 13 5 1 0 0 18 3 1 52 1 2 9 5 100 8 2 70 100 0 7 3 100 8 2 100 100 0 3 1 1 6 1 0 0 0 0 0 0 0 0 0 2 7 10 7 7 1 100 1 23 0 0 100 0 1 0 1 0 14 18 41 4 3 28 4 5 100 10 0 1 1 0 1 5 0 0 2 0 0 1 1 3 8 6 1 2 5 2 3 0 1 0 1 0 1 2 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 2 0 1 0 2 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 2 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 3 3 3 5 1 2 0 0 0 1 2 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 5 1 0 1 4 0 0 0 1 0 1 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 13 7 14 32 3 5 7 3 3 3 1 2 0 3 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 1 1 1 2 0 2 1 3 0 0 3 6 3 5 3 0 11 21 4 1 7 8 0 0 0 0 0 0 0 0 2 2 4 0 8 1 5 0 0 12 5 3 1 9 19 8 19 1 2 1 4 1 5 3 2 3 4 21 1 9 8 19 4 17 2 0 5 3 7 1 0 0 0 0 0 0 0 0 11 4 4 59 7 52 7 0 1 3 2 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 11 5 37 2 4 0 3 0 0 7 3 2 3 0 39 16 3 15 1 1 0 0 59 0 1 12 1 0 10 2 6 0 1 9 87 0 21 2 100 3 0 100 29 0 1 0 1 3 0 0 0 0 0 0 0 0 0 2 3 0 12 1 0 0 100 0 1 0 0 100 0 2 0 1 0 11 28 68 0 3 38 6 0 100 26 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

@@ -1,0 +1,1689 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0090.xml</aln-name>
+<aln-score>0.76</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>AGR387Cp</definition>
+<organism>Ashbya gossypii (Yeast) (Eremothecium gossypii).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>33169</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>10</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>55</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>88</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>111</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>62</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>10</fstart><fstop>119</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>119</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------mrappelaqltpqayhkqadeflndlldrlealgderpdii------------------------------------adseysqgvltlsvp---algtyvinkqppnkqiwlsspvsgpnrydlid----------------gewvslr--dgsrlmavlsrelgraldnpdyal-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>15</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>35</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>15.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>26.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>162</fstop><fcolor>2</fcolor><fscore>38.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>182</fstop><fcolor>3</fcolor><fscore>39.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>184</fstart><fstop>198</fstop><fcolor>4</fcolor><fscore>14.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>74</fstop><fcolor>5</fcolor><fscore>22.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>205</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msrqiasqasrvasqairsstpvcrssfrvatmayasrlaicpnlsqrn-fsttvsrrkgimpdtddpakplteteq----veptaavaditeqeyheiadeyldnvvnrfeelqdqredvd--------------------------------------vefsagvltidwp---gkgtyvinkqppnkqiwlaspisgpkrydwcllgegqdqkegt---amgdwiysr--dgsslnqvfleelgvdiaipgee------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Neurospora crassa.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Sordariomycetidae</taxon>
+<taxon>Sordariales</taxon>
+<taxon>Sordariaceae</taxon>
+</lineage>
+<taxid>5141</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>80</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>15</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>31</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>15.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>123</fstop><fcolor>1</fcolor><fscore>26.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>157</fstop><fcolor>2</fcolor><fscore>38.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>39.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>14.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>22.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>131</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>80</fstart><fstop>198</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>206</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msraivtkvaratlrslqgts---rnt-ritstpfaa-aallpratvpr-fystagpngnmitpdkqpvqpkeeaap----tvvraat-eltddeyhkladqymdrlvthleelqderedid--------------------------------------veysagvltvsfdd--gigtyvinkqppnkqiwlsspksgpkrydyvalgdgqnekegt---akgewvylr--dnstinqlfrdelqidlsmpvghygeeea------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>YALI0E15268p</definition>
+<organism>Yarrowia lipolytica (Candida lipolytica).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Dipodascaceae</taxon>
+</lineage>
+<taxid>4952</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>65</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>110</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>143</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>150</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>166</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>117</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>65</fstart><fstop>174</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>176</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mslirslrtvprialatrvatgvaslplrrp---------------lttgvrratrtitlphitthhetlrlyslqateleledyhiqadeylesiliayeeyaeevdsne------------------------------------ldvdlaqgvmsleip---gagsyvinkqppnkqiwlsspisgpkrydyvd----------------gewvylr--dgttltelletetseafastgkkfhl---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>DEHA2C10604p</definition>
+<organism>Debaryomyces hansenii (Yeast) (Torulaspora hansenii).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4959</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>57</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>140</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>156</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>107</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>57</fstart><fstop>161</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>168</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------mfrqvlkvshrrvvpsiarttrlvpvlr----------------rpspnlcistr------syafstegeafddkvdslslgqynnisneyletladelemlsedypqi--------------------------------------dceltqgvmtlsvp---pngtyvinkqppnkqiwlsspisgpkrydlig----------------gkwitlr--dgsalttlleeeisvalegafhfegien-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>KLLA0E08845p</definition>
+<organism>Kluyveromyces lactis (Yeast) (Candida sphaerica).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>28985</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>79</fstart><fstop>189</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>124</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>157</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>164</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>131</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>77</fstart><fstop>186</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>190</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------mlvknssrvirsvisrrsivtkaipsiglartaptrapvlsklgilnqhnlpfvtvqrmhnsiaastdgktipeeildmpievyheisdefmdslldqleilcdyhpevv------------------------------------qdvemsqgvmsievp---svgtyvinkqppnkqiwlaspvsgpnrfdyyq----------------kewvslr--dgtklldilnkelsdrlegdeidlhy---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>Frataxin homolog mitochondrial</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>68</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>113</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>146</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>153</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>169</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>TRANSIT_Mitochondrion Probable</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>92</fstart><fstop>94</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>96</fstart><fstop>99</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>101</fstart><fstop>103</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>106</fstart><fstop>113</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>117</fstart><fstop>123</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>134</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>138</fstart><fstop>147</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>149</fstart><fstop>151</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>158</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>120</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>174</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005759</goid><goclass>C</goclass><godesc>mitochondrial matrix</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008198</goid><goclass>F</goclass><godesc>ferrous iron binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004322</goid><goclass>F</goclass><godesc>ferroxidase activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0034986</goid><goclass>F</goclass><godesc>iron chaperone activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006749</goid><goclass>P</goclass><godesc>glutathione metabolic process</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006826</goid><goclass>P</goclass><godesc>iron ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016226</goid><goclass>P</goclass><godesc>iron-sulfur cluster assembly</godesc><goevidence>IDA</goevidence></goxref>
+</goxreflist>
+<length>174</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------mikrslaslvrvssvmgrrymiaaaggerarfcpa---------vtnkknhtvntfqkrf--vesstdgqvvpqevlnlplekyheeaddyldhlldsleelseahpdci------------------------------------pdvelshgvmtleip---afgtyvinkqppnkqiwlasplsgpnrfdlln----------------gewvslr--ngtkltdilteevekaisksq--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>62</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>95</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>118</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>123</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------messtdgqvvpqevlnlplekyheeaddyldhlldsleelseahpdci------------------------------------pdvelshgvmtleip---afgtyvinkqppnkqiwlasplsgpnrfdlln----------------gewvslr--ngtkltdilteevekaisksq--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein YFH1</definition>
+<organism>Candida albicans (Yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>mitosporicSaccharomycetales</taxon>
+</lineage>
+<taxid>5476</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>66</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>142</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>149</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>165</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>116</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>170</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>177</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------mfkrfalnsakclskpactrqliypqtrfit-------------ktlptvasalrpigsirayslstegeaiddkidkltdneyakvsneylenlsdsleelnedfeqv--------------------------------------dselsqgvltltlp---pngtyvinkqppnkqiwlsspisgpkrydlig----------------gkwvtlr--dgssltslleeeistaigqefkfetveq-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Strain CBS138 chromosome M complete sequence</definition>
+<organism>Candida glabrata (Yeast) (Torulopsis glabrata).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Nakaseomyces</taxon>
+</lineage>
+<taxid>5478</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>62</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>98</fstart><fstop>107</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>140</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>147</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>149</fstart><fstop>163</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>114</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>60</fstart><fstop>172</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>176</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------mirnilr--rsaarvripvtsatcasrlv--------------msirlatstryysngneggpamtngvqipkevlelplqqyhqhsesfleglfdnleelsenypqhi------------------------------------peveyshgvmsltva---gvgtyvinkqppnkqiwlsspnsgpnrfdlyk----------------gewislr--nnetllsvldkelhdalpndaefkvesdq------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Mitochondrial chaperone Frataxin putative</definition>
+<organism>Aspergillus fumigatus (Sartorya fumigata).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+<taxon>mitosporicTrichocomaceae</taxon>
+</lineage>
+<taxid>5085</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>91</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>33</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>12.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>208</fstop><fcolor>2</fcolor><fscore>37.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>231</fstop><fcolor>3</fcolor><fscore>31.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>247</fstop><fcolor>4</fcolor><fscore>18.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>75</fstop><fcolor>5</fcolor><fscore>22.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>141</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>91</fstart><fstop>211</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>258</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlsrisrsaassaarpslrvgrisatapaaihlqprlngvnnsaqaprrgfqctscirkgifpdsadppapkpqsnnvagasthvtepspltdvqyhefaehylnviqnevekaqeegsdieaeysvriaglrsiffffslfrfffgqlyaaliiykasladlrcdmrsltlgwlpgvgtyvlnkqppnkqiwlsspisgpkrydwvlegdqmhekqdtrpfgngqwiylr--dgsnltdllnaelslniakdvysefek--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Emericella nidulans (Aspergillus nidulans).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+</lineage>
+<taxid>162425</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>85</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>33</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>12.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>161</fstop><fcolor>2</fcolor><fscore>37.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>184</fstop><fcolor>3</fcolor><fscore>31.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>200</fstop><fcolor>4</fcolor><fscore>18.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>75</fstop><fcolor>5</fcolor><fscore>22.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>135</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>85</fstart><fstop>205</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>40</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>211</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mltsraarallssfpstfglrrlaiaasaastfrfpnstklvakyqhrngfhstpqiqkgitpgspdppapqpes------svrvsepsplsnhqyheysdhylhvvqakieemeedrsdle--------------------------------------tdlsagilhinva---nvgtyvlnkqppikqlwlsspvsgprqydwvvegdqmhekqetrpftngqwvclr--dnsnltellnkelglnlprdvysevde--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Cryptococcus neoformans (Filobasidiella neoformans).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Tremellomycetes</taxon>
+<taxon>Tremellales</taxon>
+<taxon>Tremellaceae</taxon>
+<taxon>Filobasidiella</taxon>
+</lineage>
+<taxid>5207</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>66</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>49</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>12.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>23.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>144</fstop><fcolor>2</fcolor><fscore>34.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>151</fstop><fcolor>3</fcolor><fscore>31.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>168</fstop><fcolor>4</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>118</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>176</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>187</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mlaaknclnkslralrpltersaspviarsar--------------aspllrsratsartfvtslprqsqplpppptstlshdeyehvserdmetlnesleifcedfgngn------------------------------------weieyssgvlnltlp---pygtyvlnkqppnlqiwmsspvsgpsrfeyin----------------gswvhhrk-egvklgellsgelkeileksgneaaagvwegvglp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Cryptococcus neoformans (Filobasidiella neoformans).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Tremellomycetes</taxon>
+<taxon>Tremellales</taxon>
+<taxon>Tremellaceae</taxon>
+<taxon>Filobasidiella</taxon>
+</lineage>
+<taxid>5207</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>66</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>49</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>12.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>23.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>144</fstop><fcolor>2</fcolor><fscore>34.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>151</fstop><fcolor>3</fcolor><fscore>31.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>168</fstop><fcolor>4</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>118</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>176</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>187</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mlaaknclnkslralrpltersaspviarsar--------------aspllrsratsartfvtslprqsqplpppptstlshdeyehvserdmetlnesleifcedfgngn------------------------------------weieyssgvlnltlp---pygtyvlnkqppnlqiwmsspvsgpsrfeyin----------------gswvhhrk-egvklgellsgelkeileksgneaaagvwdgvglp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Frataxin-like protein</definition>
+<organism>Cryptococcus neoformans var. neoformans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Tremellomycetes</taxon>
+<taxon>Tremellales</taxon>
+<taxon>Tremellaceae</taxon>
+<taxon>Filobasidiella</taxon>
+</lineage>
+<taxid>40410</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>52</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>12.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>23.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>130</fstop><fcolor>2</fcolor><fscore>34.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>137</fstop><fcolor>3</fcolor><fscore>31.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>154</fstop><fcolor>4</fcolor><fscore>15.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>104</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>52</fstart><fstop>162</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>173</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mlaaknclnkslralrpltersaspviarsar--------------aspllrsratsart--------------pptstlshdeyehvserdmetlnesleifcedfgngn------------------------------------weieyssgvlnltlp---pygtyvlnkqppnlqiwmsspvsgpsrfeyin----------------gswvhhrk-egvklgellsgelkeileksgneaaagvwdgvglp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Oryza sativa subsp. japonica (Rice).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>BEPclade</taxon>
+<taxon>Ehrhartoideae</taxon>
+<taxon>Oryzeae</taxon>
+</lineage>
+<taxid>39947</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>87</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>13.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>27.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>165</fstop><fcolor>2</fcolor><fscore>39.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>36.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>190</fstop><fcolor>4</fcolor><fscore>16.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>118</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>139</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>195</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>198</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----masrklvlgltaarrlrsrapvlvssspfleaststsdataatatrgsglgpwglflssralsstrpvslsagdapgssaadhrsilpedeyhkladetihdllekleeygdslqmdg------------------------------------fdidygnqvltlrlg---elgtyvvnkqapnrqiwlsspvsgpsrfdwdap--------------tncwiyrr--tganlvellekeigelcgtpvels-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Frataxin homolog</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>76</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>26</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>13.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>121</fstop><fcolor>1</fcolor><fscore>27.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>154</fstop><fcolor>2</fcolor><fscore>39.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>163</fstop><fcolor>3</fcolor><fscore>36.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>179</fstop><fcolor>4</fcolor><fscore>16.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>107</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>128</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>76</fstart><fstop>184</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0042542</goid><goclass>P</goclass><godesc>response to hydrogen peroxide</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>187</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----ma--------tasrfllrklprflklsptllrsngvr--vssnliqds-iepldsfwrigsrirhdslttrsfssqgpasvdyssvlqeeefhklanftinhllekiedygdnvqidg------------------------------------fdidygnevltlklg---slgtyvlnkqtpnrqiwmsspvsgpsrfdwdrd--------------anawiyrr--teaklhklleeelenlcgepiqls-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Protein cyaY</definition>
+<organism>Rickettsia typhi.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rickettsiales</taxon>
+<taxon>Rickettsiaceae</taxon>
+<taxon>Rickettsieae</taxon>
+<taxon>Rickettsia</taxon>
+</lineage>
+<taxid>785</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>43</fstart><fstop>52</fstop><fcolor>1</fcolor><fscore>13.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>84</fstop><fcolor>2</fcolor><fscore>28.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>91</fstop><fcolor>3</fcolor><fscore>20.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>106</fstop><fcolor>4</fcolor><fscore>15.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>113</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------milktqkknmnntafsklaettivyivdkieeqdiegiid---------------------------------------vdlhgdilnldte----ngiyvintqsaskeiwlsspvsgphhffyeq----------------gkwksri---gfelmillteelgirfdkceif------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Protein cyaY</definition>
+<organism>Rickettsia felis (Rickettsia azadi).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rickettsiales</taxon>
+<taxon>Rickettsiaceae</taxon>
+<taxon>Rickettsieae</taxon>
+<taxon>Rickettsia</taxon>
+</lineage>
+<taxid>42862</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>13.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>28.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>3</fcolor><fscore>20.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>97</fstop><fcolor>4</fcolor><fscore>15.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>101</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mnntefskiaettiayiadkieeqdkeasid---------------------------------------vdlqgdilnldtd----kgiyvinkqsaakeiwlsspvsgpyhffyeq----------------gkwknki---glelmailteelnikfdni---------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>Protein cyaY</definition>
+<organism>Rickettsia prowazekii.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rickettsiales</taxon>
+<taxon>Rickettsiaceae</taxon>
+<taxon>Rickettsieae</taxon>
+<taxon>Rickettsia</taxon>
+</lineage>
+<taxid>782</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>13.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>28.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>3</fcolor><fscore>20.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>97</fstop><fcolor>4</fcolor><fscore>15.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>104</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mnntafsklaettivyivdkieeqdlegiid---------------------------------------vdlqgdilnldte----ngiyvintqsaskeiwlsspvsgphhffyeq----------------gkwksri---gfelmvllteelgirfdkyeif------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>Protein cyaY</definition>
+<organism>Rickettsia conorii.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rickettsiales</taxon>
+<taxon>Rickettsiaceae</taxon>
+<taxon>Rickettsieae</taxon>
+<taxon>Rickettsia</taxon>
+</lineage>
+<taxid>781</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>13.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>28.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>3</fcolor><fscore>20.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>97</fstop><fcolor>4</fcolor><fscore>15.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>103</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mnnsefskiaettiayiaekieeqdkeasid---------------------------------------vdlqgdilnldtd----kgvyvinkqsaakeiwlsspvsgpyhffyeq----------------gewtnra---glelmailteelnikfdtrpt-------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>CyaY protein</definition>
+<organism>Rickettsia sibirica 246.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Alphaproteobacteria</taxon>
+<taxon>Rickettsiales</taxon>
+<taxon>Rickettsiaceae</taxon>
+<taxon>Rickettsieae</taxon>
+<taxon>Rickettsia</taxon>
+<taxon>spottedfevergroup</taxon>
+</lineage>
+<taxid>272951</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>13.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>28.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>3</fcolor><fscore>20.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>97</fstop><fcolor>4</fcolor><fscore>15.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>103</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mnnsefskiaettiayiaekieeqdkeasid---------------------------------------vdlqgdilnldtd----kgvyvinkqsaakeiwlsspvsgpyhffyeq----------------gewtnsa---glelmailteelnikfdtrpt-------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>Frataxin mitosomal</definition>
+<organism>Encephalitozoon cuniculi (Microsporidian parasite).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Microsporidia</taxon>
+<taxon>Unikaryonidae</taxon>
+</lineage>
+<taxid>6035</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>32</fstop><fcolor>0</fcolor><fscore>14.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>18.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>84</fstop><fcolor>2</fcolor><fscore>31.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>92</fstop><fcolor>3</fcolor><fscore>37.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>37</fstop><fcolor>6</fcolor><fscore>14.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>113</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>118</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------mlhkqtpedvitrqlyhkladetltdlseqldk-----eldg------------------------------------gyadykdgnlqikid---nvgeymfnkqpasmqiwasspitgprkfdicr---------------rhewidlk--sntsfsryieeelrrmrskmagkhkk---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>Frataxin-like mitochondrial putative</definition>
+<organism>Trypanosoma brucei.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+</lineage>
+<taxid>5691</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>61</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>13</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>36</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>104</fstop><fcolor>1</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>137</fstop><fcolor>2</fcolor><fscore>32.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>149</fstop><fcolor>3</fcolor><fscore>17.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>165</fstop><fcolor>4</fcolor><fscore>12.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>92</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>111</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>58</fstart><fstop>170</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>116</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>180</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------mrrtccat----tsavlrslvylrphg-rakpttsgsgrkerqfsttt--arces--kgwhpaklgmdgftdvayntaadtflervesaletigdtdtled--------------------------------------vnlaggvlviett---srgtfvlnkqapnvqlwlssplsgphhydmttsa-----------tgsvewrada--dghsleerlekelsdvvgtevslssgagete----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<definition>Frataxin-like protein</definition>
+<organism>Leishmania major.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+</lineage>
+<taxid>5664</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>76</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>13</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>47</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>49</fstart><fstop>58</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>109</fstart><fstop>118</fstop><fcolor>1</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>151</fstop><fcolor>2</fcolor><fscore>32.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>166</fstop><fcolor>3</fcolor><fscore>17.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>182</fstop><fcolor>4</fcolor><fscore>12.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>106</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>125</fstart><fstop>139</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>73</fstart><fstop>189</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>189</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------mncarlhqriplramalattgypalasshsfanastsvmtasamavvrraatttgasaatttpqvvhysklgmdgftdikfntaadellelvetkvdal-dsaaved--------------------------------------vscnggvltlett---drgtfilnkqapnvqlwlsspisgphhydmitvtqg--------ghekvswksdh--dghdlvkkleeeltevlgtdfkv------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq026</seq-name>
+<seq-info>
+<definition>Frataxin-like mitochondrial putative</definition>
+<organism>Trypanosoma cruzi.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+<taxon>Trypanosoma</taxon>
+</lineage>
+<taxid>5693</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>73</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>22</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>57</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>148</fstop><fcolor>2</fcolor><fscore>32.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>167</fstop><fcolor>3</fcolor><fscore>17.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>183</fstop><fcolor>4</fcolor><fscore>12.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>103</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>122</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>70</fstart><fstop>188</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>190</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------mlsltmrrvaattttttttktaaaiimpsclgtrargmnatslkticrcgtttrvalagv--kgqtysrlgmdgftdvtyntaadlflehvenvlesv-dssaiee--------------------------------------vnllsgvlsvetv---ssgtfvlnkqapnvqlwlsspvsgphhydmvlpagkdkve----gvndvqwlads--dghslkeklereltetlgvevkl------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq027</seq-name>
+<seq-info>
+<definition>Frataxin-like mitochondrial putative</definition>
+<organism>Trypanosoma cruzi.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+<taxon>Trypanosoma</taxon>
+</lineage>
+<taxid>5693</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>69</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>42</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>111</fstop><fcolor>1</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>144</fstop><fcolor>2</fcolor><fscore>32.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>163</fstop><fcolor>3</fcolor><fscore>17.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>179</fstop><fcolor>4</fcolor><fscore>12.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>99</fstop><fcolor>6</fcolor><fscore>13.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>118</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>184</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<length>186</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------mlsltmrrvaatt----ttktaaaiimpsclgtrvrgmnatslkticrcgtttrvalagv--kgqtysrlgmdgftdvkynnaadlflehvenvlesv-dssaiee--------------------------------------vnllggvlsvetv---ssgtfvlnkqapnvqlwlsspvsgphhydmvlpagkdrve----gvndvqwlads--dghslkeklereltetlgvevkl------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq028</seq-name>
+<seq-info>
+<definition>Protein cyaY</definition>
+<organism>Neisseria meningitidis serogroup B.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Betaproteobacteria</taxon>
+<taxon>Neisseriales</taxon>
+<taxon>Neisseriaceae</taxon>
+</lineage>
+<taxid>491</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>43</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>13.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>42</fstop><fcolor>1</fcolor><fscore>19.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>81</fstop><fcolor>3</fcolor><fscore>39.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>97</fstop><fcolor>4</fcolor><fscore>17.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>2</fstart><fstop>104</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>49</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+</ftable>
+<length>107</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------mmtesefirasealfehiedqiden---gwdfd--------------------------------------crfagnvltieag---dgaqiivnrhtpnqelwiaaksggyhfaeq-----------------ngkwlatr--dgrdfydvlnealsaasgeaveiael---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq029</seq-name>
+<seq-info>
+<definition>Frataxin homolog mitochondrial</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>42</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>17.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>87</fstop><fcolor>1</fcolor><fscore>31.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>34.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>129</fstop><fcolor>3</fcolor><fscore>26.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>145</fstop><fcolor>4</fcolor><fscore>14.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>42</fstart><fstop>150</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>94</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>158</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------mqslraafrrrtpiflkpyefstnvfglrcryysqvr---------hngaltdleyhrvaddtldvlndtfedlleevgkk------------------------------------dydiqyangvitlmlg---ekgtyvinkqppahqiwlsspvsgpkhyeyslks--------------ktwcstr--degtllgilssefskwfsrpiefkksedf------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq030</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Ustilago maydis (Smut fungus).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Ustilaginomycotina</taxon>
+<taxon>Ustilaginomycetes</taxon>
+<taxon>Ustilaginales</taxon>
+<taxon>Ustilaginaceae</taxon>
+</lineage>
+<taxid>5270</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>81</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>16.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>1</fcolor><fscore>29.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>149</fstart><fstop>179</fstop><fcolor>2</fcolor><fscore>37.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>30.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>206</fstop><fcolor>4</fcolor><fscore>17.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>153</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>81</fstart><fstop>211</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>218</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------mklpmmlrtttqrglrttatirtistrsaltatirknvsalptkiivtrafsqrtpmvssrwfsmsqkmaqptakytaspltdsqyhklsnnvldslqetfetlleeadvea----------------leeearakqqsatraapasewdiecasgvmnlrcg---ahgtwvinkqppnkqiwlsspksgpkrfdfdads--------------ntwfclkegetstldqllqdelslvfgtevqvllede-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq031</seq-name>
+<seq-info>
+<definition>THE SOLUTION STRUCTURE OF THE THE CTERMINAL DOMAIN OF FRATAXIN THE PROTEIN RESPONSIBLE FOR FRIEDREIC</definition>
+<organism>HOMO SAPIENS</organism>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>81</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>88</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>104</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>92</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>33</fstart><fstop>37</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>48</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>52</fstart><fstop>57</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>65</fstart><fstop>68</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>80</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>85</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>121</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mdettyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellaaeltkalktk-ldlsslaysgkda-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq032</seq-name>
+<seq-info>
+<definition>MATURE HUMAN FRATAXIN</definition>
+<organism>HOMO SAPIENS</organism>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>81</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>88</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>104</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>92</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>35</fstart><fstop>39</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>42</fstart><fstop>46</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>53</fstart><fstop>59</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>64</fstart><fstop>69</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>73</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>84</fstart><fstop>86</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>119</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------ldettyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellaaeltkalktk-ldlsslaysgk---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq033</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>87</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>133</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>167</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>190</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>141</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>195</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007628</goid><goclass>P</goclass><godesc>adult walking behavior</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0016226</goid><goclass>P</goclass><godesc>iron-sulfur cluster assembly</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0007005</goid><goclass>P</goclass><godesc>mitochondrion organization</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040015</goid><goclass>P</goclass><godesc>negative regulation of multicellular organi...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0046621</goid><goclass>P</goclass><godesc>negative regulation of organ growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006119</goid><goclass>P</goclass><godesc>oxidative phosphorylation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0019230</goid><goclass>P</goclass><godesc>proprioception</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>207</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwafrgraavgllpr-tasrasawvgnprwrepivtcgrrglhvtvnagat-rhahlnlhyl-qilnikkqsvcvvhlrnlgtldnpssldetayerlaeetldslaeffedladkpytle-----------------------------------dydvsfgdgvltiklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellareltkalntk-ldlsslaysgkgt-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq034</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>210</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwtlgrravagllaspspaqaqtltrvprpaelaplcgrrglrtdidatctprrassnqrglnqiwnvkkqsvylmnlrksgtlghpgsldettyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellaaeltkalktk-ldlsslaysgkda-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq035</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>210</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwtlgrravagllaspspaqaqtltrvprpaelaplcgrrglrtdidatctprrassnqrglnqiwnvkkqsvylmnlrksgtlghpgsldettyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellaaeltkalktk-ldlsslaysgkda-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq036</seq-name>
+<seq-info>
+<definition>Frataxin</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>87</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>133</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>167</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>190</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>141</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>195</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007628</goid><goclass>P</goclass><godesc>adult walking behavior</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0016226</goid><goclass>P</goclass><godesc>iron-sulfur cluster assembly</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0007005</goid><goclass>P</goclass><godesc>mitochondrion organization</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040015</goid><goclass>P</goclass><godesc>negative regulation of multicellular organi...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0046621</goid><goclass>P</goclass><godesc>negative regulation of organ growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006119</goid><goclass>P</goclass><godesc>oxidative phosphorylation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0019230</goid><goclass>P</goclass><godesc>proprioception</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>207</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwafggraavgllpr-tasrasawvgnprwrepivtcgrrglhvtvnagat-rhahlnlhyl-qilnikkqsvcvvhlrnlgtldnpssldetayerlaeetldslaeffedladkpytle-----------------------------------dydvsfgdgvltiklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellareltkalntk-ldlsslaysgkgt-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq037</seq-name>
+<seq-info>
+<definition>Frataxin mitochondrial</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>87</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>133</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>167</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>190</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>40</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>TRANSIT_Mitochondrion By similarity</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>141</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>195</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007628</goid><goclass>P</goclass><godesc>adult walking behavior</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0016226</goid><goclass>P</goclass><godesc>iron-sulfur cluster assembly</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0007005</goid><goclass>P</goclass><godesc>mitochondrion organization</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040015</goid><goclass>P</goclass><godesc>negative regulation of multicellular organi...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0046621</goid><goclass>P</goclass><godesc>negative regulation of organ growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006119</goid><goclass>P</goclass><godesc>oxidative phosphorylation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0019230</goid><goclass>P</goclass><godesc>proprioception</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>207</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwafggraavgllpr-tasrasawvgnprwrepivtcgrrglhvtvnagat-rhahlnlhyl-qilnikkqsvcvvhlrnlgtldnpssldetayerlaeetldslaeffedladkpytle-----------------------------------dydvsfgdgvltiklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellareltkalntk-ldlsslaysgkgt-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq038</seq-name>
+<seq-info>
+<definition>Frataxin mitochondrial</definition>
+<organism>Macaca fascicularis (Crab eating macaque) (Cynomolgus monkey).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Cercopithecidae</taxon>
+<taxon>Cercopithecinae</taxon>
+</lineage>
+<taxid>9541</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>90</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>41</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>TRANSIT_Mitochondrion By similarity</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>144</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>90</fstart><fstop>198</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>210</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwtfgrravagllaspspaqaqtltraprlaelaqlcsrrglrtginatrtthhtssnlrglnqirnvkrqsvylmnlrksgtlghpgslddttyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydrtg----------------knwvysh--dgvslhellgaeltkalktk-ldlsslaysgkda-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq039</seq-name>
+<seq-info>
+<definition>Frataxin mitochondrial</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>90</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>41</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>TRANSIT_Mitochondrion</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>92</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>128</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>131</fstart><fstop>135</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>142</fstart><fstop>148</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>153</fstart><fstop>158</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>162</fstart><fstop>168</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>170</fstart><fstop>175</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>182</fstart><fstop>194</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>144</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>90</fstart><fstop>198</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>106</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) S (in FA).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>122</fstart><fstop>122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>D -) Y (in FA).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>130</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) V (in FA).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>I -) F (in FA; reduces interaction with</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>155</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>W -) R (in FA; reduces interaction with</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) C (in FA; mild form).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>182</fstart><fstop>182</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) F (in FA).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>198</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) R (in FA).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>202</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>S -) C (in dbSNP:rs1052195).</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005759</goid><goclass>C</goclass><godesc>mitochondrial matrix</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0051537</goid><goclass>F</goclass><godesc>2 iron, 2 sulfur cluster binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008199</goid><goclass>F</goclass><godesc>ferric iron binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008198</goid><goclass>F</goclass><godesc>ferrous iron binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0034986</goid><goclass>F</goclass><godesc>iron chaperone activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006783</goid><goclass>P</goclass><godesc>heme biosynthetic process</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0018283</goid><goclass>P</goclass><godesc>iron incorporation into metallo-sulfur cluster</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030307</goid><goclass>P</goclass><godesc>positive regulation of cell growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0008284</goid><goclass>P</goclass><godesc>positive regulation of cell proliferation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0051349</goid><goclass>P</goclass><godesc>positive regulation of lyase activity</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0048554</goid><goclass>P</goclass><godesc>positive regulation of metalloenzyme activity</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0051353</goid><goclass>P</goclass><godesc>positive regulation of oxidoreductase activity</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0051347</goid><goclass>P</goclass><godesc>positive regulation of transferase activity</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0016540</goid><goclass>P</goclass><godesc>protein autoprocessing</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0010722</goid><goclass>P</goclass><godesc>regulation of ferrochelatase activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0010039</goid><goclass>P</goclass><godesc>response to iron ion</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>210</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mwtlgrravagllaspspaqaqtltrvprpaelaplcgrrglrtdidatctprrassnqrglnqiwnvkkqsvylmnlrksgtlghpgsldettyerlaeetldslaeffedladkpytfe-----------------------------------dydvsfgsgvltvklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellaaeltkalktk-ldlsslaysgkda-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq040</seq-name>
+<seq-info>
+<definition>Frataxin homolog mitochondrial</definition>
+<organism>Drosophila melanogaster (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7227</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>68</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>13</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>114</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>148</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>159</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>175</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>122</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>68</fstart><fstop>181</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0042542</goid><goclass>P</goclass><godesc>response to hydrogen peroxide</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>190</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mfagr----lmvrsivgrac-latmgrwskpqahasqvilpstpaiaavaiqcee---------------ftanrrlfssqietestldgatyervcsdtldalcdyfeeltenaselq-----------------------------------gtdvaysdgvltvnlgg--qhgtyvinrqtpnkqiwlssptsgpkrydfvgtvaa------------grwiykh--sgqslhellqqeipgilksqsvdflrlpycs----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq041</seq-name>
+<seq-info>
+<definition>Frataxin-like protein</definition>
+<organism>Drosophila subobscura (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7241</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>63</fstart><fstop>179</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>11</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>143</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>170</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>117</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>63</fstart><fstop>176</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>185</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---mftrr----lltr--lsrln-irsattagyqsswysr--lp-tvttaseslsqnn---------------gplnkrlfsnqietesaldtatyerlcsetldglcdyfeeltenatdli-----------------------------------gtdvaygdgvltvnlgk--shgtyvinrqtpnkqiwlssptsgpkrfdfvgtpka------------gkwiyrh--tgqslhqllqleiptivksqtvdfmrlphcs----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq042</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>100</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>108</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>124</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>136</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------mltnvlrngfvrrafsvrvfsqneyesaadstleklsdyfdqiadsypvsd-----------------------------------qfdvshamgvltvtvsk--tvgtyvinkqspnkqiwlssplsgpkrydlae---e------------qswkysh--dgenldellnrefrkilgddridfsrhv-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq043</seq-name>
+<seq-info>
+<definition>Frataxin homolog</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>100</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>108</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>124</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>74</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>20</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008340</goid><goclass>P</goclass><godesc>determination of adult life span</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040011</goid><goclass>P</goclass><godesc>locomotion</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040010</goid><goclass>P</goclass><godesc>positive regulation of growth rate</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040018</goid><goclass>P</goclass><godesc>positive regulation of multicellular organi...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006950</goid><goclass>P</goclass><godesc>response to stress</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>136</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------mlstilrnnfvrrsfssrifsqneyetaadstlerlsdyfdqiadsfpvse-----------------------------------qfdvshamgvltvnvsk--svgtyvinkqspnkqiwlsspmsgpkrydlee---e------------gkwtyah--dgeqldsllnrefrkiladdridfsrhv-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq044</seq-name>
+<seq-info>
+<definition>Fxn protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>19</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>4</fstop><fcolor>0</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>27</fstop><fcolor>1</fcolor><fscore>20.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>61</fstop><fcolor>2</fcolor><fscore>37.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>68</fstop><fcolor>3</fcolor><fscore>25.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>84</fstop><fcolor>4</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>35</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>89</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007628</goid><goclass>P</goclass><godesc>adult walking behavior</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006879</goid><goclass>P</goclass><godesc>cellular iron ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0016226</goid><goclass>P</goclass><godesc>iron-sulfur cluster assembly</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0007005</goid><goclass>P</goclass><godesc>mitochondrion organization</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040015</goid><goclass>P</goclass><godesc>negative regulation of multicellular organi...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0046621</goid><goclass>P</goclass><godesc>negative regulation of organ growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006119</goid><goclass>P</goclass><godesc>oxidative phosphorylation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0019230</goid><goclass>P</goclass><godesc>proprioception</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>101</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------msllgyllallr-----------------------------------svfslitdgvltiklgg--dlgtyvinkqtpnkqiwlsspssgpkrydwtg----------------knwvysh--dgvslhellareltkalntk-ldlsslaysgkgt-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq045</seq-name>
+<seq-info>
+<definition>Frataxin mitochondrial</definition>
+<organism>Dictyostelium discoideum (Slime mold).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Amoebozoa</taxon>
+<taxon>Mycetozoa</taxon>
+<taxon>Dictyosteliida</taxon>
+</lineage>
+<taxid>44689</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>83</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01491 Frataxin_Cyay</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>21.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>161</fstop><fcolor>2</fcolor><fscore>38.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>170</fstop><fcolor>3</fcolor><fscore>28.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>186</fstop><fcolor>4</fcolor><fscore>18.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>72</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>TRANSIT_Mitochondrion Potential</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>135</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01344 FRATAXIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>82</fstart><fstop>193</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50810 FRATAXIN_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005506</goid><goclass>F</goclass><godesc>iron ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006826</goid><goclass>P</goclass><godesc>iron ion transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>193</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------mifnflnkasnkthtklllfssirnrilinnisstskwssinnnnkqssvsktnifiitthnkqqqqlsksfstinnntkpisdvnlfhdivdeefelfvdrleilsean-tce-----------------------------------gfevegndgvltiivg---nkgtyvinkqtpnrqiwwssplsgpkrfdyds--ve------------krwvdnr--dgtplrqllnseintlckyd-mei-----------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 6 0 0 5 24 3 5 0 45 25 1 0 27 3 0 27 0 7 4 11 67 1 0 0 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 15 1 3 1 8 28 29 9 39 4 0 0 0 0 0 1 0 66 10 17 66 27 100 58 74 6 19 15 2 46 58 100 37 61 87 65 6 61 100 43 1 5 9 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 6 100 1 0 0 4 0 0 5 12 0 6 44 0 2 3 47 5 5 72 26 3 0 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 4 4 9 17 10 11 36 6 5 3 7 45 81 11 31 0 12 6 24 36 19 14 7 11 11 5 5 14 36 1 17 15 4 10 7 4 4 19 21 9 6 34 9 8 4 11 22 16 16 10 20 1 9 21 20 21 7 9 4 5 2 11 0 5 13 2 8 4 9 12 3 2 1 0 15 2 8 0 0 0 3 1 11 2 0 7 2 3 4 3 24 2 11 4 48 32 10 5 3 13 23 43 34 38 2 34 2 28 2 19 34 1 58 22 11 3 0 0 2 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 16 50 11 0 2 0 100 100 100 100 41 2 23 16 3 0 0 4 0 100 100 100 100 100 100 55 100 57 100 100 68 100 100 100 11 100 100 100 1 100 100 100 100 100 27 100 0 2 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 8 100 6 7 12 35 0 0 19 100 0 12 100 4 24 100 100 3 2 100 8 2 9 0 9 7 1 9 0 19 63 3 4 6 3 2 17 5 12 9 4 6 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 0 1 1 1 0 2 1 1 0 0 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 1 1 1 0 0 1 0 0 1 0 0 0 0 1 0 1 0 8 5 0 1 2 33 3 4 0 13 19 2 0 26 7 0 22 0 7 0 5 58 2 2 0 11 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 4 9 0 3 1 16 36 28 14 28 3 1 1 0 0 0 1 0 63 32 17 64 28 100 55 72 6 48 27 4 71 60 100 20 64 86 63 2 58 100 40 7 8 9 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 100 2 0 0 7 0 0 11 10 1 6 42 0 4 5 44 5 4 70 17 2 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

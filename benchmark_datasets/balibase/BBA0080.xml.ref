@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0080.xml</aln-name>
+<aln-score>0.61</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>36</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>113</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>134</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>149</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>161</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------------------mllklk--lvldssvfiqgldi-------egyttpkvvdevkdresrilleslissgkvkvvepskealravknaalktgeieelseadlevlalayelk-----------------------------------------------------------------------------------------------------------------------------------------------------------------aevfsddynvqnvarilglkfr-----tlkrgikkvikwqyvcigcgrk---fkemppggicpdcgs--pvkliprrqrs-----------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>UPF0129 protein PH0709</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>38</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>91</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>115</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>136</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>151</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>161</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------------------mlrnlkktlvldssvfiqgidi-------egyttpsvveeikdreskifleslisagkvkiaepskesidriiqvaketgevnelskadievlalayelk-----------------------------------------------------------------------------------------------------------------------------------------------------------------geifsddynvqniasllglrfr-----tlkrgikkvikwryvcigcgrk---fstlppggvcpdcgs--kvkliprkr-------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>UPF0129 protein APE1102</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>139</fstart><fstop>139</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>19.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>19.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>102</fstop><fcolor>2</fcolor><fscore>17.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>131</fstop><fcolor>3</fcolor><fscore>20.16</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>139</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------mrgstqgcsptgreaivldtgafiagkaaalp---grlatpprvleevrdrgsrsllellqstgrlevlapstralerareearragvlgrlsgadlevlalaldlawqg------------------------------------------------------------------------------------------------------------------------------------------------------------crvavatddytlqrlaarlglgvvr----lryrgav---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>UPF0129 protein MTH1862</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>96</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>124</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>133</fstart><fstop>146</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>160</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>171</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------mhidnvvfmk-kvldasafingyvp--eg--renytvrsvteeirdfrsmmiledalregrlkitepdpesmkvvedaisesgdimrlsptdmeviglavslrgkd-------------------------------------------------------------------------------------------------------------------------------------------------------------dvtvitddytiqntlkilgigfrs----vltsgirdtyswrrvctgcrrv---ypldyefeeceicg----srivrkrhrn-----------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>UPF0129 protein MJ1474</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01850 PIN</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>117</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>141</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>163</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>180</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>197</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlslpppefyklwiinkspyqlfniyrsgimkvkvldasaiihgynpiiee--gehyttpevleeieskk--iiveqaldfgklkimspnreyikkveevvkktgdn--lsqqdigvlalalnln-----------------------------------------------------------------------------------------------------------------------------------------------------------------ailytddygiqnvakklnievrg----iafeptnkdfiwrkicegckkl---ypvdyeediceicgsplkrkmvksrlkkkrkkk------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>UPF0129 protein AF0385</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>38</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>87</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>116</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>138</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>151</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>166</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------mkcvevhvidssaifqrkavy-----rnmvtvpevvaeildeasalyfsvk----nfrveeaspesveevkeaarktgdihklsdtdikvlakaldeikkgn------------------------------------------------------------------------------------------------------------------------------------------------------------evvlvtddyaiqnvamslgirfdg----ilhrqiskefkwvkvcrgcgrr-------ieseicpvcgseaiirrvkndknrnsg--------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>302</fstart><fstop>412</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>15.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>41</fstop><fcolor>1</fcolor><fscore>22.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>92</fstop><fcolor>2</fcolor><fscore>18.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>253</fstop><fcolor>3</fcolor><fscore>26.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>275</fstop><fcolor>4</fcolor><fscore>39.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>289</fstop><fcolor>5</fcolor><fscore>35.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>198</fstop><fcolor>6</fcolor><fscore>10.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>213</fstop><fcolor>7</fcolor><fscore>38.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>113</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>382</fstart><fstop>412</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>412</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------mapvehvvadagaflrhaalqdig--kniytirevvteirdkatrrrlavlpy--elrfkeplpeyvrlvtefskktgdypslsatdiqvlaltyqleaefvgvshlkqepqkvkvsssiqhpetplhisgfhlpykpkppqetekghs-acepenlefssfmfwrnplpnidhelqellidrgedvpseeeeeeengfedrkd-----dsdddgggwitpsnikqiqqeleqcdvpedv------------------rvgclttdfamqnvllqmglhvla----vngmlirearsyilrchgcfkt----tsdmsrvfcshcgn--ktlkkvsvtvsddgtlhmhfsrnpkvlnprglryslpt--------------pkggkyainphltedqrfpqlrlsqkarqktnvfapdyiagvspfvendissrsatlqvrdstlgagrrrlnpnasrkkfvkkr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>20S-pre-rRNA D-site endonuclease NOB1</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>10</fstart><fstop>115</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PINc.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>293</fstart><fstop>371</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF08772 NOB1_Zn_bind</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>210</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>228</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>243</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>331</fstart><fstop>342</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>368</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>387</fstart><fstop>404</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>443</fstart><fstop>458</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>48</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>101</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>267</fstart><fstop>286</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>309</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>320</fstart><fstop>329</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>210</fstop><fcolor>6</fcolor><fscore>10.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>228</fstop><fcolor>7</fcolor><fscore>38.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>368</fstop><fcolor>8</fcolor><fscore>2.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>443</fstart><fstop>458</fstop><fcolor>9</fcolor><fscore>11.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>304</fstart><fstop>304</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>307</fstart><fstop>307</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>323</fstart><fstop>323</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>326</fstart><fstop>326</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>114</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>351</fstart><fstop>459</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005783</goid><goclass>C</goclass><godesc>endoplasmic reticulum</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005730</goid><goclass>C</goclass><godesc>nucleolus</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030684</goid><goclass>C</goclass><godesc>preribosome</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004518</goid><goclass>F</goclass><godesc>nuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003723</goid><goclass>F</goclass><godesc>RNA binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000462</goid><goclass>P</goclass><godesc>maturation of SSU-rRNA from tricistronic rR...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0043248</goid><goclass>P</goclass><godesc>proteasome assembly</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0042274</goid><goclass>P</goclass><godesc>ribosomal small subunit biogenesis</godesc><goevidence>IDA</goevidence></goxref>
+</goxreflist>
+<length>459</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------mtenqtahvralildatplitqsythyqnyaqsfyttptvfqeikdaqarknleiwqslgtlklvhpsensiakvstfakltgdysvlsandlhilaltyeleiklnngdwrlrkkpgdaldaskadvgtdgkqkltednkkeedsesvpkkknkrrggkkqkakreareareaenanleleskaeehveeagskeqicndenikessdlnevfedadddgdwitpenlteaiikdsgedttgslgveaseedrhvalnrpenqvalatgdfavqnvalqmnlnlmn---fmsglkikrirnymlrchacfkifplpkdgkpkhfcascggqgtllrcavsvdsrtgnvtphlksnfqwnnrgnrysvasplsknsqkrygkkghvhskpqenvilredqkeyekvikqeewtrrhnekilnnwigggsadnyispfaitglkqhnvrigkgryvnsskrrs-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>135</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>161</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>182</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>196</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>207</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>289</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>314</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>340</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>385</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>16.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>24.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>94</fstop><fcolor>2</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>239</fstop><fcolor>3</fcolor><fscore>16.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>248</fstart><fstop>261</fstop><fcolor>4</fcolor><fscore>15.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>277</fstop><fcolor>5</fcolor><fscore>30.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>182</fstop><fcolor>6</fcolor><fscore>10.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>196</fstop><fcolor>7</fcolor><fscore>38.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>314</fstop><fcolor>8</fcolor><fscore>2.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>385</fstop><fcolor>9</fcolor><fscore>11.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>103</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>302</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>388</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------msksithlvldtggiicss-tllrnsaesfytiprviaeirdetsrknfelwgdqviqrvpkp--efikkvsefakqtgdysslsvtdiqilaltyelevefnggdwrlrkypgqkhingkppsnsns----tedaskptssdtasvket------------ensdpksaenevlegettqhsnnkeahp-----nteenkeqedn----eeddeddgwitpsn----irkkkaedgvg----eslvqpkhl-------kvacattdfsmqnvllqiglnlvs----sdgfkiqnvkrfvlrchgcytvv----kdmekkfcpscggn-tlikttcsinsk-gefqvhlkknfewktrgtkyslpkpvhgts----------ngkgkknpvlredqpeyqravrrmqrkkeidlmd---------edylpslltgvtkdrmyvqigagrknpnevrrkkr-----
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 100 8 100 29 8 9 5 13 4 2 0 1 0 0 0 0 0 0 0 0 12 0 1 100 1 5 7 100 7 8 100 44 2 30 1 1 16 1 0 0 11 13 0 0 0 0 0 5 12 7 22 6 0 14 24 1 2 34 0 18 9 0 14 1 19 0 3 3 21 41 100 3 0 0 3 100 100 1 17 100 34 7 100 65 21 9 57 1 7 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 48 21 100 35 3 20 100 34 8 3 0 0 59 24 41 1 1 0 0 0 0 0 0 2 0 0 1 0 4 2 6 0 0 1 4 0 0 2 23 0 23 23 0 12 0 0 0 0 0 0 0 0 0 1 0 0 0 23 1 0 23 23 3 0 0 0 0 1 0 2 0 3 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 1 0 18 1 0 100 18 100 100 17 0 0 22 100 0 5 100 0 100 0 0 10 100 0 100 11 100 100 100 100 0 100 1 100 0 2 100 100 19 100 1 5 19 100 100 100 0 100 22 100 0 1 0 0 0 0 19 6 0 1 100 0 0 8 0 100 1 100 100 100 2 100 100 100 0 100 100 100 100 100 0 100 100 0 3 100 22 2 100 100 100 100 100 100 100 100 100 18 9 0 100 0 100 100 100 100 100 100 100 0 100 100 2 1 0 0 2 0 100 0 0 0 0 22 8 0 0 0 0 0 100 100 100 2 3 100 0 2 1 100 14 22 0 0 0 100 9 3 0 0 0 0 0 0 0 0 0 0 0 0 100 2 2 14 0 19 3 100 100 100 1 0 100 100 0 100 22 3 2 0 3 1 0 9 100 100 0 0 0 0 0 0 0 100 0 100 8 0 100 100 5 3 100 0 0 0 0 0 100 14 0 100 14 100 0 0 100 100 100 100 3 100 0 0 0 0 100 0 100 2 3 0 100 100 0 0 100 0 0 0 0 100 19 0 0 11 0 19 100 6 0 0 0 0 0 0 0 22 100 100 0 100 100 0 100 100 19 10 100 100 100 0 100 100 15 0 100 100 100 10 6 0 0 0 0 0 1 100 0 100 100 22 2 18 19 2 3 10 100 100 100 100 0 100 3 3 18 0 0 0 0 0 2 0 0 0 100 1 100 100 0 100 100 100 100 7 0 100 100 22 19 0 17 0 100 18 8 100 19 0 100 8 0 5 0 100 100 100 3 100 100 11 100 6 3 100 100 3 19 100 100 6 0 3 100 6 0 0 3 100 0 0 0 0 0 0 0 0 0 0 1 0 100 0 22 9 100 0 18 100 100 100 100 100 0 100 100 11 19 0 18 19 10 0 11 0 3 19 2 0 8 0 0 0 0 0 0 0 0 0 0 0 0 1 100 0 0 0 100 0 0 17 0 0 0 0 2 10 0 0 100 10 100 100 1 100 100 0 0 0 6 3 0 100 100 3 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 4 0 0 63 12 100 30 4 2 3 17 0 1 0 0 0 0 0 0 0 0 0 1 7 0 2 100 1 7 6 100 2 5 100 48 4 36 0 2 14 2 0 0 6 18 0 0 0 0 0 1 1 2 24 7 0 4 30 1 1 23 0 21 8 0 29 6 15 0 5 4 3 47 100 7 0 0 1 100 100 0 12 100 34 3 45 69 27 13 37 1 9 10 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 12 0 1 0 69 4 100 16 6 20 100 40 15 2 0 1 36 12 44 1 2 0 1 0 0 0 0 2 0 0 0 0 6 3 4 0 0 1 1 0 0 0 28 0 8 28 0 7 0 0 0 0 0 0 0 0 0 2 0 0 0 28 1 0 28 28 1 0 0 0 0 0 0 0 0 0 1 0 1 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

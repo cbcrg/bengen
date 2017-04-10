@@ -1,0 +1,1058 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0159.xml</aln-name>
+<aln-score>0.75</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Xaa-Pro dipeptidase</definition>
+<organism>Escherichia coli (strain K12).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+</lineage>
+<taxid>83333</taxid>
+<ec>3.4.13.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>168</fstart><fstop>438</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>123</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>134</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>142</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>208</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>270</fstart><fstop>279</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>313</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>253</fstart><fstop>264</fstop><fcolor>0</fcolor><fscore>28.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>322</fstart><fstop>326</fstop><fcolor>1</fcolor><fscore>15.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>351</fstop><fcolor>2</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>373</fstart><fstop>392</fstop><fcolor>3</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>418</fstart><fstop>428</fstop><fcolor>4</fcolor><fscore>39.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>190</fstop><fcolor>5</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>20.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>252</fstop><fcolor>7</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>178</fstop><fcolor>9</fcolor><fscore>15.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>232</fstop><fcolor>10</fcolor><fscore>23.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>86</fstop><fcolor>11</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>13.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>335</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>246</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>257</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>257</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>339</fstart><fstop>339</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>384</fstart><fstop>384</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>423</fstart><fstop>423</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>423</fstart><fstop>423</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016805</goid><goclass>F</goclass><godesc>dipeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>443</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------meslaslyknhiatlqertrdalarfkldallihsgelfnvflddhpypfkvnpqfkawvpvtqvpncwllvdgvnk----pklwfylpv------dywhnveplptsfwtedvevialpkadg---------------------igsllpaargnigyigpvperalqlgieasn------inpkgvidylhyyrsfkteyelacmreaqkmavnghraaeeafrsgm--sefdiniayltatghrdtd--vpysnival-nehaavlhytkld---hqapeemrsflldagaeyn-gyaadltrtwsaks---dndyaqlvkdvndeqlaliatmkagvsyvdyhiqfhqriakllrkhqiitdms-eeamvendltgpfmphgighplglqvhdvagfmqddsgthlaapakypylrctrilqpgmvltiepgiyfiesllapwreg--qfskhfnwqkiealkpfggiriednvvihennvenmtrdlkla------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Xaa-Pro dipeptidase</definition>
+<organism>Pseudoalteromonas haloplanktis (Alteromonas haloplanktis).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Alteromonadales</taxon>
+<taxon>Pseudoalteromonadaceae</taxon>
+</lineage>
+<taxid>228</taxid>
+<ec>3.4.13.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>166</fstart><fstop>435</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>264</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>123</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>134</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>142</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>206</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>251</fstart><fstop>262</fstop><fcolor>0</fcolor><fscore>28.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>319</fstart><fstop>323</fstop><fcolor>1</fcolor><fscore>15.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>327</fstart><fstop>348</fstop><fcolor>2</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>389</fstop><fcolor>3</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>415</fstart><fstop>425</fstop><fcolor>4</fcolor><fscore>39.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>188</fstop><fcolor>5</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>218</fstop><fcolor>6</fcolor><fscore>20.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>250</fstop><fcolor>7</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>176</fstop><fcolor>9</fcolor><fscore>15.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>222</fstart><fstop>230</fstop><fcolor>10</fcolor><fscore>23.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>86</fstop><fcolor>11</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>13.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>244</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>255</fstart><fstop>255</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>255</fstart><fstop>255</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>336</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>381</fstart><fstop>381</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>420</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>420</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0047862</goid><goclass>F</goclass><godesc>diisopropyl-fluorophosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016805</goid><goclass>F</goclass><godesc>dipeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009636</goid><goclass>P</goclass><godesc>response to toxin</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>440</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------meklavlyaehiatlqqrtrticeqegleglvihsgqakrqflddmyypfkvnphfkawlpvidnphcwivvngsdk----pklifyrpi------dfwhkvpdeprdfwaeyfdielllqpdq---------------------vekllpydkakfayigeylevaqalgfsi--------mnpepvlnyihyhrayktqyeleclrnanriavdghkaardaffngg--sefdiqqaylmatrqsene--mpygnival-nencailhythfe---pkapqthnsflidaganfn-gyaaditrtydfkk---qgefadlvnamtahqielgkslkpgllygdlhidchnriaqllsdfdivklp--aaeiverqitstffphglghhlgaqvhdvggfmrdetgahqappeghpflrctrlieknqvftiepglyfidsllgdlaqt--dnkqfinwekveafkpfggiriedniivhedslenmtrnllld------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Xaa-Pro dipeptidase</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ec>3.4.13.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>193</fstart><fstop>467</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>18</fstart><fstop>155</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>66</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>90</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>101</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>151</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>167</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>293</fstop><fcolor>0</fcolor><fscore>12.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>356</fstop><fcolor>1</fcolor><fscore>30.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>381</fstop><fcolor>2</fcolor><fscore>14.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>400</fstart><fstop>419</fstop><fcolor>3</fcolor><fscore>23.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>446</fstart><fstop>456</fstop><fcolor>4</fcolor><fscore>36.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>214</fstop><fcolor>5</fcolor><fscore>13.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>246</fstop><fcolor>6</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>281</fstop><fcolor>7</fcolor><fscore>21.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>313</fstop><fcolor>8</fcolor><fscore>16.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>202</fstop><fcolor>9</fcolor><fscore>13.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>258</fstop><fcolor>10</fcolor><fscore>23.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>436</fstart><fstop>444</fstop><fcolor>13</fcolor><fscore>15.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>467</fstart><fstop>477</fstop><fcolor>14</fcolor><fscore>20.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>112</fstop><fcolor>15</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>319</fstop><fcolor>16</fcolor><fscore>16.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>129</fstop><fcolor>18</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>101</fstop><fcolor>21</fcolor><fscore>25.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>21</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>45</fstart><fstop>49</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>56</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>69</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>79</fstart><fstop>81</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>87</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>97</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>102</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>114</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>128</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>129</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>132</fstart><fstop>138</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>166</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>176</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>189</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>219</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>238</fstart><fstop>241</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>244</fstart><fstop>247</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>248</fstart><fstop>252</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>272</fstart><fstop>277</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>279</fstart><fstop>281</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>288</fstart><fstop>293</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>300</fstart><fstop>319</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>326</fstart><fstop>343</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>351</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>360</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>373</fstart><fstop>377</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>394</fstart><fstop>396</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>408</fstart><fstop>411</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>414</fstart><fstop>416</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>419</fstart><fstop>427</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>429</fstart><fstop>432</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>437</fstart><fstop>443</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>448</fstart><fstop>450</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>452</fstart><fstop>457</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>459</fstart><fstop>464</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>472</fstart><fstop>479</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>366</fstart><fstop>378</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>276</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>287</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>287</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>370</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>412</fstart><fstop>412</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylalanine Potential</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>188</fstart><fstop>188</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>487</fstart><fstop>487</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>184</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) Q (in PD).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>276</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>D -) N (in PD).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>278</fstart><fstop>278</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) D (in PD).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>388</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) H (in dbSNP:rs2230062).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>435</fstart><fstop>435</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) F (in dbSNP:rs17570).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>448</fstart><fstop>448</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) R (in PD).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Missing (in PD).</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016805</goid><goclass>F</goclass><godesc>dipeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004181</goid><goclass>F</goclass><godesc>metallocarboxypeptidase activity</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006520</goid><goclass>P</goclass><godesc>cellular amino acid metabolic process</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0030574</goid><goclass>P</goclass><godesc>collagen catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>TAS</goevidence></goxref>
+</goxreflist>
+<length>492</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------aaatgpsfwlgnetlkvplalfalnrqrlcerlrknpavqagsivvlqggeetqryctdtgvlflq-esffhwafgvtepgcygvidvdtg----kstlfvprlpa-shatwmgkihskehfkekyavddvqyvdeiasvlts--------------qkpsvlltlrgvnt-dsgsvcreasfdgisk------fevnntilhpeivesrvfktdmelevlrytnkisseahrevmkavkvgm--keygleslfehycysrggmrhssytcicgs-gensavlhyghagapndrtiqngdmclfdmggeyy-svasditcsfprngk-ftadqkavyeavllssravmgamkpgdwwpdidrladrihleelahmgilsgs--vdamvqahlgavfmphglghflgidvhdvggypeg---veridepglrslrtarhlqpgmvltvepgiyfidhlldealadp-arasflnrevlqrfrgfggvrieedvvvidsgielltc-vprtveeieacmagcdkaftpfsgpk--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Xaa-Pro dipeptidase</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ec>3.4.13.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>193</fstart><fstop>467</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>18</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>66</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>90</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>101</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>151</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>167</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>293</fstop><fcolor>0</fcolor><fscore>12.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>356</fstop><fcolor>1</fcolor><fscore>30.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>381</fstop><fcolor>2</fcolor><fscore>14.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>400</fstart><fstop>419</fstop><fcolor>3</fcolor><fscore>23.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>446</fstart><fstop>456</fstop><fcolor>4</fcolor><fscore>36.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>214</fstop><fcolor>5</fcolor><fscore>13.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>246</fstop><fcolor>6</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>281</fstop><fcolor>7</fcolor><fscore>21.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>313</fstop><fcolor>8</fcolor><fscore>16.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>202</fstop><fcolor>9</fcolor><fscore>13.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>258</fstop><fcolor>10</fcolor><fscore>23.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>436</fstart><fstop>444</fstop><fcolor>13</fcolor><fscore>15.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>467</fstart><fstop>477</fstop><fcolor>14</fcolor><fscore>20.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>112</fstop><fcolor>15</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>319</fstop><fcolor>16</fcolor><fscore>16.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>129</fstop><fcolor>18</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>101</fstop><fcolor>21</fcolor><fscore>25.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>366</fstart><fstop>378</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>276</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>287</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>287</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>370</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>412</fstart><fstop>412</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylalanine Potential</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>188</fstart><fstop>188</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016805</goid><goclass>F</goclass><godesc>dipeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030574</goid><goclass>P</goclass><godesc>collagen catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>492</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------astvrpsfslgnetlkvplaifalnrqrlcerlrkngavqaasavvlqggeemqryctdtsiifrq-esffhwafgvvesgcygvidvdtg----kstlfvprlpd-syatwmgkihskeyfkekyavddvqytdeiasvlts--------------rnpsvlltlrgvnt-dsgsvcreasfegisk------fnvnntilhpeivecrvfktdmelevlrytnrisseahrevmkavkvgm--keyemeslfqhycysrggmrhtsytciccs-genaavlhyghagapndrtikdgdiclfdmggeyy-cfasditcsfpanrk-ftedqkaiyeavlrscrtvmstmkpgvwwpdmhrladrihleelarigllsgs--vdamlqvhlgavfmphglghflgldvhdvggypeg---veridepglrslrtarhlepgmvltvepgiyfidhlldqaladp-aqacffnqevlqrfrnfggvrieedvvvtdsgmelltc-vprtveeieacmagcdkasvpfsgqk--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Uncharacterized peptidase YFR006W</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>238</fstart><fstop>508</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>72</fstart><fstop>207</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>334</fstop><fcolor>0</fcolor><fscore>32.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>399</fstop><fcolor>1</fcolor><fscore>29.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>403</fstart><fstop>424</fstop><fcolor>2</fcolor><fscore>29.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>441</fstart><fstop>460</fstop><fcolor>3</fcolor><fscore>22.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>498</fstop><fcolor>4</fcolor><fscore>39.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>283</fstart><fstop>291</fstop><fcolor>6</fcolor><fscore>37.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>307</fstart><fstop>322</fstop><fcolor>7</fcolor><fscore>22.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>338</fstart><fstop>354</fstop><fcolor>8</fcolor><fscore>23.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>248</fstop><fcolor>9</fcolor><fscore>14.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>303</fstop><fcolor>10</fcolor><fscore>25.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>509</fstart><fstop>519</fstop><fcolor>14</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>166</fstop><fcolor>15</fcolor><fscore>17.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>356</fstart><fstop>360</fstop><fcolor>16</fcolor><fscore>18.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>183</fstop><fcolor>18</fcolor><fscore>17.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>143</fstop><fcolor>19</fcolor><fscore>15.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>155</fstop><fcolor>21</fcolor><fscore>25.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>8</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>408</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>316</fstart><fstop>316</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>327</fstart><fstop>327</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>327</fstart><fstop>327</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>412</fstart><fstop>412</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>452</fstart><fstop>452</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>493</fstart><fstop>493</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>493</fstart><fstop>493</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>535</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mclepislvvfgslvfffglvkyfkrgerqrtrgilqpeykdkyyyskekgeemgevanvneipvkirnhkypakehnlrvkdlllnrnpklskistaffiageelegnkycdtnkdfrqnryfyhlsgvdipasailfncstd-----kltlflpnide-edviwsgmplsldeamrvfdidealyisdlgkkfkelqdf---------------aifttdldnvhdeniars--------------lipsdpnffyamdetraikdwyeiesirkacqisdkshlavmsalpiel--nelqiqaefeyhatrqggrs-lgydpiccs-gpacgtlhyvkn----sedikgkhsilidagaewr-qytsditrcfptsgk-ftaehrevyetvldmqnqamerikpgakwddlhalthkvlikhflsmgifkkefsedeifkrrascafyphglghmlgldvhdvggnpny-----ddpdpmfrylrirrplkenmvitnepgcyfnqflikeflekhperlevvdmsvlkrymyvggvrieddilvtkdgyenlt-gitsdpdeiekivqkglkkprsgfhviv-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>81</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>157</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>253</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>16.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>365</fstart><fstop>369</fstop><fcolor>1</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>373</fstart><fstop>394</fstop><fcolor>2</fcolor><fscore>15.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>402</fstart><fstop>421</fstop><fcolor>3</fcolor><fscore>23.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>432</fstart><fstop>442</fstop><fcolor>4</fcolor><fscore>28.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>262</fstop><fcolor>6</fcolor><fscore>12.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>293</fstop><fcolor>7</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>310</fstart><fstop>326</fstop><fcolor>8</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>274</fstop><fcolor>10</fcolor><fscore>18.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>423</fstart><fstop>431</fstop><fcolor>13</fcolor><fscore>15.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>454</fstart><fstop>464</fstop><fcolor>14</fcolor><fscore>20.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>129</fstop><fcolor>15</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>332</fstop><fcolor>16</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>101</fstop><fcolor>19</fcolor><fscore>13.15</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>470</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------msnrrknslyptlsaelsalmrtgwadterhdlapaeqapyaalrraalsarfpgerlvvpsgnlkvrsnddtypfrsysgyvhmtgdqardgalvleprpdgg-hdaycyqlprdsrdddefwtgahae-lwtgrrrslaeservlglpcrdvrtaaadl-----------aavsevrtrivrgidpaleaavttde----------erdaeledalsdlrlvkdawelgelrkavdstvrgftdvvgelsravasserwlegtffrrarlegna--vgygticaa-gehatimhwtdn----dgpvrpgdlllldagvetrslytadvtrtlpisgt-ftplqrevydavyeaqeagiatvkpgaayrdfheaaqrhlaarlvewgfiegp--aerayelglqrrftmagtghmlgldvhdcararte--------------eyvegvlepgmcltvepglyfqadd----------------ltvpeewrg-igvrieddlvvtedghenlsaglprsadeveawmarfag-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>101</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>149</fstart><fstop>176</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>202</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>273</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>326</fstop><fcolor>0</fcolor><fscore>16.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>385</fstart><fstop>389</fstop><fcolor>1</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>414</fstop><fcolor>2</fcolor><fscore>15.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>422</fstart><fstop>441</fstop><fcolor>3</fcolor><fscore>23.09</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>452</fstart><fstop>462</fstop><fcolor>4</fcolor><fscore>28.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>274</fstart><fstop>282</fstop><fcolor>6</fcolor><fscore>12.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>313</fstop><fcolor>7</fcolor><fscore>17.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>346</fstop><fcolor>8</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>294</fstop><fcolor>10</fcolor><fscore>18.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>443</fstart><fstop>451</fstop><fcolor>13</fcolor><fscore>15.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>474</fstart><fstop>484</fstop><fcolor>14</fcolor><fscore>20.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>148</fstop><fcolor>15</fcolor><fscore>16.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>352</fstop><fcolor>16</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>121</fstop><fcolor>19</fcolor><fscore>13.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>490</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------aeeltpenpaipetpeeteepikqrknglypgvsdelaenmqsgwadtelhdlepiaqaaetaarraalsarfpgerlvipagnlktrsndteysfrasveyayltgnqtedgvlvmepegdg--haatiyllprsdrengefwldgqge-lwvgrrhslaeagelygipasdvrelagsl------------reatgpvrvvrgfdagieaaltdkvta--------erdeelrvflsearlvkdefeigelqkavdstvrgfedvvkvldraeatseryiegtfflrarvegnd--vgygsicaa-gphactlhwvrn----dgpvrsgdlllldagvethtyytadvtrtlpisgt-yselqkkiydavydaqeagiaavrpgakyrdfhdasqrvlaerlvewglvegp--vervlelglqrrwtlhgtghmlgmdvhdcaaarve--------------syvdgtlepgmvltvepglyfqadd----------------ltvpeeyrg-igvrieddilvtadgnrnlsaglprrsdeveewmaalkg-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Xaa-Pro aminopeptidase</definition>
+<organism>Haemophilus influenzae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Pasteurellales</taxon>
+<taxon>Pasteurellaceae</taxon>
+</lineage>
+<taxid>727</taxid>
+<ec>3.4.11.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>176</fstart><fstop>415</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>143</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>130</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>220</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>261</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>23.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>331</fstart><fstop>335</fstop><fcolor>1</fcolor><fscore>24.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>360</fstop><fcolor>2</fcolor><fscore>20.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>366</fstart><fstop>385</fstop><fcolor>3</fcolor><fscore>27.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>405</fstop><fcolor>4</fcolor><fscore>28.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>198</fstop><fcolor>5</fcolor><fscore>12.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>229</fstop><fcolor>6</fcolor><fscore>20.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>260</fstop><fcolor>7</fcolor><fscore>21.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>292</fstop><fcolor>8</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>186</fstop><fcolor>9</fcolor><fscore>18.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>241</fstop><fcolor>10</fcolor><fscore>22.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>86</fstop><fcolor>11</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>51</fstop><fcolor>12</fcolor><fscore>16.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>386</fstart><fstop>394</fstop><fcolor>13</fcolor><fscore>21.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>417</fstart><fstop>427</fstop><fcolor>14</fcolor><fscore>19.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>99</fstop><fcolor>15</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>298</fstop><fcolor>16</fcolor><fscore>12.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>116</fstop><fcolor>18</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>74</fstop><fcolor>19</fcolor><fscore>28.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>26</fstop><fcolor>20</fcolor><fscore>15.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>220</fstop><fcolor>25</fcolor><fscore>14.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>344</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>254</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>265</fstart><fstop>265</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>265</fstart><fstop>265</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>348</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>377</fstart><fstop>377</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>400</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>400</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>430</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------melaymaklpkeefeerrtrvfaqmqpnsalllfseiekrrnndctypfrqdsyfwyltgfnepnaallllkteqv---ekaiiflrprdp-lletwngrrlgverapqqlnvneaysieefatvlpkilknlt------------alyhvpeihtwgdtlvsesav------------nfseildwrpmlsemrlikspneirlmqqagqitalghikamqttrpnr--feyeiesdilhefnrhcarf-psynsivag-gsnacilhyten----drplndgdlvlidagcefa-myagditrtfpvngk-fsqpqreiyelvlkaqkraiellvpgnsikqandeviriktqglvdlgilkgd--vdtlieqqayrqfymhglghwlgldvhdvgsygqd----------------kqrileigmvitvepgiyised-----------------advpeqykg-igvriednllmteygnkiltaavpkeiadienlmnf--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Xaa-Pro aminopeptidase</definition>
+<organism>Escherichia coli (strain K12).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+</lineage>
+<taxid>83333</taxid>
+<ec>3.4.11.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>139</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>183</fstart><fstop>422</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>125</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>226</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>267</fstart><fstop>278</fstop><fcolor>0</fcolor><fscore>23.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>337</fstart><fstop>341</fstop><fcolor>1</fcolor><fscore>24.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>345</fstart><fstop>366</fstop><fcolor>2</fcolor><fscore>20.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>372</fstart><fstop>391</fstop><fcolor>3</fcolor><fscore>27.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>401</fstart><fstop>411</fstop><fcolor>4</fcolor><fscore>28.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>204</fstop><fcolor>5</fcolor><fscore>12.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>235</fstop><fcolor>6</fcolor><fscore>20.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>251</fstart><fstop>266</fstop><fcolor>7</fcolor><fscore>21.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>298</fstop><fcolor>8</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>192</fstop><fcolor>9</fcolor><fscore>18.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>247</fstop><fcolor>10</fcolor><fscore>22.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>81</fstop><fcolor>11</fcolor><fscore>14.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>16.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>400</fstop><fcolor>13</fcolor><fscore>21.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>423</fstart><fstop>433</fstop><fcolor>14</fcolor><fscore>19.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>94</fstop><fcolor>15</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>304</fstop><fcolor>16</fcolor><fscore>12.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>111</fstop><fcolor>18</fcolor><fscore>12.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>68</fstop><fcolor>19</fcolor><fscore>28.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>20</fstop><fcolor>20</fcolor><fscore>15.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>226</fstop><fcolor>25</fcolor><fscore>14.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>6</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>29</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>35</fstart><fstop>37</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>62</fstart><fstop>67</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>69</fstart><fstop>71</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>73</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>84</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>95</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>106</fstart><fstop>110</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>111</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>114</fstart><fstop>122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>130</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>136</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>147</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>153</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>161</fstart><fstop>164</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>167</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>179</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>209</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>227</fstart><fstop>230</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>233</fstart><fstop>236</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>237</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>257</fstart><fstop>262</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>264</fstart><fstop>266</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>273</fstart><fstop>278</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>285</fstart><fstop>304</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>311</fstart><fstop>328</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>336</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>358</fstart><fstop>362</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>369</fstart><fstop>371</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>380</fstart><fstop>383</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>386</fstart><fstop>389</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>397</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>402</fstart><fstop>405</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>407</fstart><fstop>413</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>416</fstart><fstop>419</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>428</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>351</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>261</fstart><fstop>261</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>272</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>272</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>355</fstart><fstop>355</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>384</fstart><fstop>384</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>407</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>407</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>440</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------seisrqefqrrrqalveqmqpgsaalifaapevtrsadseypyrqnsdfwyftgfnepeavlvliksddt--hnhsvlfnrvrdl-taeiwfgrrlgqdaapeklgvdralafseinqqlyqllngld------------vvyhaqgeyayad-vivnsaleklrkgsrqnltapatmidwrpvvhemrlfkspeeiavlrrageitamahtramekcrpgm--feyhlegeihhefnrhgary-psyntivgs-gengcilhyten----ecemrdgdlvlidagceyk-gyagditrtfpvngk-ftqaqreiydivlesletslrlyrpgtsilevtgevvrimvsglvklgilkgd--vdeliaqnahrpffmhglshwlgldvhdvgvygqd----------------rsrilepgmvltvepglyiapd-----------------aevpeqyrg-igirieddivitetgnenltasvvkkpeeiealmvaarkq----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Uncharacterized peptidase YER078C</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>251</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>65</fstart><fstop>204</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>28</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>379</fstart><fstop>398</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>345</fstop><fcolor>0</fcolor><fscore>26.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>408</fstart><fstop>429</fstop><fcolor>2</fcolor><fscore>23.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>433</fstart><fstop>452</fstop><fcolor>3</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>462</fstart><fstop>472</fstop><fcolor>4</fcolor><fscore>25.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>294</fstart><fstop>302</fstop><fcolor>6</fcolor><fscore>19.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>318</fstart><fstop>333</fstop><fcolor>7</fcolor><fscore>17.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>349</fstart><fstop>365</fstop><fcolor>8</fcolor><fscore>13.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>261</fstop><fcolor>9</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>314</fstop><fcolor>10</fcolor><fscore>15.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>107</fstop><fcolor>12</fcolor><fscore>13.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>484</fstart><fstop>494</fstop><fcolor>14</fcolor><fscore>20.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>158</fstop><fcolor>15</fcolor><fscore>24.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>367</fstart><fstop>371</fstop><fcolor>16</fcolor><fscore>13.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>130</fstop><fcolor>19</fcolor><fscore>13.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>82</fstop><fcolor>20</fcolor><fscore>15.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>413</fstart><fstop>425</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>327</fstart><fstop>327</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>338</fstart><fstop>338</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>338</fstart><fstop>338</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>417</fstart><fstop>417</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>444</fstart><fstop>444</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>467</fstart><fstop>467</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>467</fstart><fstop>467</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>511</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------mlhrinpvrfsmqscqryfsklvspleqhksntftnrvripieagqplhetrpfliksgeltpgisaleyyerrirlaetlppkscvilagndiqfasgavfypfqqendlfylsgwnepnsvmilekptdslsdtifhmlvppkda-faekwegfrsgvygvqeifnadesasindlskylpkiinrndfiyfdmlstsnpsssnfkhikslldgsgnsnrslnsian--------ktikpiskriaefrkikspqelrimrragqisgrsfnqafakrf-----rnertldsflhykfisggcdkdayipvvat-gsnslcihytrn----ddvmfddemvlvdaagslg-gycadisrtwpnsgk-ftdaqrdlyeavlnvqrdciklckasnnys-lhdiheksitlmkqelknlg-----idkvsgwnveklyphyighnlgldvhdvpkvsry------------------eplkvgqvitiepglyipne-----------------esfpsyfrn-vgirieddiaigedtytnltveavkeiddlenvmqnglstkfeedqvapl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Uncharacterized peptidase C12B10.05</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>241</fstart><fstop>472</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>62</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF05195 AMP_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>25</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>389</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>26.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>399</fstart><fstop>420</fstop><fcolor>2</fcolor><fscore>23.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>424</fstart><fstop>443</fstop><fcolor>3</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>453</fstart><fstop>463</fstop><fcolor>4</fcolor><fscore>25.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>292</fstop><fcolor>6</fcolor><fscore>19.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>324</fstop><fcolor>7</fcolor><fscore>17.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>340</fstart><fstop>356</fstop><fcolor>8</fcolor><fscore>13.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>251</fstop><fcolor>9</fcolor><fscore>17.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>305</fstop><fcolor>10</fcolor><fscore>15.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>13.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>475</fstart><fstop>485</fstop><fcolor>14</fcolor><fscore>20.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>154</fstop><fcolor>15</fcolor><fscore>24.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>358</fstart><fstop>362</fstop><fcolor>16</fcolor><fscore>13.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>109</fstart><fstop>127</fstop><fcolor>19</fcolor><fscore>13.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>79</fstop><fcolor>20</fcolor><fscore>15.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>403</fstart><fstop>415</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>317</fstart><fstop>317</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>328</fstart><fstop>328</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>328</fstart><fstop>328</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>407</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>434</fstart><fstop>434</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>457</fstart><fstop>457</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>457</fstart><fstop>457</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>487</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------msgyirtlfirnrfsnyrlrsqiikykysnvsylnksalrcgqatdsthphilqpgeltprisaqeyktrrdrvaslledndfmivtsapvrhmcgaafyeyhqdpnfyyltgclepnavllmfkngasg-sydcslylpsknp-yiekweglrtgstlgkklfqienvydsslassvinalgkksnrifynyq-----tgylskmpaasapefiqdtltklfrt---------stqrsvdellhplrsikstaelecmkeaanissnvyreimrkrf-----ekeaemsaefnyrfciggcdrsayvpvvaggkkngltihytin----ndifrpdemvlvdaggefg-gyvtdisrtwpingk-fstvqrdlyqavlnvqkkcikycctsngws-ladihfesvklmheelkqvg-----ihgtkreitdilyphsigheigleihdcstnngy------------------qplrknqvitiepglyvpee-----------------dgwp-qwaqgiairiedsvivgddkpfvltsaapkeieeiealkk---------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Uncharacterized peptidase MJ0806</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>129</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>12</fstart><fstop>122</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01321 Creatinase_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>29.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>270</fstart><fstop>291</fstop><fcolor>2</fcolor><fscore>26.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>320</fstop><fcolor>3</fcolor><fscore>28.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>321</fstart><fstop>331</fstop><fcolor>4</fcolor><fscore>24.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>184</fstop><fcolor>6</fcolor><fscore>27.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>213</fstop><fcolor>7</fcolor><fscore>20.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>243</fstop><fcolor>8</fcolor><fscore>18.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>139</fstop><fcolor>9</fcolor><fscore>19.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>33</fstop><fcolor>22</fcolor><fscore>12.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>196</fstop><fcolor>23</fcolor><fscore>24.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>251</fstart><fstop>261</fstop><fcolor>24</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>175</fstop><fcolor>25</fcolor><fscore>14.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>275</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>207</fstart><fstop>207</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>218</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>218</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>279</fstart><fstop>279</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>312</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>326</fstart><fstop>326</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>326</fstart><fstop>326</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>347</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------mqktigdimnnrierflkymesegikkavilkke--ninyflgkyf----msfsvlvfee----qpylyvgkldkdyaeehfnfleirefksweeif----------------------kgcdgvekelsigylkyidke---------------ykiisdkikemrmikdkeeiklikkaaeisdkainwvlnnldevknlteyelvaeieyimkkhgsik-pafdsivvs-gkktsfphalpt----kd--kiadillvdigavye-gycsditrtfllkd---deemkkiynlvyeakkvaeehlkegisakqidni--------------------vreffnd--ykelfihslghgvglevheeprlsnklk------------ddediilkegmvvtiepglylkdk---------------------------fgvriedlylvkkngfekls---kaeisey--------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>197</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>28.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>293</fstop><fcolor>1</fcolor><fscore>21.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>318</fstop><fcolor>2</fcolor><fscore>29.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>324</fstart><fstop>343</fstop><fcolor>3</fcolor><fscore>25.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>354</fstop><fcolor>4</fcolor><fscore>25.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>175</fstop><fcolor>5</fcolor><fscore>21.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>236</fstop><fcolor>7</fcolor><fscore>28.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>163</fstop><fcolor>9</fcolor><fscore>15.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>286</fstop><fcolor>24</fcolor><fscore>17.92</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>375</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------mgsrrfdaevyarrlalaaaatadaglaglvitpgy--dlcyligsraetf-erltalvlpaag---apavvlprlelaalkqsaaaelglrvcdwvdgddpygl------------vsavlggapvatavtdsmpalhmlpladalg-------vlpvlatdvlrrlrmvkeeteidalrkagaaidrvharvpeflvpgr--teadvaadiaeaivaeghse-vafvivgs--gphgadphhgys----drelregdivvvdiggtygpgyhsdstrtysigep--dsdvaqsysmlqraqraafeairpgvtaeqvdaa--------------------ardvlaeaglaeyfvhrtghgiglcvheepyivag----------------ndlvlvpgmafsiepgiyfpgr---------------------------wgariedivivtedgavsvnn-cphelivvpvs-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Xaa-Pro dipeptidase</definition>
+<organism>Lactobacillus delbrueckii subsp. lactis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Lactobacillaceae</taxon>
+</lineage>
+<taxid>29397</taxid>
+<ec>3.4.13.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>137</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01321 Creatinase_N</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>39</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>24.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>310</fstop><fcolor>2</fcolor><fscore>24.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>335</fstop><fcolor>3</fcolor><fscore>27.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>336</fstart><fstop>346</fstop><fcolor>4</fcolor><fscore>23.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>198</fstop><fcolor>6</fcolor><fscore>25.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>229</fstop><fcolor>7</fcolor><fscore>20.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>260</fstop><fcolor>8</fcolor><fscore>15.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>210</fstop><fcolor>23</fcolor><fscore>26.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>278</fstop><fcolor>24</fcolor><fscore>21.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>294</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>223</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>234</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>234</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>298</fstart><fstop>298</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>327</fstart><fstop>327</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>341</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>341</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016805</goid><goclass>F</goclass><godesc>dipeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>368</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------mnldklqnwlqengmdvayvsspttinyftgfitdpeerifklfafkdaepf-lfcpalnyeea---kasawdgdvvgyldsedpwskiaeeikkrtkd------------------yqnwavekngltvahyqalhaqfpdsd-------------fskdlsdfiahirlfkteselvklrkageeadfafqigfealrngv--teravvsqieyqlklqkgvmqtsfdtivqa-gknaanphqgps----mntvqpnelvlfdlgtmhe-gyasdssrtvaygep--tdkmreiyevnrtaqqaaidaakpgmtaseldgv--------------------arkiitdagygeyfihrlghgigmevhefpsiang----------------ndvvleegmcfsiepgiyipgf---------------------------agvriedcgvltkdgfkpfth-tskelkvlpvke----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Uncharacterized peptidase yqhT</definition>
+<organism>Bacillus subtilis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>1423</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>134</fstart><fstop>345</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>127</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01321 Creatinase_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>10</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>24</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>36</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>44</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>62</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>77</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>99</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>165</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>188</fstart><fstop>199</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>267</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>230</fstop><fcolor>0</fcolor><fscore>28.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>270</fstart><fstop>274</fstop><fcolor>1</fcolor><fscore>15.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>299</fstop><fcolor>2</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>324</fstop><fcolor>3</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>335</fstop><fcolor>4</fcolor><fscore>39.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>156</fstop><fcolor>5</fcolor><fscore>13.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>187</fstop><fcolor>6</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>218</fstop><fcolor>7</fcolor><fscore>21.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>249</fstop><fcolor>8</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>144</fstop><fcolor>9</fcolor><fscore>18.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>251</fstart><fstop>255</fstop><fcolor>16</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>24</fstop><fcolor>22</fcolor><fscore>12.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>188</fstart><fstop>199</fstop><fcolor>23</fcolor><fscore>24.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>267</fstop><fcolor>24</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>283</fstart><fstop>295</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>212</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>223</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>223</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>287</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>316</fstart><fstop>316</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>330</fstart><fstop>330</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>330</fstart><fstop>330</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>353</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------mkleklrnlfgqlgidgmlitsnt-nvrymtgftgsa----glavisgdk---aafitdfryteqakvqvkgfeiiehggsliqt-------------------tadtvesfgikrlgfeqnsmtygtyasysavi----sdaelvpvaesveklrliksseeikileeaakiaddafrhiltfmkpgi--seiavanelefymrsqgads-ssfdmivas-glrsslphgvas----dkliesgdlvtldfgayyk-gycsditrtvavgqp--sdqlkeiyqvvfdaqalgvahikpgmtgkeadal--------------------trdhiaakgygdyfghstghglgmevhespglsvr----------------ssailepgmvvtvepgiyipet---------------------------ggvrieddivitengnrtith-spkeliil--------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Putative Xaa-Pro aminopeptidase</definition>
+<organism>Mycoplasma genitalium.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Tenericutes</taxon>
+<taxon>Mollicutes</taxon>
+<taxon>Mycoplasmataceae</taxon>
+</lineage>
+<taxid>2097</taxid>
+<ec>3.4.11.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>66</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01321 Creatinase_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>135</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>16</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>30</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>42</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>50</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>68</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>83</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>270</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>28.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>277</fstop><fcolor>1</fcolor><fscore>15.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>302</fstop><fcolor>2</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>327</fstop><fcolor>3</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>338</fstop><fcolor>4</fcolor><fscore>39.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>157</fstop><fcolor>5</fcolor><fscore>13.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>188</fstop><fcolor>6</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>219</fstop><fcolor>7</fcolor><fscore>21.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>252</fstop><fcolor>8</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>145</fstop><fcolor>9</fcolor><fscore>18.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>258</fstop><fcolor>16</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>30</fstop><fcolor>22</fcolor><fscore>12.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>23</fcolor><fscore>24.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>270</fstop><fcolor>24</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>286</fstart><fstop>298</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>290</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>319</fstart><fstop>319</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>354</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------miselqqkitvlkdllktnkadailigsdq-nrfwltnfpssa----gwliitsnk---aklfidgryyeaarnfinpivevelfvsfkqv--------------------kafcesnginhlliegdyltfnyqdwiqa--------ickqytvinaqeirrvklpseiqaiekavditrkvavklkrfikpkm--telfisqwitnelvkqggak-nsfdpivat-gknganphhkpt----ktivkegdfitcdfgtiyn-gycsditrtflvgkkpksakllsaykkveeanlaginavnttltgsqvdkv--------------------crdiiensefkdffvhstghgvgidihempnvsqsy----------------nkllcengvvtiepgiyipnl---------------------------ggiriedmvlvkkeksvwlsksipraf-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Putative Xaa-Pro aminopeptidase</definition>
+<organism>Mycoplasma pneumoniae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Tenericutes</taxon>
+<taxon>Mollicutes</taxon>
+<taxon>Mycoplasmataceae</taxon>
+</lineage>
+<taxid>2104</taxid>
+<ec>3.4.11.9</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>135</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00557 Peptidase_M24</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>104</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01321 Creatinase_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>16</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>30</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>42</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>50</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>68</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>83</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>270</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>28.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>277</fstop><fcolor>1</fcolor><fscore>15.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>302</fstop><fcolor>2</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>327</fstop><fcolor>3</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>338</fstop><fcolor>4</fcolor><fscore>39.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>157</fstop><fcolor>5</fcolor><fscore>13.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>188</fstop><fcolor>6</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>219</fstop><fcolor>7</fcolor><fscore>21.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>252</fstop><fcolor>8</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>145</fstop><fcolor>9</fcolor><fscore>18.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>258</fstop><fcolor>16</fcolor><fscore>15.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>30</fstop><fcolor>22</fcolor><fscore>12.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>23</fcolor><fscore>24.15</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>270</fstop><fcolor>24</fcolor><fscore>17.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>286</fstart><fstop>298</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00491 PROLINE_PEPTIDASE</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>290</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>319</fstart><fstop>319</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004177</goid><goclass>F</goclass><godesc>aminopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008235</goid><goclass>F</goclass><godesc>metalloexopeptidase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009987</goid><goclass>P</goclass><godesc>cellular process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006508</goid><goclass>P</goclass><godesc>proteolysis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>354</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------mhnelqqklavlhkllqdnkadailigsdq-nrfwltgfpssa----gwlvvhkqr---vnlfidgryfeaaktaidplvkvelfttykqv--------------------kalceqvgvkhlliegdyltfnyqnfike--------lcaqytvinaqeirrqklpseilaiekvveitrkvavklkrfiqpgm--telfiaqwitdqlvkaggak-nsfdpivat-gknganphhkps----klkvksgdfvtcdfgtiyn-gycsditrtflvgkkpnnevllkaykkvdeanmaginaantqltgaevdkv--------------------crdiieasefkdyfvhstghgvgldihempnvstsy----------------nkllcenavitiepgiyipsv---------------------------ggiriedmvlvkdhksvwlsakipraf-----------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 1 2 3 0 0 2 3 1 4 3 0 0 3 1 0 0 0 2 1 0 4 27 0 0 3 3 0 0 3 0 0 0 0 16 0 0 1 0 34 5 4 1 1 0 13 0 0 0 5 0 0 0 1 1 2 1 0 0 1 9 0 0 0 0 5 0 0 0 0 0 0 0 0 1 2 1 2 1 0 2 0 0 0 0 2 0 10 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 4 8 1 1 0 0 0 0 0 0 1 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 7 3 5 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 29 0 0 0 100 0 1 100 8 0 0 100 46 2 0 35 38 1 55 0 7 5 31 0 1 1 1 1 4 4 1 3 4 0 0 0 1 0 0 0 0 40 0 0 3 2 1 1 0 0 0 0 0 0 0 1 3 2 0 0 0 0 2 100 0 0 54 1 2 1 0 8 5 8 1 0 1 46 100 11 2 1 1 0 0 0 0 4 0 0 0 2 2 0 7 1 0 100 5 100 13 36 0 35 0 0 0 0 16 5 8 100 42 58 4 15 0 15 0 12 7 6 0 10 15 2 0 2 13 6 24 7 14 3 65 1 1 1 4 1 4 0 6 3 0 1 3 10 17 0 0 0 0 7 1 5 0 0 0 0 15 0 1 1 1 0 2 0 5 0 3 1 10 3 1 0 0 0 1 1 2 0 1 11 0 0 1 0 0 0 6 0 1 38 4 6 42 100 0 74 100 17 21 71 100 100 4 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 5 0 75 18 1 10 4 28 19 100 9 100 100 100 11 100 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 10 1 1 7 0 0 0 35 37 100 100 100 51 18 27 10 35 1 14 2 3 0 2 0 57 59 0 1 4 0 2 4 0 4 9 8 16 3 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 4 3 0 0 0 1 0 0 0 0 1 0 4 38 1 0 1 0 1 0 1 0 0 0 4 1 0 0 0 0 4 3 0 0 0 0 0 0 1 20 3 0 1 5 2 0 0 0 1 3 0 0 0 0 0 2 0 0 7 0 0 3 0 0 0 0 0 0 0 0 4 5 0 0 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 4 0 0 9 24 4 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 1 6 4 29 100 0 0 100 0 1 10 100 59 0 0 39 10 44 22 0 7 0 3 6 0 4 0 0 0 0 0 4 0 29 1 3 1 0 0 0 60 100 0 0 22 4 6 0 60 6 0 0 29 0 1 5 13 1 0 1 0 0 39 100 4 0 54 3 3 7 0 100 1 5 2 40 0 100 100 1 0 0 46 0 0 0 0 1 0 0 6 18 0 4 50 3 28 1 0 100 2 100 6 0 10 3 0 100 100 0 100 100 1 58 100 100 1 0 2 13 10 1 0 0 5 6 2 20 0 11 1 100 7 0 2 0 5 100 16 0 3 3 0 6 5 2 13 2 3 17 59 3 6 28 5 100 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 17 0 9 4 4 4 1 3 1 28 5 100 1 100 10 2 100 100 100 22 100 31 1 38 100 100 0 100 0 19 7 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 10 0 19 100 0 5 6 1 2 1 42 56 100 100 100 59 100 8 15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 6 100 100 100 100 0 0 18 26 11 15 5 3 0 0 0 5 18 1 0 0 4 3 9 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 1 0 0 0 0 0 1 2 0 0 0 2 0 1 0 0 0 2 2 0 0 0 0 5 1 0 0 0 0 0 0 0 3 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 2 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 1 0 100 1 2 100 3 0 0 100 45 1 0 34 22 6 79 0 7 2 14 0 0 1 0 1 0 2 0 4 0 0 0 0 1 0 0 0 1 52 0 0 5 1 1 0 0 0 0 0 0 0 0 2 4 2 0 0 0 0 4 19 0 0 54 1 3 1 0 14 2 6 1 0 0 0 100 0 1 0 2 0 0 0 0 2 1 0 1 4 1 1 12 2 3 13 3 100 1 48 0 0 0 0 0 0 36 1 13 100 9 58 29 30 0 1 0 3 3 2 0 0 10 2 0 0 5 9 6 14 10 1 19 0 2 3 16 1 2 0 2 3 0 1 5 7 15 0 1 0 1 6 1 2 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1 3 0 2 7 0 0 0 0 1 0 3 1 0 49 1 2 53 100 0 34 100 18 6 64 100 38 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 81 3 1 12 3 10 5 67 14 100 100 100 17 100 3 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 48 20 100 100 100 77 0 4 12 31 1 15 4 5 0 1 0 21 35 0 0 1 1 2 7 0 0 1 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

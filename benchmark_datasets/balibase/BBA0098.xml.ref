@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0098.xml</aln-name>
+<aln-score>0.39</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Putative UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Sulfolobus acidocaldarius.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2285</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>82</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>172</fstop><fcolor>3</fcolor><fscore>14.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>241</fstop><fcolor>4</fcolor><fscore>18.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>42</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>64</fstop><fcolor>6</fcolor><fscore>16.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>48</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>78</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>107</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>129</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>166</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>192</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>228</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>301</fstart><fstop>321</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>328</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------mlvsllgillsvivgfvvtlistkwviglckkrgftgkdink----------------------ltkddvpvlggigivagfvagsftflltsynlspgie----------------------------nvvvsillssliigflgllddif--------nisqatraflpifasiplilysvgh-------------------------------------------------------tiisipflgkvnfgilfyiiilpatltitanafnmleglnglgagmglimalalayiglksg-------------------------gtsfyagivsiilasvlfgflifnfypaktfpgnigtyfigsvigsigisgy----------------mytalfflylpyviefvlkaktrfkgv-sfgkiddqgylhwdskp---nslthivmrigkfkeyhivliiwgieilfailavvfqtvtiti-------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>12.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>146</fstop><fcolor>3</fcolor><fscore>13.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>213</fstop><fcolor>4</fcolor><fscore>21.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>63</fstop><fcolor>6</fcolor><fscore>18.15</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>301</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------mghyfinlftytiiafifsavlckflmkkminykfgydlhk----------------------kekikvpemgglavlfsnalfipfvnp------------------------------------------ifvlpiitagiigivddia--------klspkeklillfisgliigilfynn------------------------------------------------------------------syvnlieiliialgimissnltnmlagfngleigmgviasislalvlfldn---------------------------yttgflsalifsasylgllifnkypakvfpgdvgtlpigaflavlavvyke------yipflvimmpyvidaslkylsagvmsrdehkpttlk-edgklyyiggy---------lslprlilkykpmrephlvtvlwiigiffgivgilislia----------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Cricetulus longicaudatus (Long-tailed hamster) (Chinese hamster).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Cricetidae</taxon>
+<taxon>Cricetinae</taxon>
+</lineage>
+<taxid>10030</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>98</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>15</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>84</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>96</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>213</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>321</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>332</fstart><fstop>346</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>391</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>126</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>270</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>48</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>213</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>321</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>391</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>402</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>32</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>58</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>95</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>126</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>165</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>195</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>222</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>253</fstart><fstop>269</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>275</fstart><fstop>294</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>379</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>146</fstart><fstop>146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005783</goid><goclass>C</goclass><godesc>endoplasmic reticulum</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>408</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------mwafpe--lplpllvnlfgsllgfvatvtlipafrshfiaarlcgqdlnk----------------------lsrqqipesqgvicgavfliilfcfipfpflncfveeqcka------------------fphhefvaligallaiccmiflgfaddvl--------nlpwrhklllptaaslpllmvyftnfgnttivvpkpfrwil-----------------------------------------------glhldlgilyyvymgllavfctnainilagingleagqslvisasiivfnlvele----------------gdyrd---dh-vfslyfmipfffttlgllyhnwypsqvfvgdtfcyfagmtfavvgilghfs-----ktmllffipqvfnflyslpqllhaipcprhriprlnpktgklemsyskfktknlsfl---gtfilkvaerlqlvtvhrgesedgaftecnnmtlinlllkifgpihernltllllllqilssavtfsiryqlvrlfydv----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Cricetulus griseus (Chinese hamster).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Cricetidae</taxon>
+<taxon>Cricetinae</taxon>
+</lineage>
+<taxid>10029</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>98</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>15</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>84</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>96</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>213</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>321</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>332</fstart><fstop>346</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>391</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>126</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>170</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>270</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>48</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>213</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>321</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>391</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>402</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>32</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>58</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>95</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>126</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>165</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>195</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>222</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>253</fstart><fstop>269</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>275</fstart><fstop>294</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>379</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>146</fstart><fstop>146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005789</goid><goclass>C</goclass><godesc>endoplasmic reticulum membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005792</goid><goclass>C</goclass><godesc>microsome</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0019408</goid><goclass>P</goclass><godesc>dolichol biosynthetic process</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0051259</goid><goclass>P</goclass><godesc>protein oligomerization</godesc><goevidence>IDA</goevidence></goxref>
+</goxreflist>
+<length>408</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------mwafpe--lplpllvnlfgsllgfvatvtlipafrshfiaarlcgqdlnk----------------------lsrqqipesqgvicgavfliilfcfipfpflncfveeqcka------------------fphhefvaligallaiccmiflgfaddvl--------nlrwrhklllptaaslpllmvyftnfgnttivvpkpfrwil-----------------------------------------------glhldlgilyyvymgllavfctnainilagingleagqslvisasiivfnlvele----------------gdyrd---dh-vfslyfmipfffttlgllyhnwypsqvfvgdtfcyfagmtfavvgilghfs-----ktmllffipqvfnflyslpqllhaipcprhriprlnpktgklemsyskfktknlsfl---gtfilkvaerlqlvtvhrgesedgaftecnnmtlinlllkifgpihernltllllllqilssavtfsiryqlvrlfydv----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>100</fstart><fstop>277</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>17</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>50</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>86</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>98</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>215</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>323</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>348</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>393</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>397</fstart><fstop>404</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>172</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>198</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>272</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>50</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>215</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>323</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>393</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>397</fstart><fstop>404</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>7</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>60</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>97</fstart><fstop>116</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>128</fstart><fstop>147</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>167</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>197</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>224</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>255</fstart><fstop>271</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>277</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>381</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>148</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>C -) Y (in RNA edited version).</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005789</goid><goclass>C</goclass><godesc>endoplasmic reticulum membrane</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006488</goid><goclass>P</goclass><godesc>dolichol-linked oligosaccharide biosyntheti...</godesc><goevidence>TAS</goevidence></goxref>
+</goxreflist>
+<length>410</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------mwafpelplplpllvnligsllgfvatvtlipafrshfiaarlcgqdlnk----------------------lsqqqipesqgvisgavfliilfyfipfpflncfveeqcka------------------fphhefvaligallaiccmiflgfaddvl--------nlrwrhklllptaaslpllmvyftnfgnttivvpkpfrwil-----------------------------------------------glhldlgilyyvymgllavfctnainilagingleagqslvisasiivfnlvele----------------gdyrd---dh-ifslyfmipfffttlgllyhnwypsrvfvgdtfcyfagmtfavvgilghfs-----ktmllffmpqvfnflyslpqlfhiipcprhrmprlnaktgklemsyskfktknlsfl---gtfilkvaenlrlvtvhqgesedgaftecnnmtlinlllkvfgpihernltllllllqvlssaatfsiryqlvrlfydv----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>30</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>99</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>125</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>243</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>307</fstart><fstop>355</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>368</fstart><fstop>382</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>426</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>430</fstart><fstop>437</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>147</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>155</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>200</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>226</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>261</fstart><fstop>304</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>243</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>307</fstart><fstop>355</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>426</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>430</fstart><fstop>437</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>15.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>25</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>73</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>123</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>155</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>191</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>216</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>254</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>282</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>311</fstart><fstop>331</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>412</fstart><fstop>432</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>395</fstart><fstop>395</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030176</goid><goclass>C</goclass><godesc>integral to endoplasmic reticulum membrane</godesc><goevidence>IC:</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006487</goid><goclass>P</goclass><godesc>protein amino acid N-linked glycosylation</godesc><goevidence>IGI</goevidence></goxref>
+</goxreflist>
+<length>446</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------miescfnvgiwatglallmnqgqspllsnvglsvlaykatamfiprvgpsfikrgfsgkdmnk----------------------vekyvipetmgavsalvyfmcmiifipvlfykylvpnhnpnlpsdgsva----evaksqfphdllgaylsallsilsvsllgilddlf--------dirwrhkfflpaiaaipllvvyyvdygvtyvsvpsivrpfl----------------------------------------------krslinlgflyyfymaavaifcpnsiniiagvngveagqslvlalviacndlfyvls---------------pknkdalrah-llslylvlpligvtagllkynwwpsrvfvgdtfcyfagmvmavvgilghfs-----ktlmlffipqifnfalsvpqlfglvecprhrlpklnvktgllensytefslnehplpkk-tlltisifeklrlirveydp-stgrplrctnftiinfvlyhlgpmredhlticimglqlltgifgliirhfvaplvypedni-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ec>2.7.8.15</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>129</fstart><fstop>310</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>11</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>29</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>62</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>98</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>127</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>245</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>356</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>367</fstart><fstop>381</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>424</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>435</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>202</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>228</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>305</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>62</fstop><fcolor>5</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>245</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>308</fstart><fstop>356</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>424</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>435</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>11</fstop><fcolor>12</fcolor><fscore>15.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>72</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>129</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>157</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>202</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>231</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>256</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>283</fstart><fstop>303</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>309</fstart><fstop>329</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>387</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>419</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005783</goid><goclass>C</goclass><godesc>endoplasmic reticulum</godesc><goevidence>IC:</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003975</goid><goclass>F</goclass><godesc>UDP-N-acetylglucosamine-dolichyl-phosphate ...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0009060</goid><goclass>P</goclass><godesc>aerobic respiration</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006487</goid><goclass>P</goclass><godesc>protein amino acid N-linked glycosylation</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>448</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------mlrlfslalitcliyysknqgpsalvaavgfgiagylatdmliprvgksfikiglfgkdlsk----------------------pgrpvlpetigaipaavylfvmfiyipfifykymvittsggghrdvsvved-ngmnsnifphdklseylsailclestvllgiaddlf--------dlrwrhkfflpaiaaipllmvyyvdfgvthvlipgfmerwl----------------------------------------------kktsvdlglwyyvymasmaifcpnsinilagvnglevgqcivlailallndllyfsm-------------gplatrd---sh-rfsavliipflgvslalwkwnrwpatvfvgdtycyfagmvfavvgilghfs-----ktmlllfipqivnfiyscpqlfklvpcprhrlpkfnekdglmypsranlkeeppksi---fkpilkllyclhlidlefdenneiists--nmtlinltlvwfgpmredklcntilklqfcigilallgrhaigaiifghdnlwtvr---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>62</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>22.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>149</fstart><fstop>156</fstop><fcolor>1</fcolor><fscore>18.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>247</fstop><fcolor>2</fcolor><fscore>30.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>249</fstart><fstop>273</fstop><fcolor>3</fcolor><fscore>30.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>324</fstart><fstop>367</fstop><fcolor>4</fcolor><fscore>28.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>60</fstop><fcolor>5</fcolor><fscore>19.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>290</fstop><fcolor>7</fcolor><fscore>20.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>414</fstop><fcolor>8</fcolor><fscore>32.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>416</fstart><fstop>447</fstop><fcolor>9</fcolor><fscore>17.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>451</fstart><fstop>458</fstop><fcolor>10</fcolor><fscore>22.02</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>466</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------mtlglvessrnaafavaahapvlglillgsivayvgtlryipnvartlldrnifgidinksteeqrqkfaakrragqteekefqkqaipeslgilvgamylsvvvvltvclrflgaagegl----------------------dnpyaslpgplmtitvmlllgfvddvl--------dvkwrhkiiltalgslplimtydgslsvlmpcafgrfglstmnvmkewrlglaapqgeptttfratapstwfsftvnhrsyvkvtesgaaliylgpvylvylsmlcifctnsinilagvngvevgqsiviavasvvynlfqmrldrqltpdfssldaaaadardmtsdhqlrallllgpfigvslalwrynryparvfvgdsytyfagtvlavssitgvys-----ktlllffapqvfnflislpqlfsivpcprhrvptwnprtnllsnsh--------------------------------------------nytilnvilylfgdmheakltwailkcqviacvlgfvvryvlsaflydevr--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>4</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>55</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>79</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>210</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>277</fstart><fstop>324</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>343</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>126</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>168</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>276</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>79</fstop><fcolor>6</fcolor><fscore>16.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>55</fstop><fcolor>11</fcolor><fscore>12.43</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>351</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------mfyllglrllkyitfrmayatifafllslivgpyiilklkklradqilredgpkr--------------------hlsekagiptmggiliffcvfislvfwsniln-----------------------------------vyflimvfvmlgfaflgfiddflkikkktsdglkarfkiygqiifsffsvgilyyfg-------------------------------------------------gehvsviyfpfiksfqidlglfyipfgmfilisasnsfnltdgldglaiglsivitgaliiiayltsr------------adfaaylhipnikgseelviflgallggsfgflwfnaypakimmgdtgslalgailgmaalilk--------seilfsilagvfiietmsviiqvlvykktkkrvfkmaplhhhfeelgw---------semqvvirfwiiglifaiialstikir----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Phospho-N-acetylmuramoyl-pentapeptide-transferase</definition>
+<organism>Haemophilus influenzae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Pasteurellales</taxon>
+<taxon>Pasteurellaceae</taxon>
+</lineage>
+<taxid>727</taxid>
+<ec>2.7.8.13</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>98</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF10555 MraY_sig1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>13</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>64</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>87</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>219</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>333</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>352</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>134</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>177</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>203</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>242</fstart><fstop>285</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>87</fstop><fcolor>6</fcolor><fscore>16.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>64</fstop><fcolor>11</fcolor><fscore>12.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>21</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>73</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>94</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>132</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>168</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>199</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>239</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>263</fstart><fstop>283</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>288</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>338</fstart><fstop>358</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01348 MRAY_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01347 MRAY_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007049</goid><goclass>P</goclass><godesc>cell cycle</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0051301</goid><goclass>P</goclass><godesc>cell division</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007047</goid><goclass>P</goclass><godesc>cell wall organization</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009252</goid><goclass>P</goclass><godesc>peptidoglycan biosynthetic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008360</goid><goclass>P</goclass><godesc>regulation of cell shape</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>360</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------mlvwlaeylvryetafnaisyitvranlalltalfislwigpkvikrlqilkfgqevrndgpes--------------------hfa-kkgtptmggvmilfsigvstllwanlan-----------------------------------pyiwvclfvlfgygaigfvddfrkitrkntdgliarwkyfwmsvvalvailwlywlg------------------------------------------------hdtdatrlvipffkdimpqlglfyivlsyfvivgtgnavnltdgldglaimptalvagafaliawatgn------------vnfaeylhipyikyssevvvfctaivgaslgflwfntypaqvfmgdvgslalggalgvvailvr--------qefllvimggvfvvealsvilqvgsyklrkqrifrmapihhhfelkgw---------peprviirfwiislmlvlmglvtlklr----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Phospho-N-acetylmuramoyl-pentapeptide-transferase</definition>
+<organism>Escherichia coli (strain K12).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Enterobacteriales</taxon>
+<taxon>Enterobacteriaceae</taxon>
+</lineage>
+<taxid>83333</taxid>
+<ec>2.7.8.13</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>98</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF10555 MraY_sig1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>13</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>64</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>87</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>219</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>333</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>334</fstart><fstop>352</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>134</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>177</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>203</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>242</fstart><fstop>285</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>87</fstop><fcolor>6</fcolor><fscore>16.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>64</fstop><fcolor>11</fcolor><fscore>12.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>19</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Periplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>77</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>97</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Periplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>134</fstart><fstop>156</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>174</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Periplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>200</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>239</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Periplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>271</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>288</fstart><fstop>299</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Periplasmic.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>342</fstart><fstop>357</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>189</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01348 MRAY_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01347 MRAY_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000287</goid><goclass>F</goclass><godesc>magnesium ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007049</goid><goclass>P</goclass><godesc>cell cycle</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0051301</goid><goclass>P</goclass><godesc>cell division</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007047</goid><goclass>P</goclass><godesc>cell wall organization</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009252</goid><goclass>P</goclass><godesc>peptidoglycan biosynthetic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008360</goid><goclass>P</goclass><godesc>regulation of cell shape</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>360</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------mlvwlaehlvkyysgfnvfsyltfraivslltalfislwmgprmiahlqklsfgqvvrndgpes--------------------hfs-krgtptmggimiltaivisvllwaypsn-----------------------------------pyvwcvlvvlvgygvigfvddyrkvvrkdtkgliarwkyfwmsvialgvafalylag------------------------------------------------kdtpatqlvvpffkdvmpqlglfyillayfvivgtgnavnltdgldglaimptvfvaggfalvawatgn------------mnfasylhipylrhagelvivctaivgaglgflwfntypaqvfmgdvgslalggalgiiavllr--------qefllvimggvfvvetlsvilqvgsfklrgqrifrmapihhhyelkgw---------peprvivrfwiislmlvliglatlkvr----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Phospho-N-acetylmuramoyl-pentapeptide-transferase</definition>
+<organism>Bacillus subtilis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>1423</taxid>
+<ec>2.7.8.13</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>81</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>48</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF10555 MraY_sig1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>44</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>67</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>198</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>297</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>316</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>15.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>117</fstop><fcolor>1</fcolor><fscore>12.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>28.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>182</fstop><fcolor>3</fcolor><fscore>13.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>249</fstop><fcolor>4</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>67</fstop><fcolor>6</fcolor><fscore>16.51</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>44</fstop><fcolor>11</fcolor><fscore>12.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>5</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>50</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>77</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>117</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>147</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>176</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>203</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>227</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>250</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>302</fstart><fstop>322</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>48</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01347 MRAY_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>168</fstart><fstop>179</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01348 MRAY_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007049</goid><goclass>P</goclass><godesc>cell cycle</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0051301</goid><goclass>P</goclass><godesc>cell division</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007047</goid><goclass>P</goclass><godesc>cell wall organization</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009252</goid><goclass>P</goclass><godesc>peptidoglycan biosynthetic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008360</goid><goclass>P</goclass><godesc>regulation of cell shape</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>324</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------------mleqvilftilmgflisvllspilipflrrlkfgqsireegpks--------------------hqk-ksgtptmggvmiilsiivttivmtqkfseis--------------------------------pemvlllfvtlgygllgflddyikvvmkrnlgltskqkligqiiiavvfyavyhyynf----------------------------------------------------atdiripgtdlsfdlgwayfilvlfmlvggsnavnltdgldgllsgtaaiafgafailawnqsq---------------------------ydvaifsvavvgavlgflvfnrdpakvfmgdtgslalggaivtiailtk--------leillviiggvfvietlsvilqvisfkttgkrifkmsplhhhyelvgw---------sewrvvvtfwaaglllavlgiyievwl----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>129</fstart><fstop>137</fstop><fcolor>2</fcolor><fscore>14.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>163</fstop><fcolor>3</fcolor><fscore>18.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>233</fstop><fcolor>4</fcolor><fscore>17.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>61</fstop><fcolor>6</fcolor><fscore>16.45</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>341</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------mptffflltiffllsvgltyllrlyalknnii-----dtpns--------------------rsshvtptprgggvaivisfligiilfyflgyl--------------------------------pilsvvglivsggvialvgfwddhg--------hiaarwrllahfsaaafllfcfgg---------------------------------------------------------fpvlnvsgfiielgifgslfgllflvwmlnlynfmdgidglasaeavtacigmiaiyyis------------------------gdhielnsflvlwllactvlgfllwnfppakifmgdagsgflglmigslaisagwid-------------trfffcwlillglfivdatwtlvrrv--lggfkvyeahrsh---------gyqiasrrfkrhlpvtlsaiainiiwlfpiallaglnivnpiialiisyipllyidyklnagvnnd------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>14.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>16.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>159</fstop><fcolor>3</fcolor><fscore>22.83</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>226</fstop><fcolor>4</fcolor><fscore>24.80</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>60</fstop><fcolor>6</fcolor><fscore>18.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>36</fstop><fcolor>11</fcolor><fscore>12.43</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>351</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------mvtlllvavtmivsltitpiviaiskrlnlv-----dkpnf--------------------rkvhtkpisvmggtvilfsfligiwighpiet------------------------------------eikpliigaiimyvlglvddiy--------dlkpyiklagqiaaalvvafygvtid--------------------------------------------------------fislpmgttihfgflsipitviwivaitnainlidgldglasgvsaiglitigfiailqan---------------------------ifitmiccvllgsligflfynfhpakiflgdsgalmigfiigflsllgfkn------------itiialffpivilavpfidtlfamirrv--kkgqhimqadksh---------lhhkllalgythrqtvlliysisilfslssiilyvspplgvvlmfvliifsieliveftglidnnyrpilnlisrksshked--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Putative undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase</definition>
+<organism>Mycobacterium leprae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+</lineage>
+<taxid>1769</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>109</fstart><fstop>281</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>47</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>201</fstop><fcolor>3</fcolor><fscore>21.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>276</fstop><fcolor>4</fcolor><fscore>17.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>90</fstop><fcolor>6</fcolor><fscore>18.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>15.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>33</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>79</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>105</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>148</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>175</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>198</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>225</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>260</fstart><fstop>280</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>295</fstart><fstop>315</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>347</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>372</fstart><fstop>392</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000287</goid><goclass>F</goclass><godesc>magnesium ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009103</goid><goclass>P</goclass><godesc>lipopolysaccharide biosynthetic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>398</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mqyvremssdlatfasgllalfersagvplrelalvgltaaiityfatglvgvlanrleav-----aypre--------------------rdvhvtptprmgglamylgvlaavflasqlpaltrgfvyss---------------------------gmpavlvagavitgigliddrw--------gldaltkfagqitaasvlvtmgvaws-----------------------------------------------------vlyiplggvgtivldqtssilltlaltvsivnainfvdgldglaaglglitamaicifsvgll-------------------rdhdgdvlfyppavisvvlagsclgflphnfhrakifmgdsgsmlvglmlaaasttaagpisqnaygtrdvfallspfllvvavmfvpmldlllaivrri--ragrsafspdkmh---------lhhrllqighshrrvvlliylwvgivafgaastiffnprntgavmlgaivitgmatvipllrrrdny-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Putative undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase</definition>
+<organism>Haemophilus influenzae.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Pasteurellales</taxon>
+<taxon>Pasteurellaceae</taxon>
+</lineage>
+<taxid>727</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>67</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00953 Glycos_transf_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>12.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>158</fstop><fcolor>3</fcolor><fscore>20.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>39</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>63</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>100</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>123</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>151</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>182</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>208</fstart><fstop>228</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>237</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>289</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>316</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>144</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01348 MRAY_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0009276</goid><goclass>C</goclass><godesc>Gram-negative-bacterium-type cell wall</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000287</goid><goclass>F</goclass><godesc>magnesium ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008963</goid><goclass>F</goclass><godesc>phospho-N-acetylmuramoyl-pentapeptide-trans...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016757</goid><goclass>F</goclass><godesc>transferase activity, transferring glycosyl...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009103</goid><goclass>P</goclass><godesc>lipopolysaccharide biosynthetic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>355</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------------------mlsifvtflgafltlivmrplanwiglv-----dkpny--------------------rkrhqgtipliggaslfvgnlcyylmewdqlrl------------------------------------pylylfsifvllaigilddrf--------dispflragiqailailmidlgniyld------------------------------------------------------hlgqilgpfqltlgsigliitvfatiaiinafnmidgidgllgglscvsfaaigilmy----------------------rdgqmdmahwsfalivsilpylmlnlgipfgpkykvfmgdagstligftiiwilllstqgkgh-----------pmnpvtalwiiaiplidmvaiiyrrv--rkgkspfrpdrlh---------vhhlmvragltsrqafllitfvsavcatigilgevyyvnewamfvgffilfflyvysithawritrwvrrmkrrakrlkka---------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 12 0 0 0 29 0 0 0 5 5 0 1 1 1 4 0 0 0 8 0 0 1 0 0 0 0 3 0 1 0 0 0 100 0 100 35 14 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 33 0 0 27 100 8 1 0 100 2 0 0 0 1 0 0 1 0 0 2 0 0 2 1 1 0 0 1 0 0 0 0 1 0 8 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 1 0 1 0 2 1 2 0 0 32 65 1 6 0 0 2 0 3 62 100 2 1 100 100 19 0 0 0 0 0 0 0 0 0 11 29 5 0 15 5 59 1 3 100 2 0 0 15 10 41 6 62 1 23 1 2 0 0 5 2 3 0 2 0 1 0 2 1 1 0 1 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 3 1 7 1 29 1 1 0 0 5 4 1 5 100 4 2 100 35 68 26 100 4 100 100 30 18 3 100 2 1 27 38 5 35 1 2 2 1 0 0 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 6 8 0 0 0 2 7 0 0 0 10 0 0 0 1 3 0 9 0 0 3 0 4 9 21 1 0 0 100 0 5 100 35 14 20 100 1 100 44 2 0 0 12 2 2 100 1 0 2 18 14 5 7 57 1 2 0 0 8 0 0 0 0 0 2 4 1 5 28 2 5 4 2 2 1 0 2 0 0 0 1 0 0 1 1 0 0 0 4 1 0 4 9 24 18 0 0 9 0 4 1 12 0 27 0 43 0 0 4 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 5 14 9 1 0 0 0 0 3 0 0 0 15 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 2 0 0 7 0 0 3 4 0 0 3 8 3 4 2 8 1 2 8 2 0 0 5 6 0 2 8 2 1 1 0 1 1 1 2 0 1 8 1 0 4 0 1 2 1 4 1 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 6 2 44 2 0 2 0 0 0 18 0 0 0 1 2 0 6 3 0 0 0 0 0 0 0 18 0 100 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 1 1 1 3 1 3 29 1 4 100 100 3 1 42 1 1 1 0 1 2 0 1 1 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 32 2 0 0 0 0 0 0 0 30 100 4 2 100 100 0 0 0 0 0 0 0 0 0 0 2 50 0 8 0 0 47 0 0 0 2 0 1 0 67 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 20 0 0 0 2 1 6 1 2 1 0 2 47 0 0 0 100 11 1 100 7 1 100 100 50 100 100 100 5 0 0 0 9 0 2 0 0 0 7 2 0 3 9 1 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 20 2 0 0 1 32 0 0 2 0 21 25 25 5 0 0 4 0 0 6 8 53 36 26 65 100 100 4 100 65 1 0 29 100 0 1 42 0 0 3 7 7 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 1 0 0 0 1 2 0 0 1 0 0 17 0 22 0 5 0 2 0 0 0 2 0 0 100 0 1 0 0 1 1 0 0 5 0 5 11 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 5 4 10 0 0 0 0 1 0 0 0 1 40 6 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 3 0 0 0 7 3 2 0 0 1 1 0 0 2 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 9 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 0 0 3 48 1 1 0 100 3 0 1 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 3 0 0 0 0 0 0 0 37 100 4 1 100 100 0 0 0 0 0 0 0 0 0 0 2 37 1 0 0 0 52 1 0 0 0 0 1 1 22 3 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 4 0 0 0 1 1 1 0 0 0 0 0 15 0 0 0 100 7 1 100 8 3 5 100 12 23 100 46 1 1 11 0 3 1 15 0 0 0 4 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 0 5 0 0 1 0 7 12 6 1 0 0 17 0 0 18 15 28 20 43 3 100 67 5 0 3 0 0 2 100 0 1 10 1 0 3 2 17 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 2 3 0 0 0 0 1 0 0 1 1 0 1 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 4 6 7 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

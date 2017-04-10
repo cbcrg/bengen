@@ -1,0 +1,1090 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0135.xml</aln-name>
+<aln-score>0.41</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>210</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>253</fstart><fstop>253</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>122</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>210</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>110</fstop><fcolor>4</fcolor><fscore>19.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>7</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>9</fcolor><fscore>15.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>210</fstop><fcolor>10</fcolor><fscore>12.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>11</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>13</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>253</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mrilhtadwhlgktleg---------rsrlse-qadvldelntivkdeqidaivmagdafd-tvnppalaeqlfyeslsalsdrgk--------------------------------rpivviagnhdnpd---rlsaaspltheng-ihligyptt-------epihievpsag-ellavgalayp-searlnevlsdtfdekllr----------dhydvkirqa---fehmtsrfrtdavkiaashiyvagetkpiqtgrlksav----htrwllkacr----------qmpltlrsaic---iarkrssgrgrlrviqdlrsptaflkratlnq---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Nuclease sbcCD subunit D</definition>
+<organism>Bacillus subtilis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>1423</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>225</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>325</fstart><fstop>325</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>122</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>110</fstop><fcolor>4</fcolor><fscore>19.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>7</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>9</fcolor><fscore>15.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>10</fcolor><fscore>12.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>11</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>13</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006310</goid><goclass>P</goclass><godesc>DNA recombination</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>325</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mrilhtadwhlgktleg---------rsrlse-qadvldelntivkdeqidaivmagdafd-tvnppalaeqlfyeslsalsdrgk--------------------------------rpivviagnhdnpd---rlsaaspltheng-ihligyptt-------epihievpsag-ellavgalayp-searlnevlsdtfdekllr----------dhydvkirqa---fehmtsrfrtdavkiaashiyvagetkpiqtgrlksavx-ytvaaeslpadaa--yvalghlhrpqtikrart---larysgsplaysfseagyaksvtivdakpgeeatwqevllssgkplvkwkaanglsevyswldeg---rdqnawidleirvadqlsleeihrlrka-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>213</fstart><fstop>233</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>246</fstart><fstop>246</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>122</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>110</fstop><fcolor>4</fcolor><fscore>19.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>7</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>75</fstop><fcolor>9</fcolor><fscore>15.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>10</fcolor><fscore>12.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>133</fstop><fcolor>11</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>190</fstop><fcolor>13</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>246</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mrilhtadwhlgktleg---------rsrlse-qadvldelntivkdeqidaivmagdafd-tvnppalaeqlfyeslsalsdrgk--------------------------------rpivviagnhdnpd---rlsaaspltheng-ihligyptt-------epihievpsag-ellavgalayp-searlnevlsdtfdekllr----------dhydvkirqa---fehmtsrfrtdavkiaashiyvaggnqtdserpievgga-ytvaaeslpada--------------alrcarp---faspandqagadacalfrisarlqlf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Exonuclease putative</definition>
+<organism>Treponema pallidum.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Spirochaetes</taxon>
+<taxon>Spirochaetales</taxon>
+<taxon>Spirochaetaceae</taxon>
+</lineage>
+<taxid>160</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>32.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>19.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>90</fstop><fcolor>2</fcolor><fscore>31.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>221</fstop><fcolor>5</fcolor><fscore>30.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>103</fstop><fcolor>7</fcolor><fscore>17.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>242</fstop><fcolor>8</fcolor><fscore>17.17</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>391</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mkilhtadlhlgktlhev--------slfasq--kkmlgdlctllaqdnyaaliiagdiyd-rcvpsaesvslfssflqnikrsmpr-------------------------------lpiylipgnhdsaq---rlsfaqellkqqg-vfiaqdpee-------strphllcheg-etvqlfllpfl-hagafsyldee-nttclih----------tqsellqeas----rrlqravsldtpsilvahlftqkgisceserpf-vgna-vyadphwfdf-ft--yvalghlhkcqkiter--------myysgsplpysfdeant----qkvalsveihcnt-----kgfpihvtplplepliplrtirdsfhalytgdr--yllyqrdfleitltdpalvhnpigllkprypgllsikqenafafdipppyssnegiapcthhslrthfdvfmhevsptpddrekgalfqelfdemqqefss-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>37.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>19.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>88</fstop><fcolor>2</fcolor><fscore>22.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>226</fstop><fcolor>5</fcolor><fscore>34.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>73</fstop><fcolor>9</fcolor><fscore>15.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>215</fstop><fcolor>10</fcolor><fscore>12.53</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>400</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mrilhtsdwhlgqnfys---------ksreae-hqafldwlletaqthqvdaiivagdvfd-tgsppsyartlynrfvvnlqqtg---------------------------------chlvvlagnhdsva---tlnesrdimafln-ttvvasagh-----apqilprrdgtpg---avlcpipfl----rprdiitsqaglngiekqq---hllaaitdyyqqhy---adacklrgdqplpiiatghlttvgasksdavrdiyigtl-dafpaqnfpp-ad--yialghihraqiiggme------hvrycgspiplsfdecgksk--yvhlvtfsngk--------lesvenlnvpvtqpmavlkgdlasitaqleqwr--dvsqeppvwldieittdeylhdiqrkiqalteslpvevllvrrsreqrervlasqqretlselsveevfnrrlaleeldesqqqrlqhlftttlhtlagehea----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>ATP-dependent dsDNA exonuclease</definition>
+<organism>Aquifex aeolicus.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Aquificae</taxon>
+<taxon>Aquificales</taxon>
+<taxon>Aquificaceae</taxon>
+</lineage>
+<taxid>63363</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>23.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>19.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>88</fstop><fcolor>2</fcolor><fscore>26.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>102</fstart><fstop>107</fstop><fcolor>4</fcolor><fscore>15.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>213</fstop><fcolor>5</fcolor><fscore>31.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>237</fstop><fcolor>8</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>11</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>151</fstop><fcolor>12</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>179</fstop><fcolor>13</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>201</fstop><fcolor>14</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>379</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mrlihlsdihagknlgr---------vsrned-vvyalnqvvdfckenkpdlvlvagdvfd-kanpdneakeiifdfflklhsln---------------------------------ipsvvisgnhdsye---fmkslkkllqvid-vyvvpkp---------nleecvldvkg---lkiaclpyp-----servltragedskls------------yavlveka---ikylyekvkdaplkvllshlfiagskytrtereatitdy-yavepsaipegfd--yvalghvhryqriekapt-----hvyytgslfqldfseagqek--ffnfvelkegepp----hveaiklslknplhtfeinqenyakelekikdvqg----yikvhlivkdktkm-hlvaekvkealgekliklelltpeeaikkrleeereiqklnlldlyrdyfkesygrevpqeiiktvsqlleqvhes--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>98</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>30.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>20.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>2</fcolor><fscore>26.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>220</fstop><fcolor>5</fcolor><fscore>28.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>243</fstop><fcolor>8</fcolor><fscore>28.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>210</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>385</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------minlkelkilhtsdwhlgvtswtssr-----pvdrree-lkkaldkvveeaekrevdlilltgdllhsrnnpsvvalhdlldylkrmmrt----------------------------------apvvvlpgnhdwkg-lklfgnfvtsissdi-tfvms-----------fepvdveakrg-qkvrilpfpyp-----desealrknegd---------------frfflesr--lnklyeealkkedfaifmghftveglagyagieqgre----iiinralipsvvd--yaalghihsfreiqkqp------ltiypgsliridfgeeadek--gavfvelkrgepp-----ryeridasplplktlyykkidts-alksirdfcr-----nfpg-yvrvvyee-dsgilpdlmgeidnlvkierksrreieevlrespeefkeeldkldyfelfkeylkkreenhekllkildelldevkksea----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Sll0021 protein</definition>
+<organism>Synechocystis sp. (strain PCC 6803).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Chroococcales</taxon>
+</lineage>
+<taxid>1148</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>22.18</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>18.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>2</fcolor><fscore>24.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>235</fstop><fcolor>5</fcolor><fscore>34.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>260</fstop><fcolor>8</fcolor><fscore>35.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>83</fstop><fcolor>9</fcolor><fscore>14.12</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>416</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------mlkvlhlsdihlgsgfshghinpatglntrled-fiqslrlcidraiaepadvvlfggdafp-datpppyvqeafaaefrrladad---------------------------------iptvllvgnhdqhs-qgsggaslciyrtlavpgfivgdr--------lathliptang--dlqivtlpwl-trstlltrpeteglsleain-----------llllkklq-pilegeirsldpqlptillahlmadratfgaektlsvgkgf-tiplalinrpefd--yvalghvhkhqnlnphnnp----pivypgsiervdfgeekedk--gyiwleiskgkvd----wqfcplparpfktikvdvteatdpqge-llmaiakt----aidnavvrliyqirseqleqidnrklqealk-pshsytirpelvsqlarprlpelgvgsaldplvalktylenkkdikelmpdlmeaaehllngseeqwleavgd-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Exonuclease SbcD-related protein</definition>
+<organism>Mycobacterium tuberculosis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Corynebacterineae</taxon>
+<taxon>Mycobacteriaceae</taxon>
+<taxon>Mycobacterium</taxon>
+</lineage>
+<taxid>1773</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>35</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>91</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>35</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>29.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>91</fstop><fcolor>1</fcolor><fscore>16.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>125</fstop><fcolor>2</fcolor><fscore>28.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>235</fstop><fcolor>5</fcolor><fscore>19.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>258</fstop><fcolor>8</fcolor><fscore>15.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>265</fstart><fstop>272</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>188</fstart><fstop>199</fstop><fcolor>17</fcolor><fscore>14.08</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>417</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msprpgpagrgpapcrcadlhslcvdshalrrdgmrflhtadwqlgmtrhflag----daqprysaarrdavaglkalaadvgaefvvvagdvfe-hnqlapqivgqsleamrvig------------------------------------lpvyllpgnhdpld--assvytstlfraerpdnvvvldr----------agvhevrpg---vqivaapwr-skapttdpvaev---------------------------------laglptdaairllvahggvdaldpdhdkpslirl---aalddaltrqaih--yvalgdkhsltqvgssg------rvwysgapevtnfddvepdp-ghvlvvdidesdpr----hpvtvdarrigrwrfvtlhhqvdtsrdiadldlnldlmtdkdrt-vvrlaltgsltvtdraaldtcldkyarlfawlglwerhtdlavipvdaeftdlgiggfaaaavdelvatarggddesavdaqaalalllrladrgaa--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Putative exonuclease</definition>
+<organism>Bacillus subtilis.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+</lineage>
+<taxid>1423</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>204</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>21</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>64</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>101</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>20.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>64</fstop><fcolor>1</fcolor><fscore>22.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>101</fstop><fcolor>2</fcolor><fscore>23.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>204</fstop><fcolor>5</fcolor><fscore>41.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>228</fstop><fcolor>8</fcolor><fscore>21.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>408</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------mltdltfihaadlhldspfygishlpepifarikes-tfasvrhmidaavrehvdfillagdlfd-eanrslkaqlflkkqferlrecg---------------------------------isvyvifgnhdhlg-----gewtpiewpen-vhifss---------avpeeksffkegrriasiygfsyq--aralmenqaa----------------------------------ryrrstdapfhigmlhgtlsgseghdpycp--------fthddlvksgmd--ywalghihkrqvlsaehp-----aviypgntqarhiketgdk---gyylvhvtn----gdisyefqrahd----vlwekaavdvt--eaknmtalfqmvedtfsklrkkg----spvcvrlvlqgtapewlleapkgtldeflealqeqeaeeerfvwplrlddetenean-ltnldpffgglfedidrs---dlsdvleglerhpvyr---------------rhadrfsqee--------------------vkeikeqaqiilkrqlkvldt---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>DNA double-strand break repair protein mre11</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>74</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>125</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>145</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>177</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>198</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>234</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>263</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>264</fstart><fstop>278</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>311</fstart><fstop>320</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>361</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>365</fstart><fstop>372</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>383</fstart><fstop>390</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>400</fstart><fstop>407</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>17.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>52</fstop><fcolor>1</fcolor><fscore>20.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>34.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>111</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>210</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>104</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>234</fstop><fcolor>8</fcolor><fscore>17.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>198</fstop><fcolor>14</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>177</fstop><fcolor>17</fcolor><fscore>14.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>264</fstart><fstop>278</fstop><fcolor>18</fcolor><fscore>23.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>8</fstart><fstop>8</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>10</fstart><fstop>10</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>84</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>172</fstart><fstop>172</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>208</fstart><fstop>208</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004519</goid><goclass>F</goclass><godesc>endonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>413</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mkfahladvhlgyeqfnk--------pqraee-fantfkkalemcvkesvdfiiiagdlfn-ssrpspgtiktaikllqipkenn---------------------------------ipvfaiegnhdrtq---rgpsvlhlledlgllyviglrq-----erveneyltservg-nywlvkgvydn---leihgmkymss-awfeanl----------------------nffkgifrpdedailvlhqgirditekvfpsysa------elklsdlprgyl--yyalghvhkrfetnygds-----pvvypgslerwdfgdyakr--lvwngvtfreevgsdkgfyivedftp-rfvnikvrdfidvvi-kgdsereikkavkaslphiprns-----yvrfnikwrkpfdvewikeivn--aeylrihtaiikdeksm----ngesvdiks-----ffteqewkvidlass----defesyiekivdilsg---------ye-kkeerekkeskir---------------------kferpknpgdltawlrgg-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>DNA double-strand break repair protein mre11</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>205</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>74</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>125</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>145</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>174</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>194</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>257</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>272</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>314</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>345</fstart><fstop>356</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>362</fstart><fstop>369</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>390</fstart><fstop>397</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>435</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>17.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>52</fstop><fcolor>1</fcolor><fscore>20.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>34.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>111</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>205</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>104</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>229</fstop><fcolor>8</fcolor><fscore>17.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>194</fstop><fcolor>14</fcolor><fscore>17.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>174</fstop><fcolor>17</fcolor><fscore>14.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>272</fstop><fcolor>18</fcolor><fscore>23.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>8</fstart><fstop>8</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>10</fstart><fstop>10</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>84</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>201</fstart><fstop>201</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 2 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>203</fstart><fstop>203</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Manganese 1 By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>384</fstart><fstop>443</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004519</goid><goclass>F</goclass><godesc>endonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>443</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mkfahiadvhlgyeqynq--------pwraed-fakafkviaekavesnadfvviagdlfh-rslpsprtikeavetlwmfrken---------------------------------ipvfavegnhdkts---rdisayhlleslgllnvlglrr-----npvrgenveslriq-nvylvkgvvdd---veilgdrhrsk-wqlekvl-------------------------pllkpqsdksvlvlhqavkevvdidldmay-------eltindlpeas---yyafghihlpkiyefdgk-----aiaypgsverydlreask---ivryrdelvlkdgirkgfilvknfrp-efveietrelydvei-edesveglekkflevlgradkeg-----imvaklkssdavdvrrlsevaa--krvryaeirferileei----eeveikqese----fftefelkllellrg-em-dedevyslvvehylsggalkqeegaeervveeetekkveeqfkgdeeadeaerraeetekakstkkarkpktlldflgveee---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>DNA double-strand break repair protein mre11</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>33.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>52</fstop><fcolor>1</fcolor><fscore>17.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>2</fcolor><fscore>23.32</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>190</fstop><fcolor>5</fcolor><fscore>45.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>214</fstop><fcolor>8</fcolor><fscore>13.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>179</fstop><fcolor>14</fcolor><fscore>17.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>163</fstop><fcolor>17</fcolor><fscore>25.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>242</fstart><fstop>254</fstop><fcolor>18</fcolor><fscore>23.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004519</goid><goclass>F</goclass><godesc>endonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>366</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mmfvhiadnhlgyrqynl--------ddrekd-iydsfklcikkileikpdvvlhsgdlfn-dlrppvkalriamqafkklhenn---------------------------------ikvyivagnhempr-rlgeesplallkdy--vkild-------------gkdvinvng-eeificgtyyh---kkskreemldklknfe-----------------------------seaknykkkilmlhqginpyipldy-----------elehfdlpkfs---yyalghihkrilerfndg-----ilaysgsteiiyrneyedyk-kegkgfylvd---fsgndldisdiek---idiecrefvevnikdkksfneavnkiercknkpvvfg-------kikrefkpwfdtlkdkilin--kaiivddefidmp--------dnvdiesln------ikellvdyanrqgi----d-gdlvlslykallnn----------e-nwkelldeyyntkfrg-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>53</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>21.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>53</fstop><fcolor>1</fcolor><fscore>20.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>90</fstop><fcolor>2</fcolor><fscore>27.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>203</fstop><fcolor>5</fcolor><fscore>34.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>227</fstop><fcolor>8</fcolor><fscore>19.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>191</fstop><fcolor>14</fcolor><fscore>16.65</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>409</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------mpkvlhvadvhlgarpygl--------eerrdd-ifrsfefvvetalkdrpdavliagdlfd-kpklplrdvkqavelvraltdag---------------------------------ipvlaahgehdtps--vrdetllslmeas--ldgfkaply----rsgmrpgdfvvdlg-slkvavvpffk-vpleerrrltlrflrefdqis----------------------------rtssgtlvllahmsldaemqfda-----------vaspsdlpsgak--yaalghlhaprirldapt-----pyaypgvldplkveein-tp-gsplyvdlsg------dapiiekvkvp--rrpqyrievdigd-ggsiynavnrglrrvlanvras----------redwlk---p-lihviiks-dkpiskarviaearkaaggadvllkihwkivag----gehagtspglqgegp-ldlakiaaeyykiplnaas----------tilhdlaeaaaekde---------------lrvreiletlattvsqdtwkrilymr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Double-strand break repair protein MRE11</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>246</fstart><fstop>474</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF04152 Mre11_DNA_bind</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>99</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>180</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>200</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>220</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>235</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>279</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>287</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>293</fstart><fstop>305</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>315</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>361</fstart><fstop>374</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>387</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>403</fstart><fstop>412</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>450</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>455</fstart><fstop>502</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>59</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>129</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>191</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>245</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>146</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>235</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>287</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>125</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>558</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>560</fstart><fstop>560</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>380</fstart><fstop>380</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>P -) S (in strain: SK1).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>659</fstart><fstop>659</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>P -) S (in strain: SK1).</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>325</fstart><fstop>368</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>502</fstart><fstop>692</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030870</goid><goclass>C</goclass><godesc>Mre11 complex</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0008408</goid><goclass>F</goclass><godesc>3'-5' exonuclease activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003691</goid><goclass>F</goclass><godesc>double-stranded telomeric DNA binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004520</goid><goclass>F</goclass><godesc>endodeoxyribonuclease activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0051880</goid><goclass>F</goclass><godesc>G-quadruplex DNA binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0043047</goid><goclass>F</goclass><godesc>single-stranded telomeric DNA binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030437</goid><goclass>P</goclass><godesc>ascospore formation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0000727</goid><goclass>P</goclass><godesc>double-strand break repair via break-induce...</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0006303</goid><goclass>P</goclass><godesc>double-strand break repair via nonhomologou...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0042138</goid><goclass>P</goclass><godesc>meiotic DNA double-strand break formation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0000706</goid><goclass>P</goclass><godesc>meiotic DNA double-strand break processing</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0051037</goid><goclass>P</goclass><godesc>regulation of transcription, meiotic</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>692</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------mdypdpdtirilittdnhvgynend---------pitgdd-swktfhevmmlaknnnvdmvvqsgdlfh-vnkpskkslyqvlktlrlccmgdkpcelellsdpsqvfhydeftnvnyedpnfnisipvfgisgnhddas-gdsllcpmdilhatglinhfgkvie----sdkikvvpllfqkgstklalyglaav-rderlfrtfkd-ggvtfevpt---------------------------mregewfnlmcvhqnhtghtnta------------flpeqflpdfld--mviwghehecipnlvh-npiknfdvlqpgssvatslceaeaqpky-vfildikygeapkmtpipletirtfk-mksislqdvphlrp--hdkdatskylieqveemirdaneetkqkladdgegdmvaelpkplirlrvdysapsntqspidyqvenprrfsnrfvgrvang-nnvvqfykkrspvtrskksgingtsisdrdveklfsesggelevqtlvn----dllnkmqlsllpevglneavkkfvdkdektalkefisheisnevgilstneeflrtddaeemkalikqvkransvrptppkendetnfafngngldsfrssnrevrtgspditqshvdnesrithisqaesskptskpkrvrtatkkkipafsdstvisdaenelgdnndaqddvdidendiimvstdeedasygllngrktktktrpaastktasrrgkgrasrtpktdilgsllakkrk---------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>99</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>180</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>200</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>220</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>235</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>279</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>287</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>293</fstart><fstop>305</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>315</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>361</fstart><fstop>374</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>387</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>403</fstart><fstop>412</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>450</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>455</fstart><fstop>502</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>59</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>129</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>191</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>245</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>146</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>235</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>287</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>325</fstart><fstop>368</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>502</fstart><fstop>692</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>692</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------mdypdpdtirilittdnhvgynend---------pitgdd-swktfhevmmlaknnnvdmvvqsgdlfh-vnkpskkslyqvlktlrlccmgdkpcelellsdpsqvfhydeftnvnyedpnfnisipvfgisgnhddas-gdsllcpmdilhatglinhfgkvie----sdkikvvpllfqkgstklalyglaav-rderlfrtfkd-ggvtfevpt---------------------------mregewfnlmcvhqnhtghtnta------------flpeqflpdfld--mviwghehecipnlvh-npiknfdvlqpgssvatslceaeaqpky-vfildikygeapkmtpipletirtfk-mksislqdvphlrp--hdkdatskylieqveemirdaneetkqkladdgegdmvaelpkplirlrvdysapsntqssidyqvenprrfsnrfvgrvang-nnvvqfykkrspvtrskksgingtsisdrdveklfsesggelevqtlvn----dllnkmqlsllpevglneavkkfvdkdektalkefisheisnevgilstneeflrtddaeemkalikqvkransvrptppkendetnfafngngldsfrssnrevrtgspditqshvdnesrithisqaesskptskpkrvrtatkkkipafsdstvisdaenelgdnndaqddvdidendiimvstdeedasygllngrktktktrsaastktasrrgkgrasrtpktdilgsllakkrk---------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>DNA repair protein rad32</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>18</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>255</fstart><fstop>467</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF04152 Mre11_DNA_bind</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>108</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>189</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>209</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>263</fstart><fstop>288</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>313</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>323</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>381</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>388</fstart><fstop>403</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>404</fstart><fstop>413</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>437</fstart><fstop>443</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>448</fstart><fstop>494</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>68</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>138</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>200</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>162</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>254</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>155</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>506</fstart><fstop>649</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030870</goid><goclass>C</goclass><godesc>Mre11 complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0008311</goid><goclass>F</goclass><godesc>double-stranded DNA specific 3'-5' exodeoxy...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0008310</goid><goclass>F</goclass><godesc>single-stranded DNA specific 3'-5' exodeoxy...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0000014</goid><goclass>F</goclass><godesc>single-stranded DNA specific endodeoxyribon...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0034613</goid><goclass>P</goclass><godesc>cellular protein localization</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0000729</goid><goclass>P</goclass><godesc>DNA double-strand break processing</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0000724</goid><goclass>P</goclass><godesc>double-strand break repair via homologous r...</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0006303</goid><goclass>P</goclass><godesc>double-strand break repair via nonhomologou...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0031573</goid><goclass>P</goclass><godesc>intra-S DNA damage checkpoint</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0042138</goid><goclass>P</goclass><godesc>meiotic DNA double-strand break formation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006311</goid><goclass>P</goclass><godesc>meiotic gene conversion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007131</goid><goclass>P</goclass><godesc>reciprocal meiotic recombination</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0000723</goid><goclass>P</goclass><godesc>telomere maintenance</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>649</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mpndpsdmnnelhnentirilissdphvgygekd---------pvrgnd-sfvsfneileiarerdvdmillggdifh-dnkpsrkalyqalrslrlnclgdkpcelellsdtslttgdtavcninyldpninvaipvfsihgnhddps-gdgrysaldilqvtglvnyfgrvpe----ndnivvspillqkgftklalygisnv-rderlyhsfre-nkvkflrpd---------------------------lyrdewfnlltvhqnhsahtpts------------ylpesfiqdfyd--fvlwgheheclidgsy-nptqkftvvqpgstiatslspgetapkh-cgilnitg-kdfhlekirlrtvrpfi-mkdiilsevssippmvenkkevltyliskveeaiteanaqwyeaqg-tvpvvenekpplplirlrvdytg--------gyqtenpqrfsnrfvgrvana-tdvvqfylkkkytrskrndglytsavedikin--------slrveslvn----eylktnrleclpedslgeavvnfvekddrdaikecvetqlnkqinllvk-krvteenleqeissiindlpkisttkrkdyeelpeevset-siniaehtpvlkhtsslldhhsplatsssehemeatpspallkktnkrrelpssltkkntrtpqrskevkkvparklsqstkksdkntqstllfydpsstteaqyldneddeildd-------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Double-strand break repair protein MRE11A</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>250</fstart><fstop>461</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF04152 Mre11_DNA_bind</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>13</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>283</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>308</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>372</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>392</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>427</fstart><fstop>437</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>487</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>616</fstart><fstop>623</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>647</fstart><fstop>654</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>659</fstart><fstop>671</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>129</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>649</fstart><fstop>649</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>678</fstart><fstop>678</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>688</fstart><fstop>688</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>689</fstart><fstop>689</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>104</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>S -) C (in cancer).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>117</fstart><fstop>117</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N -) S (in ATLD).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>157</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>M -) V.</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>237</fstart><fstop>237</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>F -) C (in a breast cancer sample;</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>302</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>H -) Y (in a breast cancer sample;</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>305</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) W (in ovarian cancer).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>468</fstart><fstop>468</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>D -) G (in dbSNP:rs1805367).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>503</fstart><fstop>503</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) H (in cancer).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>572</fstart><fstop>572</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) Q (in cancer).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>698</fstart><fstop>698</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>M -) V (in dbSNP:rs1805362).</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>491</fstart><fstop>670</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005654</goid><goclass>C</goclass><godesc>nucleoplasm</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0008408</goid><goclass>F</goclass><godesc>3'-5' exonuclease activity</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003690</goid><goclass>F</goclass><godesc>double-stranded DNA binding</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008022</goid><goclass>F</goclass><godesc>protein C-terminus binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0000014</goid><goclass>F</goclass><godesc>single-stranded DNA specific endodeoxyribon...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006303</goid><goclass>P</goclass><godesc>double-strand break repair via nonhomologou...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0007131</goid><goclass>P</goclass><godesc>reciprocal meiotic recombination</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0000019</goid><goclass>P</goclass><godesc>regulation of mitotic recombination</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0007004</goid><goclass>P</goclass><godesc>telomere maintenance via telomerase</godesc><goevidence>TAS</goevidence></goxref>
+</goxreflist>
+<length>708</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------mstadalddentfkilvatdihlgfmekd---------aargnd-tfvtldeilrlaqenevdfillggdlfh-enkpsrktlhtclellrkycmgdrpvqfeilsdqsvnfgfskfpwvnyqdgnlnisipvfsihgnhddpt-gadalcaldilscagfvnhfgrsms----vekidispvllqkgstkialyglgsi-pderlyrmfvn-kkvtmlrpk---------------------------edenswfnlfvihqnrskhgstn------------fipeqflddfid--lviwgheheckiaptk-neqqlfyisqpgssvvtslspgeavkkh-vgllrikg-rkmnmhkiplhtvrqff-medivlanhpdifn--pdnpkvtqaiqsfclekieemlenaererl-----gnshqpekplvrlrvdysgg--------fepfsvlrfsqkfvdrvanp-kdiihffrhreqkektg-eeinfgklitkps-----eg-ttlrvedlvkqyfqtaeknvqlslltergmgeavqefvdkeekdaieelvkyqlektqrflker------hidaledkideevrrfretrqkntneeddevreamtraralrsqseesasafsaddlmsidlaeqmandsddsisaatnkgrgrgrgrrggrgqnsasrggsqrgr----------------------------afk-strqqpsrnvttknysevievdesdveedifpttsktdqrwsstsss-----kimsqsqvskgvdfessedd-dddpfmntsslrrnrrliyllalrnmqdtgkmkcyklrvyslrf-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>283</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>308</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>372</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>392</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>427</fstart><fstop>437</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>487</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>616</fstart><fstop>623</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>647</fstart><fstop>654</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>659</fstart><fstop>671</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>491</fstart><fstop>680</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>680</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------mstadalddentfkilvatdihlgfmekd---------aargnd-tfvtldeilrlaqenevdfillggdlfh-enkpsrktlhtclellrkycmgdrpvqfeilsdqsvnfgfskfpwvnyqdgnlnisipvfsihgnhddpt-gadalcaldilscagfvnhfgrsms----vekidispvllqkgstkialyglgsi-pderlyrmfvn-kkvtmlrpk---------------------------edenswfnlfvihqnrskhgstn------------fipeqflddfid--lviwgheheckiaptk-neqqlfyisqpgssvvtslspgeavkkh-vgllrikg-rkmnmhkiplhtvrqff-medivlanhpdifn--pdnpkvtqaiqsfclekieemlenaererl-----gnshqpekplvrlrvdysgg--------fepfsvlrfsqkfvdrvanp-kdiihffrhreqkektg-eeinfgklitkps-----eg-ttlrvedlvkqyfqtaeknvqlslltergmgeavqefvdkeekdaieelvkyqlektqrflker------hidaledkideevrrfretrqkntneeddevreamtraralrsqseesasafsaddlmsidlaeqmandsddsisaatnkgrgrgrgrrggrgqnsasrggsqrgr----------------------------afk-strqqpsrnvttknysevievdesdveedifpttsktdqrwsstsss-----kimsqsqvskgvdfessedd-dddpfmntsslrrnrr---------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>283</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>308</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>372</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>392</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>427</fstart><fstop>437</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>442</fstart><fstop>487</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>644</fstart><fstop>651</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>675</fstart><fstop>682</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>687</fstart><fstop>699</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>491</fstart><fstop>708</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>708</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------mstadalddentfkilvatdihlgfmekd---------avrgnd-tfvtldeilrlaqenevdfillggdlfh-enkpsrktlhtclellrkycmgdrpvqfeilsdqsvnfgfskfpwvnyqdgnlnisipvfsihgnhddpt-gadalcaldilscagfvnhfgrsms----vekidispvllqkgstkialyglgsi-pderlyrmfvn-kkvtmlrpk---------------------------edenswfnlfvihqnrskhgstn------------fipeqflddfid--lviwgheheckiaptk-neqqlfyisqpgssvvtslspgeavkkh-vgllrikg-rkmnmhkiplhtvrqff-medivlanhpdifn--pdnpkvtqaiqsfclekieemlenaererl-----gnshqpekplvrlrvdysgg--------fepfsvlrfsqkfvdrvanp-kdiihffrhreqkektg-eeinfgklitkps-----eg-ttlrvedlvkqyfqtaeknvqlslltergmgeavqefvdkeekdaieelvkyqlektqrflker------hidaledkideevrrfretrqkntneeddevreamtraralrsqseesasafsaddlmsidlaeqmandsddsisaatnkgrgrgrgrrggrgqnsasrggsqrgradtgletstrsrnsktavsasrnmsiidafk-strqqpsrnvttknysevievdesdveedifpttsktdqrwsstsss-----kimsqsqvskgvdfessedd-dddpfmntsslrrnrr---------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>Double-strand break repair protein MRE11A</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>13</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00149 Metallophos</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>250</fstart><fstop>462</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF04152 Mre11_DNA_bind</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>283</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>308</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>372</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>392</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>393</fstart><fstop>402</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>438</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>443</fstart><fstop>488</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>643</fstart><fstop>648</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>673</fstart><fstop>680</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>685</fstart><fstop>697</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>129</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton donor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>648</fstart><fstop>648</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>676</fstart><fstop>676</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>686</fstart><fstop>686</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>491</fstart><fstop>706</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004519</goid><goclass>F</goclass><godesc>endonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004527</goid><goclass>F</goclass><godesc>exonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030145</goid><goclass>F</goclass><godesc>manganese ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006302</goid><goclass>P</goclass><godesc>double-strand break repair</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007126</goid><goclass>P</goclass><godesc>meiosis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>706</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------msptdplddedtfkilvatdihlgfmekd---------avrgnd-tfvtfdeilrlalenevdfillggdlfh-enkpsrktlhsclellrkycmgdrpvqfevisdqsvnfgfskfpwvnyqdgnlnisipvfsihgnhddpt-gadalcaldvlscagfvnhfgrsms----vekvdispvllqkgstklalyglgsi-pderlyrmfvn-kkvtmlrpk---------------------------edenswfnlfvihqnrskhgntn------------fipeqflddfid--lviwgheheckigpik-neqqlfyvsqpgssvvtslspgeavkkh-vgllrikg-rkmnmqklplrtvrrff-iedvvlanhpnlfn--pdnpkvtqaiqsfclekieemldsaererl-----gnpqqpgkplirlrvdysgg--------fepfnvlrfsqkfvdrvanp-kdvihffrhreqkgktg-eeinfgmlitkpas----eg-atlrvedlvkqyfqtaeknvqlslltergmgeavqefvdkeekdaieelvkyqlektqrflker------hidaledkideevrrfresrqrntneeddevreamsraralrsqsetstsafsaedls-fdtseqtandsddslsavpsrgrgrgrgrrgargqssaprggsqrgr-dtgleittrgrsskatsstsrnmsiidafr-strqqpsrnvapknysetievddsd-eddifptnsradqrwsgttss-----krmsqsqtakgvdfesdedd-dddpfmssscprrnrr---------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>339</fstart><fstop>346</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>283</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>308</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>365</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>366</fstart><fstop>375</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>401</fstart><fstop>411</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>416</fstart><fstop>461</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>616</fstart><fstop>621</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>646</fstart><fstop>653</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>658</fstart><fstop>670</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>133</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>157</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>239</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>291</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>464</fstart><fstop>679</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>679</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------msptdplddedtfkilvatdihlgfmekd---------avrgnd-tfvtfdeilrlalenevdfillggdlfh-enkpsrktlhsclellrkycmgdrpvqfevisdqsvnfgfskfpwvnyqdgnlnisipvfsihgnhddpt-gadalcaldvlscagfvnhfgrsms----vekvdispvllqkgstklalyglgsi-pderlyrmfvn-kkvtmlrpk---------------------------edenswfnlfvihqnrskhgntn------------fipeqflddfid--lviwgheheckigpik-neqqlfyvsqpgssvvtslspgeavkkh-vgllrikg-rkmnmqklplrtvrrff-iedvvlanhpnlfn--pdnpkvtqaiqsfclek--------------------------------vdysgg--------fepfnvlrfsqkfvdrvanp-kdvihffrhreqkgktg-eeinfgmlitkpas----eg-atlrvedlvkqyfqtaeknvqlslltergmgeavqefvdkeekdaieelvkyqlektqrflker------hidaledkideevrrfresrqrntneeddevreamsraralrsqsetstsafsaedls-fdtseqtandsddslsavpsrgrgrgrgrrgargqssaprggsqrgr-dtgleittrgrsskatsstsrnmsiidafr-strqqpsrnvapknysetievddsd-eddifptnsradqrwsgttss-----krmsqsqtakgvdfesdedd-dddpfmssscprrnrr---------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>104</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>185</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>205</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>225</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>240</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>259</fstart><fstop>284</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>292</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>309</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>310</fstart><fstop>319</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>373</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>393</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>394</fstart><fstop>403</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>430</fstart><fstop>440</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>445</fstart><fstop>490</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>641</fstart><fstop>648</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>677</fstart><fstop>684</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>689</fstart><fstop>702</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>64</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>134</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>158</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>250</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>151</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>240</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>292</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>493</fstart><fstop>711</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>711</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------msssssslddedtfkilvatdihlgfmekd---------avrgnd-sfvafdeilrlaqdnevdflllggdlfh-dnkpsrrtlhicleqlrkycmgdrpiefevlsdqsvnfgyskfpwvnyqdnnlnislpvfsvhgnhddpt-gadalcaldilssaglvnhfgrats----vekidispvllqkghskialyglgsi-pderlyrmfvn-kqvmmlrpr---------------------------edesswfnlfvihqnrskhgptn------------yipeqfldefld--lviwgheheckiaptr-neqqlfyvsqpgssvatslspgeaekkh-vgllrikg-kkmnmqkiplqtvrqff-iedlvlsdypdifn--pdnprvtqeietfciekveamldtaererl-----gnprqpdkplirlrvdytgg--------fepfntlrfsqkfvdrtanp-kdiihffrhkeqkdkkdsitinfgkidskpll----eg-ttlrvedlvkeyfktaeknvqlslltergmgeavqefvdkeekdaleelvkfqlektqrflker------hidaeeekideevrkfretrktntneedeevreaiqrarthrsqapdvemsdedddal---lrkvslsddedvrasmpargrgrgrar-ggrgqstttrgtsrrgrgsasadqpssgratkatg---knmsildafkpssrqptarnvakktysediedddsdleevsftpssviesrrtsststsysrkstqpqsqatkahffdddddeedfdpfkksgpsrrgrr---------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>105</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>186</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>206</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>237</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>252</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>271</fstart><fstop>296</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>304</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>309</fstart><fstop>321</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>322</fstart><fstop>331</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>372</fstart><fstop>385</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>390</fstart><fstop>405</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>406</fstart><fstop>415</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>440</fstart><fstop>450</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>455</fstart><fstop>500</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>31</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>65</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>135</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>197</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>159</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>253</fstart><fstop>262</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>152</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>252</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>304</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>531</fstart><fstop>620</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>620</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------mngtttaeqdadnvirilvatdnhlgygekd---------avrged-sftafeeilelavsedvdmillggdlfh-davpsqnalhkciellrrytfgdrpvsleilsdqgqcfhnavnqsvnyedpnlniaipvfsihgnhddps-gfgrlssldllstsglvnyfgrwtd----ltqveispvlmrkgesqlalyglshi-hdgrlarlikd-fkvkfncpenvan----------------gedgneskeeedwfhllvvhqnradrgpkn------------ylpedllpsflh--lviwghehdcriepee-nakkrfyvsqpgssvptslsegeakkkh-vglleiyk-gkfklkplpletvrpfv-yesvvladhadelg--lvegdastkvfkfaqerveamieravaqht-----ghpkqptlplirlrllytde--------scmfnairfgemlstrvanv-qdvvqfskvvkrtktea---vnldkealrral----eadnatrveelvdryfeeaksnkplklfhskalaemtyrlleqrdadaaenivkfykekavdhlmea------mpnd--enideelerfralhkhgdllk-------mldtqglkvkkeeksmsvlgsevnvstapatgrgaargrgtartragataatrgkgqldvtvsstrtsgrqqtllsslmgsrntasyvisddsd------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>100</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>205</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>263</fstart><fstop>288</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>313</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>323</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>370</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>376</fstart><fstop>391</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>392</fstart><fstop>401</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>424</fstart><fstop>429</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>433</fstart><fstop>480</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>642</fstart><fstop>649</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>678</fstart><fstop>685</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>690</fstart><fstop>703</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>15.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>129</fstop><fcolor>2</fcolor><fscore>28.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>15.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>4</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>254</fstop><fcolor>5</fcolor><fscore>14.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>146</fstop><fcolor>6</fcolor><fscore>12.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>15</fcolor><fscore>15.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>16</fcolor><fscore>12.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>488</fstart><fstop>720</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>720</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------msredfsdtlrvlvatdchlgymekd---------eirrhd-sfkafeeicsiaeekqvdflllggdlfh-enkpsrttlvkaieilrrhclndkpvqfqvvsdqtvnfqn-afgqvnyedphfnvglpvfsihgnhddpa-gvdnlsaidilsacnlvnyfgkmvlggsgvgqitlypilmkkgsttvalyglgni-rderlnrmfqtphavqwmrpevqeg-----------------------cdvsdwfnilvlhqnrvksnpkn------------aisehflprfld--fivwgheheclidpqe-vsgmgfhitqpgssvatslidgeskpkh-vllleikg-nqyrptkipltsvrpfe-yteivlkdesdidp--ndqnsilehldkvvrnliekaskkavnr----------seiklplvrikvdysg---------fmtinpqrfgqkyvgkvanp-qdilifskaskkgrsea----niddserlrp-----eelnqqniealv------aesnlkmeilpvndldvalhnfvnkddklafyscvqynlqetrgklakdsdakkfeeddlilkvgecleerlkdrstrptgssqflstgltsenltkgssgianasfsddedttqmsglapptrgrrgsstanttrgrakaptrgrgrgkassamkqttldsslgfrqsqrsasaaasaafksastigeddvdspsseevepedfnkpdssseddestkgkgrkrpattkrgrgrgsgtskrgrknesssslnrllsskdddededdedrekklnksqprvtrnygalrr-------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 10 3 8 100 2 47 100 0 56 37 48 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 9 11 0 0 0 1 1 5 3 0 2 0 6 0 1 0 5 1 3 0 36 0 32 22 4 29 100 100 2 30 5 0 3 0 2 4 4 0 0 5 0 1 0 0 0 8 0 4 0 1 8 1 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 8 1 5 14 0 100 69 100 75 0 0 2 0 0 0 0 0 0 1 0 0 0 19 0 0 0 0 0 0 1 0 3 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 42 0 1 0 0 0 14 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 1 1 0 0 1 43 0 2 0 100 0 0 5 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 4 1 0 0 0 0 0 23 0 23 13 23 11 3 30 2 0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 2 2 20 5 0 0 0 0 0 0 1 6 0 1 3 0 1 0 0 0 0 0 0 2 1 1 3 2 1 0 0 0 0 0 0 0 0 0 0 2 1 1 2 0 0 1 0 1 0 1 1 0 1 0 0 0 3 1 2 0 0 1 0 3 3 0 2 7 1 0 3 0 0 0 1 0 1 1 3 0 1 0 1 3 0 0 0 0 0 0 1 0 0 1 1 1 0 1 1 0 0 0 1 0 0 2 4 1 1 1 1 0 0 1 2 0 1 1 1 1 1 0 1 1 1 2 0 2 3 0 0 0 0 0 1 0 0 3 0 0 0 1 1 0 0 0 0 0 0 0 1 4 0 1 0 2 0 0 1 1 1 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 2 0 1 0 2 1 3 25 31 1 31 66 100 36 34 70 100 0 100 21 100 10 0 100 28 100 0 0 0 0 0 0 0 0 0 2 10 17 22 8 100 0 38 5 1 32 13 3 100 46 7 0 53 100 1 14 15 12 100 100 2 28 30 3 11 100 100 70 100 100 0 1 40 19 100 100 32 19 29 100 0 3 0 53 18 0 100 100 0 0 18 15 30 100 33 100 1 16 3 59 20 38 100 100 5 22 1 0 11 0 0 4 2 2 0 0 67 100 100 4 100 0 35 4 100 48 16 58 100 100 100 11 75 11 100 100 100 100 100 11 28 0 100 0 3 0 22 1 8 36 100 45 100 7 0 6 30 4 46 100 2 100 100 39 0 1 1 0 0 0 0 1 5 30 48 1 26 1 100 19 100 6 43 100 100 2 58 32 30 100 100 100 100 70 2 6 36 0 0 100 29 100 100 0 35 1 26 0 8 0 0 3 100 6 0 0 0 100 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 7 2 5 100 100 37 70 2 1 23 100 100 100 7 10 2 12 1 2 23 11 0 0 0 0 0 0 0 0 0 0 0 0 2 37 32 100 10 32 70 1 11 100 9 25 0 0 6 66 47 100 100 100 100 100 64 100 0 2 1 0 1 0 0 15 1 0 8 0 100 0 42 1 100 100 100 100 70 67 1 100 100 100 0 2 9 100 46 0 2 100 5 0 19 0 42 100 3 100 5 0 0 3 6 0 5 7 3 4 53 25 100 2 69 46 100 1 100 0 0 3 12 7 38 4 100 8 16 0 6 3 6 0 1 0 0 0 7 10 0 3 3 2 11 0 26 0 7 0 0 0 54 0 23 5 3 1 0 6 3 1 0 3 3 0 0 0 0 0 0 0 0 0 0 1 10 0 0 0 40 40 18 40 29 28 54 9 100 47 4 0 0 0 0 0 0 0 0 0 1 0 0 0 33 0 0 100 100 12 15 7 15 24 1 67 43 100 100 0 0 10 32 37 23 1 100 0 5 1 5 8 0 0 1 8 6 0 0 1 1 21 11 0 1 1 1 0 0 1 0 0 0 0 0 0 0 40 1 0 1 7 4 10 66 38 2 100 100 6 1 2 2 1 2 0 0 10 14 1 14 67 13 11 32 1 8 0 4 32 2 15 25 17 0 9 32 54 26 71 12 33 28 1 100 3 2 26 0 46 12 0 3 8 10 18 8 0 1 0 100 1 8 2 0 0 0 0 0 0 0 0 5 2 0 0 1 6 35 0 21 2 22 4 27 0 1 5 0 25 3 5 1 0 1 3 1 5 9 1 1 0 4 0 1 1 1 1 0 0 0 0 1 5 10 0 1 1 2 1 25 0 2 0 8 0 0 0 0 0 0 0 1 2 3 0 0 1 1 0 2 1 3 0 42 7 0 2 6 4 1 1 0 15 0 3 0 1 4 0 1 1 0 0 7 0 25 3 4 0 0 1 3 1 0 6 0 0 0 1 0 0 0 0 4 3 0 1 1 1 0 0 1 1 1 0 0 0 0 0 2 0 0 2 2 0 1 0 3 0 0 5 1 1 1 2 3 1 1 0 6 2 0 4 3 1 0 4 0 3 3 4 1 0 1 2 0 0 0 1 2 3 8 1 0 0 1 4 0 0 2 3 1 3 4 0 0 0 0 0 1 0 0 1 1 2 0 0 1 0 0 0 0 0 1 1 1 2 2 1 0 2 0 2 1 0 0 1 0 1 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 14 4 13 2 2 32 100 0 62 26 55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 8 0 7 14 0 0 0 1 4 4 3 0 3 1 4 0 3 0 7 1 3 1 43 0 31 28 3 6 100 100 9 38 2 0 2 1 2 7 7 0 0 7 1 0 0 0 0 8 0 7 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 15 15 1 1 19 0 100 74 100 79 0 0 4 0 0 0 0 0 0 0 0 0 0 20 3 1 0 0 1 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 49 0 2 0 1 0 15 0 0 1 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 0 0 1 32 2 3 0 100 0 0 0 2 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 3 3 1 0 0 1 0 0 5 0 3 0 55 28 0 64 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 1 4 100 19 0 0 0 0 1 2 0 16 0 3 2 0 1 0 0 0 0 0 0 3 1 5 1 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 2 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 1 0 1 5 1 0 3 0 1 0 1 0 0 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 2 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 0 0 0 0 0 0 0 2 0 0 0 1 0 1 2 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

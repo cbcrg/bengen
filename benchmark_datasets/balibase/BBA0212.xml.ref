@@ -1,0 +1,1007 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0212.xml</aln-name>
+<aln-score>1.52</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>CRYSTAL STRUCTURE OF THE NUCLEAR RECEPTOR FOR VITAMIN D LIGAND BINDING DOMAIN BOUND TO MC1288</definition>
+<organism>HOMO SAPIENS</organism>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>39</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>205</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>245</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>259</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>205</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>39</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>259</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>8</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>32</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>58</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>82</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>87</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>122</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>128</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>138</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>158</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>180</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>210</fstart><fstop>237</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>241</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>247</fstart><fstop>255</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>111</fstart><fstop>112</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>117</fstart><fstop>119</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>127</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>259</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------dslrpklseeqqriiailldahhktydptysdfcqfrpp-vrvndg-gg---------------------------------------------------------svtlelsqlsmlphladlvsysiqkvigfakmipgfrdltsedqivllkssaievimlrsnesftmddmswtcgnqdykyrvsdvtkaghslelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaalieaiqdrlsntlqtyircrhpp-pgshllyakmiqkladlrslneehskqyrclsfqpecsmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Saguinus oedipus (Cotton-top tamarin).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Platyrrhini</taxon>
+<taxon>Cebidae</taxon>
+<taxon>Callitrichinae</taxon>
+</lineage>
+<taxid>9490</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>235</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>373</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>374</fstart><fstop>413</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>427</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>373</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>427</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>427</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meamaastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremilkrkee----ealkdslrpklseeqqriiailldahhktydptysdfcqfrpp-vrvndg-ggshpsrpnsrhtpsfsgdssscc--sdhyitspdmmdsss-fsn-ldlseedsddp--sltlelsqlsmlphladlvsysiqkvigfakmipgfrdltsedqivllkssaievimlrsnesftmddmswtcgnpdykyrisdvtkaghnlelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaalieaiqdrlsntlqtyircrhpp-pgshllyakmiqkladlrslneehskqyrclsfqpessmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>235</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>373</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>374</fstart><fstop>413</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>427</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>373</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>414</fstart><fstop>427</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>33</fstart><fstop>35</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>42</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>91</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>97</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>150</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>217</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>227</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>251</fstart><fstop>253</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>256</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>275</fstart><fstop>277</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>285</fstart><fstop>287</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>291</fstart><fstop>293</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>297</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>307</fstart><fstop>321</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>327</fstart><fstop>338</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>349</fstart><fstop>370</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>379</fstart><fstop>404</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>410</fstart><fstop>413</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>416</fstart><fstop>422</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>143</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>305</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>397</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>33</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) D (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>35</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>H -) Q (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>45</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>K -) E (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>46</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) D (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>47</fstart><fstop>47</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>F -) I (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>50</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) Q (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>73</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) Q (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>80</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) Q (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>230</fstart><fstop>230</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>L -) V (in dbSNP:rs11574090).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>274</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) L (in rickets; decreases affinity</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>305</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>H -) Q (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>314</fstart><fstop>314</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>I -) S (in rickets).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>362</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>T -) I (in dbSNP:rs11574115).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>391</fstart><fstop>391</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) C (in rickets).</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0046965</goid><goclass>F</goclass><godesc>retinoid X receptor binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008434</goid><goclass>F</goclass><godesc>vitamin D3 receptor activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0046697</goid><goclass>P</goclass><godesc>decidualization</godesc><goevidence>IEP</goevidence></goxref>
+<goxref><goid>GO:0008285</goid><goclass>P</goclass><godesc>negative regulation of cell proliferation</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0010553</goid><goclass>P</goclass><godesc>negative regulation of specific transcripti...</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0010980</goid><goclass>P</goclass><godesc>positive regulation of vitamin D 24-hydroxy...</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0060558</goid><goclass>P</goclass><godesc>regulation of calcidiol 1-monooxygenase act...</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0070561</goid><goclass>P</goclass><godesc>vitamin D receptor signaling pathway</godesc><goevidence>IDA</goevidence></goxref>
+</goxreflist>
+<length>427</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meamaastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremilkrkee----ealkdslrpklseeqqriiailldahhktydptysdfcqfrpp-vrvndg-ggshpsrpnsrhtpsfsgdssssc--sdhcitssdmmdsss-fsn-ldlseedsddp--svtlelsqlsmlphladlvsysiqkvigfakmipgfrdltsedqivllkssaievimlrsnesftmddmswtcgnqdykyrvsdvtkaghslelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaalieaiqdrlsntlqtyircrhpp-pgshllyakmiqkladlrslneehskqyrclsfqpecsmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Bos taurus (Bovine).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Cetartiodactyla</taxon>
+<taxon>Ruminantia</taxon>
+<taxon>Pecora</taxon>
+<taxon>Bovidae</taxon>
+<taxon>Bovinae</taxon>
+</lineage>
+<taxid>9913</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>233</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>9</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>110</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>370</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>371</fstart><fstop>410</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>411</fstart><fstop>424</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>370</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>31</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>153</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>411</fstart><fstop>424</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>143</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>304</fstart><fstop>304</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>396</fstart><fstop>396</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>424</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------maastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremilkrkee----ealkdslrpklseeqqriiailldahhktydptysdfcqfrpp-vrvndg-ggshpsrpnsrhtpsfsgdssssc--sdhcitssdmmdsss-fsn-ldlseedsddp--svtlelsqlsmlphladlvsysiqkvigfakmipgfrdltsedqivllkssaievimlrsnesftmddmswtcgnqdykyrvsdvtkaghslelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaalieaiqdrlsntlqtyircrhpp-pgshllyakmiqkladlrslneehskqyrclsfqpecsmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Putative vitamin D receptor</definition>
+<organism>Elaphe sp.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Lepidosauria</taxon>
+<taxon>Squamata</taxon>
+<taxon>Scleroglossa</taxon>
+<taxon>Serpentes</taxon>
+<taxon>Colubroidea</taxon>
+<taxon>Colubridae</taxon>
+<taxon>Colubrinae</taxon>
+</lineage>
+<taxid>114965</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>171</fstart><fstop>269</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>44</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>270</fstart><fstop>270</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>60</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>270</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>270</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>103</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>270</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------rkamftcpfngdckitkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremimkrkee----ealkeslkpklleeqqrvieilleahrktydptysdfsqfrpp-vrqnek---ehtsrss-nmtpgfsfsdds----sdtssfss---epmm-lss-leln-dds--t--smsidfshlsmlphladlvsysiqkvigfakmipgfrsltaedqiallkssaievimlrsnqsfsledmswfcgsndfkyqvsdvtqaghsldlleplvkfqislkklnlheeehvllm--------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>230</fstart><fstop>416</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>369</fstart><fstop>408</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006816</goid><goclass>P</goclass><godesc>calcium ion transport</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006874</goid><goclass>P</goclass><godesc>cellular calcium ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0050892</goid><goclass>P</goclass><godesc>intestinal absorption</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009887</goid><goclass>P</goclass><godesc>organ morphogenesis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0001501</goid><goclass>P</goclass><godesc>skeletal system development</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>422</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meamaastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremimkrkee----ealkdslrpklseeqqhiiailldahhktydptyadfrdfrpp-iradvs-tgsysprp----tlsfsgdsssn---sdlytpsldmmepas-fst-mdlneegsddp--svtldlsplsmlphladlvsysiqkvigfakmipgfrdltsddqivllkssaievimlrsnqsftlddmswdcgsqdykyditdvsraghtlelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaklveaiqdrlsntlqtyircrhpp-pgshqlyakmiqkladlrslneehskqyrslsfqpensmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>230</fstart><fstop>416</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>369</fstart><fstop>408</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>143</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>300</fstart><fstop>300</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>392</fstart><fstop>392</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006816</goid><goclass>P</goclass><godesc>calcium ion transport</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006874</goid><goclass>P</goclass><godesc>cellular calcium ion homeostasis</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0050892</goid><goclass>P</goclass><godesc>intestinal absorption</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0007595</goid><goclass>P</goclass><godesc>lactation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0060745</goid><goclass>P</goclass><godesc>mammary gland branching involved in pregnancy</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0060058</goid><goclass>P</goclass><godesc>positive regulation of apoptosis involved i...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0060558</goid><goclass>P</goclass><godesc>regulation of calcidiol 1-monooxygenase act...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0001501</goid><goclass>P</goclass><godesc>skeletal system development</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>422</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meamaastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremimkrkee----ealkdslrpklseeqqhiiailldahhktydptyadfrdfrpp-iradvs-tgsysprp----tlsfsgdsssn---sdlytpsldmmepas-fst-mdlneegsddp--svtldlsplsmlphladlvsysiqkvigfakmipgfrdltsddqivllkssaievimlrsnqsftmddmswdcgsqdykyditdvsraghtlelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaklveaiqdrlsntlqtyircrhpp-pgshqlyakmiqkladlrslneehskqyrslsfqpensmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Rattus norvegicus (Rat).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10116</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>89</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>231</fstart><fstop>417</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>369</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>370</fstart><fstop>409</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>410</fstart><fstop>423</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>369</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>410</fstart><fstop>423</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>148</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>247</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>252</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>271</fstart><fstop>273</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>281</fstart><fstop>283</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>287</fstart><fstop>289</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>293</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>303</fstart><fstop>318</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>323</fstart><fstop>334</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>345</fstart><fstop>366</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>375</fstart><fstop>402</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>404</fstart><fstop>407</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>412</fstart><fstop>418</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>143</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>301</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>393</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005720</goid><goclass>C</goclass><godesc>nuclear heterochromatin</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005499</goid><goclass>F</goclass><godesc>vitamin D binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008434</goid><goclass>F</goclass><godesc>vitamin D3 receptor activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008628</goid><goclass>P</goclass><godesc>induction of apoptosis by hormones</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006357</goid><goclass>P</goclass><godesc>regulation of transcription from RNA polyme...</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>423</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meataastslpd-pgdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkalftcpfngdcritkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremimkrkee----ealkdslrpklseeqqhiiailldahhktydptyadfrdfrpp-vrmdgs-tgsysprp----tlsfsgnsssss--sdlyttsldmmepsg-fsn-ldlngedsddp--svtldlsplsmlphladlvsysiqkvigfakmipgfrdltsddqivllkssaievimlrsnqsftmddmswdcgsqdykydvtdvskaghtlelieplikfqvglkklnlheeehvllmaicivspdrpgvqdaklveaiqdrlsntlqtyircrhpp-pgshqlyakmiqkladlrslneehskqyrslsfqpensmk--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Gallus gallus (Chicken).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galliformes</taxon>
+<taxon>Phasianidae</taxon>
+<taxon>Phasianinae</taxon>
+</lineage>
+<taxid>9031</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>44</fstart><fstop>112</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>47</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>83</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>45</fstart><fstop>120</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>259</fstart><fstop>445</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>179</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>397</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>398</fstart><fstop>437</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>438</fstart><fstop>451</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>397</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>57</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>179</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>438</fstart><fstop>451</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>44</fstart><fstop>119</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>47</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>329</fstart><fstop>329</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>421</fstart><fstop>421</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>451</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------mselrgswdeqqqsmay---lpdadmdtvaastslpdpagdfdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkamftcpfngdckitkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremilkrkee----ealkeslkpklseeqqkvidtlleahhktfdttysdfnkfrpp-vrskfs-srmathsssv-vsqdfssedsndvfgsdafaafpepmepqm-fsn-ldlseesdesp--smnielphlpmlphladlvsysiqkvigfakmipgfrdltaedqiallkssaievimlrsnqsftmedmswtcgsndfkykvsdvtqaghsmdlleplvkfqvglkklnlheeehvllmaicilspdrpgvqdtslvesiqdrlsdilqtyircrhpp-pgsrllyakmiqkladlrslneehskqyrclsfqpehsmq--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Coturnix coturnix japonica (Japanese quail).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galliformes</taxon>
+<taxon>Phasianidae</taxon>
+<taxon>Perdicinae</taxon>
+</lineage>
+<taxid>93934</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>41</fstart><fstop>116</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>44</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>80</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>256</fstart><fstop>442</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>42</fstart><fstop>117</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>26</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>31</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>133</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>176</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>394</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>395</fstart><fstop>434</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>435</fstart><fstop>448</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>394</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>54</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>176</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>435</fstart><fstop>448</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>41</fstart><fstop>116</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>44</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>326</fstart><fstop>326</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>418</fstart><fstop>418</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>448</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------mvsisasggyampcccesqelqssdmetpavg------tpefdrnvpricgvcgdratgfhfnamtcegckgffrrsmkrkamftcpfsgdckitkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremilkrkee----ealkeslkpklseeqqkvinilleahhktfdttysdfnkfrpp-vrskfs-sstathsssv-vsqdfssedsndvfgsdafgafpepmepqm-fsn-ldlseesdesp--smnielphlpmlphladlvsysiqkvigfakmipgfrdltaedqiallkssaievimlrsnqsftmedmswtcgsndfkykvsdvtqaghsmdlleplvkfqvglkklnlheeehvllmaicilspdrpgvqdtslvesiqdrlsdtlqtyircrhpp-pgsrllyakmiqkladlrslneehskqyrclsfqpehsmq--ltplvlevfgneis--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Putative vitamin D receptor</definition>
+<organism>Trachemys scripta elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Testudines</taxon>
+<taxon>Cryptodira</taxon>
+<taxon>Testudinoidea</taxon>
+<taxon>Emydidae</taxon>
+</lineage>
+<taxid>31138</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>177</fstart><fstop>320</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>44</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>324</fstart><fstop>324</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>60</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>315</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>324</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>315</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>103</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>97</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>324</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------rkamftcpfnsdckitkdnrrhcqacrlkrcvdigmmkefiltdeevqrkremitkrkee----ealkesmkpklseeqqkvidilleahrktydptysdftqfrpp-vran---sskritrsss-vlth--gssseds--sdtfscspestehrm-fsn-malnedsdesp--pmdinlsapsmlphladlvsysiqkvigfgkmipgfrdltaedqiallkssaievimlrsnqsfsledmawscggnefkhqindvtqaghslelleplvkfqiglkklnlheeehvllmgicilspdrpgvqdtslveslqdrlsevlqtyilckhpp-pgnrllytk-------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor</definition>
+<organism>Xenopus laevis (African clawed frog).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Amphibia</taxon>
+<taxon>Batrachia</taxon>
+<taxon>Anura</taxon>
+<taxon>Mesobatrachia</taxon>
+<taxon>Pipoidea</taxon>
+<taxon>Pipidae</taxon>
+<taxon>Xenopodinae</taxon>
+<taxon>Xenopus</taxon>
+</lineage>
+<taxid>8355</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>22</fstart><fstop>90</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>25</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>230</fstart><fstop>416</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>23</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>114</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>157</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>369</fstart><fstop>408</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>368</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>35</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>157</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>409</fstart><fstop>422</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>25</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>300</fstart><fstop>300</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>392</fstart><fstop>392</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3 By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>422</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------mefmaattsiadtdmefdknvpricgvcgdkatgfhfnamtcegckgffrrsmkrkamftcpfngdcritkdnrrhcqscrlkrcvdigmmkefiltdeevqrkrqminkrkse----ealkesmrpkisdeqqkmidilleahrktfdttysdfnkfrpp-vrenvd-pfrritrsss-vhtq--gspsed---sdvftsspdssehgf-fsa-slfgq--feys--smggksgelsmlphiadlvsysiqkiigfakmipgfrdliaedqiallkssvievimlrsnqsfslddmswtcgsedfkykvddvtqaghnmelleplvkfqvglkkldlheeehvllmaicilspdrpglqdkalvesiqdrlsstlqtyilckhpp-pgsrllyakmiqkladlrslneehskqyrsisflpehsmk--ltplmlevfsdeip--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Vitamin D receptor a</definition>
+<organism>Paralichthys olivaceus (Japanese flounder).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Euteleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorpha</taxon>
+<taxon>Acanthopterygii</taxon>
+<taxon>Percomorpha</taxon>
+<taxon>Pleuronectiformes</taxon>
+<taxon>Pleuronectoidei</taxon>
+<taxon>Paralichthyidae</taxon>
+</lineage>
+<taxid>8255</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>230</fstart><fstop>414</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>366</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>368</fstart><fstop>406</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>407</fstart><fstop>420</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>366</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>407</fstart><fstop>420</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>420</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------mepmtvttsmvgpd-efdrnapricgvcgdkatgfhfnamtcegckgffrrsmkrkasftcpfngsctitkdnrrhcqacrlkrcidigmmkefiltdeevqrekemilkrkee----eaareamrprlneeqarmisslveahhktydasysdfsrfrpp-vregpv-trsasraaslhslsdas---------sdsfnhspesvdtkmnfsnllmmyqdgasspdssee--ntklsmlphladlvsysiqkvigfakmipgfrdltaedqiallkssaieiimlrsnqsfsledmswscggpdfkycindvtkaghtlelleplvkfqvglkklnlheeehvllmgicllspdrpgvqdharveqlqdrlpealqayirinhp---ggrllyakmiqkladlrslneehskqyrslsfqpehsmq--ltplvlevfgsevs--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Vitamin D receptor b</definition>
+<organism>Paralichthys olivaceus (Japanese flounder).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Euteleostei</taxon>
+<taxon>Neoteleostei</taxon>
+<taxon>Acanthomorpha</taxon>
+<taxon>Acanthopterygii</taxon>
+<taxon>Percomorpha</taxon>
+<taxon>Pleuronectiformes</taxon>
+<taxon>Pleuronectoidei</taxon>
+<taxon>Paralichthyidae</taxon>
+</lineage>
+<taxid>8255</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>235</fstart><fstop>419</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>97</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>160</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>371</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>373</fstart><fstop>411</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>412</fstart><fstop>425</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>371</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>160</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>412</fstart><fstop>425</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>21</fstart><fstop>96</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>425</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------meptvvstsslasd-efdrnmpricgvcgdkatgfhfnamtcegckgffrrsmkrkatftcpfngsctitkdnrrhcqacrlkrcvdigmmrefiltdeevqrkkdliqrrkdeeaqreaerearrprltdeqsqviamlveahhktyddsysdfcrfrpp-vregpv-trsasraaslhslsdas---------sdsfshspesvdtkvnfnnllmmyqeqgsspdsseee-gssfsmlphladlvsysiqkvigfakmipgfreltaedqiallkssaievimlrsnqsfnledmswscgapdfkyqisdvtkaghtlelleplvkfqvglkklnlqeeehvmlmaicllspdrpgvqdhariealqdrlsetlqayiqlhhp---ggrllyakmiqkladlrslneehskqyrslsfrpehsmq--ltplvlevsgsevs--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Vitamin D3 receptor A</definition>
+<organism>Danio rerio (Zebrafish) (Brachydanio rerio).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Cyprinidae</taxon>
+</lineage>
+<taxid>7955</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>53</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDNuclear receptor</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>56</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>92</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ZN_FINGNR C4type</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>263</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00104 Hormone_recep</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>54</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00105 zf-C4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>33</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>44</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>145</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>188</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>399</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>401</fstart><fstop>439</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>440</fstart><fstop>453</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>399</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>66</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>440</fstart><fstop>453</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>158</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>180</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>255</fstart><fstop>273</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>284</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>303</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>313</fstart><fstop>315</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>317</fstart><fstop>319</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>325</fstart><fstop>329</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>335</fstart><fstop>349</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>355</fstart><fstop>366</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>377</fstart><fstop>398</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>405</fstart><fstop>432</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>434</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>442</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>448</fstart><fstop>450</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>56</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00031 NUCLEAR_REC_DBD_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>53</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51030 NUCLEAR_REC_DBD_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>175</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>423</fstart><fstop>423</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>BINDING_Vitamin D3</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043565</goid><goclass>F</goclass><godesc>sequence-specific DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003707</goid><goclass>F</goclass><godesc>steroid hormone receptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003700</goid><goclass>F</goclass><godesc>transcription factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005499</goid><goclass>F</goclass><godesc>vitamin D binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008270</goid><goclass>F</goclass><godesc>zinc ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006355</goid><goclass>P</goclass><godesc>regulation of transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>453</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mltensavnsggkskceagacestvngdatslmdlmavstsatgqd-qfdrnappicgvcgdkatgfhfnamtcegckgffrrsmkrkasftcpfngnctitkdnrrhcqacrlkrcidigmmkefiltdeevqrkkdlimkrkee----eaarearkprlsdeqmqiinslveahhktyddsysdfvrfrpp-vregpv-trsasraaslhslsdas---------sdsfnhspesvdtklnfsnllmmyqdsg-spdsseedqqsrlsmlphladlvsysiqkvigfakmipgfrdltaedqiallkssaieiimlrsnqsfsledmswscggpdfkycindvtkaghtlelleplvkfqvglkklklheeehvllmaicllspdrpgvqdhvriealqdrlcdvlqayiriqhp---ggrllyakmiqkladlrslneehskqyrslsfqpehsmq--ltplvlevfgsevs--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>24</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>184</fstart><fstop>339</fstop><fcolor>1</fcolor><fscore>13.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>24</fstop><fcolor>2</fcolor><fscore>27.98</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>387</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------sffdndeddswkvcgvcndkatgyhfnaltcegckgffrrsvknsktftctynnqcsitksnrrqcqacrlrkciqigmkrecimspdeiqmkktlvlsnrik----ratmqwvpmeltndqkilldticsafiqsnnlpekgvirggee-vrqdadkgspcsspssssnnsnflelikria--ndiaar----------------------------tpsnmtnpahvvhftdimefsikeiikfckkiptfmdldlkdqiallksgcteilfikanytydlekkaltlgpdilytrdsflqg-gmsveytdnylkfhedlsalqlddvemsslsaialfsadradlvdqqrvenqqealalclqaysesswki-rnrfaiimsflprlrtlnslcttafsqvkvifylvgcrgl--vvrclhft--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>30.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>305</fstop><fcolor>1</fcolor><fscore>16.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>123</fstop><fcolor>3</fcolor><fscore>15.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>349</fstart><fstop>362</fstop><fcolor>4</fcolor><fscore>17.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>349</fstart><fstop>364</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>364</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------mhfgaitcegckgffrrsvkknasfscafekkceinknnrkhcqacrfnaclaagmnsslilsdeevnkkrdlirmnrek----sgskqpqatrmtmdekllvktllkghrdsydfayveydtfrgreveaqsttedsgkq---lhlmllfq------------------------------------hflp--iypfsfdxkqlfqhfcdimtwgirkvidyckgipqfvqlsivdqivllrggclemlvlrsyfafscnenkymsdkfqykps-dflqa-ggnkefvekynslhirmrkmklqveeiclllalvlfspdrpgledqakveqmqdcvantlqayeythkppnessflqartmycelllilpilrtinmlfaqnimslkqtnekdmnplilevnnsadded
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 30 2 14 43 15 42 43 43 6 3 8 0 6 2 35 100 100 80 100 23 100 47 100 100 100 100 100 100 100 52 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 3 100 100 100 100 100 71 47 21 100 12 100 100 100 100 100 100 100 100 100 100 77 100 100 100 100 100 100 61 100 100 100 100 100 77 100 100 100 100 100 100 100 100 100 100 100 70 50 40 62 100 3 77 100 100 44 100 0 0 0 0 100 100 3 50 28 47 4 41 100 47 78 16 43 100 100 12 9 25 100 4 4 100 29 28 100 100 15 100 100 28 100 2 50 100 57 100 100 0 9 100 100 100 100 0 67 100 0 3 0 0 0 2 0 4 0 1 1 5 2 3 0 0 0 0 0 1 0 13 0 1 1 4 2 0 0 0 0 51 51 0 0 1 0 4 0 10 0 2 19 1 1 0 0 25 33 12 0 10 0 12 0 6 11 1 0 3 1 13 0 0 46 1 3 0 6 0 11 1 10 29 100 100 100 100 78 100 100 100 100 100 100 100 100 100 100 75 100 100 100 41 100 100 100 100 100 100 100 39 100 35 34 51 100 100 100 4 100 100 100 100 100 44 100 100 58 100 100 100 100 100 100 40 100 100 26 37 28 100 100 76 100 3 100 100 4 2 72 12 100 34 0 38 12 100 100 59 32 100 100 100 24 54 48 100 38 100 100 100 33 100 100 100 59 46 100 100 100 100 42 100 53 100 100 100 100 100 76 100 100 23 100 100 54 22 100 100 100 100 100 100 66 100 100 5 10 3 45 100 31 48 100 100 100 100 17 15 11 100 100 48 100 100 7 3 16 100 100 11 0 11 100 9 8 9 100 100 76 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 4 81 100 100 24 100 100 3 100 100 51 0 0 100 100 100 100 72 100 100 100 24 49 26 100 52 51 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 100 0 100 22 100 100 100 100 100 100 100 100 100 100 100 100 100 100 6 6 1 22 100 22 100 17 3 8 6 22 100 3 100 3 100 6 100 100 19 2 100 100 100 100 100 0 2 1 100 22 2 0 100 100 6 2 3 0 100 20 100 0 14 100 18 7 0 100 19 0 100 18 0 0 100 100 0 100 0 0 0 0 2 0 22 0 100 0 0 0 0 2 20 100 0 100 11 100 22 100 6 2 100 22 0 3 0 0 0 2 100 0 8 0 0 0 0 0 0 0 1 0 0 0 2 0 100 2 2 2 19 0 3 0 1 0 0 3 5 0 0 0 0 0 0 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 0 6 0 0 1 0 2 0 0 0 100 100 0 100 100 100 2 0 0 100 19 9 18 100 2 3 100 100 0 100 100 5 100 10 2 100 1 22 0 100 100 100 0 100 100 19 0 100 100 0 100 15 100 0 22 19 19 0 3 17 3 1 0 8 9 6 1 0 0 0 0 0 0 0 0 0 0 2 0 1 100 100 100 0 0 100 0 6 0 100 3 0 14 6 100 0 3 0 100 0 0 20 2 1 20 22 100 2 0 0 100 15 0 0 100 0 100 22 0 100 100 100 0 100 100 0 0 100 0 100 100 2 19 100 100 7 0 100 14 0 6 100 0 0 100 100 100 100 3 0 22 0 0 0 0 0 2 6 2 100 0 0 0 0 22 0 0 0 2 100 0 0 22 0 0 22 0 1 100 0 0 0 0 0 1 0 0 0 0 0 6 0 0 1 0 0 0 0 10 0 0 0 22 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 100 100 20 100 62 100 100 100 100 100 100 100 100 100 100 100 100 100 100 40 42 28 61 100 61 100 57 35 44 40 62 100 33 100 33 100 42 100 100 59 29 100 100 100 100 100 20 31 28 100 62 32 12 100 100 40 29 33 7 100 59 100 15 53 100 57 43 9 100 59 21 100 57 7 11 100 100 5 100 0 0 0 0 29 18 61 9 8 0 0 0 0 8 35 35 0 26 24 36 0 36 14 1 1 37 0 2 3 0 0 5 35 0 18 0 2 0 0 1 0 0 4 0 1 0 0 0 100 9 0 5 2 0 1 2 0 0 0 1 1 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 5 1 3 2 0 7 0 0 0 100 3 0 100 36 21 5 0 4 100 16 20 31 100 0 11 0 100 0 100 100 0 100 0 9 100 3 0 0 100 100 100 3 100 100 34 4 3 0 0 100 14 36 0 37 33 33 0 0 19 11 3 0 9 6 0 5 0 2 0 4 1 0 0 1 0 0 8 0 6 0 16 13 0 0 100 0 17 0 100 0 1 27 0 1 0 11 4 7 0 0 35 5 7 35 9 100 1 0 0 100 0 0 0 100 0 100 38 0 36 1 100 3 100 100 3 3 16 0 100 9 9 0 31 100 3 0 100 27 0 17 32 0 0 100 100 30 100 0 0 0 1 0 2 0 0 0 1 7 0 1 0 0 0 6 2 0 0 8 100 0 0 38 0 4 38 0 2 7 0 0 0 0 0 3 0 0 0 0 0 0 1 0 4 0 0 0 0 11 0 1 0 13 0 0 3 0 0 1 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

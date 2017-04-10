@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0155.xml</aln-name>
+<aln-score>0.51</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>92</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>145</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>172</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>185</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>211</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>21</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>236</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------matittwftlgllgellgtavlaygyt---lvpeetrkryllliaipgiaivayalmalgfgsiqs--------------------eghavyvvryvdwllttplnvwflallag-------asredtvklvvlqaltivfgfagavtps-------pvsyalfavggalfggviyllyrniavaakstlsdievslyrtlrnfvvvlw-lvypvvwllgaag-vglm-dvetatlvvvyldvvtkvgfgviallamidlgsagetaeeptavagd-----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>92</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>145</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>171</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>184</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>210</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>21</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>239</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------mvglttlfwlgaigmlvgtlafawagr---dagsgerryyvtlvgisgiaavayvvmalgvgwvpv--------------------aertvfapryidwilttplivyflgllag-------ldsrefgivitlntvvmlagfagamvpg-------ieryalfgmgavaflglvyylvgpmtesa-sqrssgikslyvrlrnltvilw-aiypfiwllgppg-vall-tptvdvalivyldlvtkvgfgfialdaaatlraehgeslagvdtdapavad-------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>6</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>90</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>168</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>181</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>207</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>13</fstart><fstop>20</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>237</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------malttwfwvgavgmlagtvlpirdc----irhpshrrydlvlagitglaaiayttmglgitattv--------------------gdrtvylaryidwlvttplivlylamlar-------pghrtsawllaadvfviaagiaaalttg-------vqrwlffavgaagyaallygllgtlpralg--ddprvrslfvtlrnitvvlw-tlypvvwllspag-igil-qtemytivvvyldfiskvafvafavlgadavsrlvaadaaapataeptpdgd------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>93</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>121</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>136</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>146</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>171</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>184</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>210</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>21</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>239</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------mdavataylggavalivgvafvwllyrs--ldgsphqsalaplaiipvfaglsyvgmaydigtviv--------------------ngnqivglryidwlvttpilvgyvgyaag-------asrrsiigvmvadalmiavgagavvtdg-------tlkwalfgvssifhlslfaylyvifprvvp--dvpeqiglfnllknhigllw-layplvwlfgpag-igea-taagvaltyvfldvlakvpyvyffyarrrvfmhsesppapeqatveataad-------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Bacterial rhodopsin CSR3</definition>
+<organism>Haloarcula vallismortis.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>28442</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>93</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>121</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>136</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>146</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>171</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>184</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>210</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>21</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>4</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>35</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>71</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>96</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>123</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>154</fstart><fstop>181</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>190</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>197</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>73</fstart><fstop>85</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>205</fstart><fstop>205</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>236</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------------------mdavavvygitaagfavgvaivgylyas--legseersilaalalipgfagisyvamafgigtvti--------------------gettlvgfryldwvvttpllvgfvgyaag-------asrraifgvmvadalmiltgvgavvadg-------tlkwvlfgvstvfhvslfaylylvfprsvp--ddpqriglfsllknhigllw-iayplvwlagpeg-lgla-tyvgvsityafldllakvpyvyffyarrqvfatkllrdsgevtatpad----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Sensory rhodopsin</definition>
+<organism>Halorubrum sodomense.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>35743</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>233</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>8</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>94</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>122</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>137</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>147</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>172</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>185</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>211</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>22</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>5</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>36</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>72</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>97</fstart><fstop>119</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>124</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>155</fstart><fstop>182</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>191</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>198</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>74</fstart><fstop>86</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>237</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>254</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------mtgavtsaywlaavafligvgitaalyak--legsrartrlaalavipgfaglsyvgmalgigtvtv--------------------ngaelvglryvdwvvttpllvgfigynag-------asrraiagvmiadalmivfgaaavvsgg-------tlkwalfgvsalfhvslfaylyvifpggip--ddpmqrglfsllknhvgllw-laypfvwlmgpag-igft-gavgaaltyafldvlakvpyvyffyarrqafidvtdsraaakgdgpavggeapvatgddaptaad-----------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>8</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>94</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>122</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>137</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>147</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>172</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>185</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>211</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>22</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>247</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------mtgavsaaywiaavaflvglgitaalyak--lgesedrgrlaalavipgfaglayagmalgigtvtv--------------------ngaelvglryvdwivttpllvgfigyvag-------asrraiagvmladalmiafgagavvtgg-------tlkwvlfgvssifhvtlfaylyvvfpravp--ddpmqrglfsllknhvgllw-laypfvwlmgpag-igft-tgvgaaltyafldvlakvpyvyffyarrqaftdvvsaatadredatdavgdgaptaad------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Opsin-1</definition>
+<organism>Neurospora crassa.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Sordariomycetidae</taxon>
+<taxon>Sordariales</taxon>
+<taxon>Sordariaceae</taxon>
+</lineage>
+<taxid>5141</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>46</fstart><fstop>289</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>148</fstop><fcolor>1</fcolor><fscore>34.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>20.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>230</fstop><fcolor>5</fcolor><fscore>23.76</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>242</fstop><fcolor>6</fcolor><fscore>23.76</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>268</fstop><fcolor>7</fcolor><fscore>19.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>176</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>46</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>74</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>129</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>154</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>183</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>219</fstart><fstop>239</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (Potential).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>252</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (Potential).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>255</fstart><fstop>266</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>128</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>263</fstart><fstop>263</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0005503</goid><goclass>F</goclass><godesc>all-trans retinal binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>304</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------mihpeqvadmlrpttsttsshvpgpvptvvptpteyqtlgetghrtlwvtfalmvlssgifallswn----vptskrlfhvittlitvvaslsyfamatghattfncdtawdhhkhvpdtshq---vcrqvfwgryvdwalttpllllelcllag-------vdgahtlmaivadvimvlcglfaalgeg----gntaqkwgwytigcfsylfviwhvalhgsrtv-takgrgvsrlftglavfalllw-taypiiwgia-gg-arrt-nvdteiliytvldllakpvfgfwlllshrampetnidlpgywshglategririgeed------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>116</fstop><fcolor>1</fcolor><fscore>27.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>159</fstop><fcolor>3</fcolor><fscore>19.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>208</fstop><fcolor>6</fcolor><fscore>30.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>233</fstop><fcolor>7</fcolor><fscore>12.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>39</fstop><fcolor>8</fcolor><fscore>23.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>144</fstop><fcolor>9</fcolor><fscore>19.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>86</fstop><fcolor>10</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>283</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------------------------mgnsaldlnpp-natfhlsthgsdwlwaafsvfgvslltvvawtf----trprgarlfhqiaivvlttgslayfsmasdlgatpvpvefrge-------------gtrqiwfvryiqwfitfpllllelllatg-------lslsdifttlfmsivlvitglvaalvps-------tykwgyytfgvsalfyiwyvllwhgphttfa-aggvlrrgyilaagylsfll-llypiawacaegg--nvi-svtsemiwygildifagpiflffflwelrgvdyatfglhsgkytdksayapntaqaagtvpattstgaagnv----------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Protein YRO2</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>36</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>164</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>282</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>19.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>179</fstop><fcolor>3</fcolor><fscore>14.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>215</fstop><fcolor>5</fcolor><fscore>16.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>229</fstop><fcolor>6</fcolor><fscore>17.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>103</fstop><fcolor>10</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>164</fstop><fcolor>11</fcolor><fscore>14.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>35</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>63</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>120</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>142</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>173</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>203</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>239</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>293</fstart><fstop>293</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>299</fstart><fstop>299</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>301</fstart><fstop>301</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>302</fstart><fstop>302</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>341</fstart><fstop>341</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>343</fstart><fstop>343</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>308</fstart><fstop>344</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005933</goid><goclass>C</goclass><godesc>cellular bud</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005739</goid><goclass>C</goclass><godesc>mitochondrion</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>344</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------msdyvellkrggneaikinpptgadfhitsrgsdwlftvfcvnllfgvilvplmf----rkpvkdrfvyytaiapnlfmsiayftmasnlgwipvrakynhvqtstq----kehpgyrqifyaryvgwflafpwpiiqmsllgg-------tplwqiafnvgmteiftvcwliaacvhs-------tykwgyytigigaaivvcislmtttfnlvka-rgkdvsnvfitfmsvimflwliayptcfgitdgg--nvl-qpdsatifygiidllilsilpvlfmplanylgierlglifdeepaehvgpvaekkmpspasfkssdsdssikeklklkkkhkkdkkkakkakkakkakkaqeeeedvatdse
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>164</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>282</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>318</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>136</fstop><fcolor>1</fcolor><fscore>19.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>179</fstop><fcolor>3</fcolor><fscore>14.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>215</fstop><fcolor>5</fcolor><fscore>16.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>229</fstop><fcolor>6</fcolor><fscore>17.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>8</fcolor><fscore>15.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>103</fstop><fcolor>10</fcolor><fscore>13.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>164</fstop><fcolor>11</fcolor><fscore>14.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>286</fstart><fstop>320</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>320</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mstfetlikrggneaikinpptgadfhitsrgsdwfwtcfccyllfgliltflmf----rkpvndrffyltgiapnffmciayftmasnlgwipvkakynhvqtstq----kehpgyrqifysrfvgwflalpwpiiqicmlag-------tpfwqmafnvcitefftvcwliaacvhs-------tykwgyytiglgaaivvsisvmttsynlvkq-rdndirltflvffsiimflwiiayptcfgitdgg--nvl-qpdsagifygiidlilmcfiptllvpianhfgadklgyhfgpsdaeavmapkapvasprpaatpnlskdkkkkskkskkskkskksee------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>143</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>141</fstop><fcolor>1</fcolor><fscore>28.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>195</fstop><fcolor>3</fcolor><fscore>21.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>239</fstop><fcolor>6</fcolor><fscore>19.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>49</fstop><fcolor>8</fcolor><fscore>20.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>106</fstop><fcolor>10</fcolor><fscore>18.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>291</fstart><fstop>332</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>332</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------mndtlssflnrnealglnpphgldmhitkrgsdwlwavfavfgfillcyvvmffiaenkgsrltryalapaflitffeffafftyasdlgwtgvqaefnhvkvsksit--gevpgirqifyskyiawflswpcllflielaasttgenddisaldmvhslliqivgtlfwvvsllvgs---likstykwgyytigavamlvtqgvicqrqff-------nlktrgfnalmlctcmvivwlyficwglsdgg--nri-qpdgeaifygvldlcvfaiypcylliavsrdgklprlsltggfshhhatddvedaapetkeavpesprasgetaihepepeaeqavedta----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Meiotically up-regulated gene 73 protein</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>32</fstart><fstop>261</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>122</fstop><fcolor>1</fcolor><fscore>25.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>165</fstop><fcolor>3</fcolor><fscore>20.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>214</fstop><fcolor>6</fcolor><fscore>15.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>49</fstart><fstop>92</fstop><fcolor>10</fcolor><fscore>12.08</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>150</fstop><fcolor>11</fcolor><fscore>14.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>59</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>103</fstart><fstop>123</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>125</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>154</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>190</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>224</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007126</goid><goclass>P</goclass><godesc>meiosis</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>306</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------mnaklsssgmvlkelpevalqkissnyywavfavfllcaivfplvsif---slpqkqtyhrffsils-lvsclayftmacnyglknvfssasffrev----------svrmvyyvryiqwlinfpliivmlhwtvg-------vsileiayvvcyvlfaivcllaaaltss-------pykwayygfsfvgyfialahsvvlhkkyasr-letsarlgflwsivylhviw-flyyacwilsegl--nvi-spigeaifysildlfef-gffgaafswmldlvgienfkspqsiplgacspaddkfsmcpdmeaqnqaddlavetriqisnlpssptknnc----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>46</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>143</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>159</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>169</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>195</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>208</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>234</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>262</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>---------------------------mlellptavegvsqaqitgrpewiwlalgtalmglgtlyflvkgmg---vsdpdakkfyaittlvpaiaftmylsmllgygltmvpfgg----------------eqnpiywaryadwlfttplllldlallvd-------adqgtilalvgadgimigtglvgaltkv------ysyrfvwwaistaamlyilyvlffgftskaes-mrpevastfkvlrnvtvvlw-saypvvwligseg-agiv-plnietllfmvldvsakvgfglillrsraifgeaeapepsag-dgaaatsd-------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>43</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>112</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>140</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>166</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>192</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>205</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>231</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>258</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------mdpialqagydllgdgrpetlwlgigtllmligtfyflvrgwg---vtdkdareyyavtilvpgiasaaylsmffgigltevtvgg----------------emldiyyaryadwlfttplllldlallak-------vdrvtigtlvgvdalmivtgligalsht------aiaryswwlfsticmivvlyflatslrsaake-rgpevastfntltalvlvlw-taypilwiigteg-agvv-glgietllfmvldvtakvgfgfillrsrailgdteapepsagadvsaad---------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>114</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>142</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>158</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>168</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>194</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>207</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>233</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>260</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>----------------------------mdpialtaavgadllgdgrpetlwlgigtllmligtfyfivkgwg---vtdkeareyysitilvpgiasaaylsmffgigltevqvgs----------------emldiyyaryadwlfttplllldlallak-------vdrvsigtlvgvdalmivtglvgalsht------plarytwwlfsticmivvlyflatslraaake-rgpevastfntltalvlvlw-taypilwiigteg-agvv-glgietllfmvldvtakvgfgfillrsrailgdteapepsagaeasaad---------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>43</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>113</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>141</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>157</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>167</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>193</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>206</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>232</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>259</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------mdpialqagfdllndgrpetlwlgigtllmligtfyfiargwg---vtdkeareyyaitilvpgiasaaylamffgigvtevelasg---------------tvldiyyaryadwlfttplllldlallak-------vdrvtigtligvdalmivtgligalskt------plarytwwlfstiaflfvlyylltslrsaaak-rseevrstfntltalvavlw-taypilwivgteg-agvv-glgietlafmvldvtakvgfgfvllrsrailgeteapepsagadasaad---------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Bacteriorhodopsin</definition>
+<organism>Halobacterium halobium (strain mex).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33003</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>204</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>91</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>119</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>135</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>145</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>171</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>184</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>204</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>31</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>71</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>97</fstart><fstop>116</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>124</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>167</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>71</fstart><fstop>83</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>204</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-----------------------------------------------------gigtllmligtfyfiargwg---vtdkkareyyaitilvpgiasaaylsmffgiglttvevagma--------------epleiyyaryadwlfttplllldlallan-------adrttigtligvdalmivtgligalsht------plarytwwlfstiaflfvlyylltvlrsaaae-lsedvqttfntltalvavlw-taypilwiigteg-agvv-glgvetlafmvldvta------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Cruxrhodopsin-1</definition>
+<organism>Haloarcula argentinos (Haloarcula sp. (strain arg-1)).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>43776</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>31</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>128</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>150</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>160</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>186</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>199</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>225</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>9</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>42</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>77</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>106</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>139</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>177</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>208</fstart><fstop>227</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>212</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>80</fstart><fstop>92</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>83</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>220</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>250</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------------------mpepgseaiwlwlgtagmflgmlyfiargwg---etdsrrqkfyiatilitaiafvnylamalgfgltivefag----------------eehpiywarysdwlfttplllydlgllag-------adrntitslvsldvlmigtglvatlspgsgvlsagaerlvwwgistafllvllyflfsslsgrvad-lpsdtrstfktlrnlvtvvw-lvypvwwligteg-iglv-gigietagfmvidltakvgfgiillrshgvldgaaettgtgatpadd-----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>Bacteriorhodopsin</definition>
+<organism>Halobacterium halobium (strain port).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33004</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>92</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>120</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>142</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>152</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>178</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>179</fstart><fstop>191</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>211</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>34</fstart><fstop>52</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>69</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>98</fstart><fstop>117</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>131</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>169</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>72</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>75</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>211</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>--------------------------------------------------iwlwlgtagmflgmlyfiargwg---etdsrrqkfyiatilitaiafvnylamalgfgltivefag----------------eehpiywarysdwlfttplllydlgllag-------adrntitslvsldvlmigtglvatlsagsgvlsagaerlvwwgistafllvllyflfsslsgrvad-lpsdtrstfktlrnlvtvvw-lvypvwwligteg-iglv-gigietagfmvidlta------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>Cruxrhodopsin-3</definition>
+<organism>Haloarcula vallismortis.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>28442</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>31</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>128</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>150</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>160</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>186</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>199</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>225</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>9</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>42</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>77</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>106</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>139</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>177</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>208</fstart><fstop>227</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>212</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>80</fstart><fstop>92</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>83</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>220</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>250</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------------------mpapegeaiwlwlgtagmflgmlyfiargwg---etdsrrqkfyiatilitaiafvnylamalgfgltiveiag----------------eqrpiywarysdwlfttplllydlgllag-------adrntisslvsldvlmigtglvatlsagsgvlsagaerlvwwgistafllvllyflfsslsgrvad-lpsdtrstfktlrnlvtvvw-lvypvwwlvgteg-iglv-gigietagfmvidlvakvgfgiillrshgvldgaaettgagatatad-----------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>Bacteriorhodopsin</definition>
+<organism>Halobacterium halobium (strain shark).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33005</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>90</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>118</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>128</fstart><fstop>140</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>150</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>176</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>189</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>209</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>32</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>96</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>129</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>167</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>70</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>73</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>209</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>----------------------------------------------------lwlgtagmflgmlyfiargwg---etdgrrqkfyiatilitaiafvnylamalgfgltfiefgg----------------eqhpiywarytdwlfttplllydlgllag-------adrntiyslvsldvlmigtgvvatlsagsgvlsagaerlvwwgistafllvllyflfsslsgrvan-lpsdtrstfktlrnlvtvvw-lvypvwwlvgseg-lglv-gigietagfmvidlva------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>Cruxrhodopsin-2</definition>
+<organism>Haloarcula sp. (strain arg-2 / Andes heights).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>69009</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>14</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>107</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>135</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>157</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>167</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>193</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>206</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>232</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>16</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>49</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>84</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>113</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>146</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>184</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>215</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>219</fstart><fstop>230</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>99</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>90</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>227</fstart><fstop>227</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>255</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-----------------------------------mlqsgmstyvpggesiflwvgtagmflgmlyfiargws---vsdqrrqkfyiatimiaaiafvnylsmalgfgvttielgg----------------eeraiywarytdwlfttplllydlallag-------adrntiyslvgldvlmigtgalatlsagsgvlpagaerlvwwgistgfllvllyflfsnltdrase-lsgdlqskfstlrnlvlvlw-lvypvlwlvgteg-lglv-glpietaafmvldltakigfgiillqshavldegqtas-egaavad------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>Bacteriorhodopsin</definition>
+<organism>Halobacterium sp. (strain arg-4).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>160432</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>250</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>41</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>77</fstop><fcolor>0</fcolor><fscore>16.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>110</fstop><fcolor>1</fcolor><fscore>26.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>138</fstop><fcolor>2</fcolor><fscore>12.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>12.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>164</fstop><fcolor>4</fcolor><fscore>19.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>175</fstart><fstop>190</fstop><fcolor>5</fcolor><fscore>23.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>203</fstop><fcolor>6</fcolor><fscore>40.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>230</fstop><fcolor>7</fcolor><fscore>21.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>19</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>52</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>87</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>116</fstart><fstop>135</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>143</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>181</fstart><fstop>199</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>213</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>217</fstart><fstop>228</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>90</fstart><fstop>102</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>93</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SITE_Primary proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>225</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015078</goid><goclass>F</goclass><godesc>hydrogen ion transmembrane transporter acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0015992</goid><goclass>P</goclass><godesc>proton transport</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>250</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>--------------------------------mccaalappmaatvgpesiwlwigtigmtlgtlyfvgrgrg---vrdrkmqefyiitifittiaaamyfamatgfgvtevmvgd----------------ealtiywaryadwlfttplllldlsllag-------anrntiatligldvfmigtgaiaalsst------pgtriawwaistgallallyvlvgtlsenarn-rapevaslfgrlrnlvialw-flypvvwilgtegtfgil-plywetaafmvldlsakvgfgvillqsrsvlervatptaapt----------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<definition>Cruxhalorhodopsin-1</definition>
+<organism>Haloarcula argentinos (Haloarcula sp. (strain arg-1)).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>43776</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>131</fstart><fstop>131</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>40</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>57</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>67</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>91</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>104</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>130</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>40</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>15</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>42</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>77</fstart><fstop>100</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>117</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>125</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>131</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------pmillalgllad-------tdiaslftaitmdigmcvtglaaalits-----shllrwvfygiscaffvavlyvllvqwpada---eaagtseifgtlkiltvvlw-lgypilwalgseg-vall-svgvtswgysgldilakyvfafi-----------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq026</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halobacterium halobium (strain port).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33004</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>29</fstart><fstop>268</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>173</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>183</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>207</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>246</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>26</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>58</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>106</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>131</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>158</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>193</fstart><fstop>216</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>226</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>108</fstart><fstop>120</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>241</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>276</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>--------------------mtaasttattmlqatqsdvlqeiqsnfllnssiwvnialagvvillfvamgrd---iesprakliwvatmlvplvsissyaglasgltvgflqmppghalag----------qevlspwgryltwtfstpmillalgllad-------tdiaslftaitmdigmcvtglaaalits-----shllrwvfygiscaffvavlyvllvqwpada---eaagtseifgtlkiltvvlw-lgypilwalgseg-vall-svgvtswgysgldilakyvfaflllrwvaanegavsgsgmsigs---ggaapadd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq027</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halobacterium halobium (strain shark).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33005</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>29</fstart><fstop>268</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>173</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>183</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>207</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>246</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>26</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>58</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>106</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>131</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>158</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>193</fstart><fstop>216</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>226</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>108</fstart><fstop>120</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>241</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>276</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>--------------------mtavsttattvlqatqsdvlqeiqsnfllnssiwvnialagvvillfvamgrd---lesprakliwvatmlvplvsissyaglasgltvgflqmppghalag----------qevlspwgryltwtfstpmillalgllad-------tdiaslftaitmdigmcvtglaaalits-----shllrwvfygiscaffvavlyvllvqwpada---eaagtseifgtlkiltvvlw-lgypilwalgseg-vall-svgvtswgysgldilakyvfaflllrwvaanegtvsgsgmgigs---ggaapadd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq028</seq-name>
+<seq-info>
+<definition>Cruxhalorhodopsin-3</definition>
+<organism>Haloarcula vallismortis.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>28442</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>29</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>173</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>183</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>207</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>246</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>26</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>58</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>106</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>131</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>158</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>193</fstart><fstop>216</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>226</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>108</fstart><fstop>120</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>233</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>241</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>276</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>--------------------mpaastaattllqasqsevlgeiqsnfllnsslwvnialagvvillfvamgre---lessrakliwvatmlvplvsissyaglasgltvgflqmppghalag----------qevlspwgryltwtfstpmillalgllad-------tdmaslftaitmdigmcitglaaalvts-----shllrwvfygiscaffiavlyvllvewpada---eaagtseifgtlklltvvlw-lgypilwalgseg-vall-svgvtswgysgldilakyvfaflllrwvaanedtvtqagmslgs---ggaapadd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq029</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>53</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>173</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>183</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>207</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>247</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>156</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>274</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>--------------------msitsvpgvvdagvlgaqsaaavrenallssslwvnvalagiailvfvymgrt---irpgrprliwgatlmiplvsissylgllsgltvgmiempaghalag----------emvrsqwgryltwalstpmillalgllad-------vdlgslftviaadigmcvtglaaamtts-----allfrwafyaiscaffvvvlsalvtdwaasa---ssagtaeifdtlrvltvvlw-lgypivwavgveg-lalvqsvgvtswaysvldvfakyvfafillrwvannertvavagqtlgt------mssdd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq030</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halobacterium sp. (strain arg-4).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>160432</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>49</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>73</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>176</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>148</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>193</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>203</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>227</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>240</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>267</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>176</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>46</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>78</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>126</fstart><fstop>147</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>151</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>178</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>213</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>247</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>128</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>262</fstart><fstop>262</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>297</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>mrsrtyhdqsvcgpygsqrtdcdrdtdagsdtdvhgaqvatqirtdtllhsslwvnialaglsilvflymart---vranrarlivgatlmiplvslssylglvtgltagpiempaahalag----------edvlsqwgryltwtlstpmillalgwlae-------vdtadlfvviaadigmcltglaaaltts-----syafrwafylvstaffvvvlyallakwptna---eaagtgdifgtlrwltvilw-lgypilwalgveg-falvdsvgltswgyslldigakylfaalllrwvannertiavgqrsgrgaigdpved------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq031</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halobacterium sp. (strain SG1).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33006</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>58</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>161</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>133</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>178</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>188</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>212</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>225</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>251</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>161</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>31</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>63</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>111</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>136</fstart><fstop>159</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>163</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>198</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>231</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>238</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>113</fstart><fstop>125</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>246</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>284</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>---------------mietaaadilaggmvplemtqtqifeavqsdtllasslwinialaglsillfvymgrn---vedpraqlifvatlmvplvsissytglvsgltvsflempaghalag----------qevltpwgryltwalstpmiliavgllag-------snttklftavvadigmcvtglaaaltts-----syllrwvwyaiscaffvvvlyillaewaeda---eiagtadifntlkvltvvlw-lgypifwalgaeg-lavl-dvaitswaysgmdivakylfaflllrwvvnnertvadvasglgsgsrggaapadd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq032</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halorubrum sodomense.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>35743</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>33</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>57</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>160</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>109</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>177</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>187</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>211</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>224</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>250</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>160</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>30</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>62</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>110</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>135</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>162</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>197</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>230</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>237</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>112</fstart><fstop>124</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>245</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>282</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>---------------mmeta-adalasgtvplemtqtqifeaiqgdtllasslwinialaglsillfvymgrn---ledpraqlifvatlmvplvsissytglvsgltvsflempaghalag----------qevltpwgryltwalstpmilvalgllag-------snatklftavtadigmcvtglaaaltts-----syllrwvwyviscaffvvvlyvllaewaeda---evagtaeifntlklltvvlw-lgypifwalgaeg-lavl-dvavtswaysgmdivakylfaflllrwvvdnertvagmaaglgapl-arcapadd---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq033</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Halobacterium halobium (strain mex).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>33003</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>126</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>143</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>177</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>190</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>206</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>126</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>22</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>76</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>101</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>128</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>163</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>78</fstart><fstop>90</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0031404</goid><goclass>F</goclass><godesc>chloride ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>206</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>--------------------------------------------------------ialaglsillfvymgrn---vedpraqlifvatlmvplvsissytglvsgltvgflempaghalagmgagpe----ggvftpwgryltwafstpmilialgllag-------snmsklftavvadvgmcitglaaaltts-----syllrwvwygiscaffvvvlyillaewakda---evagtadifntlkvltvvlw-lgypifwalgaeg-lavl-diaitswaysgm----------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq034</seq-name>
+<seq-info>
+<definition>Halorhodopsin</definition>
+<organism>Natronomonas pharaonis (Natronobacterium pharaonis).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>2257</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>283</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01036 Bac_rhodopsin</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>58</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>171</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>13.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>143</fstop><fcolor>1</fcolor><fscore>22.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>26.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>198</fstop><fcolor>4</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>222</fstop><fcolor>5</fcolor><fscore>21.68</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>235</fstop><fcolor>6</fcolor><fscore>36.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>248</fstart><fstop>261</fstop><fcolor>7</fcolor><fscore>17.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>171</fstop><fcolor>9</fcolor><fscore>12.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>31</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix A (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>63</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix B (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>121</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix C (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>146</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix D (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>173</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix E (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>208</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix F (By similarity).</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>241</fstart><fstop>269</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Helix G (By similarity).</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>123</fstart><fstop>135</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS00950 BACTERIAL_OPSIN_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>248</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00327 BACTERIAL_OPSIN_RET</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>256</fstart><fstop>256</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N6retinylidenelysine By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016021</goid><goclass>C</goclass><godesc>integral to membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005216</goid><goclass>F</goclass><godesc>ion channel activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009881</goid><goclass>F</goclass><godesc>photoreceptor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006811</goid><goclass>P</goclass><godesc>ion transport</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007602</goid><goclass>P</goclass><godesc>phototransduction</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0018298</goid><goclass>P</goclass><godesc>protein-chromophore linkage</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>291</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>---------------mtetlppvtesavalqaevtqrelfefvlndpllasslyinialaglsillfvfmtrg---lddprakliavstilvpvvsiasytglasgltisvlempaghfaegssvmlggeevdgvvtmwgryltwalstpmillalgllag-------snatklftaitfdiamcvtglaaaltts-----shlmrwfwyaiscacflvvlyillvewaqda---kaagtadmfntlklltvvmw-lgypivwalgveg-iavl-pvgvtswgysfldivakyifaflllnyltsnesvvsg--sildvps-asgtpadd---------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 10 17 33 13 0 10 0 2 3 10 7 4 0 12 6 100 1 0 1 0 0 0 0 0 3 0 0 0 2 0 0 8 1 2 55 2 0 0 1 0 100 3 0 100 6 9 1 100 0 18 37 100 4 0 100 17 6 27 8 14 0 11 2 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 2 7 16 0 0 0 100 100 27 100 100 22 21 100 100 100 68 2 100 0 21 19 5 1 0 100 13 0 0 0 0 0 0 0 2 6 7 30 4 0 0 0 22 19 2 2 15 12 8 5 53 2 0 100 0 4 4 3 23 9 0 19 0 0 0 0 0 0 0 0 0 15 2 3 20 100 5 46 3 7 2 0 0 0 3 41 1 0 0 100 1 0 0 1 5 1 4 2 1 0 0 0 2 4 0 0 0 3 100 15 0 0 100 32 100 0 3 0 17 100 100 0 1 1 100 100 2 56 100 100 2 20 20 8 100 0 27 16 0 0 0 3 0 0 0 0 7 6 1 0 5 10 100 100 5 17 26 100 100 0 10 0 0 3 0 0 0 1 1 0 1 1 0 1 0 0 0 3 1 1 3 1 0 3 1 1 1 1 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 4 9 0 1 18 1 3 4 0 0 0 0 0 4 39 3 7 0 16 17 9 0 3 14 8 1 100 1 5 0 0 8 0 0 1 1 1 1 0 1 0 1 0 0 0 0 2 0 20 0 0 2 23 1 0 0 0 0 8 1 1 0 0 0 0 0 0 9 55 33 100 36 11 100 4 6 1 14 0 1 0 6 0 2 6 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 1 0 100 7 37 4 4 0 58 36 34 1 100 0 44 11 0 100 0 0 39 5 0 32 0 2 1 2 19 0 0 0 0 0 0 0 2 2 0 0 3 5 0 0 1 19 0 0 1 0 2 0 2 19 0 0 40 1 57 10 1 1 0 17 0 0 0 0 0 0 0 10 4 100 100 14 10 100 11 4 16 0 0 9 0 3 1 3 0 0 0 2 0 0 0 0 0 0 0 2 0 2 0 0 2 2 0 1 8 0 0 34 0 0 0 0 0 0 1 0 1 28 0 0 0 1 100 0 1 1 2 0 4 25 8 100 2 0 0 27 1 5 0 11 1 0 4 10 0 58 1 100 3 38 44 100 61 0 0 0 0 0 2 0 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 3 0 0 2 0 0 1 0 0 0 1 1 4 0 1 1 2 0 0 0 1 1 0 0 0 0 1 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_3</colsco-name>
+<colsco-owner>group_3</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 2 1 3 3 32 2 53 36 100 0 29 100 100 0 0 100 0 38 100 1 4 100 100 40 2 55 100 1 39 0 0 0 0 25 100 2 5 1 19 18 11 100 0 1 100 24 25 29 2 2 100 100 0 2 0 100 33 37 100 0 1 100 1 100 29 100 0 57 2 2 5 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 0 0 1 100 100 1 100 100 100 28 100 100 100 100 100 100 100 100 100 100 1 100 100 3 100 100 33 1 0 0 0 0 0 0 0 7 56 60 0 75 100 0 28 100 43 5 5 100 1 24 100 100 0 100 100 6 28 2 29 100 71 1 0 0 0 0 0 0 0 0 0 0 100 0 2 100 100 0 2 100 100 0 0 8 58 1 15 100 100 2 100 0 1 6 33 5 1 3 5 6 9 0 0 0 1 28 3 5 76 12 100 5 14 100 7 7 55 33 1 32 20 100 0 0 1 100 100 32 0 100 35 32 100 60 100 100 0 0 100 14 54 0 7 41 1 7 100 100 0 0 100 100 100 41 100 14 11 100 32 25 32 32 32 3 26 32 32 18 32 6 6 16 15 4 4 4 6 8 5 7 1 11 2 3 2 1 2 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_4</colsco-name>
+<colsco-owner>group_4</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 1 6 2 18 5 4 4 4 0 4 11 7 7 10 19 23 11 1 9 2 49 9 12 32 0 100 100 9 100 100 64 26 47 100 67 100 100 100 100 24 4 100 100 31 100 51 0 100 9 100 4 0 0 0 26 14 3 4 100 32 29 100 100 0 2 67 100 36 42 47 100 53 100 100 69 67 100 100 3 100 100 4 68 100 100 100 19 9 0 53 34 100 100 9 26 100 10 19 37 100 0 0 0 0 0 0 0 0 0 0 11 2 100 4 43 2 100 100 100 100 100 100 100 38 8 100 100 100 100 100 100 36 100 58 100 7 100 100 3 0 0 0 0 0 0 0 4 20 1 9 6 100 100 26 9 40 8 0 100 74 25 100 100 33 100 100 100 100 100 100 66 2 100 100 0 0 0 0 0 65 0 15 7 100 100 1 1 100 0 62 100 13 100 9 100 40 4 100 100 10 4 100 50 3 15 100 4 5 19 100 0 0 0 25 3 100 100 100 10 31 61 100 3 100 100 46 2 100 100 100 62 66 100 0 100 100 100 100 100 2 100 100 50 100 2 100 100 0 5 100 18 28 0 4 74 6 30 100 100 100 3 100 100 0 43 100 67 1 100 100 100 24 100 100 9 64 100 100 46 26 56 15 12 100 100 5 28 68 44 1 2 3 2 3 7 11 7 0 0 0 3 2 2 9 12 21 28 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 1 0 0 0 0 3 2 0 0 16 0 1 2 0 2 1 0 0 0 0 0 0 0 0 0 1 1 2 1 2 31 0 0 0 1 1 1 2 1 5 2 0 2 7 0 4 12 67 1 5 45 10 0 8 2 30 0 4 0 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 3 4 37 2 0 1 82 68 6 9 100 4 6 39 1 100 3 3 22 0 0 33 0 3 2 14 7 0 0 0 0 0 0 0 2 3 0 0 4 4 0 0 1 21 0 1 4 0 2 1 3 1 0 0 2 0 11 9 5 2 0 3 0 0 0 0 0 0 0 1 0 30 1 0 0 2 1 7 6 0 0 0 0 2 0 7 0 0 0 18 0 0 0 0 0 0 0 3 0 0 0 0 1 1 0 1 1 1 0 36 0 0 5 0 1 0 3 0 3 47 9 0 0 1 100 6 2 0 21 0 5 4 1 1 26 0 0 3 1 3 0 2 0 0 0 1 4 3 0 3 0 0 62 100 15 0 4 0 1 0 8 0 0 0 1 5 0 0 1 1 0 2 0 0 1 1 0 0 0 0 1 1 0 0 1 1 1 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

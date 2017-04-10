@@ -1,0 +1,964 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0146.xml</aln-name>
+<aln-score>0.80</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Zea mays (Maize).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>Liliopsida</taxon>
+<taxon>Poales</taxon>
+<taxon>Poaceae</taxon>
+<taxon>PACCADclade</taxon>
+<taxon>Panicoideae</taxon>
+<taxon>Andropogoneae</taxon>
+</lineage>
+<taxid>4577</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>263</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqgsllkkvleairelvndanfdcsgtgfslqamdsshvalvalllraegfehyrcdrnlsmgmnlnnmakmlrcagnddiitikaddgsdtvtfmfespkqdkiadfemklmdidsehlgipdse--yqaivrmpssefmrickdlssigd-tvvisvtkegvkfstsgeigsanivcrqnqtid-kpee--atiiemqepvsltfalrymnsftkasslseqvtislsselpvvveykiae---------mgyirfylapkieddeemkp------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>263</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqgsllkkvleairelvtdanfdcsgtgfslqamdsshvalvalllrsegfehyrcdrnlsmgmnlnnmakmlrcagnddiitikaddgsdtvtfmfespnqdkiadfemklmdidsehlgipdse--yqaivrmpssefsrickdlssigd-tviisvtkegvkfstagdigtanivcrqnktvd-kped--atiiemqepvsltfalrymnsftkasplseqvtislsselpvvveykiae---------mgyirfylapkieedeemks------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>264</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqgsllkkvmdsikdlvndanfdcsatgfslqamdsshvalvavllrsegfehyrcdrnismgmnlgnmakmlkcagnddiitikaddgsdtvtfmfesptqdkiadfemklmdidsehlgipeae--yhaivrmpsaefarickdlssigd-tvvisvtkegvkfstrgdigtanivcrqnttvd-kpee--atviemnepvsltfalrymnsftkasplsstvtislsselpvvveykiae---------mgyirfylapkieeeedeskp-----------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Glycine max (Soybean).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsI</taxon>
+<taxon>Fabales</taxon>
+<taxon>Fabaceae</taxon>
+<taxon>Papilionoideae</taxon>
+<taxon>Phaseoleae</taxon>
+</lineage>
+<taxid>3847</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>31</fstart><fstop>50</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>97</fstart><fstop>224</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>102</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>126</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>150</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>171</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>208</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>228</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>27</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>31</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>236</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------sstgfslqamdsshvalvalllrsegfehyrcdrnismgmnlnnmakmlkcagnddiitikaddgsdtvtfmfesptqdkisdfemklmdidsehlgipeae--yhaivkmpssefarickdlssigd-tvvisvtkegvkfstkgdigtanivcrqntsvd-kpee--atviemnepvsltfalrymnsftkatplsntvtislsnelpvvveykiae---------mgyvrfylapkieedeedtkpqv---------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Catharanthus roseus (Madagascar periwinkle) (Vinca rosea).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Gentianales</taxon>
+<taxon>Apocynaceae</taxon>
+<taxon>Rauvolfioideae</taxon>
+<taxon>Vinceae</taxon>
+</lineage>
+<taxid>4058</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>268</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqgsllkkvleslkdlvtdanfdcsasgfslqamdsshvalvalllrsegfehyrcdrnpsmgmnlnnmakmlkcagnddiitlkaddgsdtvtfmfesptqdkisdfemklmdidsehlgipeae--yhaivrmpsaefarickdlssigd-tvvisvtkegvkfstrgdigtanivcrqnttvd-kpde--atiiemnepvsltfalrylnsftkatplsnnvtislsselpvvveykiae---------mgyirfylapkieeddeeqsleyqa-------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Brassica napus (Rape).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3708</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>263</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqgsllkkvlesikdlvndanfdcsttgfslqamdsshvalvslllrsegfehyrcdrnlsmgmnlgnmskmlkcagnddiitikaddggdtvtfmfespkqdkiadfemklmdidsehlgipdae--yhsivrmpsnefsrickdlstigd-tvvisvtkegvkfstagdigtanivlrqnttvd-kped--aiviemnepvslsfalrymnsftkatplsdtvtislsselpvvveykvae---------mgyiryylapkieedeedka------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>264</fstart><fstop>365</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>255</fstart><fstop>365</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>365</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mlelrlvqggllkkvlesikdlvndanfdcsasgfslqamdsshvalvavllrsegfehyrcdrnismgmnlgnmakmlrcagnddivtmkadddgdvitfmfesptqdkisdfemklmdidsehlgipese--yeaivrmpsaefarickdlstigd-tvvisvtkegvkfstrgdigtanivcrqntsvd-kped--atiiemqetvsltfalrymnsftkatplanqvtislsselpvvveykiae---------mgyiryylapkieeedeaanyaqpaqnsaaaatsnngtkknegnnkvdskkraiksefvddseaatdaqpqakaktkteagedddvevmdtkpknepddgdevmetkpktesngevevmdie
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>7</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>10</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>31</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>34</fstart><fstop>40</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>53</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>57</fstart><fstop>64</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>66</fstart><fstop>71</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>87</fstart><fstop>92</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>97</fstart><fstop>104</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>108</fstart><fstop>117</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>134</fstart><fstop>140</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>156</fstart><fstop>163</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>166</fstart><fstop>173</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>176</fstart><fstop>182</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>196</fstart><fstop>201</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>203</fstart><fstop>208</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>209</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>216</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>235</fstart><fstop>241</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>245</fstart><fstop>251</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005663</goid><goclass>C</goclass><godesc>DNA replication factor C complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005654</goid><goclass>C</goclass><godesc>nucleoplasm</godesc><goevidence>EXP</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0032139</goid><goclass>F</goclass><godesc>dinucleotide insertion or deletion binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0032405</goid><goclass>F</goclass><godesc>MutLalpha complex binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0000701</goid><goclass>F</goclass><godesc>purine-specific mismatch base pair DNA N-gl...</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008283</goid><goclass>P</goclass><godesc>cell proliferation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0006298</goid><goclass>P</goclass><godesc>mismatch repair</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006297</goid><goclass>P</goclass><godesc>nucleotide-excision repair, DNA gap filling</godesc><goevidence>EXP</goevidence></goxref>
+<goxref><goid>GO:0048015</goid><goclass>P</goclass><godesc>phosphoinositide-mediated signaling</godesc><goevidence>NAS</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>261</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearlvqgsilkkvlealkdlineacwdisssgvnlqsmdsshvslvqltlrsegfdtyrcdrnlamgvnltsmskilkcagnediitlraednadtlalvfeapnqekvsdyemklmdldveqlgipeqe--yscvvkmpsgefaricrdlshigd-avviscakdgvkfsasgelgngniklsqtsnvd-keee--avtiemnepvqltfalrylnfftkatplsstvtlsmsadvplvveykiad---------mghlkyylapkiedeegs--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Rattus norvegicus (Rat).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10116</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>261</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearliqgsilkkvlealkdlineacwdissggvnlqsmdsshvslvqltlrsegfdtyrcdrnlamgvnltsmskilkcagnediitlraednadtlalvfeapnqekvsdyemklmdldveqlgipeqe--yscvvkmpsgefaricrdlshigd-avviscakdgvkfsasgelgngniklsqtsnvd-keee--avsiemnepvqltfalrylnfftkatplsptvtlsmsadvplvveykiad---------mghlkyylapkiedeegs--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0000307</goid><goclass>C</goclass><godesc>cyclin-dependent protein kinase holoenzyme ...</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0005652</goid><goclass>C</goclass><godesc>nuclear lamina</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005657</goid><goclass>C</goclass><godesc>replication fork</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0006287</goid><goclass>P</goclass><godesc>base-excision repair, gap-filling</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006886</goid><goclass>P</goclass><godesc>intracellular protein transport</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>261</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearliqgsilkkvlealkdlineacwdvssggvnlqsmdsshvslvqltlrsegfdtyrcdrnlamgvnltsmskilkcagnediitlraednadtlalvfeapnqekvsdyemklmdldveqlgipeqe--yscvikmpsgefaricrdlshigd-avviscakngvkfsasgelgngniklsqtsnvd-keee--avtiemnepvhltfalrylnfftkatplsptvtlsmsadvplvveykiad---------mghlkyylapkiedeeas--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Xenopus laevis (African clawed frog).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Amphibia</taxon>
+<taxon>Batrachia</taxon>
+<taxon>Anura</taxon>
+<taxon>Mesobatrachia</taxon>
+<taxon>Pipoidea</taxon>
+<taxon>Pipidae</taxon>
+<taxon>Xenopodinae</taxon>
+<taxon>Xenopus</taxon>
+</lineage>
+<taxid>8355</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>261</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearlvqgsilkkvlealkdlideacwditssgislqsmdsshvslvqltlrsdgfdtyrcdrnqsigvkmssmskilkcaasddiitlraednadtvtmvfespnqekvsdyemklmdldveqlgipeqe--yscvikmpsgefaricrdlsqigd-avviscakdgvkfsasgelgtgnvklsqtsnvd-keee--avtiemnepvqltfalrylnfftkatplsptvilsmsadiplvveykiad---------mehvkyylapkiedeeas--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Styela clava (Sea squirt).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Tunicata</taxon>
+<taxon>Ascidiacea</taxon>
+<taxon>Stolidobranchia</taxon>
+<taxon>Styelidae</taxon>
+</lineage>
+<taxid>7725</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>255</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>202</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>239</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>259</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>264</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearliqgsnlkkvqealkdivteaswdctssgislqamdsshvslvqltlradgfenfrcdrnlamginmtsmakimkcagnddiitlraednadmlelifesskgdkysqyemklmdldceqlgipeqd--ysccvtlpsqefgricrdlsqige-cvvitctkdgvqfsakgdlgagkiklkqntgsdikeee--qvtveisepvqltfaikylnlfakasplspsvclsmsnnvplvveykvad---------mghikyflapkiedeeeqds------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Drosophila melanogaster (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7227</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>258</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0019730</goid><goclass>P</goclass><godesc>antimicrobial humoral response</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006261</goid><goclass>P</goclass><godesc>DNA-dependent DNA replication</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0007307</goid><goclass>P</goclass><godesc>eggshell chorion gene amplification</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006298</goid><goclass>P</goclass><godesc>mismatch repair</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0007052</goid><goclass>P</goclass><godesc>mitotic spindle organization</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006289</goid><goclass>P</goclass><godesc>nucleotide-excision repair</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>260</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mfearlgqatilkkildaikdllneatfdcsdsgiqlqamdnshvslvsltlrsdgfdkfrcdrnlsmgmnlgsmakilkcannednvtmkaqdnadtvtimfesanqekvsdyemklmnldqehlgipetd--fscvvrmpamefaricrdlaqfse-svvicctkegvkfsasgdvgtaniklaqtgsvd-keee--aviiemqepvtltfacrylnaftkatplstqvqlsmcadvplvveyaikd---------lghiryylapkiednet---------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>257</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0043596</goid><goclass>C</goclass><godesc>nuclear replication fork</godesc><goevidence>IC:</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0034644</goid><goclass>P</goclass><godesc>cellular response to UV</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006271</goid><goclass>P</goclass><godesc>DNA strand elongation during DNA replication</godesc><goevidence>IC:</goevidence></goxref>
+<goxref><goid>GO:0006301</goid><goclass>P</goclass><godesc>postreplication repair</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0051726</goid><goclass>P</goclass><godesc>regulation of cell cycle</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0010212</goid><goclass>P</goclass><godesc>response to ionizing radiation</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>260</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>mlearfqqaallkklldaikelvtdanfdcndngislqamdsshvalvsmliksdgfepyrcdrnialginlnalskvlrcaqnedlvtlkaedtpevlnlvfesekndrisdydvklmdidqehlgipdie--ydatitmpaaefqritrdlltlsd-svtinaskegvrfsckgdigngsttlkqhtdls-dqdq--sieisltqavtltfslkylaqftkatplatrvtlsmsndvpllveykm-e---------sgflrfylapkigeedee--------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Probable DNA polymerase sliding clamp</definition>
+<organism>Autographa californica nuclear polyhedrosis virus (AcMNPV).</organism>
+<lifedomain>Viruses</lifedomain>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>dsDNAvirusesnoRNAstage</taxon>
+<taxon>Baculoviridae</taxon>
+</lineage>
+<taxid>46015</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>123</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>125</fstart><fstop>247</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>154</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>178</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>194</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>231</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>251</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>256</length>
+<weight>100</weight>
+<group>4</group>
+</seq-info>
+<seq-data>mfeaefktgavlkrlvetfkdllphatfdcdnrgvsmqvmdtshvalvslqlhaegfkkyrcdrnvplnvsinslskivkcvnerssvlmkaedqgdvmafvfn--ndnrictytlklmcidvehlgipdsd--ydcvvhmssvefaqvckdmtqfdh-diivscskkglqfrangdigsadvqmsa------dnen--fsvlkakqtvthtfagdylchfakaaplaptvtiymseelpfkleycikd---------vgvlacflapkivnndeeif------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Plasmodium falciparum (isolate K1 / Thailand).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Alveolata</taxon>
+<taxon>Apicomplexa</taxon>
+<taxon>Aconoidasida</taxon>
+<taxon>Haemosporida</taxon>
+<taxon>Plasmodium</taxon>
+</lineage>
+<taxid>5839</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>265</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>158</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>182</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>203</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>240</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>256</fstart><fstop>269</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>274</length>
+<weight>100</weight>
+<group>5</group>
+</seq-info>
+<seq-data>mleaklnnasilkklfecikdlvndanvdadesglklqaldgnhvslvslhlldsgfshyrcdrervlgvniaslnkvfklcganesvvisskddednlnfvfennkedkvtnfslklmsieldslnipdceegfdaevelsskeltnifrnlsefsd-tvfieidsncikfttkgivgdaevalkpr---dstseddigvtikskkkikqsfaikylnlfsksniladvvvlglsdsrpiefkyeikdtspdsdtlkigfvkfflapkmdddmdnkd------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Proliferating cell nuclear antigen</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>127</fstart><fstop>254</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>26.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>26.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>156</fstop><fcolor>2</fcolor><fscore>27.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>180</fstop><fcolor>3</fcolor><fscore>29.79</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>201</fstop><fcolor>4</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>22.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>257</fstop><fcolor>6</fcolor><fscore>34.78</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>8</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>9</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>31</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>34</fstart><fstop>40</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>53</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>57</fstart><fstop>60</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>66</fstart><fstop>71</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>86</fstart><fstop>92</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>97</fstart><fstop>104</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>106</fstart><fstop>109</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>111</fstart><fstop>117</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>134</fstart><fstop>140</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>156</fstart><fstop>163</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>166</fstart><fstop>172</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>177</fstart><fstop>182</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>191</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>195</fstart><fstop>201</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>203</fstart><fstop>208</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>209</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>216</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>233</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>235</fstart><fstop>241</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>244</fstart><fstop>250</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>254</fstart><fstop>256</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>61</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005634</goid><goclass>C</goclass><godesc>nucleus</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005657</goid><goclass>C</goclass><godesc>replication fork</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0006284</goid><goclass>P</goclass><godesc>base-excision repair</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0030466</goid><goclass>P</goclass><godesc>chromatin silencing at silent mating-type c...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006348</goid><goclass>P</goclass><godesc>chromatin silencing at telomere</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006273</goid><goclass>P</goclass><godesc>lagging strand elongation</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006272</goid><goclass>P</goclass><godesc>leading strand elongation</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0000710</goid><goclass>P</goclass><godesc>meiotic mismatch repair</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0007064</goid><goclass>P</goclass><godesc>mitotic sister chromatid cohesion</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0006289</goid><goclass>P</goclass><godesc>nucleotide-excision repair</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006301</goid><goclass>P</goclass><godesc>postreplication repair</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>258</length>
+<weight>100</weight>
+<group>6</group>
+</seq-info>
+<seq-data>mleakfeeaslfkriidgfkdcvqlvnfqckedgiiaqavddsrvllvsleigveafqeyrcdhpvtlgmdltslskilrcgnntdtltliadntpdsiillfedtkkdriaeyslklmdidadflkieelq--ydstlslpssefskivrdlsqlsd-sinimitketikfvadgdigsgsviikpfvdme-hpet--siklemdqpvdltfgakylldiikgsslsdrvgirlsseapalfqfdlks----------gflqfflapkfndee----------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Probable DNA polymerase sliding clamp</definition>
+<organism>Orgyia pseudotsugata multicapsid polyhedrosis virus (OpMNPV).</organism>
+<lifedomain>Viruses</lifedomain>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>dsDNAvirusesnoRNAstage</taxon>
+<taxon>Baculoviridae</taxon>
+</lineage>
+<taxid>262177</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>60</fstart><fstop>79</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDPotential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>124</fstart><fstop>240</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>19.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>15.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>153</fstop><fcolor>2</fcolor><fscore>24.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>224</fstop><fcolor>5</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>244</fstop><fcolor>6</fcolor><fscore>19.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>60</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00293 PCNA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>33</fstart><fstop>56</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>249</length>
+<weight>100</weight>
+<group>7</group>
+</seq-info>
+<seq-data>-meatfataaafqsivgalrgllthatfdcdahgmrlhsldvervaladlrlrragfaryacerklsfsvpvrglvkivrtadpsapltmrvaarddrvrlaye--tarravsctlaqisldadrlgvpdke--ytcvlavpsaeltracadlarlgattvemssgttglsfaahaddgvrvrvllrgsp---------------qrpltqafaccylnklarasalsetvdvcmdasmplrlrfrlgp---------lgaldlylaprvpsvgesaq------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>DNA polymerase sliding clamp</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00705 PCNA_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>245</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02747 PCNA_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>17.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>16.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>152</fstop><fcolor>2</fcolor><fscore>13.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>229</fstop><fcolor>5</fcolor><fscore>15.77</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>247</fstop><fcolor>6</fcolor><fscore>20.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS01251 PCNA_1</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0043626</goid><goclass>C</goclass><godesc>PCNA complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030337</goid><goclass>F</goclass><godesc>DNA polymerase processivity factor activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006260</goid><goclass>P</goclass><godesc>DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006275</goid><goclass>P</goclass><godesc>regulation of DNA replication</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>247</length>
+<weight>100</weight>
+<group>8</group>
+</seq-info>
+<seq-data>mfrgvmesakefkkvvdtistlldeicfevdeegikasamdpshvalvsleiprlafeeyeadsh-digidleafkkvmnrakakdrlileldeeknklnvifentgkrk---fslalldisassvkvpeie--ypnvimikgdafkealkdadlfsdy-vilkadedkfvihakgdlneneaifekdssa--------iislevkeeaksafnldylmdmvkgvssgdiikiylgndmplkleysiag----------vnltfllaprieg------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+100 100 100 100 100 100 100 100 100 25 100 100 100 100 100 69 64 49 70 50 43 100 100 28 100 100 100 100 100 100 100 3 46 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 60 26 100 100 100 60 100 100 100 100 100 100 100 100 100 100 100 4 100 100 100 100 100 100 5 100 100 60 100 100 100 37 100 100 100 100 100 100 100 55 100 38 100 100 100 100 18 7 100 18 55 100 100 100 100 100 100 100 10 100 100 100 100 37 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 30 36 100 0 0 100 5 60 100 100 65 100 100 100 17 100 100 8 100 100 100 100 100 100 100 45 100 100 100 0 100 100 63 100 100 100 100 100 100 100 100 100 100 100 100 5 100 55 100 100 63 100 100 100 100 8 100 100 100 18 47 59 100 0 100 100 58 32 0 0 100 14 36 100 100 100 20 100 19 100 100 100 63 100 100 100 100 100 64 100 100 100 100 100 100 41 24 100 57 11 11 100 100 100 100 100 100 48 100 100 100 100 100 100 100 100 100 59 100 100 0 0 0 0 0 0 0 0 0 100 100 100 63 100 18 100 100 100 100 100 100 100 55 38 37 61 0 8 3 12 60 32 76 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+100 100 100 100 100 100 0 100 6 46 1 100 100 100 42 2 37 100 47 100 100 48 22 9 100 100 0 3 100 0 40 12 10 100 31 9 100 100 29 100 100 25 100 100 100 100 100 100 23 100 100 100 100 44 27 100 100 38 5 8 100 100 100 100 100 9 36 56 100 17 42 38 4 100 100 29 100 100 45 100 100 100 3 44 31 100 1 42 100 44 44 100 33 100 100 100 100 5 19 7 33 17 100 100 33 2 25 5 38 100 2 100 16 100 100 100 100 100 100 28 100 100 0 100 14 100 100 100 100 100 22 23 0 0 19 100 100 3 44 9 45 100 43 0 100 100 7 100 100 100 100 100 100 43 8 5 8 23 0 1 100 100 100 1 100 26 100 24 100 100 48 100 100 100 20 100 23 26 100 6 6 25 59 100 100 10 100 19 4 3 5 100 0 100 100 100 100 0 0 18 100 2 43 100 39 9 100 100 100 10 100 100 100 100 1 45 100 100 100 0 100 42 100 100 48 100 100 100 6 12 100 0 100 100 100 2 14 29 59 100 100 100 100 100 100 13 43 13 100 0 0 0 0 0 0 0 0 0 44 19 100 23 44 100 20 100 100 100 100 100 100 100 28 100 1 34 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+28 5 36 5 2 4 1 8 6 18 1 6 65 21 21 6 10 2 6 21 4 13 20 3 0 6 0 4 26 1 7 3 2 100 8 2 3 16 14 29 100 0 22 13 100 9 100 24 13 69 0 44 0 1 1 8 100 6 1 100 12 14 57 12 3 2 1 10 9 24 5 30 5 8 14 3 100 29 7 20 0 1 2 3 4 8 0 20 2 31 2 3 8 10 2 1 33 1 21 1 4 6 39 54 2 1 4 6 6 39 4 1 3 2 8 31 15 11 40 2 52 21 1 15 0 46 3 44 26 35 0 36 0 0 43 2 0 2 22 1 22 5 17 1 30 10 3 11 3 0 15 52 10 3 1 4 3 6 0 6 48 0 29 3 0 2 12 7 0 6 4 19 2 10 3 22 4 2 25 2 1 2 1 1 2 1 3 0 1 1 0 1 0 1 1 6 2 0 0 0 2 1 15 7 1 9 15 2 8 6 0 33 100 8 0 1 100 69 0 0 3 3 63 6 5 1 11 12 4 1 61 1 30 0 39 9 6 10 1 100 3 0 3 17 23 1 37 2 2 0 0 0 0 0 0 0 0 0 1 7 0 39 4 1 5 100 100 100 46 10 0 5 1 1 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

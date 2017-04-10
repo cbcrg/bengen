@@ -1,0 +1,605 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0173.xml</aln-name>
+<aln-score>0.71</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>112</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>127</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msdne---------dnfdg-ddfddv---eedeglddlena------------eeegqenveilp---sgerpqa---------nqkrittpymtkyerarvlgtralqiamcapvmveleg---------------etdplliamkelkarkipiiirrylpdgsyedwgvdeliitd----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerases I II and III subunit RPABC2</definition>
+<organism>Rattus norvegicus (Rat).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10116</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>112</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>58</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by CK2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005736</goid><goclass>C</goclass><godesc>DNA-directed RNA polymerase I complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005665</goid><goclass>C</goclass><godesc>DNA-directed RNA polymerase II, core complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005666</goid><goclass>C</goclass><godesc>DNA-directed RNA polymerase III complex</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006360</goid><goclass>P</goclass><godesc>transcription from RNA polymerase I promoter</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006366</goid><goclass>P</goclass><godesc>transcription from RNA polymerase II promoter</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006383</goid><goclass>P</goclass><godesc>transcription from RNA polymerase III promoter</godesc><goevidence>TAS</goevidence></goxref>
+</goxreflist>
+<length>127</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msdne---------dnfdg-ddfddv---eedeglddlena------------eeegqenveilp---sgerpqa---------nqkrittpymtkyerarvlgtralqiamcapvmveleg---------------etdplliamkelkarkipiiirrylpdgsyedwgvdeliisd----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>RNA polymerase common subunit RPB6</definition>
+<organism>Gallus gallus (Chicken).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Archosauria</taxon>
+<taxon>Dinosauria</taxon>
+<taxon>Saurischia</taxon>
+<taxon>Theropoda</taxon>
+<taxon>Coelurosauria</taxon>
+<taxon>Aves</taxon>
+<taxon>Neognathae</taxon>
+<taxon>Galliformes</taxon>
+<taxon>Phasianidae</taxon>
+<taxon>Phasianinae</taxon>
+</lineage>
+<taxid>9031</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>112</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>58</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>127</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msdne---------dnfdg-ddfddv---eedeglddlenv------------eeegqenveilp---sgerqaa---------nqkrittpymtkyerarvlgtralqiamcapvmveleg---------------etdplliamkelkarkipiiirrylpdgsyedwgvdeliitd----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>131</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mddady------dnddvgg-ddfddv---ded--vdedinq------------eee-adnieiiapggaggggvp---------kskrittkymtkyerarvlgtralqiamcapimveldg---------------etdplqiamkelkqkkipiiirrylpdhsyedwsidelimvdn---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>131</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mddady------dnddvgg-ddfddv---ded--vdedinq------------eee-adnieiiapggaggggvp---------kskrittkymtkyerarvlgtralqiamcapimveldg---------------etdplqiamkelkqkkipiiirrylpdhsyedwsidelimvdn---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>121</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>maded-------dyqdmdn-ddfvdd---nemedvieedpqrpd--------nededddnvdenfelfdqgkavp---------tsehvttpfmtkyerarvlgtralqiamgapvmveleg---------------etdpleiarkelkqrripiivrrylpdgsyedwptdqlqladw---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>At2g04630</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>63</fstart><fstop>116</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>98</fstart><fstop>120</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005665</goid><goclass>C</goclass><godesc>DNA-directed RNA polymerase II, core complex</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>144</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>maddd--------ynevdd-lgyede---paepeieegveedad--------ikenddvnvdpl-etedkvetep--------vqrprktskfmtkyerarilgtralqismnapvmveleg---------------etdpleiamkelrqrkipftirrylpdmsyeewgvdelivedswkrqvggd-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase IIa</definition>
+<organism>Nicotiana tabacum (Common tobacco).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Solanales</taxon>
+<taxon>Solanaceae</taxon>
+<taxon>Nicotianoideae</taxon>
+<taxon>Nicotianeae</taxon>
+</lineage>
+<taxid>4097</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>62</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>119</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>65</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>143</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>maddd---------ydmdg--gyvde---piepepdegaeieed--------ngnnedipdpllgegeekteqep--------verprktskymtkyerarilgtralqismnapvmveleg---------------etdpleiamkelrerkipftirrylpdgsyedwgvdelivedswkrqvggt-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>22</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>77</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>142</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msdyeede-----afgmdgavmeeev---delemidengqsqqg--------vshpgepsttvitedvassktaqsgk---avakedrtttpymtkyerarilgtralqismnapvlvdleg---------------etdplqiamkelaqkkipllvrrylpdgsyedwsvaeli-------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>155</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>msdyeeafndgnenfedfdvehfsdeetyeekpqfkdgettdangktivtggngpedfqqheqirrktlkekaip---------kdqrattpymtkyerarilgtralqismnapvfvdleg---------------etdplriamkelaekkiplvirrylpdgsfedwsveelivdl----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit I putative</definition>
+<organism>Plasmodium falciparum (isolate 3D7).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Alveolata</taxon>
+<taxon>Apicomplexa</taxon>
+<taxon>Aconoidasida</taxon>
+<taxon>Haemosporida</taxon>
+<taxon>Plasmodium</taxon>
+</lineage>
+<taxid>36329</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>77</fstart><fstop>106</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>149</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>80</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>163</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mnkylc---------lyflldgfndnylnededfmgdefgqgidsd------dgenyendidiitdhqikkdnksdyenseanedniritspyltkyekariigtralqismnapltipietsndminskneydnylnndplviaekelynksipfilrrylpngsyedwrldeliid-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>61</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>9</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>61</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------mhmaskkltrferarligaralqismgarplveikes---------------ldpvdiarkelekkvmpldvrrdk---------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>51</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>26.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>9</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>103</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------maerytsyprivddvkigppyltkyerariigvrafqlsigapplvdperag-------------srnpldiaryevdngilpvsiyrylpggggqslslsrlvelareilgseyv-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>43</fstart><fstop>65</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>12</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>75</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------mgikvkfpfeytrfekariigaralqiamgapvliet-dk---------------tepleialeefnrgvipitvrrrrnefvwlerydlf---------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>31</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>57</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mfkytrfekariigaralqiamgapvlidvpeg---------------itpleaaimefekgvipitvirps---------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Haloarcula marismortui (Halobacterium marismortui).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Halobacteria</taxon>
+<taxon>Halobacteriales</taxon>
+<taxon>Halobacteriaceae</taxon>
+</lineage>
+<taxid>2238</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>57</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------mnaqesryekarklgaralqlahgapvliet-eh---------------tqpiliaaeeydagvlpftvnrsd---------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>23.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>15.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>57</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------mkltkfeiarilgarslqissgayatietkc----------------dsslkiayeeikqgkvplkpirpvka-------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit K</definition>
+<organism>Sulfolobus acidocaldarius.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Sulfolobales</taxon>
+<taxon>Sulfolobaceae</taxon>
+</lineage>
+<taxid>2285</taxid>
+<ec>2.7.7.6</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>73</fstop><fcolor>1</fcolor><fscore>13.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>19</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>83</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------mtidkineifkenwknkltkyeiariisaralqylwslttdtyfyp---------------ksdavisiargikrgvlpitirriypngqvelisvrk---------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit 6 homolog</definition>
+<organism>African swine fever virus (strain Badajoz 1971 Vero-adapted) (Ba71V)(ASFV).</organism>
+<lifedomain>Viruses</lifedomain>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>dsDNAvirusesnoRNAstage</taxon>
+<taxon>Asfarviridae</taxon>
+</lineage>
+<taxid>10498</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>69</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01192 RNA_pol_Rpb6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>56</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>125</fstop><fcolor>1</fcolor><fscore>13.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>72</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS01111 RNA_POL_K_14KD</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030430</goid><goclass>C</goclass><godesc>host cell cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>147</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>madndn---------ediimddlveeyveteeenfvdseeese----------dkdeivespsicegfvqassqt----lviipdneritsnvlttfeatrlvavraqqlaingstmlkkky----------------sspidiakqelfnrkipllvmrcikvtpegqkiveiwnpremgiplld---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>DNA-directed RNA polymerase subunit 6 homolog</definition>
+<organism>African swine fever virus (isolate Tick/Malawi/Lil 20-1/1983) (ASFV).</organism>
+<lifedomain>Viruses</lifedomain>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>dsDNAvirusesnoRNAstage</taxon>
+<taxon>Asfarviridae</taxon>
+</lineage>
+<taxid>10500</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>34</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>60</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>13.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0030430</goid><goclass>C</goclass><godesc>host cell cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0030880</goid><goclass>C</goclass><godesc>RNA polymerase complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003899</goid><goclass>F</goclass><godesc>DNA-directed RNA polymerase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006351</goid><goclass>P</goclass><godesc>transcription, DNA-dependent</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>139</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>madndn---------edvimddlveeyveteeenfvdseeesedks------edkdeivespsicegfvqassqt----lviipdneritsnvlttfeatrlvavraqqlaingstmlkkky----------------sspidiakqelfnrkipllvmrcikvtpegqkivei---------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+100 21 56 1 12 0 0 0 0 0 0 0 0 0 1 6 2 2 5 0 4 4 11 6 77 3 0 0 0 15 16 5 4 0 8 8 49 1 1 10 9 0 0 0 0 0 0 0 0 0 0 0 0 11 17 24 1 5 4 20 6 20 5 20 2 1 0 0 4 8 5 11 1 2 5 0 0 0 0 0 0 0 0 0 11 7 0 18 1 22 19 6 7 46 100 74 55 100 73 100 100 29 49 100 27 100 100 36 100 73 37 67 0 100 34 3 7 72 17 10 39 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 7 59 100 61 0 100 100 1 14 100 57 1 7 14 3 53 100 4 1 38 15 100 13 22 100 26 5 39 7 66 36 17 4 17 20 39 100 24 4 1 2 1 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 28 41 100 33 12 9 6 56 18 11 1 3 0 1 0 65 7 19 100 0 37 100 5 21 2 6 100 62 1 100 5 6 0 2 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 6 7 25 0 2 11 0 2 16 1 0 5 3 1 30 100 11 1 6 0 100 0 0 18 5 7 14 4 9 17 19 10 21 14 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+4 3 3 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 1 1 3 1 0 0 0 2 3 1 2 0 1 1 3 1 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 1 1 1 2 1 2 1 2 0 1 0 0 1 2 1 2 3 3 3 0 0 0 0 0 0 0 0 0 6 3 2 9 3 0 9 0 0 5 79 30 20 100 2 72 100 13 33 17 10 100 77 11 100 16 12 1 2 11 2 1 1 13 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 12 22 33 0 25 30 0 6 37 9 0 7 3 1 35 100 6 0 10 1 100 0 0 14 5 5 11 1 13 10 1 3 13 8 5 4 3 1 1 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

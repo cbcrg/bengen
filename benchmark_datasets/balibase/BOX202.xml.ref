@@ -1,0 +1,1351 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/icds/ProjetMotifs/Julie/RV942/BOX202.xml</aln-name>
+<sequence seq-type="Protein">
+<seq-name>Q02548</seq-name>
+<seq-info>
+<accession>Q02548</accession>
+<nid>Q02548</nid>
+<definition>   Paired box protein Pax-5 B-cell-specific transcription factor BSAP.</definition>
+<organism>   Homo sapiens (Human). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>142</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Paired.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>224</fstart><fstop>264</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_PF00046 Homeobox from Q8VDB7</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>50</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>29</fstart><fstop>336</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>167</fstart><fstop>182</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>373</fstart><fstop>384</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>197</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>62</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>91</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>51</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>35</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>111</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>132</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>28</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>249</fstart><fstop>255</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>79</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>235</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>50</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>16</fstart><fstop>142</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>221</fstart><fstop>267</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PROP_PS50071 HOMEOBOX_2 from Q6DHA8</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>178</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_INSTANCE_LIG_EH1</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>178</fstart><fstop>186</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>174</fstart><fstop>391</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------md--leknyptprtsrtg------hggvnqlggvfvngrplpdvv--rqrivelahqg-v-----rpcdisrqlrvs-hgcvskilg-ryyetgsikpgviggskpkv-atpkvvekiaeyk-rqnp-tmfaweirdrllaerv-cdndtv----ps-----vssinriirtkvqqppn-------------------------qpvpass--hsivstgs---------------------------------------------------------vtqvssvstdsagssysisgilgi--------------------tspsadtnkrkrdegiqespvpnghslpgr-------dflrkqmrgdl--------ftqqqlevldrvfer-qhys------diftttep---ikpeqtteysamaslagglddmkanlasptpadigssvpgpqsypivtgrdlasttlpgypphvppagqgsysaptltgmvpgsefsgspyshpqyssyndswrfpnpgllgspyyysaaargaappaaataydrh---------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>A0EYL8</seq-name>
+<seq-info>
+<accession>A0EYL8</accession>
+<nid>A0EYL8</nid>
+<definition>   PaxD2.</definition>
+<organism>   Nematostella vectensis. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>258</fstart><fstop>317</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>259</fstart><fstop>315</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_PF00046 Homeobox from Q9NGS6</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00292 PAX from Q9NGS6</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>21</fstart><fstop>364</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>303</fstart><fstop>364</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>303</fstart><fstop>364</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>170</fstart><fstop>183</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>353</fstart><fstop>364</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>264</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>84</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>125</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>18</fstart><fstop>20</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>285</fstart><fstop>294</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>299</fstart><fstop>322</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>271</fstart><fstop>280</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>291</fstart><fstop>314</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PROP_PS00027 HOMEOBOX_1 from Q9NGS6</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>42</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PS00034 PAIRED_1 from Q9NGS6</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>135</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_PS51057 PAIRED_2 from Q9NGS6</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>240</fstart><fstop>302</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PROP_PS50071 HOMEOBOX_2 from PAX6_BRARE</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>203</fstart><fstop>211</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>141</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------mdsysfs-------gqgrvnqlggvfingrplplvl--rkqiielaqlg-v-----rpcdisrrlrvs-hgcvskily-rfqqtgsiepgaiagsstprnvtpeieekideyr-renp-gmfswevrdrlvkdnv-csrctv----ps-----laaisqvlknriastssaas-------edddvfidveetddnsnivagvilktkkerkd---------------------------------------------eeddkgkedekveknsslpsrhnfsssysiasilkkpsaeedgsaeivkgikveaiespppstspsr----------mhfsldpdf-------lltrkqrrsrtk-------ftskqvdelekaflk-tqyp------dvytreelaqrlnltearvqvwfsnrrarlrkkkin-gddndstnkrkycypqgmcschptaapiryqvvpindrvytlpvl--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q9CZK7</seq-name>
+<seq-info>
+<accession>Q9CZK7</accession>
+<nid>Q9CZK7</nid>
+<definition>   11 days embryo whole body cDNA RIKEN full-length enriched library clone2700066P22Mus musc</definition>
+<organism>   Mus musculus (Mouse). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>38</fstart><fstop>165</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>223</fstart><fstop>282</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>224</fstart><fstop>280</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>38</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>72</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>51</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>169</fstart><fstop>183</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>119</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>464</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>440</fstart><fstop>463</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>COIL</ftype><fstart>169</fstart><fstop>189</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_COIL</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>84</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>111</fstart><fstop>114</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>73</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>57</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>155</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>50</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>250</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>264</fstart><fstop>288</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>236</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>287</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PRD_DROME</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>256</fstart><fstop>279</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>221</fstart><fstop>281</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>72</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>165</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>323</fstart><fstop>324</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_SITE_Breakpoint for translocation to form PAX3 from P23760</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>189</fstart><fstop>197</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>39</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>157</fstart><fstop>488</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------maprmttlagavprmmrpgpgqn--yprsgfplevstplgqgrvnqlggvfingrplpnhi--rhkivemahhg-i-----rpcvisrqlrvs-hgcvskilc-ryqetgsirpgaiggskpkqvttpdvekkieeyk-renp-gmfsweirdkllkdav-cdrntv----p-s----vssisrilrskfg----------------------------------------------------------------------------------------------kgeeeead--lerkeaeesekkakhsidgilserasa------------------pqsdegsd-------------idsepdl-------plkrkqrgsrtt-------ftaeqleelerafer-thyp------diytreelaqrakltearvqvwfsnrrarwrkqaganqlmafn------hl--ipggfpp---tamptlptyqlset-syqptsipqavsdpsstvhrpqplppstvhqstipsnadsssayclpstrhgfssytdsfvpps-gpsnpmnptignglsp-qvmgl-ltnhggvphqpqtdya----lspltgg--leptttvsasc-sqrlehmknvds---lptsqpycpptystagysmdpv-tgyqygqygqsafhy-lkpdia---------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q90XB1</seq-name>
+<seq-info>
+<accession>Q90XB1</accession>
+<nid>Q90XB1</nid>
+<definition>   Transcription factor Pax7.</definition>
+<organism>   Petromyzon marinus (Sea lamprey). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>24</fstart><fstop>151</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>210</fstart><fstop>269</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>211</fstart><fstop>267</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>24</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>58</fstart><fstop>376</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>37</fstart><fstop>376</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>330</fstart><fstop>505</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>330</fstart><fstop>505</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>330</fstart><fstop>344</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>421</fstart><fstop>434</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>100</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>128</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>183</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>216</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>197</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>452</fstart><fstop>469</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>426</fstart><fstop>451</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_42</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>97</fstart><fstop>100</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>149</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>34</fstart><fstop>36</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>237</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>251</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>274</fstart><fstop>292</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PRD_DROME</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>243</fstart><fstop>266</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>208</fstart><fstop>268</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>58</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>24</fstart><fstop>151</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>177</fstart><fstop>185</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>144</fstart><fstop>442</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------mmrpapgqn--yprsgfplevstplgqgrvnqlggvfingrplpnhi--rhkivelahhg-v-----rpcvisrqlrvs-hgcvskilc-ryqetgsirpgaiggskprqvastdverkieeyk-renp-gmfsweirdrllkdgv-cdrasv----p-s----vssisrilrakfg----------------------------------------------------------------------------------------------krdeeeeegaekkdfgddgdkkakhsidgilgdkag-------------------stvedssd-------------vdsepdl-------plkrkqrrsrtt-------ftaeqleelekafer-thyp------diytreelaqrtkltearvqvwfsnrrarwrkqaganqlaafn------hl--ipggfpp---asmpglppyqlpeg-pypgsg--ipqvdtgttvhrpqplppssmhqggglaggdgagayglssnrsgf--ysdsfmsaasapsnhmap-manglsp-qmmgi-lgnpsamppqhgqeys----lsplpssglvdhssglsascsqrgggggdgmkhgdglppp-gllpatyaaagyglepmpaayqygqygqta--a-dylakn-vglggqrr--lklgehsavlgllqvaetgqay
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>P09083</seq-name>
+<seq-info>
+<accession>P09083</accession>
+<nid>P09083</nid>
+<definition>   Protein gooseberry-neuro Protein gooseberry proximal BSH4.</definition>
+<organism>   Drosophila melanogaster (Fruit fly). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>182</fstart><fstop>241</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>20</fstart><fstop>143</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Paired.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>183</fstart><fstop>239</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>54</fstart><fstop>342</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>33</fstart><fstop>342</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>243</fstart><fstop>449</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>243</fstart><fstop>449</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>240</fstart><fstop>256</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>303</fstart><fstop>317</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>401</fstart><fstop>415</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>100</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>133</fstart><fstop>144</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>159</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>411</fstart><fstop>429</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_38</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>66</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>95</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>55</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>133</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>30</fstart><fstop>32</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>209</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>195</fstart><fstop>204</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>99</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from 1pdn_C</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from 1pdn_C</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>215</fstart><fstop>238</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>180</fstart><fstop>240</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>54</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>20</fstart><fstop>143</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>153</fstart><fstop>161</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>130</fstart><fstop>340</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------mdmssanslrplfa--------gypfq-----gqgrvnqlggvfingrplpnhi--rlkivemaasg-v-----rpcvisrqlrvs-hgcvskiln-ryqetgsirpgviggskpkv-tspeietridelr-kenp-sifsweireklikegf-ad---p----ps-----tssisrllrgsdr--------------------------------------------------------------------------------------------------------------gsedgrkdytingilgg-----------------------rdsdisd-------------tesepgi-------plkrkqrrsrtt-------ftaeqlealerafsr-tqyp------dvytreelaqttalteariqvwfsnrrarlrkhsggsnsglsp--------------mnsgssnvgvgvglsgataplgygp-----lgvgsmagyspapgttatgagmndgvh----haahapsshhsaataaaaahhhtqmggydlvqsaaqhgfpggfaqpghfgsqnyyhqdyskltiddfskltadsvskispslhlsdnys--------------kleapsnwsqaayhaaany-nahvaqhqlndyaaaaahgnpasayshplptqgqakyws--------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q09546</seq-name>
+<seq-info>
+<accession>Q09546</accession>
+<nid>Q09546</nid>
+<definition>   Hypothetical protein pax-3.</definition>
+<organism>   Caenorhabditis elegans. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>15</fstart><fstop>140</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>187</fstart><fstop>245</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>188</fstart><fstop>244</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>13</fstart><fstop>138</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>26</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>58</fstart><fstop>68</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>163</fstart><fstop>308</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>58</fstart><fstop>68</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>163</fstart><fstop>308</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>294</fstart><fstop>306</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>139</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>160</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>32</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>130</fstart><fstop>138</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>25</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>214</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>228</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>200</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>185</fstart><fstop>245</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>13</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>154</fstart><fstop>162</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>160</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>283</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------mttdsitfnhil--gq--------------grvnqlggvfingrplpihv--rhaiismakkg-i-----kpchisrqlkvs-hgavskiln-ryaetgsispgqiggsprarltvqavekeiliac-denp-qmsaaelrdwlihkdi-ctkgna----pt-----vpaikrlignkgvg----------------------------------------------------------------------------------------------------------vpkkmerkrlsysidsilgisidecsk--------------sssddeeg------------------ssp-------sndassrrnrts-------ftaeqldvlenafra-dtyp------hanaresisketglseekimtwfsnrrarcrkn------------mpmyqqyn-vqgfgssppsyptllpspmmflp-------------------------systspqlnplffqhilqssppssqssp-------psss---------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q5IGV3</seq-name>
+<seq-info>
+<accession>Q5IGV3</accession>
+<nid>Q5IGV3</nid>
+<definition>   Homeodomain transcription factor PaxD.</definition>
+<organism>   Nematostella vectensis. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>236</fstart><fstop>295</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>237</fstart><fstop>293</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>21</fstart><fstop>331</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>62</fstart><fstop>234</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>281</fstart><fstop>331</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>62</fstart><fstop>234</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>281</fstart><fstop>331</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>7</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>84</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>84</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>125</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>18</fstart><fstop>20</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>263</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>277</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>249</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>269</fstart><fstop>292</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>234</fstart><fstop>294</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>135</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>182</fstart><fstop>190</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>136</fstart><fstop>256</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------mdtlifp-------gqgkinqlggvfingkplprpl--rlriielarlg-v-----rpsdisrrlrvs-hgcvskiln-kfhetgsvepgaaittfkrrdispavlnkieeyv-feqp-difsweirdrllkdkl-cskcnv----ps-----leavsnviktcarklqsnltrks---------------------eaasrqnnnctikte----------------------------------------------------redssdkgteqgsrsrftgpfsisnilelespeeagkvssddytdqetfeekgddeefdn----------dprpedre--------lpchkprrsrtr-------ftvsqtdelerafrk-thyp------diyareelaqrlglsearvqvwfsnrrarlrkerllpctdgaifgspvaafsfsmlqaqagyhtayvpyy--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O02016</seq-name>
+<seq-info>
+<accession>O02016</accession>
+<nid>O02016</nid>
+<definition>   Pax-B.</definition>
+<organism>   Hydra littoralis (swiftwater hydra). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>78</fstart><fstop>210</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>433</fstart><fstop>489</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>84</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>118</fstart><fstop>410</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>97</fstart><fstop>410</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>341</fstart><fstop>355</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>138</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>130</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>157</fstart><fstop>159</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>119</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>103</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>200</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>94</fstart><fstop>96</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>147</fstart><fstop>159</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>465</fstart><fstop>488</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ERROR_PS00027</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>430</fstart><fstop>490</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>118</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>84</fstart><fstop>210</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>268</fstart><fstop>276</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>305</fstart><fstop>519</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------mleqwsddnkmeifepqqsgeltcnvdkrsine-dgvgqviclenphllktlqehslaaatvsnlninikrfndakenkntcrdnhgginqlggtfvngrpliepv--rrkivelahqg-v-----rpcdisrqlrvs-hgcvskils-rfyetgsvrpgviggskpkv-atpsvvakiqeyk-qhnp-tmfaweirdkllseqi-cdsdsv----ps-----vssinrivrnrlgs-sshasmadlnsp------llkidp-dmthyfvhpglpiqigais------------------------------------------------------tnfpgsihahlprttsgsysisgilgmavpssqgnlgtlimcs-----------------dysipnvqqmhshvlnd-------ekgnvhimqegeiapsidhptqvnaneyvle-------ssds-fhdssaasssslsne------------------edkfsneqinkpyymkmdlnfdsenekstnkkasmqingiddskfdmslqstihhafshpneqtnhtfkktmrrvrttfsleqrraledafektpypdaeqreeisiqcdlpeprvqvwfsnkraklrrqdrnedkqdssknkeiisshldfqriqnhikqydcknnseennqscfpdeyqdqinvhddvkncllnselntsslptdhrftnsklkrlkgnpvifvfepnvvssikdpniypyqkdv----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q21263</seq-name>
+<seq-info>
+<accession>Q21263</accession>
+<nid>Q21263</nid>
+<definition>   Pax Paired box transcription factor protein 2.</definition>
+<organism>   Caenorhabditis elegans. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>91</fstart><fstop>217</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>91</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>104</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>251</fstart><fstop>266</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>197</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>290</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>137</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>164</fstart><fstop>166</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>207</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>101</fstart><fstop>103</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>154</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>125</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>91</fstart><fstop>217</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>290</fstart><fstop>298</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>220</fstart><fstop>263</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------mftktfsnnymtssqsaycnlqqyhdsrvcllkccrvqkvdpyfprialnsatsyptvsgtvslpkaetvepdlwiksfkgnedpllsdgshtgvnqlggvfvngrplpdti--raqivemsqhg-t-----rpcdisrqlkvs-hgcvskilg-ryystgsvrpgviggskpkv-atprvveciagyk-ranp-tmfaweirqkliedqi-cgeenv----ps-----vssinrivrnksfmaqlat------------------------ptsvtpsvarpssats-----------------------qnqrspprgvqqhmqqstsvqqlqqfqltsaatvnslisrpafaipgtthsingllgtfphssllddkftnls---------------------------thsadmsl-------vypt-glvg----ehdwamrtpmvilpqn-----ycg-ql-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q61B49</seq-name>
+<seq-info>
+<accession>Q61B49</accession>
+<nid>Q61B49</nid>
+<definition>   Hypothetical protein CBG13498.</definition>
+<organism>   Caenorhabditis briggsae. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>91</fstart><fstop>217</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>91</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>104</fstart><fstop>346</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>223</fstart><fstop>236</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>237</fstart><fstop>247</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>248</fstart><fstop>262</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>125</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>197</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>137</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>164</fstart><fstop>166</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>207</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>101</fstart><fstop>103</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>154</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>125</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>91</fstart><fstop>217</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>281</fstart><fstop>289</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>209</fstart><fstop>274</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mkvavvgrgsgrsgdcitmfnssmttsvyehwqahyedrdclmkccripkidpyfp------kitfnatlvp-----kieildadwaksfkgnedplisdgshtgvnqlggvfvngrplpdsi--raqivemsqrg-t-----rpcdisrqlkvs-hgcvskilg-rfystgsvrpgviggskpkv-atprvveciagyk-ranp-tmfaweirqklmedqi-cgedna----ps-----vssinrivrnkdfqn-fvs------------------------qnsrptssssssgssq-----------------------qssqsssrqlpppppqs---qqsqql----aatvpslaapptfampgt-ysingllgslphssilddksfhls-----------------------------hadmsl-------vyptsgtigprvlehdwpmrapvctilpn-----ycgghl-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O16802</seq-name>
+<seq-info>
+<accession>O16802</accession>
+<nid>O16802</nid>
+<definition>   Paired box protein.</definition>
+<organism>   Strongylocentrotus purpuratus (Purple sea urchin). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>47</fstart><fstop>179</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>53</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>87</fstart><fstop>497</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>66</fstart><fstop>497</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>506</fstart><fstop>520</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>556</fstart><fstop>567</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>128</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>159</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>284</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>99</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>128</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>88</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>169</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>65</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>116</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>53</fstart><fstop>179</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>284</fstart><fstop>292</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>200</fstart><fstop>601</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------mieeahivhqeaslhihqg---------ppvlqvq---getmmhvhee--sspegetpkakrrrlsdaegvnqlggcfangrplptqi--rtqivelareg-v-----rpcdisrqlkvs-hgcvskilv-rfyetgsikpgviggskpkv-atrdvvdkiadyk-rdnp-tifaweirdrllsesi-cgketv----ps-----vssinrilrnkivngyvmeeat---------------ltrkkqqiaeldlpdealptqvtiqrptpqqlmahnsqqpttitpaqfaqyysslqqqspqaggypihvpttspqaaaaatvapsgatvrlppaytikelldaqafaqrngvspqtrptmaq------------lspakgvegvqmaepmahv-------rtvqlavptrpnqpnpvr---tavtanqsptaitpaqmtaft-gvaikteqpdtdananarasslkgyyesfarelamsagaipsqeqrlviplsesaglhtltpvqs--dtnvrgaytrvvespkaeelklarvrqagtp------vlsa---gspgva-dnatftelkpasvlgyqevyptaqppiqnat--tltt-agqttgittaslatflpntttapvkadyaaqihhlqqaslalahrqqqeqhqlq-lqqehrqhmqd-giphdisspnnpwparpslvsshpa------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q17132</seq-name>
+<seq-info>
+<accession>Q17132</accession>
+<nid>Q17132</nid>
+<definition>   AmphiPax-1.</definition>
+<organism>   Branchiostoma floridae (Florida lancelet) (Amphioxus). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>7</fstart><fstop>133</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>41</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>20</fstart><fstop>275</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>164</fstart><fstop>179</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>52</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>123</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>53</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>80</fstart><fstop>82</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>42</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>123</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>19</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>41</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>133</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>194</fstart><fstop>202</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>130</fstart><fstop>337</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------mmn-meqtfgevnqlggvfvngrplpnai--rlrivelahvg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpevvkaikkyk-tldp-gifaweirdrllaegv-cdkynv----ps-----vssisrilrnkign------------------------------ttqlpdspyghpvkp---------------------eqhrplynpiytypvg----ppapap-gapgvpnqsqip---mhmrhwpsphtvsdilg---fprpgvpinaneqtgpvs--------------------------------------------------------------------------------gaisnesaryqtqmgegyg---------------lnhmn-qmqgqtekvkypdvsqsslpavssfvs-----apypgppppq--tmaympyhqspttvgpttgwqqprfps-----------vglqsplr----rgasa-----slhr-ypsnps----pphklv-----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>P15863</seq-name>
+<seq-info>
+<accession>P15863</accession>
+<nid>P15863</nid>
+<definition>   Paired box protein Pax-1 HUP48.</definition>
+<organism>   Homo sapiens (Human). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Paired.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>38</fstart><fstop>431</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>431</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>294</fstart><fstop>306</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>355</fstart><fstop>371</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>289</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>311</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>440</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>259</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>279</fstart><fstop>280</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>45</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Q -) H (in a patient with neural tube def</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>195</fstart><fstop>203</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>131</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>282</fstart><fstop>440</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------meqtygevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpnvvkhirdyk-qgdp-gifaweirdrlladgv-cdkynv----ps-----vssisrilrnkigslaqp------------------------gpyeaskq---ppsqpt----------------------------lpynhiyqypypspvsptgakmgshpgvpgtaghvsiprswpsahsvsnilg---irt-fmeqtgal---------------------------agsegtays-------pkmedw-agvnrtafp-----at--pavnglekpal-eadik-yt---------qsastlsavggflpacaypasnq---------hgvy----sapg-ggylapgppwppaqgpplappgagvavhggelaaamtfkhpsregslpapaarprtpsvaytdcpsrprpprgssprtrarrerqadpgaqvcaaapaigtgrigglaeeeasagprgarpaspqaqpclwpdpphflywsgflgfselgf-----------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q9PSA2</seq-name>
+<seq-info>
+<accession>Q9PSA2</accession>
+<nid>Q9PSA2</nid>
+<definition>   PAX-1 PRODUCTSCLEROTOME development regulatorDNA-binding transcriptional activatoCoturnix</definition>
+<organism>   Coturnix coturnix (Common quail). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>291</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>152</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>266</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>195</fstart><fstop>203</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>128</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------mehtygevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpnvvkhirdyk-qgdp-gifaweirdrlladgv-cdkynv----ps-----vssisrilrnkigslsqp-----------------------ggpydggkq---pptqpa---------------------lpynplyqypypgpma---ppaakms-ahpg-pvpaahv---glprswpsahsvsnilg---irt-fveqtgal---------------------------ggtegsayp-------pkmedw-pgvnrtafp-----sa--qad----kaav-egdik-yp---------qpapglssvgsflpacayppgnq---------hgvy----gapg--gyippghpwqpq-----ghhgpgvtvhggdlasamafkqpgrevtdrkagspvgkssdplspihglsipasss----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q0PZI2</seq-name>
+<seq-info>
+<accession>Q0PZI2</accession>
+<nid>Q0PZI2</nid>
+<definition>   Paired box protein 1.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>358</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>283</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>297</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>355</fstart><fstop>358</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>271</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>281</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>128</fstart><fstop>192</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>287</fstart><fstop>358</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------meqnygevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttptvvkhirdyk-qgdp-gifaweirdrlladnv-cdkynv----ps-----vssisrilrnkignlsqp------------------------nqyespkq---spsqpt---------------------lpynplyqypypnpis---pgstkggshhpgvhmptghv---niarqwpsahsvnnilg---irygfmdqs-pi---------------------------agtegsvys-------pkmedw-asvnrsgfp-----gs--qnmngleksvv-epdik-ys---------qsasslstvgsfvsacayptsnq---------ygvy----gppg-agyvppghhwqtqg----splghsvtvhggdiaapvtfkh--revvnrkpnspiikipetlsnvhglplpasss----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q0PJT3</seq-name>
+<seq-info>
+<accession>Q0PJT3</accession>
+<nid>Q0PJT3</nid>
+<definition>   Pax9 splice variant b.</definition>
+<organism>   Astyanax fasciatus (Blind cave fish) (Astyanax mexicanus). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>221</fstart><fstop>227</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>249</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>259</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>202</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>237</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>196</fstart><fstop>204</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>128</fstart><fstop>192</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------mepafgevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttptvvkhirtyk-qrdp-gifaweirdrlladgv-cdkfnl----ps-----vssisrilrnkignvgqq------------------------nqyesskqtshpppqpa---------------------lpynhlys--yptpia---atgtkvp-tppgmsslpghm---amhriwpsshsvtdilg---irs-iteqq------------------------------n------------------aew-iahs--------------------------eqlch-ss---------qhps-lpssh-psvalhgvqrhh---------vglc---------drphmaaaqwqcs-------lspql-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q9DGR0</seq-name>
+<seq-info>
+<accession>Q9DGR0</accession>
+<nid>Q9DGR0</nid>
+<definition>   Paired box protein.</definition>
+<organism>   Lampetra japonica (Japanese lamprey) (Entosphenus japonicus). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>264</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>316</fstart><fstop>327</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>335</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>179</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>160</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>286</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>206</fstart><fstop>214</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>247</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------mdqsfgevnqlggvfvngrplpnai--rlrivemaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpnvvnhirtyk-qrdp-gifaweirdklladgv-cdkynv----ps-----vssisrilrnkignlsqppnags------------------sshydgpkqqgqstptga---------------------lpynhiya--ypsamapkvpspaampgvgvgvgmgmgsm---cmprawpsshsvsdilg---yraalqahalamgdscay---------------pthglamgdggaypg-------kvheewgsamsrasfq-----aat-qgvngmekqspgepehk-ys---------qahaslpavssfvsaaqgvraygnpqtqvp--agayvqyaghpgagflpeaaagwqaaqgsg---gaaaag-vaggpalsalhhvaaelpsparyktapardgrqllkyarvsv---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q2VL61</seq-name>
+<seq-info>
+<accession>Q2VL61</accession>
+<nid>Q2VL61</nid>
+<definition>   Paired box protein Pax-9.</definition>
+<organism>   Macaca mulatta (Rhesus macaque). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Paired.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>17</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>211</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>210</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>79</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>46</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>67</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>195</fstart><fstop>203</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>197</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------mepafgevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttptvvkhirtyk-qrdp-gifaweirdrlladgv-cdkynv----ps-----vssisrilrnkignlaqq------------------------ghydsykq-hqptpqpa---------------------lpynhiys--ypspit---aaaakvp-tppgvpaipgsv---amprtwpsshsvtdilg---irs-itdq-------------------------------vsdsspyhs-------pkveew-sslgrnnfp-----ataphavnglekgvl-eqeak-yg---------qapnglpavg-sfvsassmapy---ptpaq--vspymtys-aapsg--yvaghgwqhagstp---lsphncdipaslafkgmqaare-------------gshs-----vtasal--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O96094</seq-name>
+<seq-info>
+<accession>O96094</accession>
+<nid>O96094</nid>
+<definition>   Pax19 related.</definition>
+<organism>   Halocynthia roretzi (Sea squirt). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>47</fstart><fstop>179</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>53</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>66</fstart><fstop>502</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>66</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>128</fstart><fstop>133</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>159</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>266</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>99</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>126</fstart><fstop>128</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>88</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>169</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>65</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>302</fstart><fstop>325</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>116</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>87</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>53</fstart><fstop>179</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>260</fstart><fstop>268</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>274</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------mmqsptqnqpvtfssphpgaggivsimpnstnsaqmfpqngiytnvvrsteqtfgevnqlggifvngrplpnti--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpsvvnaikdyk-irdp-gifaweirdrllsdci-cdkynv----ps-----vssisrilrnkignvlhphnpln--------------pnyvpatqecmkemssgsgahp---------------------hpyctspaamytpymm---qpagskqppmptvptapgcfrapaip-yplyshsmseilgiprfdq-qipvticgatipgtn-nhypphg-------tmvipnenmpsams-------tkmedw-srvpaygvt-----ppaqvtsvnvngsslseidkn-snvthenippnthsvppqthstnyasisennylttspvsvpppvsgyqnshpymshqygasqgingwhsvhsghgpqraisphnmmsqmtqgptgtiiqisdhnkqltikvrmalalwlrsmfipsnsnsisrrhpl-itthpiknhpiiriqrvlr-------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O96090</seq-name>
+<seq-info>
+<accession>O96090</accession>
+<nid>O96090</nid>
+<definition>   Pax19.</definition>
+<organism>   Ciona intestinalis (Transparent sea squirt). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>32</fstart><fstop>163</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>37</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>50</fstart><fstop>423</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>112</fstart><fstop>117</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_12</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>83</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>112</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>153</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>47</fstart><fstop>49</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>283</fstart><fstop>304</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>100</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>71</fstart><fstop>87</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>37</fstart><fstop>163</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>170</fstart><fstop>423</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------minmqtatqnqsvgfssplqnpg-----------------mvsmmpts-aasnqtfgevnqlggvfvngrplpnal--rlriielaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttpgvvnaikdyk-vrdp-gifaweirdrllsdav-cdkynv----ps-----vssisrilrnkignvlhpnnpln--------------pnyvpisn--ienstppqstnm---------------------rptynsp--iynhymv---pptgk-----pnmpnapptirgspmpchpfyshsvteilrgsrfdqpqlqgtapsnsmtsesisvappngsy----hhqllp-vsvpsvip--------kleew-nnmtpygvp-----pptqvttghlngg-----eks-spvsrd-itslqqs---ptseenrsahplstlyvtppantp-----yvtsapqman--------nshhyvtpg-lhsivxpsrlaatiftdercgprln----rkpgtpeectqltkwrrttrip---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q9Y1W7</seq-name>
+<seq-info>
+<accession>Q9Y1W7</accession>
+<nid>Q9Y1W7</nid>
+<definition>   Pax19.</definition>
+<organism>   Ptychodera flava. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>134</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>21</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>252</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>338</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>135</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>286</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>295</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>83</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>18</fstart><fstop>20</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>71</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>42</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>134</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>190</fstart><fstop>198</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>131</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------mhfgmeqtfgevnqlggvfvngrplpnai--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttptvvnhikeyk-qhdp-gifaweirdrlmadgv-cdkynv----ps-----vssisrilrnkignn----------------------------nmqhlqhssy-dptkd-----------------------hrpiynpiypypcpg---apstvn-skpmatnpgpi--------rwpsshsvndilg---frh----gql-----------iehqgpfs----vypppessnhshtai-------aeysrppppthgsgyp-----tpgdhqrgtvdpqnaes-kph-vdadtsklqisqadptlsavgnfapsgltispyh--ptpty--vptygatapipsslghgvwpt-sgfasgat--tvadsavlrpaplaykpvvttssscsveggtsvhkhnptmhlipathaqsas-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q0GF38</seq-name>
+<seq-info>
+<accession>Q0GF38</accession>
+<nid>Q0GF38</nid>
+<definition>   Paired box transcription factor pax19.</definition>
+<organism>   Saccoglossus kowalevskii. Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>134</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P15863</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>21</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>246</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>343</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>42</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>82</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>135</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>189</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_14</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>154</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>289</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_19</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>215</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_33</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>83</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>18</fstart><fstop>20</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>71</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>42</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>134</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>189</fstart><fstop>197</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>134</fstart><fstop>318</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>364</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------mhygmeqtfgevnqlggvfvngrplpngi--rlrivelaqlg-i-----rpcdisrqlrvs-hgcvskila-rynetgsilpgaiggskprv-ttptvvkhikeyk-rmdp-gifaweirdrliadnv-cdkynv----ps-----vssisrilrnkvgnn----------------------------tiqhlqhsgy-dpvkd---------------------h-hrpmynplypypcg-----pgpan-tksittnqaal--------rwpsshsvhdilg---frhagmmgqg-----------pdhqgpfa----mypdstghshaassl-------adysrpphhat-tgyp-----gpadhqrssmhcesvkaeksh-legdtgkmsisptdpslpnvgsfvpstltispyhh-pnpty--vptygattamssslghsvwhsgngfpcssg--tnlnsdvlrpaalaykpvvttss-csvvenas-hqhtnsmaliqst--qss--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PAX4_RAT</seq-name>
+<seq-info>
+<accession>PAX4_RAT</accession>
+<nid>PAX4_RAT</nid>
+<definition>   Paired box protein Pax-4.</definition>
+<organism>   Rattus norvegicus (Rat). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>5</fstart><fstop>131</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Paired.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>177</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_PF00046 Homeobox_PARTIAL from Q0IH87</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>146</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>146</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>132</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>18</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>80</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>108</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>51</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>80</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>40</fstart><fstop>47</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>121</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>15</fstart><fstop>17</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>155</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>169</fstart><fstop>181</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P06601</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>39</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>5</fstart><fstop>131</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>39</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00034 PAIRED_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>5</fstart><fstop>131</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------mqqdgls------svnqlgglfvngrplpldt--rqqivqlairg-m-----rpcdisrslkvs-ngcvskilg-ryyrtgvlepkgiggskprl-atpavvariaqlk-deyp-alfaweiqrqlcaegl-ctqdka----ps-----vssinrvlralqedq---------------------------------rlhwtqlrsp-------------------------------------------------------------------------------------------------------------------------------------------------------------------------efqr-gqyp------dsvvrgklaaatslpedtvrvselwntv--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O77238</seq-name>
+<seq-info>
+<accession>O77238</accession>
+<nid>O77238</nid>
+<definition>   Eyegone.</definition>
+<organism>   Drosophila melanogaster (Fruit fly). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>232</fstart><fstop>291</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>233</fstart><fstop>289</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>134</fstart><fstop>150</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>317</fstart><fstop>331</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>361</fstart><fstop>375</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>386</fstart><fstop>399</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>399</fstart><fstop>409</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>80</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>COIL</ftype><fstart>397</fstart><fstop>417</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_COIL</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>50</fstart><fstop>52</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>259</fstart><fstop>268</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>273</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>40</fstart><fstop>52</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>245</fstart><fstop>254</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>265</fstart><fstop>288</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>230</fstart><fstop>290</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>169</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------msqhrllefs-rfgglrgydiaqhm--ltqqgavskllgslrppgliggskpkv-atptvvskieqyk-renp-tifaweirerlisegv-ctnata----ps-----vssinrilrnraaervat----------------efartaayg--lypppphpygsf-twhpagn---------------------------------------------vpggqgvppppppsalwsvaaptlanlppsaasavpvstcgslssahlmaggaggtptnraispgsgshdtles-adenr-hidsdyld----dddepkfrrnrttfspeqleelekefdk-shyp------cvstrerlssrtslsearvqvwfsnrrakwrrhqrmnllkrqrsspanplhsqqsndapassptpsnhssastsapv--apvpppqqplplcgdhspqgpppsvllhplhgppgghhhhhplhlpthpaalqllshyhqqqqqqqqqqhqqqqqqhhqqqqqlspsg-cnpaanhlsmggersafrslvsspsapaflglarqyavaasltvaeeqrsrlhysagglgsggegtgpntnttqsggstmtvdnsssdsdee---invhddsrw----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q626D6</seq-name>
+<seq-info>
+<accession>Q626D6</accession>
+<nid>Q626D6</nid>
+<definition>   Hypothetical protein CBG01026.</definition>
+<organism>   Caenorhabditis briggsae. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>206</fstart><fstop>261</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>206</fstart><fstop>262</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>133</fstart><fstop>146</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>282</fstart><fstop>298</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>52</fstart><fstop>54</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>232</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>246</fstart><fstop>266</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>218</fstart><fstop>227</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PRD_DROME</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>238</fstart><fstop>261</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>203</fstart><fstop>263</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>163</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------masqqplsqeqllhfw-gahntigkmtrrts--qhesavkhssnnssgg----agtkpkv-atpqvvakieqyk-rdnp-tifaweireklineev-cttp------ps-----vssinrilrtraaeraae----------------elqmilsaqhiarpqirpqevrl------------------------------------------------------pppfpfplplvwpgllp-npaqlsfllnsralapnlqsg-vgvpgntpgss--gqlsidsnp--slseddsvlgansr---------------------rlsrstfsndqlqsleevflr-epyp------sqteradlvkrtglpeariqvwfsnrrakwr---ktnan--drdelk-----------aersetddamsncs--------qspspgg-qgsssee-krkaftlfkpye------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q5EVJ9</seq-name>
+<seq-info>
+<accession>Q5EVJ9</accession>
+<nid>Q5EVJ9</nid>
+<definition>   Homeodomain protein Pax37d.</definition>
+<organism>   Oikopleura dioica (Tunicate). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>3</fstart><fstop>125</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Paired. from P23760</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>155</fstart><fstop>214</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDHomeobox from P23760</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>156</fstart><fstop>212</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 Homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>123</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>49</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>77</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>108</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_8</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_9</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_25</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>49</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>38</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>123</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>13</fstart><fstop>15</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>182</fstart><fstop>191</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>196</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>66</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>168</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>188</fstart><fstop>211</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS00027 HOMEOBOX_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>153</fstart><fstop>213</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50071 HOMEOBOX_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>125</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>114</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------mqnsa------klnqlggafvngrplslet--rekivqmsqmg-v-----raciisrdlrvs-hgcvskilt-rfnktgeikpgasggskrrssvsneneclivelr-qqfa---yawelreemvkrg----akkv----ps-----vdqikrvlrakg----------------------------------------cpeegdt-----------------------------------------------------------------------tdpasdl-----------------------------------------------dqspp--------pmke-aaptk--prrarsnftqaqvealegaflk-thyp------dvymreelssltnlsenrvqiwfsnrraryrkqchaqqasnqp----------iqtalcp---stapaip---sppqlsnsppviswpqenys----qdsql---------mhefyssqqay-------------fqqaq-iyqnivpqqfy-vqqaaq-nenvign----------espgndsgcys-----ppvltn--daapeqiylap------------------vnppavafspedsfqqyftqaf------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q20551</seq-name>
+<seq-info>
+<accession>Q20551</accession>
+<nid>Q20551</nid>
+<definition>   Hypothetical protein.</definition>
+<organism>   Caenorhabditis elegans. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>97</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>67</fstart><fstop>80</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>143</fstart><fstop>156</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>132</fstart><fstop>139</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>116</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>107</fstart><fstop>109</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>160</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PAX6_HUMAN</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>97</fstart><fstop>220</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>29</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----mdepvidtstpeslerdfmawlnsdptntpirksvyhssdsiapalisqftdafeagmynpyyypdtsdsgspsslscssldydvppppqyekdvarssgrnqlgrtyspglplsmce--reeivklfqgg-w-----kicdiskrlcvt-hscvskiln-ryrqtgsvkpkdakegrte----splvlavrdyr-srlg-mcrqseireqlirdgv-ctrdna----psrssinhilrtkldikrrkkslade-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q21972</seq-name>
+<seq-info>
+<accession>Q21972</accession>
+<nid>Q21972</nid>
+<definition>   Hypothetical protein.</definition>
+<organism>   Caenorhabditis elegans. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>14</fstart><fstop>77</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>32</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>25</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>13</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------mqqnpsqdgrknrkkgtnlygrpycpgrplsmee--rtriiqlhnng-m-----kvnaiskslcis-hgcvskiis-rfratgvllpacsp------------eqr-ksrk-rkss--megsameqsfipvfv-smqdan----gne-ylneyysipvgnn-dgsgydyp--------vsi--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q19677</seq-name>
+<seq-info>
+<accession>Q19677</accession>
+<nid>Q19677</nid>
+<definition>   Hypothetical protein.</definition>
+<organism>   Caenorhabditis elegans. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>87</fstart><fstop>96</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>28</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>41</fstart><fstop>52</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>53</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>42</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>19</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from P26367</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS51057 PAIRED_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>63</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------mplpmnsgekvkavg-----rsynpgrplcled--rkkivrlyeeg-c-----rvshiarligvt-hscvskims-ryrrtgsvqprsfr------------ate--nqe-ndna-twqqqqlkqqqkkekp-lp-fsi-----e-----rf------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q5TS10</seq-name>
+<seq-info>
+<accession>Q5TS10</accession>
+<nid>Q5TS10</nid>
+<definition>   ENSANGP00000027475.</definition>
+<organism>   Anopheles gambiae str. PEST. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>28</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00292 PAX</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>40</fstart><fstop>51</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_7</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>178</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_31</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>79</fstart><fstop>81</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PROP_STRAND from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>41</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from Q02548</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PRD_DROME</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>75</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_HELIX from PRD_DROME</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>40</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PS00034 PAIRED_1 from P91751</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>157</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>782</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------mdtss----rsvqkitlvtprrvlkttsdkdrrriisafekg------vsasaiskilnik-qgtvygiik-nykerlqidskkrggqnpkl-ltpeaidsihrwvdenesvtlkv-ltervfkdhglrvssttvarevra-----yknptkmpkiqyrcdr-----------------------------ctlnhqteecpfdd------------------------------------------------------------------------evieglkcstcn-------------------------------------ephgandsqcp----trkdpfatsplpseeiehees-stqsfldalsplkaepswpssatqsparetsivtatplsfqndvshiiieeadalststdanslhdpetlltifkemsaklracrtkadqiqvlgeiiiryg-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+</alignment>
+</macsim>

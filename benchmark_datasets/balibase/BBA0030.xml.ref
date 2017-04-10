@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0030.xml</aln-name>
+<aln-score>0.69</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Homo sapiens (Human).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+</lineage>
+<taxid>9606</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>91</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>109</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>115</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>66</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) L (in dbSNP:rs13502).</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>53</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003723</goid><goclass>F</goclass><godesc>RNA binding</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0006414</goid><goclass>P</goclass><godesc>translational elongation</godesc><goevidence>EXP</goevidence></goxref>
+</goxreflist>
+<length>136</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----sahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvikrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrtqkpvmvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvikrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvmvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvikrrsgqrkpatsyvrtti-nrnaratlssirhmirknkyrpdlrmaairrasailrsqkpvmvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvmkrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvvvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Mus musculus (Mouse).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10090</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>91</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>109</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>115</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>53</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>136</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----sahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvmkrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvvvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvmkrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvvvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>54</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgvepaadgk-gvvvvmkrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvvvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Rattus norvegicus (Rat).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Sciurognathi</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+</lineage>
+<taxid>10116</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>91</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>57</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>109</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>115</fstart><fstop>115</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine By similarity</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>136</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----sahlqwmvvrncssflikrn-----kqtystepnnlkarnsfrynglihrktvgveawpdgk-gvvvvmkrrsgqrkpatsyvrtti-nknaratlssirhmirknkyrpdlrmaairrasailrsqkpvvvkrkrtrptkss------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>Ribosomal protein L28</definition>
+<organism>Ictalurus punctatus (Channel catfish).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Siluriformes</taxon>
+<taxon>Ictaluridae</taxon>
+</lineage>
+<taxid>7998</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>92</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>112</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>137</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---msahlqwmvirnnssflikrn-----gqtystepnnlkarnafrfnglihrktvgveqaadgk-gvviilkkraghrkpakayekiti-nknsrttlnrlrniirknkyrkdlrmaalrrasailksqkpvvvkkkrsratksa------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28-1</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>66</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>85</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>118</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>123</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005618</goid><goclass>C</goclass><godesc>cell wall</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0009507</goid><goclass>C</goclass><godesc>chloroplast</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>143</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>matvpgqliweivknnncflvkqfgrgnskvqfsketnnltnvhsykhsglankktvtiqaadkdq-avvlattktkkqnkpklsvnksil-kkefprmskavanqvvdnyyrpdlkkaalarlsaiskglrvaksgakqrnrqa--------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28-2</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>66</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>85</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>118</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>122</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0022625</goid><goclass>C</goclass><godesc>cytosolic large ribosomal subunit</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005886</goid><goclass>C</goclass><godesc>plasma membrane</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>143</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>matvpgqliweivkrnncflvkqfgrgnakvqfskesnnlvninsykhsglankktvtiqaagkdq-gvvlgttktkrqnkpklsvnksil-kkefsrmskvvanqvvdnyyrpdlkkaalarlsaiskglrvaksgpkrrnrqa--------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>66</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>86</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>119</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>123</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>145</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>matipdslvwelvkknnsflvkqfgngnakvqfskepnnlynvhsykhsglankktvtvqpasgketavvlsttktekqnkpaslyhksvm-rkefrkmakavknqvsdnyyrpdltkpalarlsavyrslqvaksgvkkknrqan-------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Probable 60S ribosomal protein L28e</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Taphrinomycotina</taxon>
+<taxon>Schizosaccharomycetes</taxon>
+<taxon>Schizosaccharomycetales</taxon>
+<taxon>Schizosaccharomycetaceae</taxon>
+</lineage>
+<taxid>4896</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>98</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>63</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>82</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>116</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>60</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005829</goid><goclass>C</goclass><godesc>cytosol</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>134</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-msvsndliwqvirdnnrflvkrpef--ggiqfnrepvnvsgknaqrfsglcndkavgvqansprg-vvlitktnpknaqkpaklfrkdvianassrktyksiagrigrtgyrddlvkvsvarasailssqrpkktva---------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Drosophila melanogaster (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7227</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>62</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>81</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>114</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>116</fstart><fstop>144</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000022</goid><goclass>P</goclass><godesc>mitotic spindle elongation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>144</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-matsshlnwliirnnnafllkkrdv---kkpfstepnnlasvssyrysgivhkktlgvvpaadkk-gftavlkkgkyaqrpakntvrvdf-kagprrslkklknlligskyrkdltqaalrrasavlrsqkpapvkgkkaefakgkkpe---------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Ribosomal protein L28 isoform C</definition>
+<organism>Drosophila melanogaster (Fruit fly).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Diptera</taxon>
+<taxon>Brachycera</taxon>
+<taxon>Muscomorpha</taxon>
+<taxon>Ephydroidea</taxon>
+<taxon>Drosophilidae</taxon>
+<taxon>Drosophila</taxon>
+</lineage>
+<taxid>7227</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>140</fstart><fstop>165</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>62</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>81</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>114</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000022</goid><goclass>P</goclass><godesc>mitotic spindle elongation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>165</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-matsshlnwliirnnnafllkkrdv---kkpfstepnnlasvssyrysgivhkktlgvvpaadkk-gftavlkkgkyaqrpakntvrvdf-kagprrslkklknlligskyrkdltqvimapslettvwvlvmmifflmlhnqdrrmivlinlsealkaeayrtsvlglf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>90</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>58</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>104</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>2</fstart><fstop>2</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>111</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005515</goid><goclass>F</goclass><godesc>protein binding</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009792</goid><goclass>P</goclass><godesc>embryonic development ending in birth or eg...</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0040007</goid><goclass>P</goclass><godesc>growth</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0002119</goid><goclass>P</goclass><godesc>nematode larval development</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>126</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msdalvwqvirnnsaflrtqrgi---gkrfstekfnlkkvnspkysglankhaidvsaaa--k-gvvvstknekg--rpakavttstl-sktpvasvrrlaknagfnkfnk----laqrraaaivrsqvkkakvqktda-----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Spodoptera frugiperda (Fall armyworm).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Endopterygota</taxon>
+<taxon>Lepidoptera</taxon>
+<taxon>Glossata</taxon>
+<taxon>Ditrysia</taxon>
+<taxon>Noctuoidea</taxon>
+<taxon>Noctuidae</taxon>
+<taxon>Amphipyrinae</taxon>
+</lineage>
+<taxid>7108</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>24.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>19.99</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>65</fstart><fstop>79</fstop><fcolor>2</fcolor><fscore>12.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>112</fstop><fcolor>3</fcolor><fscore>14.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>108</fstart><fstop>139</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>139</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msshlnwmiirnnnaflvkkrni---kkpfskepnnvtnlnsyryngliqkkavgvvenpdrk-gftvvykkakatnkpaknavrrqf-kagarrslykvkrllkanhyrtdlskatlrrasailrsqrpikakkpkaavakte------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Dictyostelium discoideum (Slime mold).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Amoebozoa</taxon>
+<taxon>Mycetozoa</taxon>
+<taxon>Dictyosteliida</taxon>
+</lineage>
+<taxid>44689</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>25.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>55</fstop><fcolor>1</fcolor><fscore>17.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>111</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>132</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---msqdlvwsiikknnaflkssh-----gltlsaepgnlrnknslkysglarrttidvaavng---kvvvsskivkkaafpaqskktttf-stvntrktarfvktla-tqyapelraaalgrlhrvqsalrsakkaaarkakkn--------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>60S ribosomal protein L28</definition>
+<organism>Trypanosoma cruzi.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastida</taxon>
+<taxon>Trypanosomatidae</taxon>
+<taxon>Trypanosoma</taxon>
+</lineage>
+<taxid>5693</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01778 Ribosomal_L28e</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>3</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>25.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>77</fstop><fcolor>2</fcolor><fscore>14.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>102</fstart><fstop>146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005840</goid><goclass>C</goclass><godesc>ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003735</goid><goclass>F</goclass><godesc>structural constituent of ribosome</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006412</goid><goclass>P</goclass><godesc>translation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>146</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-mthstdlqwllvrqnskflqkrn-----girlssdpfnnnanwtkrhagflntkaavvktkgd---rilvttkdgkagnkpksmykkavm-dagveasvvskavaav----rpdlasiasrrarkmastlehmkkvraarkersskitfqrkavrpkrh-----------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 3 100 100 100 100 100 100 100 100 25 100 100 0 100 100 100 100 100 100 100 100 0 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 26 100 100 7 100 100 100 100 100 100 100 100 100 100 100 100 1 9 39 100 100 100 0 100 100 100 25 25 21 100 27 100 26 100 4 100 100 100 100 6 26 100 0 27 0 100 100 0 100 76 100 26 100 24 100 100 11 4 30 100 3 22 100 100 100 100 100 100 100 1 100 100 100 100 100 100 30 100 100 100 100 100 100 100 27 77 100 100 100 100 35 100 100 27 100 100 30 100 2 100 100 100 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 2 1 9 2 1 100 0 100 0 32 37 39 11 100 34 1 100 100 1 27 16 0 1 0 0 0 0 3 0 2 14 56 7 63 8 0 100 5 1 5 1 0 51 0 37 1 41 100 19 1 8 16 20 37 8 0 54 1 4 4 2 1 1 3 0 0 2 3 4 1 0 14 3 0 64 0 3 7 4 100 14 1 0 0 0 14 1 0 3 0 8 9 0 0 2 12 1 0 1 3 1 4 2 0 3 0 0 7 0 20 19 2 25 36 2 7 1 14 2 3 30 1 3 10 11 0 4 1 1 2 0 1 4 1 0 0 1 2 1 2 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 1 30 2 1 100 0 100 0 28 39 48 16 11 23 2 100 100 0 21 14 0 0 0 0 0 0 3 0 2 5 50 8 58 10 0 100 3 5 3 0 0 45 0 40 2 21 100 19 0 6 9 15 37 8 0 64 1 4 3 1 1 0 2 0 0 4 4 11 3 0 22 1 0 45 0 2 4 3 100 16 3 1 0 0 11 2 0 3 0 7 9 0 0 1 7 5 0 0 7 1 3 0 0 2 0 0 6 0 14 14 2 18 28 1 1 2 46 1 4 100 4 8 13 32 0 9 11 1 5 0 1 2 1 0 3 3 3 2 2 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

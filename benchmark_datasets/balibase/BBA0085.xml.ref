@@ -1,0 +1,1189 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0085.xml</aln-name>
+<aln-score>0.38</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Feruloyl esterase A</definition>
+<organism>Aspergillus niger.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+<taxon>mitosporicTrichocomaceae</taxon>
+</lineage>
+<taxid>5061</taxid>
+<ec>3.1.1.73</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>83</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>26</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>70</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>13.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>16.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>169</fstop><fcolor>2</fcolor><fscore>19.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>184</fstop><fcolor>3</fcolor><fscore>27.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>216</fstop><fcolor>4</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>238</fstop><fcolor>5</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>252</fstop><fcolor>6</fcolor><fscore>20.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>265</fstart><fstop>273</fstop><fcolor>7</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>77</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>194</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>273</fstart><fstop>279</fstop><fcolor>10</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>253</fstart><fstop>258</fstop><fcolor>11</fcolor><fscore>17.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>223</fstop><fcolor>14</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>21</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>gnal; Xylan degradation.</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>25</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>29</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>64</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>69</fstart><fstop>76</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>86</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>92</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>103</fstart><fstop>105</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>116</fstart><fstop>118</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>119</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>155</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>172</fstart><fstop>180</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>187</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>206</fstart><fstop>212</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>217</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>236</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>242</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>245</fstart><fstop>248</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>250</fstart><fstop>252</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>255</fstart><fstop>259</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>266</fstart><fstop>269</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>148</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>100</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005576</goid><goclass>C</goclass><godesc>extracellular region</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030248</goid><goclass>F</goclass><godesc>cellulose binding</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030600</goid><goclass>F</goclass><godesc>feruloyl esterase activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016998</goid><goclass>P</goclass><godesc>cell wall macromolecule catabolic process</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030245</goid><goclass>P</goclass><godesc>cellulose catabolic process</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0045490</goid><goclass>P</goclass><godesc>pectin catabolic process</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0045493</goid><goclass>P</goclass><godesc>xylan catabolic process</godesc><goevidence>IDA</goevidence></goxref>
+</goxreflist>
+<length>281</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mkqfsakyalillatagqalaastqg----------------------------------------------------------------------------------------------------------isedlynrlvematisqaayadlcni-------------------pstiik--gekiy-naqtdin--------------------------gwilrdd--------tskeiitvfrgtgsdtnlqldtnytltpfdtlpq--------------cn---dcevhggyyigwisv--qdqve--slvkqqasqyp------------dyaltvtghslgasmaaltaaqlsa-tydn----------vrlytfgeprsgnqafasymndafqvsspett-----------qyfrvthsndgipnlppa-------------------------------------------------------------------------------------degyahggveywsvdpysa-qntfvctgde----vqcceaqg------------gqgvndahttyfgmtsgactw-----------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Feruloyl esterase A</definition>
+<organism>Aspergillus tubingensis.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+<taxon>mitosporicTrichocomaceae</taxon>
+</lineage>
+<taxid>5068</taxid>
+<ec>3.1.1.73</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>83</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>26</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>52</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>70</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>102</fstop><fcolor>0</fcolor><fscore>13.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>16.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>169</fstop><fcolor>2</fcolor><fscore>19.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>184</fstop><fcolor>3</fcolor><fscore>27.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>215</fstop><fcolor>4</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>237</fstop><fcolor>5</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>251</fstop><fcolor>6</fcolor><fscore>20.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>264</fstart><fstop>272</fstop><fcolor>7</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>71</fstart><fstop>77</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>193</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>272</fstart><fstop>278</fstop><fcolor>10</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>252</fstart><fstop>257</fstop><fcolor>11</fcolor><fscore>17.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>222</fstop><fcolor>14</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>144</fstop><fcolor>21</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>148</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>100</fstart><fstop>100</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005576</goid><goclass>C</goclass><godesc>extracellular region</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0030600</goid><goclass>F</goclass><godesc>feruloyl esterase activity</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016998</goid><goclass>P</goclass><godesc>cell wall macromolecule catabolic process</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0045490</goid><goclass>P</goclass><godesc>pectin catabolic process</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0045493</goid><goclass>P</goclass><godesc>xylan catabolic process</godesc><goevidence>ISS</goevidence></goxref>
+</goxreflist>
+<length>280</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mkqfsakyaiavvvtaghalaastqg----------------------------------------------------------------------------------------------------------isedlysrlvematisqaayadlcni-------------------pstiik--gekiy-nsqtdin--------------------------gwilrdd--------sskeiitvfrgtgsdtnlqldtnytltpfdtlpq--------------cn---scevhggyyigwisv--qdqve--slvqqqvsqfp------------dyaltvtghslgaslaaltaaqlsa-tydn----------irlytfgeprs-nqafasymndafqasspdtt-----------qyfrvthandgipnlppa-------------------------------------------------------------------------------------degyahgvveywsvdpysa-qntfvctgde----vqcceaqg------------gqgvnnahttyfgmtsghctw-----------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>47</fstart><fstop>70</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>79</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>139</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>187</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>13.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>242</fstop><fcolor>1</fcolor><fscore>16.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>260</fstart><fstop>283</fstop><fcolor>2</fcolor><fscore>19.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>303</fstop><fcolor>3</fcolor><fscore>27.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>321</fstart><fstop>328</fstop><fcolor>4</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>336</fstart><fstop>350</fstop><fcolor>5</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>355</fstart><fstop>362</fstop><fcolor>6</fcolor><fscore>20.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>377</fstart><fstop>385</fstop><fcolor>7</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>305</fstart><fstop>313</fstop><fcolor>9</fcolor><fscore>22.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>385</fstart><fstop>391</fstop><fcolor>10</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>365</fstart><fstop>370</fstop><fcolor>11</fcolor><fscore>27.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>158</fstart><fstop>164</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>335</fstop><fcolor>14</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>392</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mvsfisisqgvslcllvssmmlgssavpvsgksgssntavsasdnaalpplissrcappsnkgsksdlqaepynmqkntewyeshggnltsigkrddnlvggmtldlpsdappislssstnsasdggkvvaattaqiqe-ftkyagiaataycrsvvp---gnkwdcv--qcqkwvpdgkiit----tft-sllsdtn--------------------------gyvlrsd--------kqktiylvfrgtnsfrsaitdivfnfsdykpvk--------------------gakvhagflssyeqvvndyfp----vvqeqltahp------------tykvivtghslggaqallagmdlyqreprlsp------knlsiftvggprvgnptfayyvestgip------------------fqrtvhkrdivphvppq-------------------------------------------------------------------------------------sfgflhpgveswiksgtsn---vqictsei--etkdcsnsiv------------pftsildhlsyfdinegscl------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Lipase</definition>
+<organism>Rhizomucor miehei.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Fungiincertaesedis</taxon>
+<taxon>Basalfungallineages</taxon>
+<taxon>Mucoromycotina</taxon>
+<taxon>Mucorales</taxon>
+<taxon>Mucoraceae</taxon>
+</lineage>
+<taxid>4839</taxid>
+<ec>3.1.1.3</ec>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>170</fstart><fstop>307</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>60</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>61</fstart><fstop>67</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>109</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>157</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>189</fstop><fcolor>0</fcolor><fscore>13.44</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>212</fstop><fcolor>1</fcolor><fscore>16.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>253</fstop><fcolor>2</fcolor><fscore>19.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>266</fstart><fstop>273</fstop><fcolor>3</fcolor><fscore>27.34</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>291</fstart><fstop>298</fstop><fcolor>4</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>306</fstart><fstop>320</fstop><fcolor>5</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>326</fstart><fstop>333</fstop><fcolor>6</fcolor><fscore>20.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>356</fstop><fcolor>7</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>283</fstop><fcolor>9</fcolor><fscore>22.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>356</fstart><fstop>362</fstop><fcolor>10</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>336</fstart><fstop>341</fstop><fcolor>11</fcolor><fscore>27.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>124</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>129</fstart><fstop>135</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>305</fstop><fcolor>14</fcolor><fscore>25.54</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>24</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Hydrolase; Lipid degradation; Signal;</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>100</fstart><fstop>102</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>105</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>135</fstart><fstop>138</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>144</fstart><fstop>150</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>157</fstart><fstop>163</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>168</fstart><fstop>173</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>179</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>190</fstart><fstop>192</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>200</fstart><fstop>202</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>203</fstart><fstop>226</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>237</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>239</fstart><fstop>253</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>263</fstart><fstop>268</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>276</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>289</fstart><fstop>294</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>299</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>305</fstart><fstop>307</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>314</fstart><fstop>321</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>324</fstart><fstop>329</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>339</fstart><fstop>342</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>349</fstart><fstop>352</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>232</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>238</fstart><fstop>238</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Nucleophile</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>297</fstart><fstop>297</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>351</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>123</fstart><fstop>362</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>137</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>329</fstart><fstop>338</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016042</goid><goclass>P</goclass><godesc>lipid catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>363</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mvlkqranylgflivfftaflveavpikrqsnstvd----------slpplipsrtsapssspsttdpea--pamsrngplpsdvetkygmaln----------------atsypdsvvqamsidggi--raatsqeineltyyttlsansycrtvip---gatwdci--hcd-atedlkiik----tws-tliydtn--------------------------amvargd--------sektiyivfrgsssirnwiadltfvpvsyppvsg--------------------tkvhkgfldsygevqnelvat---vl-dqfkqyp------------sykvavtghslggatallcaldlyqreeglss------snlflytqgqprvgdpafanyvvstgip------------------yrrtvnerdivphlppa-------------------------------------------------------------------------------------afgflhageeywitdnspe--tvqvctsdl--etsdcsnsiv------------pftsvldhlsyfgintglct------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Mono- and diacylglycerol lipase</definition>
+<organism>Penicillium camembertii.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+<taxon>mitosporicTrichocomaceae</taxon>
+</lineage>
+<taxid>5075</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>103</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>79</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF03893 Lipase3_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>122</fstop><fcolor>0</fcolor><fscore>12.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>145</fstop><fcolor>1</fcolor><fscore>26.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>186</fstop><fcolor>2</fcolor><fscore>24.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>35.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>226</fstop><fcolor>4</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>248</fstop><fcolor>5</fcolor><fscore>22.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>290</fstop><fcolor>7</fcolor><fscore>18.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>97</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>212</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>38</fstart><fstop>49</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>63</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>226</fstart><fstop>233</fstop><fcolor>14</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>26</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Signal; Zymogen.</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>165</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>171</fstart><fstop>171</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Nucleophile By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>225</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>285</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>251</fstart><fstop>251</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>62</fstart><fstop>67</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>DISULFID_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>129</fstart><fstop>132</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>DISULFID_Nlinked GlcNAc</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016042</goid><goclass>P</goclass><godesc>lipid catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>305</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mrlsfftalsavaslgyalpgklqsrdv--------------------------------------------------------------------------------------------------------stseldq-fefwvqyaaasyyeadytaqvgdklscskgncpeveatgatvs--ydfsd-stitdta--------------------------gyiavdh--------tnsavvlafrgsysvrnwvadatfvhtnpgl-----------------cd---gclaelgfwsswklv--rddii--kelkevvaqnp------------nyelvvvghslgaavatlaatdlrgkgyps----------aklyayasprvgnaalakyitaqg-------------------nnfrfthtndpvpklpll-------------------------------------------------------------------------------------smgyvhvspeywits-----pnnatvstsd-ikvidgdvsfdgntgt----glplltdfeahiwyfv-qvdagkgpglpfkrv---------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Predicted protein</definition>
+<organism>Aspergillus oryzae.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Trichocomaceae</taxon>
+<taxon>mitosporicTrichocomaceae</taxon>
+</lineage>
+<taxid>5062</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>105</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF03893 Lipase3_N</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>12.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>147</fstop><fcolor>1</fcolor><fscore>26.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>188</fstop><fcolor>2</fcolor><fscore>24.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>203</fstop><fcolor>3</fcolor><fscore>35.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>227</fstop><fcolor>4</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>22.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>293</fstop><fcolor>7</fcolor><fscore>18.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>99</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>213</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>40</fstart><fstop>51</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>65</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>234</fstop><fcolor>14</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>167</fstart><fstop>176</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016042</goid><goclass>P</goclass><godesc>lipid catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>306</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mrflsgfvsvlssvallgyaypta------------------------------------------------------------------------------------------------------idvrdipttqled-fkfwvqyaaatycpnnyvakdgeklncsvgncpdveaagstvk--lsfsd-dtitdta--------------------------gfvavdn--------tnkaivvafrgsysirnwvtdatfpqtdpgl-----------------cd---gckaelgfwtawkvv--rdrii--ktldelkpehs------------dykivvvghslgaaiaslaaadlrtknyd-----------ailyayaaprvankplaefitnqg-------------------nnyrfthnddpvpklpll-------------------------------------------------------------------------------------tmgyvhispeyyita-----pdnttvtdnq-vtvldgyvnfkgntgtsg--glpdllafhshvwyfi-hadackgpglplr-----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>Lipase</definition>
+<organism>Fusarium heterosporum.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>mitosporicHypocreales</taxon>
+</lineage>
+<taxid>42747</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>108</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>301</fstart><fstop>333</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>12.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>150</fstop><fcolor>1</fcolor><fscore>26.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>191</fstop><fcolor>2</fcolor><fscore>24.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>206</fstop><fcolor>3</fcolor><fscore>35.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>231</fstop><fcolor>4</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>253</fstop><fcolor>5</fcolor><fscore>22.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>293</fstop><fcolor>7</fcolor><fscore>18.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>102</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>216</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>46</fstart><fstop>57</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>63</fstart><fstop>69</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>238</fstop><fcolor>14</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>333</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mmlvlsllsiiaftaagpvpsvdentrvl------------------------------------------------------------------------------------------------ehravtvttqdlsn-frfylqhadaaycn--fntavgkpvhcsagncpdiekdaaivv------g-svvgtktgig-----------------------ayvatdn--------arkeivvsvrgsinvrnwitnfnfgqkt--------------------cdlvagcgvhtgfldaweev--aanvk--aavsaaktanp------------tfkfvvtghslggavatiaaaylrkdgfp-----------fdlytygsprvgndffanfvtqqtga------------------eyrvthgddpvprlppi-------------------------------------------------------------------------------------vfgyrhtspeywlngg----pldkdytvte-ikvcegianvmcnggtig-------ldilahityfq-smatcapiaipwkrdmsdeelekkltqysemdqefvkqmi--------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>12.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>142</fstop><fcolor>1</fcolor><fscore>26.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>160</fstart><fstop>183</fstop><fcolor>2</fcolor><fscore>24.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>198</fstop><fcolor>3</fcolor><fscore>35.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>224</fstop><fcolor>4</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>246</fstop><fcolor>5</fcolor><fscore>22.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>277</fstart><fstop>285</fstop><fcolor>7</fcolor><fscore>18.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>93</fstop><fcolor>8</fcolor><fscore>22.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>200</fstart><fstop>208</fstop><fcolor>9</fcolor><fscore>13.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>34</fstart><fstop>45</fstop><fcolor>12</fcolor><fscore>21.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>59</fstop><fcolor>13</fcolor><fscore>25.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>231</fstop><fcolor>14</fcolor><fscore>32.21</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>291</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------mrsslvlffvsawtalaspi------------------------------------------------------------------------------------------------------------rrev-sqdlfnqfnlfaqysaaaycgknndapagtnitctgnacpevekadatfl--ysfed-sgvgdvt--------------------------gflaldn--------tnklivlsfrgsrsienwignlnfdlkeindi----------------cs---gcrghdgftsswrsv--adtlr--qkvedavrehp------------dyrvvftghslggalatvagadlrgngyd-----------idvfsygaprvgnrafaefltvqtgg-----------------tlyrithtndivprlppr-------------------------------------------------------------------------------------efgyshsspeywiksg----tl-vpvtrnd-ivkiegidatggnnqpni-------pdipahlwyfg-ligtcl------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>134</fstop><fcolor>2</fcolor><fscore>32.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>3</fcolor><fscore>28.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>178</fstop><fcolor>4</fcolor><fscore>27.87</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>220</fstop><fcolor>6</fcolor><fscore>33.33</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>241</fstop><fcolor>7</fcolor><fscore>26.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>241</fstart><fstop>247</fstop><fcolor>10</fcolor><fscore>26.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>222</fstart><fstop>227</fstop><fcolor>11</fcolor><fscore>17.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>178</fstart><fstop>185</fstop><fcolor>14</fcolor><fscore>27.87</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>109</fstop><fcolor>21</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>211</fstop><fcolor>22</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>17</fstop><fcolor>23</fcolor><fscore>19.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>93</fstop><fcolor>24</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>265</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maqkcfdnnwptmklsk-rilvncsdpspilpltqca----------------------------mitavdt--------tqkvlvmsfratntgtqleeeflnyfvakk-affd------------------sgyifeffydaylalw-kggle--aemrnlkyryp------------dyevwvtghslgaalasvgaswvvktglfkp-------eqmklltagqprtgdyaysnwhqntfays------------------frivhahdmvphlpfqyelvdh--------------------------------------------------------------------------------dkmyhhrteiwynndmsigssyhvcqead---gfycsnqn-------------adlswndhthyyntdldgygdkgcpkrteqfqvitil-------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Protein F46G10.4 confirmed by transcript evidence</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>99</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>95</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>13.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>166</fstart><fstop>189</fstop><fcolor>2</fcolor><fscore>24.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>206</fstop><fcolor>3</fcolor><fscore>37.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>231</fstop><fcolor>4</fcolor><fscore>35.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>265</fstart><fstop>272</fstop><fcolor>6</fcolor><fscore>28.85</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>292</fstart><fstop>300</fstop><fcolor>7</fcolor><fscore>18.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>93</fstop><fcolor>8</fcolor><fscore>24.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>216</fstop><fcolor>9</fcolor><fscore>21.86</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>306</fstop><fcolor>10</fcolor><fscore>18.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>276</fstart><fstop>281</fstop><fcolor>11</fcolor><fscore>18.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>48</fstop><fcolor>12</fcolor><fscore>17.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>238</fstop><fcolor>14</fcolor><fscore>35.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>250</fstart><fstop>263</fstop><fcolor>22</fcolor><fscore>20.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>70</fstop><fcolor>23</fcolor><fscore>17.26</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>152</fstop><fcolor>24</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>336</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>---------mepgnksititpvvyllltffhsvsgyal-----------------------------------------------------------------------------------------------------------------yrevea-eqflnlaaaayadasnvtarqscldyafptdefhvlmvmstpcd----rrgnqcq----------------------------afiaisd--------stnqviisfrgtnsggqllsefgvgledya-ayteidgsnntvs---------vghvnvyfldamnqmw-----e--dmvqpsiknrq------------nytflitghslggamatltafriafrqfs---------srikvhtfgeprvgdtvfasyftdmvpya------------------frvvhntdpiphlpplnvaneag------------------------------------------------------------------------------pgmpyhhpreiwynddf---snyvmcsdvn-gedwscsdkkrfw--------nygskgayrhthyfnhfvseygalgcnstphkqtillsifvpifaifsfyl-------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Protein F28H7.3 confirmed by transcript evidence</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>92</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>47</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>63</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>137</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>251</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>12.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>178</fstop><fcolor>2</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>197</fstop><fcolor>3</fcolor><fscore>34.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>222</fstop><fcolor>4</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>253</fstart><fstop>260</fstop><fcolor>6</fcolor><fscore>20.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>274</fstart><fstop>282</fstop><fcolor>7</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>80</fstart><fstop>86</fstop><fcolor>8</fcolor><fscore>16.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>207</fstop><fcolor>9</fcolor><fscore>14.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>288</fstop><fcolor>10</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>267</fstop><fcolor>11</fcolor><fscore>17.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>222</fstart><fstop>229</fstop><fcolor>14</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>235</fstart><fstop>251</fstop><fcolor>22</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>48</fstart><fstop>63</fstop><fcolor>23</fcolor><fscore>19.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>122</fstart><fstop>137</fstop><fcolor>24</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>47</fstop><fcolor>25</fcolor><fscore>15.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>153</fstop><fcolor>26</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>157</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>294</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mlklftllcvvytayglvlpasml------------------------------------------------------------------------------------------------------------asytdafartqmlalasaayssn-----pqhcldskftnaklqr-qiyvknca---lvsndvcs----------------------------gytavlh--------ndkaivisfrgtqgffqliseanksvfesqmswia------------------ggkvskyfgdaftkvw-aagmk--ddfatllaanp------------gyevwvsghslggslaslaasyvigtkmvdg-------srvklvtygeprtgnkdyahahdnqlafs------------------yrvthnrdvvphvpnedf------------------------------------------------------------------------------------mgyyhnkyevyyrenmksgakfticngde---dngcsdg------------lwittsiddhlhyfekdisawgdkgcn-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>Protein B0035.13 confirmed by transcript evidence</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>94</fstart><fstop>233</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>50</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>66</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>139</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>155</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>253</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>12.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>180</fstop><fcolor>2</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>192</fstart><fstop>199</fstop><fcolor>3</fcolor><fscore>34.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>224</fstop><fcolor>4</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>262</fstop><fcolor>6</fcolor><fscore>20.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>277</fstart><fstop>285</fstop><fcolor>7</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>82</fstart><fstop>88</fstop><fcolor>8</fcolor><fscore>16.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>209</fstop><fcolor>9</fcolor><fscore>14.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>291</fstop><fcolor>10</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>265</fstart><fstop>270</fstop><fcolor>11</fcolor><fscore>17.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>224</fstart><fstop>231</fstop><fcolor>14</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>253</fstop><fcolor>22</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>66</fstop><fcolor>23</fcolor><fscore>19.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>124</fstart><fstop>139</fstop><fcolor>24</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>50</fstop><fcolor>25</fcolor><fscore>15.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>145</fstart><fstop>155</fstop><fcolor>26</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>159</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>297</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mwsltlsfslvfltfvqarvivdpvaf---------------------------------------------------------------------------------------------------------atydddtarnkffplaaaayssn-----pqtclsakfknaqlrr--qvnvqcd---tgkndics----------------------------aytalla--------gnnaivlsfrgtqgflqlieeadksvfqsqsqwva------------------ggkvskyfgdafnklw-nggmk--ddfnnlfhnnp------------kfevwvtghslggamaslaasfliannivpg-------nqvklvtygqprtgttpfavahdaqmays------------------yrvthnrdivphipnegm------------------------------------------------------------------------------------edykhhkaevfykesmnagasfkvcsssd--esndcsng------------llitasvsdhltyftkdvsqwgeagcn-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>154</fstart><fstop>298</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>150</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>15.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>222</fstart><fstop>245</fstop><fcolor>2</fcolor><fscore>30.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>264</fstop><fcolor>3</fcolor><fscore>40.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>282</fstart><fstop>289</fstop><fcolor>4</fcolor><fscore>26.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>337</fstop><fcolor>6</fcolor><fscore>31.98</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>349</fstart><fstop>357</fstop><fcolor>7</fcolor><fscore>21.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>148</fstop><fcolor>8</fcolor><fscore>19.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>339</fstart><fstop>344</fstop><fcolor>11</fcolor><fscore>18.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>14</fcolor><fscore>26.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>312</fstart><fstop>328</fstop><fcolor>22</fcolor><fscore>17.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>188</fstart><fstop>203</fstop><fcolor>24</fcolor><fscore>19.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>111</fstop><fcolor>25</fcolor><fscore>15.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>210</fstart><fstop>220</fstop><fcolor>26</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>224</fstart><fstop>233</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>374</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mkfrevfalaafatlaislgqa-------------------------------------------gnvlvckdiqdcktcaesyihilgfkedcrwcletntcggpiscpigkpviqkdafkcptpykptagkrytdalg-rslfavatavrdsn-----vteclrnvrpdisfsr--syevecd----gsgnlck----------------------------giiakse--------eakalyvaykgstagkqvfaemlhgltaqlgawekfesq--------------dagvinyfhtafyrlfidsgme--ddlvdlmkkhr------------nyrvwltghslggslasmtalhlvkkksvdk-------nrirlitfgeprtgniayakeieenipfr------------------yrvikrgdpvpnmpaplnpavltaaqy--------------------------------------------------------------------------nrqamhyrylvhydnnmgkgdgfnvcsvad---dlgcrnt--------------amsnladhtsyfqvdqddfvrnhcprgqli--------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>100</fstart><fstop>239</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>56</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>72</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>145</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>161</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>256</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>119</fstop><fcolor>0</fcolor><fscore>12.19</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>186</fstop><fcolor>2</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>205</fstop><fcolor>3</fcolor><fscore>34.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>230</fstop><fcolor>4</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>265</fstop><fcolor>6</fcolor><fscore>20.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>289</fstop><fcolor>7</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>94</fstop><fcolor>8</fcolor><fscore>16.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>215</fstop><fcolor>9</fcolor><fscore>14.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>289</fstart><fstop>295</fstop><fcolor>10</fcolor><fscore>17.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>273</fstop><fcolor>11</fcolor><fscore>17.57</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>237</fstop><fcolor>14</fcolor><fscore>29.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>256</fstop><fcolor>22</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>57</fstart><fstop>72</fstop><fcolor>23</fcolor><fscore>19.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>145</fstop><fcolor>24</fcolor><fscore>27.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>56</fstop><fcolor>25</fcolor><fscore>15.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>161</fstop><fcolor>26</fcolor><fscore>15.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>165</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>305</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------mqalllaavllplasafvlpeapknpenldvyt---------------------------------------------------------------------------------------------------ipyndatarkkilfaagaaygsn-----pqqcldkaftgasirr--iitarcd---vnpadkcv----------------------------gytavsp--------qdkaiivvfrgtnnnvqlilegletvfeyhtpwaa------------------ggvvsqyfndgflniw-naglk--ddfntlaaqnp------------gfqvwvtghslggamaslaasyitynklfda-------sklqlvtygqprvgdkayaaavdrdvtnk------------------frvthahdpvphlpkenm------------------------------------------------------------------------------------qgfthhkaevfykekm---tkynicddid--esefcsngq-----------vlpdtsikdhlhyfdvdvsdlgysncanvkn---------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>78</fstop><fcolor>2</fcolor><fscore>21.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>34.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>113</fstart><fstop>120</fstop><fcolor>4</fcolor><fscore>24.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>160</fstop><fcolor>6</fcolor><fscore>34.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>181</fstop><fcolor>7</fcolor><fscore>21.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>167</fstop><fcolor>11</fcolor><fscore>26.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>120</fstart><fstop>127</fstop><fcolor>14</fcolor><fscore>24.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>43</fstart><fstop>53</fstop><fcolor>21</fcolor><fscore>19.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>136</fstart><fstop>151</fstop><fcolor>22</fcolor><fscore>20.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>37</fstop><fcolor>24</fcolor><fscore>17.14</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>194</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mrqllvqwlifgmgwmedfpl----------------------ggqmtavfvrnykdil-nfgfd--kavedavgrfp------------sysflmtghslggamttvfslhvalr-ypa--------kqvrlyawsgprsgdetfvkmlkehvfeq------------------yrivrdgdfvpdfplrisqt---------------------------------------------------------------------------------lpaahhntfeiyypkhm-ttdnyricdqae---tesclkgs-------------wwktmfshifmfdmnffnsqfmdyce------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Protein Y51A2B.4 partially confirmed by transcript evidence</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>97</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>74</fstop><fcolor>2</fcolor><fscore>21.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>93</fstop><fcolor>3</fcolor><fscore>26.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>118</fstop><fcolor>4</fcolor><fscore>23.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>240</fstop><fcolor>6</fcolor><fscore>26.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>261</fstart><fstop>269</fstop><fcolor>7</fcolor><fscore>22.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>269</fstart><fstop>275</fstop><fcolor>10</fcolor><fscore>22.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>244</fstart><fstop>249</fstop><fcolor>11</fcolor><fscore>20.96</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>125</fstop><fcolor>14</fcolor><fscore>23.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>231</fstop><fcolor>22</fcolor><fscore>22.73</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>158</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>307</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msqfffesmsafipdttfh--------------------glgeinfyfsmthksi-wpki---hef-lmatnys------------nhdviftghslggslaalsafetvlsgirns-------sqvkvvtlaeprtgnlifaknfdrhlrfs------------------frvingmdalahlppchkdyrhwpradlpcdprsrtdwkivekkvgkivfckkkfcfcdqflsekfdeighfsdgeiskkilkkkillvlplknsnlthfgdycpyhhsteiwypdgmnttskyitcngsq-gedmfcsdkvhvtv-------atlgkgitdhrkyfgkmigqygksncnpdrtfdenegflgkvkviseminkvi-----------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein T08B1.4</definition>
+<organism>Caenorhabditis elegans.</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Nematoda</taxon>
+<taxon>Chromadorea</taxon>
+<taxon>Rhabditida</taxon>
+<taxon>Rhabditoidea</taxon>
+<taxon>Rhabditidae</taxon>
+<taxon>Peloderinae</taxon>
+</lineage>
+<taxid>6239</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>34</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>149</fstop><fcolor>2</fcolor><fscore>25.82</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>168</fstop><fcolor>3</fcolor><fscore>40.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>193</fstop><fcolor>4</fcolor><fscore>26.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>250</fstop><fcolor>6</fcolor><fscore>15.46</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>272</fstart><fstop>280</fstop><fcolor>7</fcolor><fscore>21.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>280</fstart><fstop>286</fstop><fcolor>10</fcolor><fscore>21.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>255</fstart><fstop>260</fstop><fcolor>11</fcolor><fscore>20.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>200</fstop><fcolor>14</fcolor><fscore>26.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>241</fstop><fcolor>22</fcolor><fscore>25.38</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>320</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------mrhviepfrnfvkkvrsrgknfnfcrepsgtekifilkisskrvaitwivpvrrlqsspkm-----------------------------------------hdellwcseehdlrysqlflegwqsvgtgidff--------------------dmgevnryflnahlvl-wpei---ekv-itnprwa------------nfditftghslggalaslaaartakqgfrsg-------sqikvytfgqprvgnvqfarnfdailpnt------------------yrvvfrrdivphmpachkn-----------------------------------------------------------------qtfiseheggakpchaehqdyyhhgteiwypdemsagahyveclgapknedfgcsdrikffv-------dqsdtytwdhrhyfgvkvppygktgcddllpegkptvfenvvkrlnlltrtigld---------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<definition>Calmodulin-binding heat-shock protein</definition>
+<organism>Nicotiana tabacum (Common tobacco).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Solanales</taxon>
+<taxon>Solanaceae</taxon>
+<taxon>Nicotianoideae</taxon>
+<taxon>Nicotianeae</taxon>
+</lineage>
+<taxid>4097</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>106</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>73</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF03893 Lipase3_N</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>15</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>191</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>319</fstart><fstop>449</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>191</fstop><fcolor>2</fcolor><fscore>19.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>37</fstop><fcolor>13</fcolor><fscore>21.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>345</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016042</goid><goclass>P</goclass><godesc>lipid catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>449</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------msvacgaecvlvlgclrwawkrctytgndds-----------------------------------------------------------------------------------------------------------------------------------atwptatyeefepvpricrtilavyepnlrspkyppkggyrlnpdwvikrvtyeqtsgnappyliycdh--------ehqeivvairglnllnesdykvlldnrlgkqmfd-------------------ggyvhhgllksavwv--lnnes--etlkklwiengr-----------sykmifaghslgsgvaslltvivan---------------hkdrlggiprsllrcyavaparcms-------------------lnlavkyadiihsvvl---------------------------------------------------------------------------------------qddflprtatpledifksifclpcliflvclrdtfipegrklrdprrlyapgrmyhiverrfcrcgrftpdvrtaipvdgrfehivlsrnatvdhgiiwieresekvlarlkeasaettttppkvqkierlktlekehkdaleravslniphavdadeeestesiteessqkqeedamtskaqcsdartnwnevveklfnrdesgklrlkrdatgpe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>Pn47p</definition>
+<organism>Ipomoea nil (Japanese morning glory) (Pharbitis nil).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>asterids</taxon>
+<taxon>lamiids</taxon>
+<taxon>Solanales</taxon>
+<taxon>Convolvulaceae</taxon>
+<taxon>Ipomoeeae</taxon>
+</lineage>
+<taxid>35883</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>135</fstart><fstop>291</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>321</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>358</fstart><fstop>401</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>15.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>170</fstart><fstop>181</fstop><fcolor>1</fcolor><fscore>23.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>212</fstart><fstop>235</fstop><fcolor>2</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>249</fstart><fstop>256</fstop><fcolor>3</fcolor><fscore>21.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>282</fstop><fcolor>4</fcolor><fscore>14.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>116</fstart><fstop>122</fstop><fcolor>8</fcolor><fscore>18.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>258</fstart><fstop>266</fstop><fcolor>9</fcolor><fscore>13.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>50</fstop><fcolor>15</fcolor><fscore>27.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>64</fstop><fcolor>16</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>94</fstop><fcolor>17</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>210</fstop><fcolor>18</fcolor><fscore>24.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>301</fstart><fstop>312</fstop><fcolor>19</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>333</fstart><fstop>342</fstop><fcolor>20</fcolor><fscore>27.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>314</fstart><fstop>321</fstop><fcolor>28</fcolor><fscore>28.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>214</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>402</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------msgiakrwkvlsgsdnwegllepldsdlrrylihygtmvspatdsfineaasknvglpryarrnllancglvkgnpf-kyevtkyfyapstiplpdegyn--vratradavlkesnwngyvavatdegkva-lgrrdilivwrgtirksewnenltfwfvkaplffg-----qnsdp-----------lvhkgwydmyttinqdsqlneksardqireevarlvelykde---disitvtghslgssmatlnavdlaanpinn-----nknilvtaflyaspkvgdenfknvisnqqnlra-----------------lrisdvndivtavppf-----------------------------------------------------------------------------gwkegdntailygdvgvglvidsk---kshylkpdf----pnlst-hdlml----------------ymhaidgyqgsqggferqedfdlak--vnkygdylkaeypipigwfnikdkgmvqqddgnyilddhevdktf---------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>At4g18550</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>150</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>332</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>371</fstart><fstop>414</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>15.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>197</fstop><fcolor>1</fcolor><fscore>23.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>251</fstop><fcolor>2</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>270</fstart><fstop>277</fstop><fcolor>3</fcolor><fscore>21.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>296</fstart><fstop>303</fstop><fcolor>4</fcolor><fscore>14.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>131</fstart><fstop>137</fstop><fcolor>8</fcolor><fscore>18.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>279</fstart><fstop>287</fstop><fcolor>9</fcolor><fscore>13.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>65</fstop><fcolor>15</fcolor><fscore>27.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>79</fstop><fcolor>16</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>110</fstop><fcolor>17</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>226</fstop><fcolor>18</fcolor><fscore>24.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>312</fstart><fstop>323</fstop><fcolor>19</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>344</fstart><fstop>353</fstop><fcolor>20</fcolor><fscore>27.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>332</fstop><fcolor>28</fcolor><fscore>28.88</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>419</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------mkrkkkeeeeeklivtrefakrwrdlsgqnhwkgmlqpldqdlreyiihygemaqagydtfnintesqfagasiysrkdffakvgleiahpytkykvtkfiyatsdihvp-esfl--lfpisregwskesnwmgyvavtddqgtal-lgrrdivvswrgsvqplewvedfefglvnaikifg-----erndq----------vqihqgwysiymsqderspftktnardqvlrevgrllekykde---evsiticghslgaalatlsatdivangynrpksrpdkscpvtafvfasprvgdsdfrklfsgledirv-----------------lrtrnlpdvipiyppi---------------------------------------------------------------------------------------gysevgdefpidtr---kspymksp-----gnlatfhcleg----------------ylhgvagtqgtnkadlfrldveraiglvnksvdglkdecmvpgkwrvlknkgmaqqddgswelvdheiddnedldf-----------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>Triacylglycerol lipase like protein</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>243</fstart><fstop>394</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>239</fstart><fstop>262</fstop><fcolor>0</fcolor><fscore>29.06</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>281</fstart><fstop>292</fstop><fcolor>1</fcolor><fscore>29.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>319</fstart><fstop>342</fstop><fcolor>2</fcolor><fscore>28.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>353</fstart><fstop>360</fstop><fcolor>3</fcolor><fscore>31.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>385</fstop><fcolor>4</fcolor><fscore>31.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>8</fcolor><fscore>39.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>385</fstart><fstop>392</fstop><fcolor>14</fcolor><fscore>31.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>173</fstop><fcolor>15</fcolor><fscore>29.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>186</fstart><fstop>202</fstop><fcolor>17</fcolor><fscore>26.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>298</fstart><fstop>317</fstop><fcolor>18</fcolor><fscore>17.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>424</fstart><fstop>435</fstop><fcolor>19</fcolor><fscore>33.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>456</fstart><fstop>465</fstop><fcolor>20</fcolor><fscore>38.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>446</fstart><fstop>455</fstop><fcolor>27</fcolor><fscore>30.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>437</fstart><fstop>444</fstop><fcolor>28</fcolor><fscore>28.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>321</fstart><fstop>330</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>601</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>mqtltpnadifhakrrrftcnthtstliptkplsvsparktnkehlrnlenvlrtssnsidhienvtsrqekttkntstssllgglnlariwpqmkaavdemspknlkrlqrllsksseerspksklgskwrelhglnnwaglldpldenlrrelvrygefvqaayhafhsdpegsprhval----------------pdgsfkvtkslyatssvrlp-kwid--dvapdlrwmtkqtswvgyvavcddpreirrmgrreivialrgtatllewsenfrpnlvsmpepkp-----dqsdpt--------rpkvecgfnslyttgdqhap----slaeslvgeisrlvelyage---elsisvtghslgaaiallaaddiae-rvph-------appvavfsfggprvgnrefadrldsk-gvkv-----------------lrvvnsqdvvtkvpgifadndkqgqsrnn----------------------------------------------------grspggime-----mvernnpwayshvgaelrvdmk---mspylkpn-----advacchdlea----------------ylhlvdgflasncpfranakrslrklldeqrsnvkvlytgkslrlnrtfhdngdvlprdtgqgdnpimkykllfryavglsiliittvflpipnfhtfyfhflifislsflsltnqqvllsthfvsfiltfsldlliipsmawssh-------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>At2g44810T13E15.18</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>121</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>332</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>117</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>13.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>173</fstop><fcolor>1</fcolor><fscore>21.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>220</fstop><fcolor>2</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>238</fstop><fcolor>3</fcolor><fscore>26.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>256</fstart><fstop>263</fstop><fcolor>4</fcolor><fscore>17.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>107</fstop><fcolor>8</fcolor><fscore>17.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>248</fstop><fcolor>9</fcolor><fscore>13.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>263</fstart><fstop>270</fstop><fcolor>14</fcolor><fscore>17.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>42</fstop><fcolor>15</fcolor><fscore>27.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>56</fstop><fcolor>16</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>83</fstop><fcolor>17</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>195</fstop><fcolor>18</fcolor><fscore>24.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>302</fstart><fstop>313</fstop><fcolor>19</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>333</fstart><fstop>342</fstop><fcolor>20</fcolor><fscore>27.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>323</fstart><fstop>332</fstop><fcolor>27</fcolor><fscore>30.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>199</fstart><fstop>208</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0009507</goid><goclass>C</goclass><godesc>chloroplast</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0047714</goid><goclass>F</goclass><godesc>galactolipase activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0008970</goid><goclass>F</goclass><godesc>phospholipase A1 activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009901</goid><goclass>P</goclass><godesc>anther dehiscence</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009695</goid><goclass>P</goclass><godesc>jasmonic acid biosynthetic process</godesc><goevidence>IGI</goevidence></goxref>
+<goxref><goid>GO:0009695</goid><goclass>P</goclass><godesc>jasmonic acid biosynthetic process</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0010152</goid><goclass>P</goclass><godesc>pollen maturation</godesc><goevidence>IMP</goevidence></goxref>
+<goxref><goid>GO:0009611</goid><goclass>P</goclass><godesc>response to wounding</godesc><goevidence>IEP</goevidence></goxref>
+</goxreflist>
+<length>357</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------meyqglqnwdglldplddnlrreilrygqfvesayqafdfdpssptygtcrfprstllersgl----pnsgyrltknlratsginlp-rwie--k-aps--wmatqsswigyvavcqdkeeisrlgrrdvvisfrgtatclewlenlratlthlpngpt-ganlngsns---------gpmvesgflslytsgvh-------slrdmvreeiarllqsygde---plsvtitghslgaaiatlaaydikt-tfkr-------apmvtvisfggprvgnrcfrkllekq-gtkv-----------------lrivnsddvitkvpgvvlenreqdn--------------------------------------------------------vkmtasimpswiqrrve-etpwvyaeigkelrlssr---dsphl-ss-----invatchelkt----------------ylhlvdgfvsstcpfretarrvlhr--------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>Putative lipase</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Viridiplantae</taxon>
+<taxon>Streptophyta</taxon>
+<taxon>Embryophyta</taxon>
+<taxon>Tracheophyta</taxon>
+<taxon>Spermatophyta</taxon>
+<taxon>Magnoliophyta</taxon>
+<taxon>eudicotyledons</taxon>
+<taxon>coreeudicotyledons</taxon>
+<taxon>rosids</taxon>
+<taxon>eurosidsII</taxon>
+<taxon>Brassicales</taxon>
+<taxon>Brassicaceae</taxon>
+</lineage>
+<taxid>3702</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>228</fstart><fstop>391</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>359</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>13.63</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>194</fstop><fcolor>1</fcolor><fscore>21.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>251</fstop><fcolor>2</fcolor><fscore>22.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>268</fstart><fstop>275</fstop><fcolor>3</fcolor><fscore>26.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>293</fstart><fstop>300</fstop><fcolor>4</fcolor><fscore>17.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>126</fstart><fstop>132</fstop><fcolor>8</fcolor><fscore>17.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>277</fstart><fstop>285</fstop><fcolor>9</fcolor><fscore>13.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>300</fstart><fstop>307</fstop><fcolor>14</fcolor><fscore>17.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>65</fstop><fcolor>15</fcolor><fscore>27.59</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>79</fstop><fcolor>16</fcolor><fscore>15.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>106</fstop><fcolor>17</fcolor><fscore>26.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>223</fstop><fcolor>18</fcolor><fscore>24.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>328</fstart><fstop>339</fstop><fcolor>19</fcolor><fscore>25.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>360</fstart><fstop>369</fstop><fcolor>20</fcolor><fscore>27.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>350</fstart><fstop>359</fstop><fcolor>27</fcolor><fscore>30.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>312</fstart><fstop>321</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00120 LIPASE_SER</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006629</goid><goclass>P</goclass><godesc>lipid metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>447</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------mtaedirrrdkkteeerrlrdtwrkiqgeddwaglmdpmdpilrselirygemaqacydafdfdpaskycgtsrftrleffdslgm----idsgyevarylyatsninlp-nffs--ksrwskvw-sknanwmgyvavsddetsrnrlgrrdiaiawrgtvtklewiadlkdylkpvtenki-----rcpdp---------avkvesgfldlytdkdttckfarfsareqiltevkrlveehgddddsdlsitvtghslggalailsaydiaemrlnr--skkgkvipvtvltyggprvgnvrfrermeel-gvkv-----------------mrvvnvhdvvpkspglfln--------------------------------------------------------------esrphalm------kiaeglpwcyshvgeelaldhq---nspflkps-----vdvstahnlea----------------mlhlldgyhgkgerfvlssgrdhalvnkasdflkehlqippfwrqdankgmvrnsegrwiqaerlrfedhhspdihhhlsqlrldhpc-----------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>Putative lipase YJR107W</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>96</fstart><fstop>263</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01764 Lipase_3</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>155</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>274</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>230</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>22.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>144</fstart><fstop>155</fstop><fcolor>1</fcolor><fscore>21.03</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>196</fstop><fcolor>2</fcolor><fscore>29.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>211</fstop><fcolor>3</fcolor><fscore>14.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>247</fstart><fstop>254</fstop><fcolor>4</fcolor><fscore>31.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>221</fstop><fcolor>9</fcolor><fscore>14.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>254</fstart><fstop>259</fstop><fcolor>14</fcolor><fscore>31.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>273</fstop><fcolor>19</fcolor><fscore>14.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>181</fstart><fstop>181</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0004806</goid><goclass>F</goclass><godesc>triacylglycerol lipase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016042</goid><goclass>P</goclass><godesc>lipid catabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>328</length>
+<weight>100</weight>
+<group>3</group>
+</seq-info>
+<seq-data>-----------------mpvvhcssnlpitlyiyerlvyfikassiss---------------------------------------------------------------------------------------------------------------------------------------------cisdnlllvnktfndggcpphinfcndeiinptapqtvvelvlnakkgelgsgylavdh--------gkkvvilafrgsttrqdwfsdfeiypvnysplcvkeyrklieegkirece---gckmhrgflrftetl--gmdvf--kkmesilesfp------------eyrivvtghslgaalaslagielkirgfd-----------plvltfatpkifnsemkqwvdelfetdaiekesilkdeiqfrkgyfrvvhtgdyipmvpp----------------------------------------------------------------------------------------fyhpaglemfinkv-glpqnaedieyrgknnrltlkdgfregm--------sglvedwlhvyehrayfidvvgcsgl-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 7 11 6 0 12 0 5 0 0 0 2 5 0 37 7 24 35 100 0 1 0 0 0 0 0 0 0 8 1 1 0 1 8 0 0 0 1 8 1 1 0 1 1 1 0 9 2 9 1 0 0 0 0 0 0 0 0 10 0 1 0 29 1 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 27 1 0 10 8 0 0 0 0 0 0 0 0 18 6 44 1 65 1 2 2 18 100 100 42 0 50 0 8 49 0 1 0 33 0 3 21 0 0 5 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 2 0 0 0 4 3 1 1 9 0 100 21 0 0 5 5 0 0 100 0 0 3 0 0 1 0 0 0 2 0 22 4 7 1 0 4 10 0 31 0 0 0 0 0 0 0 0 0 0 0 0 5 43 7 6 3 19 10 100 100 100 100 100 4 46 1 100 1 38 7 9 3 1 100 0 2 2 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 38 24 34 0 9 3 100 100 5 9 51 1 2 10 100 1 16 17 3 1 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 0 9 33 3 7 100 0 44 100 3 49 100 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 100 21 0 100 0 1 0 100 9 20 2 1 3 0 0 0 0 0 1 0 0 0 0 0 68 0 6 0 0 0 1 1 0 12 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 100 2 0 100 100 0 0 1 0 3 2 9 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 1 4 1 6 0 2 4 0 6 1 1 2 0 0 0 60 0 0 0 5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 3 0 2 0 10 0 1 3 0 0 0 6 0 0 0 0 3 1 3 0 0 5 1 2 1 0 2 0 0 6 0 1 0 0 0 0 0 0 0 0 0 0 0 0 4 6 5 5 0 2 52 100 100 100 100 100 14 15 28 68 43 29 0 48 0 0 5 3 0 4 1 0 0 1 0 0 0 0 0 0 0 0 7 13 5 43 3 0 14 0 14 2 100 100 6 8 2 0 0 16 25 1 0 0 5 4 0 8 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 14 16 5 1 0 0 100 0 35 8 6 8 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 1 2 0 7 12 0 22 2 14 0 12 1 1 0 1 0 7 0 0 15 0 0 1 1 0 0 1 6 0 0 15 3 13 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 8 35 0 0 3 6 2 0 0 1 0 2 0 2 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_3</colsco-name>
+<colsco-owner>group_3</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 1 1 0 0 0 1 5 2 4 2 4 5 13 2 1 3 3 18 0 4 3 18 2 18 12 12 5 18 12 18 1 0 18 18 3 0 11 9 3 18 18 5 2 3 6 4 1 2 2 9 18 0 0 6 2 3 5 2 0 0 3 1 1 0 1 1 3 0 1 1 1 0 0 0 3 0 0 0 0 0 0 0 3 0 0 8 1 6 1 0 0 1 7 6 1 0 2 1 1 3 0 8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 35 3 12 1 0 0 100 100 34 100 100 0 2 18 2 1 3 0 0 0 12 100 52 52 2 39 5 33 8 0 100 100 42 2 13 0 0 46 100 0 10 21 5 6 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 4 25 1 0 0 0 0 0 0 0 0 0 0 0 1 27 4 1 100 2 0 4 6 3 3 12 0 1 2 0 0 1 0 0 0 0 14 0 2 30 3 27 0 2 26 4 1 18 18 7 11 0 3 1 5 11 0 0 0 8 2 21 59 8 41 8 100 100 100 100 100 11 58 31 100 1 100 16 12 0 46 43 3 0 0 0 1 4 3 0 0 0 0 0 0 0 1 0 0 4 4 6 3 1 18 3 2 100 40 50 0 25 1 0 11 13 9 0 4 7 3 0 0 2 2 10 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 100 8 2 8 1 0 100 3 36 5 0 1 100 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 100 2 1 8 100 0 16 11 0 28 14 1 2 0 0 0 0 32 2 0 1 5 0 2 0 0 0 0 0 0 8 19 28 1 0 9 0 14 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 58 100 0 2 10 5 0 0 0 0 0 0 0 0 0 0 6 0 0 0 1 0 2 0 0 0 1 4 6 0 0 1 0 1 1 1 1 0 1 1 0 0 3 0 0 1 1 1 2 1 1 0 1 2 2 2 3 0 1 0 1 0 1 1 2 0 1 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 2 0 2 4 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 3 5 1 0 1 0 0 0 0 0 0 0 0 1 3 10 1 19 1 5 4 1 27 10 9 0 2 0 0 14 0 0 0 7 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 4 0 0 0 10 0 2 0 0 0 0 1 0 0 0 0 0 1 0 0 0 3 0 0 2 1 1 0 0 7 0 2 0 0 0 0 0 0 0 0 0 0 0 0 4 2 6 9 0 7 18 100 100 100 100 100 5 34 10 85 5 42 3 21 0 0 12 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 5 0 10 0 9 2 100 75 5 8 11 0 0 10 12 1 0 0 4 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 4 4 3 0 1 100 0 41 12 1 6 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 2 0 19 1 0 1 2 2 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

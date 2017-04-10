@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0184.xml</aln-name>
+<aln-score>1.31</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>88</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>95</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>154</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>171</fstart><fstop>255</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>278</fstart><fstop>322</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>95</fstop><fcolor>1</fcolor><fscore>7.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>82</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>326</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------msdkykyrveiqqmmfvsgenneppvettsliedivrgqvveillqatrtancrgsksivpedviflirhdkakvnrlrtylswkdlr-knakdqd-aqqaaagggagdgsgpggiddddag--kkdkdgagvnmkvkkssiklpwelqfmfneqplenpde-ddmdddereanmatlkrlkmaddrtrgmtkeeyvhwsdcrqasftfrkskrfkdwsgisqlidskphddvidilgfltfeivcaitetalkiktryerirsmktqsqp--q-----eysvgttrrkkrlfdgpdnvvnplkpehieeawrvlqtvnmkhralsnykggrlssrtv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Protein SPT3</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).</organism>
+<lifedomain>Eukaryota</lifedomain>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+</lineage>
+<taxid>4932</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02269 TFIID-18kDa</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>88</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>95</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>155</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>168</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>257</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>287</fstart><fstop>331</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>88</fstop><fcolor>0</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>95</fstop><fcolor>1</fcolor><fscore>7.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>270</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>76</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>N -) K (in strain: CLIB 556 and CLIB</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>93</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>D -) N (in strain: CLIB 556 and CLIB</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>120</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>G -) S (in strain: CLIB 413 haplotype</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>134</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>V -) I (in strain: R13 haplotype Ha2).</fnote></fitem>
+<fitem><ftype>VARIANT</ftype><fstart>318</fstart><fstop>318</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>R -) K (in strain: YIIc12 haplotype Ha2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>83</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0000124</goid><goclass>C</goclass><godesc>SAGA complex</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0046695</goid><goclass>C</goclass><godesc>SLIK (SAGA-like) complex</godesc><goevidence>IPI</goevidence></goxref>
+<goxref><goid>GO:0005667</goid><goclass>C</goclass><godesc>transcription factor complex</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003702</goid><goclass>F</goclass><godesc>RNA polymerase II transcription factor acti...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003712</goid><goclass>F</goclass><godesc>transcription cofactor activity</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0030437</goid><goclass>P</goclass><godesc>ascospore formation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0000747</goid><goclass>P</goclass><godesc>conjugation with cellular fusion</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0016573</goid><goclass>P</goclass><godesc>histone acetylation</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0001403</goid><goclass>P</goclass><godesc>invasive growth in response to glucose limi...</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0007124</goid><goclass>P</goclass><godesc>pseudohyphal growth</godesc><goevidence>IDA</goevidence></goxref>
+<goxref><goid>GO:0045449</goid><goclass>P</goclass><godesc>regulation of transcription</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0032569</goid><goclass>P</goclass><godesc>specific transcription from RNA polymerase ...</godesc><goevidence>IMP</goevidence></goxref>
+</goxreflist>
+<length>335</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------mmdkhkyrveiqqmmfvsgeindppvettsliedivrgqvieillqsnktahlrgsrsilpedviflirhdkakvnrlrtylswkdlr-knakdqd-asagvasgtgnpgag-geddlkkagggekdekdggnmmkvkksqiklpwelqfmfnehplennddnddmdedereanivtlkrlkmaddrtrnmtkeeyvhwsdcrqasftfrknkrfkdwsgisqltegkphddvidilgfltfeivcsltetalkikqreqvlqtqkdksqqssqdntnfefasstlhrkkrlfdgpenvinplkprhieeawrvlqtidmrhraltnfkggrlsskpi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>75</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>134</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>140</fstart><fstop>147</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>236</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>256</fstart><fstop>300</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>76</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>7.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>304</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>----------------------------------mmfvsgetndppvettsliedivqgqvieillqatktaaargtrsiapedviflmrhdkakvnrlitylswkdvr-kntkdegggtesfieegagagagggatnndqsk----------mitryrklkirlpwevqfmfseqhvdaaddadeaddeekaatiaslkrlkmadertknmtreeyvhwsecrqasftfrkakkfrewaqiaqicesrpnddvidilgfltfeivcslteeamgikaaeeklvqqtmlksg----------kelnkrkrkylfdspdelakpiqpyhieeawrrlqstdykhkaarmfgggmlksrtr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>91</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>98</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>121</fstart><fstop>136</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>141</fstart><fstop>148</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>237</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>257</fstart><fstop>301</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>7.21</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>305</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------mtetgrtskyrveiqqmmfilgevqdplpettqlveelirgqvmemliqanelalrrgsrsitvedlfflirhdrakvnrlktylswkevr-kkakeqd----------anprdtkdlfeevdsk------------trsmn-avampwevknmfte-pvpetee-feedndtmemayatrqrlkmadertkkmtreeyvhwsecrqasftyrkgkrfrewcgmsiltdtrpdndivdilgfltfeivatlteealavkdrmdriqnssgsggs----------haahhpkncslfdgltegrtplqvshvleafrrlqipdkthtamrsfhgglvksrvy
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>117</fstop><fcolor>1</fcolor><fscore>7.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>118</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>aemnntaaspmstatsssgrstgksisfatelqsmmyslgdarrplhetavlvedvvhtqlinllqqaaevsqlrgarvitpedllflmrkdkkklrrllkymfirdykskivkgide-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 8 8 8 8 8 8 8 8 100 100 100 36 1 100 100 0 21 41 100 0 1 100 100 100 18 100 36 100 31 41 36 31 100 100 100 19 100 32 100 41 100 47 11 12 1 100 0 0 100 100 45 48 100 100 0 1 100 100 20 3 100 100 37 100 100 100 38 100 100 100 100 100 100 0 100 100 100 100 100 100 31 14 100 0 100 19 40 100 31 32 7 0 1 3 2 1 0 1 1 1 1 9 4 1 2 3 3 0 5 0 0 12 0 0 7 30 1 0 0 0 0 0 0 0 0 0 0 0 0 1 31 0 0 19 0 6 36 5 38 100 100 100 14 41 0 100 100 8 100 3 2 14 2 4 2 31 28 0 0 25 0 100 14 36 10 0 11 3 5 1 10 45 0 41 100 100 100 100 100 100 25 100 100 31 3 100 100 31 100 100 100 100 100 100 100 25 100 100 100 100 100 100 100 14 100 100 1 100 43 100 31 25 100 0 4 32 42 1 46 0 28 5 31 100 1 22 100 36 36 100 100 100 100 100 100 100 100 100 100 100 1 25 51 100 100 6 100 43 1 36 100 2 10 0 13 2 38 1 6 1 7 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 2 0 0 31 9 0 0 100 100 100 7 0 4 16 0 0 5 100 46 34 1 0 100 36 0 100 100 2 100 0 100 100 1 0 32 0 8 100 6 100 1 5 0 23 0 100 100 0 20 9 100 48 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>(null)</colsco-name>
+<colsco-owner>(null)</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+</colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 2 2 1 1 8 4 8 2 100 100 16 1 0 100 33 1 7 5 100 0 0 100 100 37 1 100 30 100 37 20 42 4 3 100 22 21 24 23 100 0 100 100 8 10 1 39 0 0 100 100 25 45 3 100 5 2 100 100 15 3 100 100 28 100 8 100 44 10 100 22 13 100 100 0 15 100 40 0 0 40 37 0 40 0 100 0 3 100 3 0 10 0 0 0 0 0 0 0 0 0 0 8 1 0 1 1 1 0 1 0 0 2 2 0 2 5 1 0 0 0 0 0 0 0 0 0 0 0 0 1 5 0 0 3 0 2 4 1 4 8 8 8 3 5 0 8 8 2 8 0 1 3 1 1 1 4 4 0 0 4 0 8 3 4 2 0 2 1 2 0 8 5 0 5 8 8 8 8 8 8 4 8 8 5 1 8 8 5 8 8 8 8 8 8 8 4 8 8 8 8 8 8 8 2 8 8 1 8 5 8 5 4 8 0 1 4 5 0 5 0 4 5 5 8 1 3 8 4 4 8 8 8 8 8 8 8 8 8 8 8 0 3 5 8 8 2 8 5 0 4 8 1 2 0 4 5 5 0 2 0 2 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 5 2 0 0 8 8 8 2 0 1 4 0 0 1 8 5 5 0 0 8 4 0 8 8 1 8 1 8 8 0 0 4 0 2 8 2 8 1 2 0 3 0 8 8 0 3 3 8 8 1 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

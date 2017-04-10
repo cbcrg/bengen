@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0056.xml</aln-name>
+<aln-score>0.30</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH0833</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>84</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>434</fstart><fstop>479</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>318</fstart><fstop>416</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>261</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>291</fstart><fstop>307</fstop><fcolor>1</fcolor><fscore>21.13</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>379</fstart><fstop>387</fstop><fcolor>4</fcolor><fscore>16.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>275</fstart><fstop>280</fstop><fcolor>5</fcolor><fscore>38.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>428</fstart><fstop>444</fstop><fcolor>7</fcolor><fscore>12.83</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>450</fstart><fstop>467</fstop><fcolor>8</fcolor><fscore>18.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>477</fstart><fstop>483</fstop><fcolor>9</fcolor><fscore>29.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>468</fstart><fstop>476</fstop><fcolor>11</fcolor><fscore>24.64</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>266</fstart><fstop>483</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>30</fstart><fstop>264</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>483</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>mllivgtpfnhiydlskdlkyptktklrgkmtkfgieyfdkyilrggfpngsmilivgepgtgktilsatylyngakkfgekgmyislaetkwefykgmkqlgmdfeelennglfkfidlvtvskdavekeiellmseissfhpkrividsisvftqllgaektriflhtilgrfikandatalliaekpigsktigygveefvvdgviilkyksfgevtrrvmeipkmrrrkieraeyeyvitkngiefltipelkisekdytsekittgierldemldgg-iykgssvlivgmtgtgkttfslhfaianalq-grkvayitfeepidqiirsaknygmpieevlgrnlkifawvpesktp----------------------vhtyi-kikeiieefkpealiidsltalreh--------------ldekeltkmlryl-qlltkekr-----ittyftfteeakf--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dvvpftgastmvdviillkyei--enekiekrlaiikargsnhsr-kihkyeitn-rgveiye-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Recombinase</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>57</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>31.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>46</fstop><fcolor>1</fcolor><fscore>26.16</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>20</fstop><fcolor>5</fcolor><fscore>31.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>86</fstop><fcolor>6</fcolor><fscore>24.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>201</fstart><fstop>218</fstop><fcolor>8</fcolor><fscore>17.62</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>228</fstart><fstop>234</fstop><fcolor>9</fcolor><fscore>19.71</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>219</fstart><fstop>227</fstop><fcolor>13</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>4</fstart><fstop>167</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>238</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------merrisrtgtgikglddiiggy--pqgrsilvtgdpgsgktimglqfaiqsars-glktiyitteedetdlriqcaslgwditdllesg-klsiiglsamr---------arlteaeisigiesvkgnl-rkilaeipddtevliidsigshtek--------------lttdefrdqfdll-iyelkkr------ditamiildsat---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------seefndialysvygairlikrenpytgrrervmdiikmrstrtpi-efipyiisd-sglevienpee-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>215</fstart><fstop>253</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>44</fstop><fcolor>1</fcolor><fscore>20.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>109</fstart><fstop>117</fstop><fcolor>4</fcolor><fscore>14.66</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>17</fstop><fcolor>5</fcolor><fscore>37.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>84</fstop><fcolor>6</fcolor><fscore>23.04</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>175</fstart><fstop>192</fstop><fcolor>8</fcolor><fscore>13.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>203</fstart><fstop>209</fstop><fcolor>9</fcolor><fscore>17.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>201</fstop><fcolor>11</fcolor><fscore>30.56</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>34</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PS51257 PROKAR_LIPOPROTEIN</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>253</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mleriksgvigldeilggg-fikntvnavvggmgcgktifcmnylleglen-gekcmyaspdldvdeflrlaesmhwdfskyidng-qlnimtvvaeda-----------------------------asfikmafeydrvavdalsplvid--------------veagsrkeigwl--lknlks-------kgtalitveep----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------lrqnadllllladsvislrytg--yggpfsrtlrvlkhrmswhgd-gvypfyiiegagividekrgegfeleeemnlperakekiaemckkgtltlediskikrrip---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>19.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>16</fstop><fcolor>5</fcolor><fscore>27.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>192</fstop><fcolor>7</fcolor><fscore>23.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>231</fstop><fcolor>9</fcolor><fscore>17.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>224</fstop><fcolor>13</fcolor><fscore>16.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>2</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>236</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mklvktgilpldtqlggg-mpagsvvsvfeepgagadvlsyhftvegath-genvfylatddsseeireyin-lyfdldeavwen--itllslrasmqqeegekd-----akdflrktiydpig--giktilsheefervvinnftyflan--------------ypiedvialidvl-snyakrnq-----svvmllvtkgmf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dprtettvkhysdgvieltlke--venevqrrlkvvkfkgilvpk-ailryeltd-kgikmesvmrvl------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Conserved protein</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>196</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>107</fstart><fstop>120</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>158</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>178</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>9</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>66</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>91</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>142</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>17</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>178</fstop><fcolor>14</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<length>224</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msenystgiagldavlgkp--epgylmlltgppkvgktvlateftyralqr-rnpclfiaaeygyrdlqrntmafnwfiqsladk---lhvidlptglaggkprdsgnvrysaiqnttdlmvkvgi-strslyqeegtmisvfdsasillaf--------------nppklvlrvlkay-ndrvrdag-----gialvtytagva---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dedieeeipglfdvhiqm------dgs--visavmdgerteap-------ymitd-qgikvg------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>Conserved protein</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>56</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>200</fstart><fstop>220</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>111</fstart><fstop>124</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>163</fstart><fstop>170</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>182</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>9</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>45</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>52</fstart><fstop>68</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>138</fstart><fstop>146</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>17</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>172</fstart><fstop>182</fstop><fcolor>14</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>233</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>233</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mivripsgirgldelmggasipentvtmvygppkvgksifaygfaaggaem-depclyisadyglsdlkrnmavlgmdpesylqke-llyvidaissisgpsgdegstyfsssvhnptdimvklgv-airnitnrysmfrsvldslttlmaf--------------ndemlivrvltay-imrikeag-----gtavvtytegsa---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dpkvetmlkavvdniihl------dgseltveamvgtgrvsap-------ytidd-sgikvvheg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq007</seq-name>
+<seq-info>
+<definition>Archaeal flagellar protein H homolog</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>55</fstop><fcolor>1</fcolor><fscore>18.00</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>96</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>17.40</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>12.93</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>28</fstop><fcolor>5</fcolor><fscore>20.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>221</fstop><fcolor>8</fcolor><fscore>17.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>239</fstop><fcolor>9</fcolor><fscore>21.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>231</fstop><fcolor>11</fcolor><fscore>13.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>178</fstop><fcolor>14</fcolor><fscore>14.47</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>12</fstart><fstop>149</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0019861</goid><goclass>C</goclass><godesc>flagellum</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>245</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------masngagmpegkveivptgneefdiklggg-vpfpslliiegphgtgktalsqlflkgaldm-glrglavvtestirgyilkseaagisltehflrg----rldvystqfe---------gsrwgrrsatvlldli--srflesesrryevllvdslshiaiy--------------sspirvlnffn---tvrliadrg----klvvltlhegvl---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------redlttraratcdgymklslas--lagktvkvlkivklkgarsqfdptitfdvdpsfgiklvpialasv-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq008</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>54</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>6</fstop><fcolor>0</fcolor><fscore>33.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>25</fstart><fstop>41</fstop><fcolor>1</fcolor><fscore>23.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>83</fstart><fstop>88</fstop><fcolor>3</fcolor><fscore>12.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>114</fstart><fstop>122</fstop><fcolor>4</fcolor><fscore>19.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>14</fstop><fcolor>5</fcolor><fscore>33.42</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>180</fstop><fcolor>7</fcolor><fscore>19.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>221</fstop><fcolor>9</fcolor><fscore>29.55</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>147</fstart><fstop>154</fstop><fcolor>10</fcolor><fscore>24.72</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>214</fstop><fcolor>11</fcolor><fscore>22.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>134</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>226</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>226</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mlktgiegldailggg-ipeghivavvgqygtgkttlglhfiyeglkn-geacmiisfdedeesiigdaksvgmdltafgdkv-hivrleas--------------------evkkslekles-dlpeivrslgvsrmlvdsisvletl--------------fddagrysmlaa--frkmlken-----gitaiitseadkyqp------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ntskygileyicdgmislkvvrkseldeptlglevvkmrrvkhsr-kpkpyiitd-sgivvyeeaeif------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq009</seq-name>
+<seq-info>
+<definition>RecA superfamily ATPase implicated in signal transduction</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>28.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>53</fstop><fcolor>1</fcolor><fscore>21.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>12.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>26</fstop><fcolor>5</fcolor><fscore>36.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>93</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>212</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>235</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>251</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>172</fstop><fcolor>12</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>13</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>14</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>251</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------menlgeekiertveriptgi--iddlisgg-ipkgsvilvigdpkagkstfltqfvynqvkv-gtpvigvlvdiskyefisnaldfgweftpylddr--iilldaytqr-------------------lrkt-pkfs-fedsivgdlsntinlldaikdttlkilsttksdgivgfvssmtpiffetskkeiykfledlrefahrnrqvwilemnsgie------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------epyvetmvkaivdgiielklre--egktlkrymriygmrrtahkl-dwieytits-sgirlll-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq010</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH0187</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>28.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>37</fstart><fstop>53</fstop><fcolor>1</fcolor><fscore>21.02</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>12.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>16.20</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>26</fstop><fcolor>5</fcolor><fscore>36.35</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>93</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>212</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>235</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>245</fstart><fstop>251</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>165</fstart><fstop>172</fstop><fcolor>12</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>244</fstop><fcolor>13</fcolor><fscore>24.91</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>14</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>251</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------meepieekiertvervptgi--idelingg-iprgsvvlvigdpkagkstfltqfvynqikl-gvpvigvlvdiskyefisnalefgweftpylddk--iilldaytqr-------------------lrka-pkfs-feetivgdlsntvnlldaikdttlkilssvktdgvvgfissmtpiffetskkeiykfledlrefahrnrqvwvlemnsgie------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------epyvetmvkaivdgiielrlve--egktlkrylriygmrrtahrl-dwieysits-qgiklil-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq011</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH1025</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>109</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>180</fstart><fstop>225</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>151</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>222</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>29.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>26.83</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>70</fstop><fcolor>2</fcolor><fscore>13.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>97</fstop><fcolor>3</fcolor><fscore>13.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>135</fstop><fcolor>4</fcolor><fscore>16.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>20</fstop><fcolor>5</fcolor><fscore>29.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>190</fstop><fcolor>7</fcolor><fscore>18.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>213</fstop><fcolor>8</fcolor><fscore>23.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>9</fcolor><fscore>28.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>168</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>159</fstop><fcolor>12</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>236</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mqtqqeristgvkgldeliegg-lipgrvylitgppgsgkttfgmqfllegarr-gekvayislihkpeevvrdmvrfdpsvyvyvnnw-rlilydlgpil-------------wrestkvptwrsvls-rireitenekitrlvidpltaidfp--------------lqdpvekrvelak-fvrslenl-----gvttyliaemve----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ldkyseehylvsgiimlhyfm--hegrmiraiqifkmrgtkhdp-nlkllkftd-qglvvynkspfevv----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq012</seq-name>
+<seq-info>
+<definition>RecA family AAA ATPase</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>58</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>180</fstart><fstop>225</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>99</fstart><fstop>113</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>151</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>214</fstart><fstop>222</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>29.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>26.83</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>70</fstop><fcolor>2</fcolor><fscore>13.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>97</fstop><fcolor>3</fcolor><fscore>13.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>127</fstart><fstop>135</fstop><fcolor>4</fcolor><fscore>16.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>20</fstop><fcolor>5</fcolor><fscore>29.37</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>174</fstart><fstop>190</fstop><fcolor>7</fcolor><fscore>18.75</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>213</fstop><fcolor>8</fcolor><fscore>23.11</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>9</fcolor><fscore>28.84</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>161</fstart><fstop>168</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>152</fstart><fstop>159</fstop><fcolor>12</fcolor><fscore>17.31</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>240</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mqkyyeristgvkgldeliegg-lipgrvylitgppgsgkttfgmhfllegark-gekvayvslihkpeevvkdmlrfdpsiyvyvnkw-klmlydlgpvl-------------wrestrvptwrsvls-rireivedegisrlvidpltaidfp--------------lqnpvekrvelak-firgledl-----gvtayliaemie----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mdkyseehflvsgiiilhyfm--hqgrmiraiqiykmrgtrhds-nlkllkftd-kglvvynkspfgavedge------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq013</seq-name>
+<seq-info>
+<definition>KaiC-like protein 1</definition>
+<organism>Synechocystis sp. (strain PCC 6803).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Chroococcales</taxon>
+</lineage>
+<taxid>1148</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>250</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>251</fstart><fstop>485</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC 2.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>64</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>424</fstart><fstop>469</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>304</fstart><fstop>403</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>244</fstart><fstop>568</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>36</fstart><fstop>52</fstop><fcolor>1</fcolor><fscore>27.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>60</fstart><fstop>76</fstop><fcolor>2</fcolor><fscore>27.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>134</fstart><fstop>142</fstop><fcolor>4</fcolor><fscore>22.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>20</fstart><fstop>25</fstop><fcolor>5</fcolor><fscore>33.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>79</fstart><fstop>93</fstop><fcolor>6</fcolor><fscore>27.94</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>183</fstart><fstop>199</fstop><fcolor>7</fcolor><fscore>18.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>222</fstop><fcolor>8</fcolor><fscore>19.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>238</fstop><fcolor>9</fcolor><fscore>20.38</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>175</fstop><fcolor>10</fcolor><fscore>21.89</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>231</fstop><fcolor>11</fcolor><fscore>35.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>18.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>148</fstart><fstop>158</fstop><fcolor>15</fcolor><fscore>16.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>110</fstart><fstop>120</fstop><fcolor>16</fcolor><fscore>24.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>251</fstart><fstop>485</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>250</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000287</goid><goclass>F</goclass><godesc>magnesium ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004712</goid><goclass>F</goclass><godesc>protein serine/threonine/tyrosine kinase ac...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007623</goid><goclass>P</goclass><godesc>circadian rhythm</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>568</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtdnsqslslikcptgiqgfdeitngg-lpqgrptlicgsagcgktlfgveflvrgaveygepgvlvsfeesakeiiqnvaslgwnlqdlvaee--kilidhiyvea-----------seiqetgeydlealfi-rlgyainkigakrilldtievlfsg--------------lentnivraelrr-lfhwlkqk-----gvtavitgergdk--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------nltrqgleeyvsdcvikldqkt--veevatrtiqvvkyrgsrhsn-neypfliee-ngisvlpitslilnhsvsqeristgipqlddmfggqgyyrgssilvtgragtgkttlaaffaqatclrgerclylateespqqicrnlnsigldlspyldsqllqfdatrptnynlemrlfkihswvrnfkpslvvvdpmsnlitsgnlnqtkn-----ffmrlidylksqkitvfltdltggnvgydneqtevgvsslmdtwlelqtlringernrilyilksrgmahsnqvrefilsndgvdlieayigegqvltgtqrinqileeeaiakrrqqalelskrnferkkyllqakidalqmklasqdeelevlmleekefkqtmlanrnlikksrhiyqnp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq014</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>54</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>396</fstart><fstop>441</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>230</fstart><fstop>443</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>30.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>26</fstart><fstop>42</fstop><fcolor>1</fcolor><fscore>29.60</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>126</fstop><fcolor>4</fcolor><fscore>22.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>16</fstop><fcolor>5</fcolor><fscore>30.22</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>83</fstop><fcolor>6</fcolor><fscore>22.74</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>183</fstop><fcolor>7</fcolor><fscore>24.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>190</fstart><fstop>207</fstop><fcolor>8</fcolor><fscore>18.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>218</fstart><fstop>224</fstop><fcolor>9</fcolor><fscore>32.41</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>216</fstop><fcolor>11</fcolor><fscore>19.29</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>2</fstart><fstop>236</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>238</fstart><fstop>443</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>443</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------meavktgiegfddifggf--yrgqiiliagnpgsgkttfcakflyegarrfgenglyisigeskeefyeymkklgmdfeklektg-sfkyvemlap------------------tsedalmqlsr-eltknalelkatrividsispil----------------smnpetarailhnalktisrel-----ksvvlmteempigetr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------igqgieefvvdgvivlrlevp-eagapvrtmsvlklrgkpldr-avynfeigppsgvrvlmhgieelesnidfnnkiatgidgfdellgggiirgtatafvgpsgggktvlmlsaaanvaingenvtyisfeeprqqieetlkflg-----ygevegleilslnprmislralydilsktvldhrtmlfidg-lnairrefgeafhr------vvrdvvfqmkkngitvvislig-------gtiketllstivdnvvelrvvekdgelrreiavrkarmsrasnevkrlvfdgkpavr-------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq015</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>54</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>649</fstart><fstop>695</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>30</fstart><fstop>46</fstop><fcolor>1</fcolor><fscore>25.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>53</fstart><fstop>69</fstop><fcolor>2</fcolor><fscore>19.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>96</fstop><fcolor>3</fcolor><fscore>14.90</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>130</fstart><fstop>138</fstop><fcolor>4</fcolor><fscore>16.49</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>14</fstart><fstop>19</fstop><fcolor>5</fcolor><fscore>32.28</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>72</fstart><fstop>86</fstop><fcolor>6</fcolor><fscore>19.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>647</fstart><fstop>662</fstop><fcolor>7</fcolor><fscore>19.61</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>668</fstart><fstop>685</fstop><fcolor>8</fcolor><fscore>21.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>696</fstart><fstop>702</fstop><fcolor>9</fcolor><fscore>15.50</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>169</fstop><fcolor>10</fcolor><fscore>17.30</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>686</fstart><fstop>694</fstop><fcolor>11</fcolor><fscore>18.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>140</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>173</fstart><fstop>264</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PS50817 INTEIN_N_TER</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>617</fstart><fstop>641</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PS50818 INTEIN_C_TER</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>389</fstart><fstop>525</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PS50819 INTEIN_ENDONUCLEASE</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>2</fstart><fstop>276</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>708</fstart><fstop>726</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004519</goid><goclass>F</goclass><godesc>endonuclease activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016539</goid><goclass>P</goclass><godesc>intein-mediated protein splicing</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>726</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mvrverlrtgvegfdplvagg-iprgffvavvgepgtgktvfsihfayqgvre-gdkviyvtteesresvlkqaamfgmdlgravdeg-raividallksrs----------dewsledvsveslvnkvleakralgygrarlvvdsmsafw----------------ldkpamarkysym-vkrvlyrw-----dfttllvsqyaittqslppwepivvrrgdevrvtsigefvdsflegeggldigglgyytlsldtrtlkpvwrrirgvikhrirgrllrvkaskgrsidltgshsiyrisrggglevvgssdlrpgdslvtpasvelpesapssinaarelwsrgvegifvvglpgeaagyrgversrgydgghaipletlverygdsvwslvsgaklavsrgaagdhpvpatipldtgfylllgfivsagsvdvegghvtvtlgpgregyvgdvveavnstapgagvrissgargmevtirsrvlsellarvfgagpgpnrdipsivfrapkpmkrvflkglyagggvfdrssgsliyatdsrsllnglallllnvgaggyridsgdsgralalivenagrldaigevlehlgfhggreavqgvgalerataglagqatvavqrpatrggpgvdvagvtglehleastefvydlsvegdenffaglgwilvhnsafgwgleh-vadgiirfrrri--vggalrryvvvekmrqtphdl-rvhrveiedgrgmriagplearpedlrmpedlrrrlkgggp-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq016</seq-name>
+<seq-info>
+<definition>Conserved protein</definition>
+<organism>Methanobacterium thermoautotrophicum.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanobacteria</taxon>
+<taxon>Methanobacteriales</taxon>
+<taxon>Methanobacteriaceae</taxon>
+</lineage>
+<taxid>187420</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>60</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>296</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>418</fstart><fstop>463</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>99</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQ_ERROR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>240</fstart><fstop>470</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>152</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>9</fstart><fstop>13</fstop><fcolor>0</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>32</fstart><fstop>48</fstop><fcolor>1</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>72</fstop><fcolor>2</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>98</fstop><fcolor>3</fcolor><fscore>15.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>128</fstart><fstop>136</fstop><fcolor>4</fcolor><fscore>19.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>21</fstop><fcolor>5</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>89</fstop><fcolor>6</fcolor><fscore>19.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>192</fstop><fcolor>7</fcolor><fscore>14.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>198</fstart><fstop>215</fstop><fcolor>8</fcolor><fscore>16.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>231</fstop><fcolor>9</fcolor><fscore>21.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>162</fstart><fstop>169</fstop><fcolor>10</fcolor><fscore>18.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>224</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>153</fstart><fstop>160</fstop><fcolor>12</fcolor><fscore>14.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>152</fstop><fcolor>15</fcolor><fscore>16.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>7</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>244</fstart><fstop>470</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>470</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mdfeniekaptgikgldmitegg-fprgrntliyggpgtgktfiamefllkgasvygepgvmvsfdeamenlienfrssdrllerlideg--llfiedasrg-------------mdpdagsyslealkl-rledairrtgarrvvldkvdnlfdg--------------terqgmigfelre-lirwlngm-----gvtsvftsgd---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------yggspthrleeyisdcvihlthtf--egqvgtrhlrivkyrgsghgl-nrypfiitr-rgasifpitsisldysvsrelvstgiptldemlgggvyrgsavlvsgttgagktsllskfayescrrgerclffsneepadqivrnmesigiklgeflgdkllihsd-rptslgleahltymqdlimdfnpdsvlvdpvtglagaggspetrnenakhlfirltdflkgrgitsifsylias--pftatttelklsslidtwivlesirangeyrrslrilksrgmnhsssvaevrftdrgilikggsw---------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq017</seq-name>
+<seq-info>
+<definition>Circadian clock protein kinase kaiC</definition>
+<organism>Synechocystis sp. (strain PCC 6803).</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Cyanobacteria</taxon>
+<taxon>Chroococcales</taxon>
+</lineage>
+<taxid>1148</taxid>
+<ec>2.7.11.1</ec>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>20</fstart><fstop>261</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>262</fstart><fstop>494</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC 2.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>314</fstart><fstop>413</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>433</fstart><fstop>478</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>200</fstart><fstop>245</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>73</fstart><fstop>181</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>258</fstart><fstop>519</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>129</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>167</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>22</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>45</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>69</fstart><fstop>85</fstop><fcolor>2</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>104</fstart><fstop>112</fstop><fcolor>3</fcolor><fscore>15.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>151</fstop><fcolor>4</fcolor><fscore>19.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>29</fstart><fstop>34</fstop><fcolor>5</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>88</fstart><fstop>102</fstop><fcolor>6</fcolor><fscore>19.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>194</fstart><fstop>210</fstop><fcolor>7</fcolor><fscore>14.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>233</fstop><fcolor>8</fcolor><fscore>16.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>243</fstart><fstop>249</fstop><fcolor>9</fcolor><fscore>21.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>177</fstart><fstop>184</fstop><fcolor>10</fcolor><fscore>18.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>242</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>168</fstart><fstop>175</fstop><fcolor>12</fcolor><fscore>14.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>167</fstop><fcolor>15</fcolor><fscore>16.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>119</fstart><fstop>129</fstop><fcolor>16</fcolor><fscore>24.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>262</fstart><fstop>494</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>20</fstart><fstop>261</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>47</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>289</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>296</fstart><fstop>296</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>319</fstart><fstop>319</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>320</fstart><fstop>320</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>379</fstart><fstop>379</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>433</fstart><fstop>433</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine by autocatalysis By</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>503</fstart><fstop>519</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0000287</goid><goclass>F</goclass><godesc>magnesium ion binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004674</goid><goclass>F</goclass><godesc>protein serine/threonine kinase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0004712</goid><goclass>F</goclass><godesc>protein serine/threonine/tyrosine kinase ac...</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0007623</goid><goclass>P</goclass><godesc>circadian rhythm</godesc><goevidence>TAS</goevidence></goxref>
+<goxref><goid>GO:0046777</goid><goclass>P</goclass><godesc>protein amino acid autophosphorylation</godesc><goevidence>ISS</goevidence></goxref>
+<goxref><goid>GO:0042752</goid><goclass>P</goclass><godesc>regulation of circadian rhythm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0045449</goid><goclass>P</goclass><godesc>regulation of transcription</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006350</goid><goclass>P</goclass><godesc>transcription</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>519</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnlpivnernrpdvprkgvqkirtviegfdeithgg-lpigrttlvsgtsgtgktllavqflyqgihhfdypglfitfeespsdiienaysfgwdlqqliddg-klfildaspdpe-----------gq-evvgtfdlsalie-riqyavrkykaklvsidsvtavfqq--------------ydaasvvrreifr-lvarlkql-----qvtsimttervee------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ygpiarfgveefvsdnvvvlrnvl--egerrrrtveilklrgtthmk-geypftith-dginifplgamrltqrssnarissgvqtldemcgggffkdsiilatgatgtgktllvskflqegcrqrerailfayeesraqlsrnasswgidfeemehkgllkllctypesagledhlqmikseisefkpsriaidslsalargvtnnafrq-----fvigvtgyakqeeitgfftnttdqfmgahs-iteshistitdtilmlqyveirgemsralnvfkmrgswhdkgireysishdgpdirdsfrnyeriisgsptrisvdekselsrivrgvkdktae-----------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq018</seq-name>
+<seq-info>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>257</fstart><fstop>519</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>128</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>166</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>21</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>44</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>68</fstart><fstop>84</fstop><fcolor>2</fcolor><fscore>25.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>111</fstop><fcolor>3</fcolor><fscore>15.17</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>150</fstop><fcolor>4</fcolor><fscore>19.10</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>33</fstop><fcolor>5</fcolor><fscore>24.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>87</fstart><fstop>101</fstop><fcolor>6</fcolor><fscore>19.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>209</fstop><fcolor>7</fcolor><fscore>14.70</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>215</fstart><fstop>232</fstop><fcolor>8</fcolor><fscore>16.58</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>242</fstart><fstop>248</fstop><fcolor>9</fcolor><fscore>21.95</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>176</fstart><fstop>183</fstop><fcolor>10</fcolor><fscore>18.97</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>233</fstart><fstop>241</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>174</fstop><fcolor>12</fcolor><fscore>14.05</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>156</fstart><fstop>166</fstop><fcolor>15</fcolor><fscore>16.92</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>128</fstop><fcolor>16</fcolor><fscore>24.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>501</fstart><fstop>519</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>519</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtsaemtspnn-nsehqaiakmrtmiegfddishgg-lpigrstlvsgtsgtgktlfsiqflyngiiefdepgvfvtfeetpqdiiknarsfgwdlaklvdeg-klfildaspdpe-----------gq-evvggfdlsalie-rinyaiqkyrarrvsidsvtsvfqq--------------ydassvvrrelfr-lvarlkqi-----gattvmtteriee------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ygpiarygveefvsdnvvilrnvl--egerrrrtleilklrgtshmk-geypftitd-hginifplgamrltqrssnvrvssgvvrldemcgggffkdsiilatgatgtgktllvsrfvenacankerailfayeesraqllrnayswgmdfeemerqnllkivcaypesagledhlqiikseindfkpariaidslsalargvsnnafrq-----fvigvtgyakqeeitglftntsdqfmgahs-itdshistitdtiillqyveirgemsrainvfkmrgswhdkairefmisdkgpdikdsfrnferiisgsptritvdekselsrivrgvqekgpes----------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq019</seq-name>
+<seq-info>
+<definition>UPF0273 protein PH0284</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>231</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>158</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>10</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>33</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>56</fstart><fstop>72</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>99</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>137</fstart><fstop>145</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>17</fstart><fstop>22</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>75</fstart><fstop>89</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>201</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>207</fstart><fstop>224</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>240</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>176</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>225</fstart><fstop>233</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>12</fstart><fstop>15</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>19</fstart><fstop>21</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>25</fstart><fstop>30</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>61</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>85</fstart><fstop>90</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>113</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>131</fstart><fstop>135</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>138</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>145</fstart><fstop>147</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>148</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>165</fstart><fstop>171</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>184</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>188</fstart><fstop>199</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>202</fstart><fstop>212</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>222</fstart><fstop>227</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>230</fstart><fstop>233</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>242</fstart><fstop>245</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>252</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mvvnimtrrvktgipgvdeilhgg-ipernvvllsggpgtgktifsqqflwnglkm-gepgiyvaleehpvqvrqnmaqfgwdvkpyeekg-mfamvdaftagigkskey-----ekyivhdltdirefie-vlrqairdinakrvvvdsvttly----------------inkpamarsiilq-lkrvlagt-----gctsifvsqvsvgerg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------fgg---pgveh-gvdgiirldlde--idgelkrslivwkmrgtshsm-rrhpfditd-kgiivypdkvlkrgkvlel-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq020</seq-name>
+<seq-info>
+<definition>UPF0273 protein PYRAB02580</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>231</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>5</fstart><fstop>9</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>28</fstart><fstop>44</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>67</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>94</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>140</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>17</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>84</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>196</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>219</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>235</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>171</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>228</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>247</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtrriktgipgmddilhgg-ipernvvllsggpgtgktifsqqflwnglqm-gepgiyvaleehpvqvrqnmaqfgwdvrkyeeeg-mfamvdaftagigkskey-----ekyivhdltdirefie-vlrqairdinakrvvvdsvttly----------------inkpalarsiilq-lkrvlagt-----gctsifvsqisvgerg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------fgg---pgveh-gvdgiirldlde--idgelkrslivwkmrgtshsm-rrhpfeitd-kgivvypdrvlkrgkilel-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq021</seq-name>
+<seq-info>
+<definition>UPF0273 protein TM0370</definition>
+<organism>Thermotoga maritima.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Thermotogae</taxon>
+<taxon>Thermotogales</taxon>
+<taxon>Thermotogaceae</taxon>
+</lineage>
+<taxid>2336</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>3</fstart><fstop>242</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>231</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>157</fstart><fstop>164</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>16</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>39</fstart><fstop>55</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>62</fstart><fstop>78</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>97</fstart><fstop>105</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>151</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>23</fstart><fstop>28</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>81</fstart><fstop>95</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>193</fstart><fstop>207</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>230</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>246</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>175</fstart><fstop>182</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>239</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>1</fstart><fstop>145</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0017111</goid><goclass>F</goclass><godesc>nucleoside-triphosphatase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>253</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------miakiimgggkmikrvktgipgmdeilhgg-ipernivlisggpgtgktifsqqfiwnglqm-gepgiyvaleehpvqvkknmevfgwnvdpfekeg-kfaivdaftggigeyaek-----ekyvvrdiddvrelae-vlkravretqakrvvidsvttly----------------itkpamarsiifq-lkrilsgl-----gctslfvsqvsvtekg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------fgg---pgveh-gvdgiirldlde--idgelkrslivwkmrgtshsm-rrhpfeitd-kgiviypsegge-gr---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq022</seq-name>
+<seq-info>
+<definition>UPF0273 protein APE1505.1</definition>
+<organism>Aeropyrum pernix.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Crenarchaeota</taxon>
+<taxon>Thermoprotei</taxon>
+<taxon>Desulfurococcales</taxon>
+<taxon>Desulfurococcaceae</taxon>
+</lineage>
+<taxid>56636</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>231</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>149</fstart><fstop>156</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>54</fstart><fstop>70</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>89</fstart><fstop>97</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>20</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>73</fstart><fstop>87</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>185</fstart><fstop>199</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>205</fstart><fstop>222</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>238</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>167</fstart><fstop>174</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>223</fstart><fstop>231</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>251</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------myslvdrvktgipgmddilygg-iprrnvvllsggpgtgksifsyqylwnglre-gepgvfvaleehpvqvrinmaqfgwdvreyerqg-lfavvdaftsgigeaakk-----eryvvtdpedvgllid-vlkeairdvgakrvavdsvstly----------------lakpvlarrtvml-lkrvlsgl-----gttsilvsqvsvterg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------fgg---pgveh-aadgiirldlde--vdgelvrsliiwkmrgtkhsm-rrhpfeitd-kgiivypdkvvrigrrvsie----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq023</seq-name>
+<seq-info>
+<definition>UPF0273 protein MJ1359</definition>
+<organism>Methanocaldococcus jannaschii (Methanococcus jannaschii).</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Methanococci</taxon>
+<taxon>Methanococcales</taxon>
+<taxon>Methanocaldococcaceae</taxon>
+</lineage>
+<taxid>2190</taxid>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>2</fstart><fstop>242</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KaiC.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>55</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>231</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF09054 KaiA-binding</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>153</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>4</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>27</fstart><fstop>43</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>67</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>86</fstart><fstop>94</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>140</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>11</fstart><fstop>16</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>70</fstart><fstop>84</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>196</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>202</fstart><fstop>219</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>229</fstart><fstop>235</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>164</fstart><fstop>171</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>220</fstart><fstop>228</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>2</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>29</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP Potential</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003684</goid><goclass>F</goclass><godesc>damaged DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006281</goid><goclass>P</goclass><godesc>DNA repair</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>242</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mkrvktgipgmdeilhgg-ipernvvllsggpgtgksifcqqflykgvvdynepsilvaleehpvqirenmrqfgwdirkleeeg-kfaiidaftygigsaakr-----ekyvvndpnderelid-vlktaindigakrigidsvttly----------------inkpmlarrtvfl-lkrvisgl-----gctaiftsqisvgerg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------fgg---pgveh-avdgiirldlde--idgelkrslivwkmrgtshsl-krhpfditn-egiivypdkvlklr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq024</seq-name>
+<seq-info>
+<definition>RecA superfamily ATPase implicated in signal transduction</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>63</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>147</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>24</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>92</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>207</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>230</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>246</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>180</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>239</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>176</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>10</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>251</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mmimsyqpvrrvksgipgfdeliegg-fpegttvlitggtgtgkttfaaqfiykgaeeygepgvfvtleerasdlrrematfgwdfekyekeg-kiaiidgvssvvglpse------erfvledrfnvdnflr-yiyrvvktinakrlvidsipsialr--------------leeerkirevllk-lntillem-----gvttlltteapdpqhg-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------klsrygieefiargvvvldlqe--knielkryvlirkmretrhsm-kkypfeigp-ngivvypsgeiy------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq025</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein PH0186</definition>
+<organism>Pyrococcus horikoshii.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>53953</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>63</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>155</fstart><fstop>162</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>12</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>51</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>59</fstart><fstop>75</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>94</fstart><fstop>102</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>139</fstart><fstop>147</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>19</fstart><fstop>24</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>78</fstart><fstop>92</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>191</fstart><fstop>207</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>230</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>240</fstart><fstop>246</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>173</fstart><fstop>180</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>239</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>8</fstart><fstop>176</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50162 RECA_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>10</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0003677</goid><goclass>F</goclass><godesc>DNA binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0008094</goid><goclass>F</goclass><godesc>DNA-dependent ATPase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006259</goid><goclass>P</goclass><godesc>DNA metabolic process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>251</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mrimayqpvrrvksgipgfdeliegg-fpegttvlltggtgtgkttfaaqfiykgaeeygepgvfvtleerardlrremasfgwdfekyekeg-kiaivdgvssvvglpse------ekfvledrfnvdnflr-yiyrvvkainakrlvidsipsialr--------------leeerkirevllk-lntillem-----gvttiltteapdpqhg-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------klsrygieefiargvivldlqe--knielkryvlirkmretrhsm-kkypfeigp-ngivvypsgeiy------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq026</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Archaeoglobus fulgidus.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Archaeoglobi</taxon>
+<taxon>Archaeoglobales</taxon>
+<taxon>Archaeoglobaceae</taxon>
+</lineage>
+<taxid>2234</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>59</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF06745 KaiC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>151</fstart><fstop>158</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>8</fstart><fstop>12</fstop><fcolor>0</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>31</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>22.81</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>71</fstop><fcolor>2</fcolor><fscore>13.43</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>90</fstart><fstop>98</fstop><fcolor>3</fcolor><fscore>14.07</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>143</fstop><fcolor>4</fcolor><fscore>17.25</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>15</fstart><fstop>20</fstop><fcolor>5</fcolor><fscore>25.45</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>74</fstart><fstop>88</fstop><fcolor>6</fcolor><fscore>26.24</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>187</fstart><fstop>203</fstop><fcolor>7</fcolor><fscore>12.36</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>209</fstart><fstop>226</fstop><fcolor>8</fcolor><fscore>19.53</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>236</fstart><fstop>242</fstop><fcolor>9</fcolor><fscore>12.48</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>169</fstart><fstop>176</fstop><fcolor>10</fcolor><fscore>20.67</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>227</fstart><fstop>235</fstop><fcolor>11</fcolor><fscore>26.65</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>6</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS51146 KAIC</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>248</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mitm----lervptgipgfdelcsgg-llrdrsylvsgpsgsgktifamqylvngiekynepgvfvateerpqhlrehfltfgwdlekyeden-mlaivdatstkiglpsd------eryidvrpfdtrslld-qiitiqdeigarravvdsttsigft--------------isdpakfrvellk-isttmeil-----gltsiltcevvegggd-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------kisrfgvenfvvegtivlyytr--ientrvrsieifkmrgtnhss-kihpfeite-ngivvyskeevfa-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 4 2 3 2 68 100 15 1 3 8 100 2 5 8 3 44 1 0 3 0 1 12 1 1 1 3 33 0 46 0 1 8 2 100 57 32 2 8 0 0 1 64 2 0 4 4 2 2 0 0 23 1 3 0 2 0 17 4 0 2 0 2 0 1 10 2 0 1 0 1 0 1 1 2 0 2 2 0 1 0 1 0 6 0 0 0 3 0 1 2 4 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 2 0 2 0 1 1 1 12 14 70 12 9 9 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 3 3 0 0 0 0 0 0 1 0 5 1 3 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 2 1 9 1 3 76 0 42 1 0 0 0 0 0 0 1 2 1 0 1 4 0 7 1 33 0 9 0 65 0 5 0 1 1 0 0 1 0 0 0 3 0 16 3 6 0 2 100 33 1 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 6 6 42 13 7 57 2 100 5 100 2 100 7 48 0 1 100 100 0 4 16 1 1 5 1 2 100 21 8 100 3 4 100 73 100 100 62 1 11 13 0 61 34 51 0 18 100 2 1 0 1 5 12 100 45 29 4 70 29 2 64 100 2 3 0 5 19 1 4 18 1 0 7 10 32 7 7 3 6 8 2 1 9 34 37 0 1 3 0 13 23 64 5 0 8 0 0 1 6 0 0 2 3 0 0 0 0 0 0 6 6 0 0 1 0 3 0 0 18 3 2 2 8 4 2 0 0 39 0 0 6 10 13 3 0 2 100 44 18 12 2 31 100 47 19 6 19 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 6 4 2 1 0 0 25 0 0 26 1 2 0 74 0 5 0 58 0 0 6 0 0 0 0 0 29 0 100 40 34 3 6 10 9 0 0 0 1 2 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 6 1 0 0 0 0 25 33 100 3 0 0 2 13 2 12 43 0 100 1 0 0 0 0 0 0 3 0 3 0 3 100 1 23 0 39 0 100 13 100 13 71 4 100 2 1 0 3 3 1 100 100 2 100 11 1 0 5 100 23 1 38 17 39 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 3 3 2 64 36 22 1 9 5 100 2 7 2 1 50 2 0 3 0 1 7 1 0 1 5 31 0 53 0 1 17 4 100 62 42 1 6 1 0 2 51 2 0 4 8 2 2 0 0 13 2 3 0 5 1 20 10 0 9 1 2 0 2 6 4 0 2 1 0 0 3 1 3 0 1 3 2 2 0 0 0 8 0 0 0 3 0 1 5 6 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 1 0 0 2 0 2 0 1 2 2 9 15 74 20 5 7 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 2 0 0 0 0 0 0 1 0 1 0 1 1 1 0 0 0 0 0 0 1 0 10 1 8 0 0 1 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 1 0 2 1 10 1 3 57 0 48 0 0 0 0 0 0 0 1 1 1 0 1 6 0 8 0 35 0 20 0 69 1 7 0 2 1 0 0 1 0 0 1 6 0 37 3 3 0 2 100 23 1 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

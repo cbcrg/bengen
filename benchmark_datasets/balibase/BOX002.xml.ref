@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/icds/ProjetMotifs/Julie/RV942/BOX002.xml</aln-name>
+<sequence seq-type="Protein">
+<seq-name>O00257</seq-name>
+<seq-info>
+<accession>O00257</accession>
+<nid>O00257</nid>
+<definition>   E3 SUMO-protein ligase CBX4 Chromobox protein homolog 4 Polycomb 2 homolog Pc2 hPHomo sap</definition>
+<organism>   Homo sapiens (Human). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Chromo.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>516</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>537</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>523</fstart><fstop>533</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>375</fstart><fstop>388</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>388</fstart><fstop>397</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>496</fstart><fstop>507</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>375</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>388</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>496</fstart><fstop>507</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>181</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>204</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>356</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>372</fstart><fstop>395</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>401</fstart><fstop>516</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>523</fstart><fstop>533</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>537</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>232</fstart><fstop>285</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>357</fstart><fstop>367</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>495</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>470</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ELM_INSTANCE_LIG_CtBP</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>401</fstart><fstop>405</fstop><fcolor>26</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>470</fstart><fstop>474</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>558</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melpavgehvfavesiekkrirkgrveylvkwrgwspkyntwepeenil----dprlliafqnr--erqeq----------lmgyrkrgpkpkplvvqvp--------------------------------------------------------tfarrsnvltglqd--sstd--nrakldlgaqgkgqghqyelnskkhhqyqphske-gkprpp---------------gksg-kyyyqlnskkhhpyqpdpkmydlqyqgghkeapsptc---pdlgaksh--ppdkwaqgagakgylgavkp--lagaagapgkgsekgppngmmpapkeavtgngiggkmkivknknkngrivivmskymengmqavkiksgevaegears--pshkkraaderhppad----------rtfkkaaga-eekkveappkrreeevsgvsdpqpqdagsrklsptkeafgeq--------------------plqlttkpdllawdparnthppshhphphphhhhhhhhhhhhavglnlsh--vrkrclsethgerepckkrltarsistptclggspaaerpadlpp-aaalrqpevilldsdldepidlrsvksrseageppsslqvkpetpasaavavaaaaaptttaekppaeaqdepaeslsefkp---ffgniiitdvtancltvtfkeyvtv--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>O93482</seq-name>
+<seq-info>
+<accession>O93482</accession>
+<nid>O93482</nid>
+<definition>   Chromobox protein CHCB3.</definition>
+<organism>   Gallus gallus (Chicken). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from O00257</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>126</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>502</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>488</fstart><fstop>498</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>459</fstart><fstop>474</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>482</fstart><fstop>489</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>459</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>482</fstart><fstop>489</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>182</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>206</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>348</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>367</fstart><fstop>372</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>498</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>502</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>142</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>143</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>231</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>352</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>378</fstart><fstop>382</fstop><fcolor>26</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_UN</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>439</fstart><fstop>443</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>523</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melpavgehvfavesiekkrirkgrveylvkwrgwspkyntwepeenil----dprlliafqnr--erqeq----------lmgyrkrgpkpkplvvqlp--------------------------------------------------------sfarrsniltglqd--ptvd--trpkldlgssgksqqhqyelnskkhhqyqpngke-sgvkhq---------------shskgkyyyqlnskkhhhyqpdpkmyephyhpsgkepqgqac---ldstksplgahpdkwahg-aaknllgpvkn--laaesk---ngaeknlssgtgppprdrvtsnglggkmkivknknkngrivivmskymengmqavkiksgepprkrape--ertakkggeekleawr----------kpgeeravgsnglsaaegesrqpaaelqegprkpspgkelplp-----vaeq--------------------plqlttkpdlvpwslspg------------------rehspssmglnlsspgarkrclsephgdrepgkkrltsrsisaptclg----perp-elpa------qpevilldsdldepidlrcvkpraeg--eaalvqvkpeepp--apaeqppveppqqprqaaeeeeeeeaeglrefkp---ffgniiitdvtancltvtfkeyvtv--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q91647</seq-name>
+<seq-info>
+<accession>Q91647</accession>
+<nid>Q91647</nid>
+<definition>   XPolycomb.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from O00257</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>133</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>500</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>488</fstart><fstop>496</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>468</fstart><fstop>471</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>221</fstart><fstop>234</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>221</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>180</fstart><fstop>199</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>208</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>354</fstart><fstop>362</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>363</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>378</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>389</fstart><fstop>481</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>LBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>488</fstart><fstop>496</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>500</fstart><fstop>521</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>103</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>142</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>238</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>363</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>455</fstart><fstop>459</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melpavgehvfavesiekkrirkgrveylvkwrgwsskyntwepeenil----dprllvafqnr--erqeq----------imgyrkrgpkpknnlvsmp--------------------------------------------------------sfarrsnvlsglhd--ssge--nrtkldlgpipks--hqyqlnskkhhqyqpsgkdhnekhhs---------------snkk-kyyyqlnskkhhhyqpdpklyeqytiekesqistdvrnrhrdslthtqaadmgtqlkngtdsvisgperngicngvssspstemssspstelssspstelpssgvggkmkivknknkngrivivmskymengmqsvkiksse-edcdmgd--vrrrfdspgtlngdkt----------ctaqeektehwkkrvesrvkihegsksvdkgsvhlaglrrtystasetlndq--------------------plqlttksshvpmpnrtr------------------spvyagepyndlvytnprkrclseangnkelckktltsrsvsap---g---iveckggltplnvplqepdiilldsdldepidlrcvksrcds-----dqevd---------------kpeiqvtqnpqsvdvdvce--sqfkp---ffgnivitdvtancltvtfkeyitv--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q804D1</seq-name>
+<seq-info>
+<accession>Q804D1</accession>
+<nid>Q804D1</nid>
+<definition>   Polycomb 2.</definition>
+<organism>   Brachydanio rerio (Zebrafish) (Danio rerio). Eukaryota    </organism>
+<group>1</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q14781</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>77</fstart><fstop>137</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>77</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from CBX4_MOUSE</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>85</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>PHYLOBLOCK</ftype><fstart>1</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION Undetermined</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>85</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_1</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>456</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>REGION_2</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>1</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_3</fnote></fitem>
+<fitem><ftype>REGION</ftype><fstart>444</fstart><fstop>452</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>REGION_4</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>98</fstart><fstop>119</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>132</fstart><fstop>374</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>390</fstart><fstop>448</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>98</fstart><fstop>119</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>132</fstart><fstop>374</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>390</fstart><fstop>448</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>444</fstart><fstop>452</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>456</fstart><fstop>477</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>105</fstart><fstop>145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_15</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>146</fstart><fstop>174</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_16</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>234</fstart><fstop>284</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_17</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>341</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_18</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>ELM</ftype><fstart>419</fstart><fstop>423</fstop><fcolor>15</fcolor><fscore>0.00</fscore><fnote>ELM_REGEXP_TP</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>420</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melpavgehvfavegiekkrlrkgrmeylvkwrgwspkyntwepeenil----dprllvafqnr--erqeq----------mvgyrkrgpkpkhpliqlp--------------------------------------------------------afarrssilgglqd--tsldeenqpkvdslqmhrsrpqhyqlnskkhhqyqpsckeisveqhm---------------sgkk-khfyqlnskkhhhyqpdpkmydtpltgpkevkgqdps---nkgwnlpp-alqqkwirn-kdtgclskvkd--lsielkg-lpdnankaertlktsakefalpngisskmkiiknknkngrivivmskymdkgvhsskvknrdvs--qvgt--vhneeppvngtdnrsd----------getpdqgegrengsiekpseyvdekslrkdmp-----------------gqk--------------------ateicdrpn-----------------------------sspakvdaksnh---lkrhlsepsedvrnckqllsfrsisapn----sspqrepinlhyksspvdnydfs--dsipeepidlsaktlk----------------------------rftaldkvsgssaqmdktd--sqcka---fvgnviitdittncltvtfkeyvqe--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q8MTK2</seq-name>
+<seq-info>
+<accession>Q8MTK2</accession>
+<nid>Q8MTK2</nid>
+<definition>   Chromatin modulator polycomb protein.</definition>
+<organism>   Podocoryne carnea. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>12</fstart><fstop>70</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q14781</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>12</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>65</fstart><fstop>81</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>168</fstart><fstop>182</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>65</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>168</fstart><fstop>182</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>50</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>197</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>29</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>12</fstart><fstop>70</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>70</fstart><fstop>146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------meeapagpgevfaaekilkkrykkgraeylvkwqgysskfntwepvenil----derllqsfkvt--hpsfrgkrrr-----rggfnrwnkrpkleedgvaeqd-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------veeddgevsvgsgdedllnvlsdikeedaeeepsdkkpinndtivesnidiltvaseeekh-----------viispketlnsesvknvkkitaktkkkkkeinc-ecwkkp--lidqivitdvtsndvtitfkesftevgffrnkytqtqqs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q502N4</seq-name>
+<seq-info>
+<accession>Q502N4</accession>
+<nid>Q502N4</nid>
+<definition>   Zgc111978.</definition>
+<organism>   Brachydanio rerio (Zebrafish) (Danio rerio). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q9QXV1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>325</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>332</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>91</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>93</fstart><fstop>313</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melsavgervfaaesiikrrirrghmeylvkwkgwspkystwepeenil----dprlfvafeer--erere----------ifgpkkrgpklktfllkaqa--------------------------------------------------kekaksyefrndssrgihv--tysspepvvap---rareglravvptifppstvnrgesvrlqspepr------------------------------------------------------------------------------------------------------------------------------------------------------------------ehhsph----sprptdefsltpkkrg----------rkpklrftdgytsnlhpehvk-----------------raadetma-------------------------------------sipskmaklglgeddercpdisgrlkishkdldatcs-----hkqsnvipsrstlhispqwslhssrmeagl--lghrtn-pqsn--hfhqk-------------------------------hlkhyskkrtle-hgdstsrqpsliakipvshif-repgvedawrpsvinvekvivtdvttnfltvtikesntdegffkdkt------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q28IA4</seq-name>
+<seq-info>
+<accession>Q28IA4</accession>
+<nid>Q28IA4</nid>
+<definition>   Chromobox homolog 6.</definition>
+<organism>   Xenopus tropicalis (Western clawed frog) (Silurana tropicalis). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q9DBY5</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>315</fstart><fstop>323</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>330</fstart><fstop>351</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>115</fstart><fstop>128</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_6</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>55</fstart><fstop>361</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melsavgervfaaesimkrrirkgrieylvkwkgwaikystwepeenil----dsrlivafeqk--ereqe----------iygpkkrgpkpktflmkaraqa--------------------ealrlndvhftmkpgssps------pklhssaavhrlkkdirrchsm--srr-plprpdptapsgtgsg--mrppvspfsetvriinrkakprepk---------------rnriiln---------------------------------------------------------------------------------------------------------------------------------------lkvidkg-----------tkaplg-rpkips----------rn---rvigkskkysesmlrn-----------------qirhlkyg-----------------------------------afslynn-palqdpgaakdgdeatqeg-----------laddssst--sgcpspap----sddrppklmpetlspavpdwre-sealdlsipp--------------------------------essas-krgqge----peesd---------------vdet-gdwrpdmspcsnvvvtdvtsnlltvtikefcnaqdfekvatsk----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q9YHC4</seq-name>
+<seq-info>
+<accession>Q9YHC4</accession>
+<nid>Q9YHC4</nid>
+<definition>   Polycomb homolog Pc1.</definition>
+<organism>   Xenopus laevis (African clawed frog). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>75</fstart><fstop>86</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PROP_DNA_BINDAT hook from Q14781</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>12</fstart><fstop>70</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q14781</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>74</fstart><fstop>86</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02178 AT_hook</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>12</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>169</fstart><fstop>252</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>295</fstart><fstop>355</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>169</fstart><fstop>252</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>295</fstart><fstop>355</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>SEQERR</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>67</fstart><fstop>81</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>93</fstart><fstop>101</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>101</fstart><fstop>110</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>401</fstart><fstop>416</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>67</fstart><fstop>81</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>93</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>101</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>401</fstart><fstop>416</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>50</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>51</fstart><fstop>61</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>83</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>424</fstart><fstop>434</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>441</fstart><fstop>462</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>29</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>12</fstart><fstop>70</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>46</fstart><fstop>471</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------meelsavgeqvfaaecilskrlrkgtaeylvkwrgwsskhnswepeenil----dprllvafqkr--eqeke-----------lrnrkrgkrprgrprk-nvetdiplkakssssssssssssssssssssssddsdaet------qqrnprprdshpvpqkkapavlart--elkepvrkkrgrkplppeqklprrakgakpgpk-gsmnklqpghn-----------------iqgfqalkthskdmhassnnrpgglsaellss-iaknspt------------------------------------------------------------------------------------qpngssprslswqssivhymn-rinqnssqp--grkpasstfnakrs------------cldakslfkprseaeispamp-----------------ktsklheneeqth----------------------------------------shtvqpaptvaagsn----enpsqnap-vqtktq-gmravvvtsptsqntqksngshavgvats------ckgdkigkktgvvtep-tahpater-----------a---qptegqr--dvadlstgdd-ssldsdhds-slss----qdmavqasqdwkparsllehvfvtdvtanlitvtvkesptsvgffnmrhf-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q6DEW3</seq-name>
+<seq-info>
+<accession>Q6DEW3</accession>
+<nid>Q6DEW3</nid>
+<definition>   MGC89524 protein.</definition>
+<organism>   Xenopus tropicalis (Western clawed frog) (Silurana tropicalis). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from O95931</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>11</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>168</fstart><fstop>184</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>168</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>50</fstart><fstop>60</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>67</fstart><fstop>84</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>206</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_4</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>213</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>SBLOCK_5</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>85</fstart><fstop>91</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>SBLOCK_21</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>92</fstart><fstop>98</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>SBLOCK_22</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>28</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>11</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>166</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------melsaigeqvfavesirkkrirkgkveylvkwkgwppkystwepeehil----dprlvlayeek--eeker----------asgcrkrgpkpkrlllqrl---------------------------------------------------------------ysmdlrs--ahksker----------nlcfslsrrfnpalggkttptssvpekaks-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------lqfplskqrkgrkflclsrkkfl-rvsty---eplsrrsdffa-keeekeetetipdwqeeksmeeqgleengtpatpplwlpavprpseiivtditsnsitvtfrearsaegffrdrgsdc---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>A0C4F8</seq-name>
+<seq-info>
+<accession>A0C4F8</accession>
+<nid>A0C4F8</nid>
+<definition>   Chromosome undetermined scaffold149 whole genome shotgun sequence.</definition>
+<organism>   Paramecium tetraurelia. Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PF00385 Chromo from Q9YHC4</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>243</fstart><fstop>251</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>243</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>7</fstart><fstop>55</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>COIL</ftype><fstart>427</fstart><fstop>454</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_COIL</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>34</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PROP_PS00598 CHROMO_1 from Q9YHC4</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------mskckerefdsddnniydvefvygkkmfkkrtyyavkwlgwtiqqmswepvsnftsihslfnfvrrletrlcyslyykkvaqntngirvhikgkfcqiqqvntnlkkksigcekqivscsqdtsspfdkaqkiitymkqnfltsnnskihqkiqkkvckqknnfrkilnqqennevisitslspirye--vpkqnkkkskqnkkesidyelekdiklliqnelqekklkkkesqtqrqkq--ilsqkn------nnnnnnnnkvfvnvklfs------------------------------------------------------------------------------------------------------------------mnlki-------qnyqnqfnkikikknpqnylsg-ttalefp--kthnlssfdvqekisqpqeesfeidlqltedceqqqkpqqlneleklkdvhiqnfvsvstsslknqcskfrvvksvfnpkiiknttqedsnvnkkteknfisqimeveqkgegqqkekfpfmqlfyrepkiqtsvktsqqiqqeiqklqlekiklnrtnr--------csiliipklkevgvqyiknnfmn---telilydmelnevklkqiivetieshhfligkllfrcl-yedgdqyyveydtlkrycptllldymivnsili---------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q8LK11</seq-name>
+<seq-info>
+<accession>Q8LK11</accession>
+<nid>Q8LK11</nid>
+<definition>   Chromdomain-containing protein CRD101.</definition>
+<organism>   Zea mays (Maize). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>66</fstart><fstop>120</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo. from Q14781</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>313</fstart><fstop>377</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PROP_Chromo 2; shadow subtype. from Q946J8</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>66</fstart><fstop>116</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>16</fstart><fstop>30</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>30</fstart><fstop>43</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>16</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>LOWCOMP</ftype><fstart>30</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_LOWC</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>58</fstart><fstop>104</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>106</fstart><fstop>116</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>118</fstart><fstop>132</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_3</fnote></fitem>
+<fitem><ftype>COIL</ftype><fstart>14</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PRED_COIL</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>83</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PS00598 CHROMO_1</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>66</fstart><fstop>125</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>321</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mrrnrkdsgyptaapgeedeaeelteegdeeeeeqteegcgeedeveaetpaqeave--------ppklaegyfeieairrrrlrkgqlqylvkwrgwpesantweplenlka---csdivdafnkr-----------------srsprscgkrkrktptt---------------------------------------------------ptsdpnpsrgkrgrpprsear--smhsihasevkklpcrtssrrannnsnktspg--glgaav-nllgqr---------------------------------------------------------------------------------------------------------------------------------------------------------------ivqegssgvvsvgfpsqeaplsvs-----------ltdqqdaqhpang-slkmdneiraitp---qggqvtgakkrksgcvrrfkqdevth-------eqgdirdrtsdkpgnetvdstegdpgdknkgeds-gnqihmpkiikiikpvryfatvmdgvqqvaitfkalrsdgemvfvddkqlkakeplvlidyyeqhlrynpts--------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Q5D8Y6</seq-name>
+<seq-info>
+<accession>Q5D8Y6</accession>
+<nid>Q5D8Y6</nid>
+<definition>   Hypothetical protein.</definition>
+<organism>   Schistosoma japonicum (Blood fluke). Eukaryota    </organism>
+<group>2</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00385 Chromo</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>114</fstart><fstop>139</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01393 Chromo_shadow</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>6</fstart><fstop>54</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>55</fstart><fstop>62</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SBLOCK_2</fnote></fitem>
+<fitem><ftype>PROSITE</ftype><fstart>16</fstart><fstop>74</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PS50013 CHROMO_2</fnote></fitem>
+</ftable>
+<length>774</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------mptrhcestakkeeefevegildirtingepeylikwkghspskntwepqsnln----cpvllrrfl--------------------dkhaateptiatipeg-------------------------------------------------------------------------------------------------------------------------------------------------------------------vep-----------------------------------------------------------------------------ygfdr--------------------------------glapdfidmvt--kkdnelyflikc---q----------vrdvvpaaqanircpqivikf-----------------yesilhft--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+</alignment>
+</macsim>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>/genomics/g4/Balibase/RV100/seqerr/BBA0119.xml</aln-name>
+<aln-score>0.54</aln-score>
+<sequence seq-type="Protein">
+<seq-name>seq001</seq-name>
+<seq-info>
+<definition>Lipoate-protein ligase A</definition>
+<organism>Pyrococcus abyssi.</organism>
+<lifedomain>Archaea</lifedomain>
+<lineage>
+<taxon>Archaea</taxon>
+<taxon>Euryarchaeota</taxon>
+<taxon>Thermococci</taxon>
+<taxon>Thermococcales</taxon>
+<taxon>Thermococcaceae</taxon>
+</lineage>
+<taxid>29292</taxid>
+<ftable>
+<fitem><ftype>SEQERR</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORN2</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016874</goid><goclass>F</goclass><godesc>ligase activity</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>166</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mstiiskfsvltsvlvgdtafpttlisrslyfailyps---------kislefclkrflkpnvfiswdnifiesrg-ymagvfmrlvge---hkakkglirieieeengiarkvmisgdffiype-svvdelektlegvrvedie-gkldeffsirhdvempyisvedfkiairkaleerk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq002</seq-name>
+<seq-info>
+<definition>Putative uncharacterized protein</definition>
+<organism>Aquifex aeolicus.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Aquificae</taxon>
+<taxon>Aquificales</taxon>
+<taxon>Aquificaceae</taxon>
+</lineage>
+<taxid>63363</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>41</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03099 BPL_LipA_LipB</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>255</fstart><fstop>342</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF10437 Lip_prot_lig_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>89</fstop><fcolor>0</fcolor><fscore>8.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>129</fstop><fcolor>1</fcolor><fscore>9.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>132</fstart><fstop>192</fstop><fcolor>2</fcolor><fscore>10.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>195</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>6.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>217</fstart><fstop>246</fstop><fcolor>4</fcolor><fscore>3.88</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003824</goid><goclass>F</goclass><godesc>catalytic activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006464</goid><goclass>P</goclass><godesc>protein modification process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>345</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------mkiyragkldnlrsitlfhamarlgyeg-----liittpvetyasvgyfdktqeildlekckklgipvirrevgggavllhen-qvfyqlilkksrapfkvidaykkfs----qpvinvyrrlgveveyrpindlvvkrnkkkisgqgaadied------sfvfvggillkfntklmaeifripeekfrdkvhksleenvtwveretgrlpsyeeveeflveefskvipfeg--eepvpeeaieladklkeeftseevlledtgrkhraiklregvylrtavhkaqgglirtevytdgeviervkiygdftlypk-eslkeleeklkgikfepeeikkvahefl--qkvdmpgvsaedlviaiygd--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq003</seq-name>
+<seq-info>
+<definition>Lipoate-protein ligase</definition>
+<organism>Mycoplasma capricolum.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Tenericutes</taxon>
+<taxon>Mollicutes</taxon>
+<taxon>Mycoplasmataceae</taxon>
+</lineage>
+<taxid>2095</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>44</fstart><fstop>154</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03099 BPL_LipA_LipB</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>244</fstart><fstop>331</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF10437 Lip_prot_lig_C</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>2</fstart><fstop>92</fstop><fcolor>0</fcolor><fscore>13.39</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>93</fstart><fstop>128</fstop><fcolor>1</fcolor><fscore>9.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>129</fstart><fstop>189</fstop><fcolor>2</fcolor><fscore>10.12</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>216</fstart><fstop>245</fstop><fcolor>4</fcolor><fscore>8.95</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0005737</goid><goclass>C</goclass><godesc>cytoplasm</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0005524</goid><goclass>F</goclass><godesc>ATP binding</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016874</goid><goclass>F</goclass><godesc>ligase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0016740</goid><goclass>F</goclass><godesc>transferase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0009249</goid><goclass>P</goclass><godesc>protein lipoylation</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>334</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------minlliskyhdpamnlaieeyltyhykakep---ivffwqnantivvgrnqnafaeinleaaqkdnvkivkrntgggtvyqdlg-nvcyslivdns----tddvdyqkal----qpiitylnqkninamfsgrndmvidg--ykvsgnaqlktn------ektlvhgtllfdvdlskmpkylvvdpeklkhqqirskparvrnikeffkdinididlstfindvvssyvknekikwieltdqekqyiqsrketkfdqwdwtfgkn---tvfslvkkqyle------skgfitlnldvdngvitnikiygdflgtqgtekleakligvkfd-kkdve--kvlnqfdl-eaifaknftsdditnllfkd--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq004</seq-name>
+<seq-info>
+<definition>Lipoate-protein ligase A</definition>
+<organism>Aquifex aeolicus.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Aquificae</taxon>
+<taxon>Aquificales</taxon>
+<taxon>Aquificaceae</taxon>
+</lineage>
+<taxid>63363</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>109</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03099 BPL_LipA_LipB</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>619</fstart><fstop>788</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02552 CO_dh</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>406</fstart><fstop>549</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01976 DUF116</fnote></fitem>
+<fitem><ftype>SEQERR</ftype><fstart>411</fstart><fstop>788</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>SEQ_ERRORC1</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>64</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>7.01</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>159</fstart><fstop>198</fstop><fcolor>1</fcolor><fscore>11.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>199</fstart><fstop>259</fstop><fcolor>2</fcolor><fscore>13.69</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>262</fstart><fstop>282</fstop><fcolor>3</fcolor><fscore>14.14</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>285</fstart><fstop>313</fstop><fcolor>4</fcolor><fscore>15.37</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016874</goid><goclass>F</goclass><godesc>ligase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006464</goid><goclass>P</goclass><godesc>protein modification process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>788</length>
+<weight>100</weight>
+<group>1</group>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------mghtdlqsphfthfsarsmgnsnfsilmilglgiaysmikisyrkecishrdfkenflrsesmwrviytgqrpahenmaldsvllelksegkipntirflqfkpecvligyhqaveqevrleyvqregievnrritgggaiyfdelqigweiiadres---fgn-ksyekitrticetvakalrklgvnaqfrprndieveg--kkisgtggvfeg------naflyqgtilmdvnlermlkslqipvekltskgiksaedritwvkreigrlpekeevfnailealkeelgiepy-wgeltkeelelfeekk-dyfksdewiyhvkkaitgdeilygiyr----cpggtfrvsakvdpqtkvlqqviingdffinpk-rliydleaylkhtpvqeve-krireffke-refesvnltvddfveavmfplrkleaqdlgidkkklnrvigsiggglkenikkakvmllpycakptwcdyrhtddcgecggctvgdlyrmayergmipititsfemlrdvlqwcgengytyighccyefyekryeifkkakewgangvfldiegvtcyslgveeeekayhgefqveldlyvedsekllslkektsrvqkrqsaqkpvpnenlkefipqnykvpkvapgpqedmsrlpivretsteigfingqkvsfeealqvavellskakrptlivgplvlwawneeakkkgeiikrlkekypnlnihllpdykpknkkvdfsrevdppnphlsvlygehdltlmigvhcyrtdftirmlkkytdtkivtlctlyghpdadvslagvnskklemfyema
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq005</seq-name>
+<seq-info>
+<definition>Putative lipoate-protein ligase</definition>
+<organism>Streptomyces coelicolor.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Streptomycineae</taxon>
+<taxon>Streptomycetaceae</taxon>
+</lineage>
+<taxid>1902</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>180</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03099 BPL_LipA_LipB</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>35</fstart><fstop>229</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>270</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>271</fstart><fstop>337</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>338</fstart><fstop>358</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>388</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>135</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>8.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>230</fstart><fstop>270</fstop><fcolor>1</fcolor><fscore>9.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>271</fstart><fstop>337</fstop><fcolor>2</fcolor><fscore>10.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>338</fstart><fstop>358</fstop><fcolor>3</fcolor><fscore>6.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>359</fstart><fstop>388</fstop><fcolor>4</fcolor><fscore>3.88</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>DISORDER</ftype><fstart>1</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>IUPRED</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0016874</goid><goclass>F</goclass><godesc>ligase activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006464</goid><goclass>P</goclass><godesc>protein modification process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>388</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>mtartggraergpqgrehtgrarccrrmrngggtvhgeykipggklvvvdvaaedgvlrhvrvagdfflepdealdavnralegapadtdaaglaaridaalpegtvmygltsegvgiavrralahatdwtdydwqlihegpespalhmaldevltaevaagrrpptlrvwewgapaviigsfqslrnevdaegaarhgievvrrisgggamfvepgntityslsvpea---lvqglsfqdsyaylddwvlgalgemgirawyqplndiatdq--gkiagaaqkrvvgpgggpgavlhhvtmsydidadkmlqvlrigrekmsdkgtksakkrvdplrrqtg--lareaviermissfggrygls---rgkvtdeelerarelartkfssaewtarvp--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>seq006</seq-name>
+<seq-info>
+<definition>SnoP</definition>
+<organism>Streptomyces nogalater.</organism>
+<lifedomain>Bacteria</lifedomain>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Actinobacteria</taxon>
+<taxon>Actinobacteridae</taxon>
+<taxon>Actinomycetales</taxon>
+<taxon>Streptomycineae</taxon>
+<taxon>Streptomycetaceae</taxon>
+</lineage>
+<taxid>38314</taxid>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>268</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03099 BPL_LipA_LipB</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>1</fstart><fstop>195</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>236</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>303</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>304</fstart><fstop>324</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>354</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>LBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>101</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>8.52</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>196</fstart><fstop>236</fstop><fcolor>1</fcolor><fscore>9.23</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>237</fstart><fstop>303</fstop><fcolor>2</fcolor><fscore>10.27</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>304</fstart><fstop>324</fstop><fcolor>3</fcolor><fscore>6.21</fscore><fnote>SBLOCK</fnote></fitem>
+<fitem><ftype>BLOCK</ftype><fstart>325</fstart><fstop>354</fstop><fcolor>4</fcolor><fscore>3.88</fscore><fnote>SBLOCK</fnote></fitem>
+</ftable>
+<goxreflist>
+<goxref><goid>GO:0003824</goid><goclass>F</goclass><godesc>catalytic activity</godesc><goevidence>IEA</goevidence></goxref>
+<goxref><goid>GO:0006464</goid><goclass>P</goclass><godesc>protein modification process</godesc><goevidence>IEA</goevidence></goxref>
+</goxreflist>
+<length>354</length>
+<weight>100</weight>
+<group>2</group>
+</seq-info>
+<seq-data>----------------------------------mhgeykvpggklvvvdvdvedgvlrhvrvagdfflepdealdavngalegapadtdaaglaaridaalpagtvmygltsegvgiavrralaratdwtdydwqliheapqspalhmaldevltaevaagrrpptlrvwewgapaviigsfqslrnevdaegaarhgvevvrrisgggamfvepgntityslsvpes---lvqglsfqdsyaylddwvlgalgdlgirawyqplndiatdq--gkiagaaqkrvvgpgggpgavlhhvtmsydidadkmvevlrigreklsdkgtksakkrvdplrrqtg--lpreavidrmiesfrarygla---egkvtdeelaraeelartkfgstewtarvp--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>normd_1</colsco-name>
+<colsco-owner>group_1</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 0 0 3 1 0 0 1 0 0 0 3 3 4 5 0 0 0 4 0 0 0 0 0 2 1 0 0 0 0 0 5 0 1 0 0 0 0 0 1 0 0 0 4 8 0 0 2 1 1 0 1 0 3 1 8 8 0 0 5 4 0 1 4 0 4 0 4 8 0 1 8 8 8 4 4 1 0 1 0 0 0 0 0 0 0 0 5 1 0 1 2 8 0 0 0 0 0 0 0 0 1 8 3 8 0 0 0 0 0 0 4 1 4 1 1 0 1 2 3 0 1 4 3 1 0 2 2 0 0 8 8 3 0 4 2 1 0 0 0 8 4 8 8 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 3 0 0 8 1 5 8 1 2 0 3 0 1 0 8 0 3 0 1 0 4 1 0 8 8 1 1 0 1 0 0 0 2 0 3 0 5 43 0 0 1 1 0 0 0 1 2 1 0 0 0 0 0 17 0 3 0 36 0 0 1 2 0 0 0 1 0 0 8 0 0 0 0 0 1 0 0 4 0 13 0 0 3 0 4 0 0 100 1 4 0 1 0 8 0 0 0 2 0 0 0 1 4 0 0 0 0 0 1 18 0 0 1 0 2 0 2 0 0 0 0 1 1 1 1 0 0 43 5 0 12 17 0 0 11 2 1 41 2 4 9 41 0 100 0 100 100 100 0 0 0 6 2 0 5 0 18 0 5 1 0 0 0 25 29 0 0 1 0 16 3 1 100 0 1 45 18 0 4 0 100 0 0 0 2 2 2 0 1 0 0 1 35 2 26 100 2 0 0 3 22 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_2</colsco-name>
+<colsco-owner>group_2</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 100 100 100 100 100 18 100 100 100 100 100 100 100 100 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 100 11 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 18 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 19 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 14 20 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 6 11 100 100 100 100 100 100 100 100 20 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 100 0 100 100 100 100 100 14 100 100 100 3 100 100 0 0 100 100 100 100 19 0 0 0 2 100 100 100 100 100 100 100 100 1 100 100 2 100 100 100 100 100 100 100 0 100 17 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+<column-score>
+<colsco-name>normd_all</colsco-name>
+<colsco-owner>all</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 1 0 2 2 0 0 1 1 0 0 2 5 8 8 0 1 0 8 1 0 0 0 0 2 2 0 0 0 0 0 7 0 1 0 0 0 0 1 1 0 1 0 6 13 0 0 4 2 0 0 2 0 4 2 1 13 0 0 3 7 0 3 8 1 8 0 8 13 0 2 13 13 13 8 5 1 0 1 0 0 0 0 0 0 0 0 8 0 0 0 3 8 0 0 0 0 0 0 0 0 2 5 5 4 0 0 0 0 0 0 3 0 8 1 1 0 2 1 3 0 3 6 2 3 0 3 3 1 0 13 13 5 0 1 3 1 0 0 0 13 8 8 13 2 1 1 0 0 0 0 0 0 0 0 0 0 0 3 0 6 0 0 0 2 5 1 0 4 1 5 0 2 0 13 0 5 0 3 1 8 0 0 13 13 2 2 1 3 0 0 2 4 1 4 0 7 51 0 0 2 1 1 0 0 2 1 1 0 0 0 1 0 22 0 4 0 27 0 0 2 1 0 0 0 0 0 0 5 0 0 0 0 0 1 1 1 5 1 19 0 0 0 0 5 0 0 20 1 4 0 2 0 12 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 4 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 8 2 0 3 4 0 0 3 1 1 7 1 2 3 7 0 13 0 13 13 13 0 0 0 2 1 0 2 0 4 0 2 1 0 0 0 5 6 0 0 0 0 4 1 0 13 0 0 8 4 0 2 0 13 0 0 0 1 1 1 0 0 0 0 1 7 1 6 13 1 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>
