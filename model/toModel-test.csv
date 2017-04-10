@@ -1,4 +1,4 @@
-
+id,type,extension,format,dataset,version,count,subset,subset
 BB11001,edam:data_1233,.fa,edam:1929,balibase,4.0,4,RV11,R1-5
 BB11002,edam:data_1233,.fa,edam:1929,balibase,4.0,8,RV11,R1-5
 BB11003,edam:data_1233,.fa,edam:1929,balibase,4.0,4,RV11,R1-5

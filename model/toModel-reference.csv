@@ -1,5 +1,5 @@
 id,type,extension,format,dataset,version,identity
-BB11001_RV11,edam:data_1384,.xml.ref,edam:format_2555,balibase,4.0,4
+BB11001,edam:data_1384,.xml.ref,edam:format_2555,balibase,4.0,4
 aadh,edam:data_1384,.fa.ref,edam:format_1984,homfam_clustalo,1.0,3127,35.8
 aadh,edam:data_1384,.fa.ref,edam:format_1984,homfam_mafft,1.0,3127
 6,edam:data_1384,.fa.ref,edam:format_1984,oxfam,1.0,4767

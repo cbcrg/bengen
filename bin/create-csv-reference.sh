@@ -16,7 +16,7 @@ ref="$bengen/model/toModel-reference.csv"
 
 all_datasets=`ls `
 
-echo "id,type,extension,format,dataset,version,identity"
+echo "id,type,extension,format,dataset,version,identity" > $ref
 
 #ATTENTION --> Hardcoded
 type="edam:data_1384"
@@ -68,7 +68,7 @@ for dataset in $all_datasets;{
 		
 		}
 	
-		echo $id_nofa","$type","$extension","$format","$dataset","$version","$num_seq$feature_value;
+		echo $id_nofa","$type","$extension","$format","$dataset","$version","$num_seq$feature_value >> $ref;
 		cd "$benchmark_datasets/$dataset";
 	}
 	cd ..

@@ -32,7 +32,7 @@ else{params.renderer="csv" }
 
 params.newBase="$baseDir"
  
-params.aligners = "$baseDir/aligners.txt"
+params.methods = "$baseDir/methods.txt"
 params.scores="$baseDir/scores.txt"
 params.dataset="*"
 
@@ -42,14 +42,12 @@ params.out = ("output"+".${params.renderer}")
 //deafult values
 params.subset="false"
 params.id="false"
-files="${params.dataset}/all"
 file= "*"
 
 
 //Set the path to the files to be analyzed depending on the command line commands
-if( "${params.id}" != "false"){ files="${params.dataset}/all" ; file= "${params.id}"}
-else if( "${params.subset}" != "false" ){ files="${params.dataset}/${params.subset}" }
-else{ files="${params.dataset}/all"}
+if( "${params.id}" != "false"){ file= "${params.id}"}
+
 
 
 
@@ -62,19 +60,19 @@ else{ files="${params.dataset}/all"}
  * -the file itself
  * 
  */
-params.datasets_directory="$baseDir/benchmark_datasets/$files"
+params.datasets_directory="$baseDir/benchmark_datasets/${params.dataset}"
 datasets_home= file(params.datasets_directory)
 
 dataset_fasta = Channel
 	.fromPath("${params.datasets_directory}/${file}.fa")
-	.map { tuple(it.parent.parent.name, it.baseName, it ) }
+	.map { tuple(it.parent.name, it.baseName, it ) }
 
 
 
 //per default uses the files aligners.txt and scores.txt
 //if asked in the command line one aligner and one scoring function can be used
 params.score="false"
-params.aligner="false"
+params.method="false"
 
 
 
@@ -96,17 +94,12 @@ else {
  * 
  */
 
-if( "${params.aligner}" == "false"){
-  boxes = file(params.aligners).readLines().findAll { it.size()>0 }	
+if( "${params.method}" == "false"){
+  boxes = file(params.methods).readLines().findAll { it.size()>0 }	
 }
 else{
-  boxes=["bengen/$params.aligner"]
+  boxes=["bengen/$params.method"]
 }
-
-
-
-
-
 
 
 
@@ -115,9 +108,9 @@ else{
  * Execute an alignment job for each input sequence in the dataset 
  */
 
-process aln {
+process run_method {
   
-  publishDir "${params.newBase}/alignments/$method/$dataset_name/$id"
+  publishDir "${params.newBase}/temp_results/$method/$dataset_name/$id"
   tag "$method, $dataset_name"
   container "$method"
   
@@ -139,7 +132,7 @@ process aln {
  * Extract all sequences there is a reference for
  */
 
-process extract_subaln {
+process INTERMEDIATE_extract_subaln {
   tag "$method"
   container "$method"
   
@@ -162,7 +155,7 @@ process extract_subaln {
  * Evaluate the alignment score 
  */
 
-process score {
+process run_score {
     tag "$score + $method + $dataset_name"
     container "$score"
     

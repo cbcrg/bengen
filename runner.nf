@@ -18,35 +18,26 @@
  */
 
 
-params.aligners_file ="aligners.txt"
-aligners_f = file (params.aligners_file)
-
-params.result_file="results.csv"
-result_f= file(params.result_file)
-
-params.run_file ="run.csv"
-run_f = file(params.result_file)
- 
-params.rdf_file="metadata/operations.ttl"
-database_file= file(params.rdf_file)
-
-params.rdf_families_file="metadata/families.ttl"
-database_families= file(params.rdf_families_file)
-
-params.query_file="metadata/query.rq"
-query_f= file(params.query_file)
+params.methods_file ="methods.txt"
+methods = file (params.methods_file)
 
 params.constraints_file="constraints.txt"
 constraints_f= file(params.constraints_file)
 
+params.result_file="results.csv"
+result_f= file(params.result_file)
+ 
+params.operations_file="metadata/operations.ttl"
+operations= file(params.operations_file)
+
+params.families_file="metadata/families.ttl"
+families= file(params.families_file)
+
+params.query_file="metadata/query.rq"
+query= file(params.query_file)
+
 params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
-
-params.structural="false"
-params.tree_based="false"
-params.genome="false"
-
-params.subset="false"
 
 
 
@@ -58,70 +49,7 @@ if(!f.exists())
 
 
 
-
-/*
-* CREATE constraints file 
-*/
-process create_constraints {
-
-	
-	output: 
-	file('constraints.txt') into cons
-	
-	script: 
-	
-	if( "${params.structural}" == "true")
-	
-	"""
-	  request="?msa rdf:type edam:operation_0294 ."
-	  echo \$request >  constraints.txt
-	"""
-	else if( "${params.tree_based}" == "true")
-	
-	"""
-	  request="?msa rdf:type edam:operation_0499 ."
-	  echo \$request >  constraints.txt
-
-	"""
-	else
-	
-	"""	
-	echo "#insert here#" >  constraints.txt
-	"""
-
-}
-
-
-
-
-
-/*
-* CREATE query file 
-*/
-
-process create_query {
-
-	input: 
-	file database_file
-	file database_families
-	file(constraints) from cons
-
-	output: 
-	set file('query.rq'), file(database_file), file(database_families) into query_ttl
-
-	
-	"""
-	request=`cat "$constraints"`
-
-	cat "$baseDir/${params.query_file}" | sed "s/#insert here#/\$request/g" > query.rq
-
-	"""	
-
-
-
-
-}
-
+params.run ="false"
 
 
 
@@ -133,21 +61,26 @@ process create_query {
 process create_run {
 	
 	container "bengen/apache-jena"
-
-	input: 
-	set file (query), file (database_file),file (database_families) from query_ttl 
-
 	
 	
 	output: 
 	
-	file('run.csv') into run_table
+	file('run_for_channel .csv') into run_table
 	
-	"""
-	sparql  -data=$edam -data=$database_families -data=$database_file -query=$query -results=csv| tail -n +2 > run.csv
-	
-	"""
 
+	script: 
+
+	if( "${params.run}" == "false")
+	"""
+	sparql  -data=$edam -data=$families -data=$operations -query=$query -results=csv| tail -n +2 > run_for_channel.csv
+	
+	"""
+	else 
+	
+	"""
+	cat "$baseDir/${params.run}" > run_for_channel.csv	
+	
+	"""
 
 }
 
@@ -155,7 +88,7 @@ process create_run {
 
 
 /*
-* CREATE table results.csv
+* CREATE table results.csv using the run.nf script
 */
 
 
@@ -165,12 +98,12 @@ process create_results{
 
         input : 
 
-	file(run) from run_table
-	file aligners_f
+	file(run_file_from_ch) from run_table
+	file methods
 
         
 	"""
-	run-nf.pl $baseDir $aligners_f $baseDir/${params.result_file} $run  > results.csv
+	run-nf.pl $baseDir $methods $baseDir/${params.result_file} $run_file_from_ch  > results.csv
       
 	"""
 
