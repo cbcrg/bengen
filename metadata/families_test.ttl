@@ -1,0 +1,184 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix edam:  <http://edamontology.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix SIO:  <http://semanticscience.org/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://bengen.com/BB11001-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11001" ;
+        edam:data_1064       "BB11001" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11002-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11002" ;
+        edam:data_1064       "BB11002" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       8 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11003-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11003" ;
+        edam:data_1064       "BB11003" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11004-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11004" ;
+        edam:data_1064       "BB11004" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11005-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11005" ;
+        edam:data_1064       "BB11005" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       14 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11006-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11006" ;
+        edam:data_1064       "BB11006" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       8 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11007-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11007" ;
+        edam:data_1064       "BB11007" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       9 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11008-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11008" ;
+        edam:data_1064       "BB11008" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11009-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11009" ;
+        edam:data_1064       "BB11009" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+
+<http://bengen.com/BB11010-balibase>
+        rdf:type             edam:data_1233 ;
+        rdfs:label           "BB11010" ;
+        edam:data_1064       "BB11010" ;
+        edam:file_extension  ".fa" ;
+        edam:has_format      edam:1929 ;
+        SIO:SIO_000794       4 ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
+        oboInOwl:inSubset    "RV11" .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix edam:  <http://edamontology.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix SIO:  <http://semanticscience.org/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://bengen.com/BB11001-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11001" ;
+        edam:data_1066       "BB11001" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "4" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11002-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11002" ;
+        edam:data_1066       "BB11002" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "8" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11003-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11003" ;
+        edam:data_1066       "BB11003" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "4" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11004-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11004" ;
+        edam:data_1066       "BB11004" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "4" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11005-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11005" ;
+        edam:data_1066       "BB11005" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "14" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11006-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11006" ;
+        edam:data_1066       "BB11006" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "8" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11007-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11007" ;
+        edam:data_1066       "BB11007" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "9" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .
+
+<http://bengen.com/BB11008-balibase>
+        rdf:type             edam:data_1384 ;
+        rdfs:label           "BB11008" ;
+        edam:data_1066       "BB11008" ;
+        edam:file_extension  ".xml.ref" ;
+        edam:has_format      edam:format_2555 ;
+        edam:data_1412       "4" ;
+        oboInOwl:inSubset    <http://bengen.com/balibase-4.0> .

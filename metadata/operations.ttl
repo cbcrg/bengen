@@ -30,7 +30,7 @@
 
 <http://bengen.com/edam:data_2976-edam:format_1929>
         rdf:type         edam:data_2976 ;
-        SIO:SIO_000794   30000 ;
+        SIO:SIO_000794   10000 ;
         edam:has_format  edam:format_1929 .
 
 <http://bengen.com/edam:data_1384-edam:format_1984>
