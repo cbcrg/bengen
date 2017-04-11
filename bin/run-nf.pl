@@ -164,8 +164,11 @@ foreach my $key ( keys %hash) {
 	#Run Nextflow
 	
 	my $command = "nextflow -q run $dir/alnscore.nf --dataset ".$db." --score ".$sf." --newBase ".$dir." --id ".$id;
+	
 	open(OUT_bash, '>', "run_nf.sh");
 	print OUT_bash $command;
+	close (OUT_bash);
+
 	system( "chmod u+x run_nf.sh" );
 	my $output="lala";
 	$output = `./run_nf.sh`;
