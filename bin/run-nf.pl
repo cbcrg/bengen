@@ -164,7 +164,7 @@ foreach my $key ( keys %hash) {
 	print $fresult $output;
 	close ($fresult);
 
-	print $output;
+	#print $output;
 
  }
 

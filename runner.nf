@@ -99,7 +99,6 @@ process create_run {
 
 process create_results{
 
-	publishDir "CACHE"
 
         input : 
 
@@ -109,9 +108,8 @@ process create_results{
 
 
 	"""
-	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch  >> ${params.result_file}
+	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch 
       
-	cp "$baseDir/CACHE/${params.result_file}" "$baseDir/results.csv"
 	"""
 
 
