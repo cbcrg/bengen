@@ -22,7 +22,7 @@ open IN  ,'<', "$dir/images_docker" or die "can't open file  for reading: $!";
 
 while( defined( my $line = <IN> ) ){		
 	my @temp= split /\//, $line ; 	
-	 $dhid=@temp[0];
+	 $dhid=$temp[0];
 }
 close(IN);
 
