@@ -31,36 +31,35 @@ close(IN);
 #
 # hash_result{Scoringfunction, Dataset, method}="true"
 
+if ( -f $result_file){ 
+	open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
 
-open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
+	while( defined( my $line = <IN> ) ){	
 
-while( defined( my $line = <IN> ) ){	
-
-	chomp $line; 
+		chomp $line; 
 
 	
-	$line =~ s/$dhid\///g;
+		$line =~ s/$dhid\///g;
 
-	my @splitted = split /,/, $line; 
-	my $sf = $splitted[0];
-	my $method = $splitted[1];
-	my $db = $splitted[2];
-	my $id = $splitted[3];
+		my @splitted = split /,/, $line; 
+		my $sf = $splitted[0];
+		my $method = $splitted[1];
+		my $db = $splitted[2];
+		my $id = $splitted[3];
 
 
-	my $key = $sf.",".$db.",".$method.",".$id;
+		my $key = $sf.",".$db.",".$method.",".$id;
 	
-	if (! $result_hash{$key}){
-	  $result_hash{$key} ="true";
+		if (! $result_hash{$key}){
+		  $result_hash{$key} ="true";
 	
-	}	
+		}	
+
+	}
+
+	close(IN);
 
 }
-
-close(IN);
-
-
-print Dumper \%result_hash;
 
 
 
@@ -82,7 +81,6 @@ while( defined( my $line = <IN> ) ){
 	#prepare the parameters	
 	#chomp $line; 
 	my @splitted = split /,/, $line; 
-	print $line ; 
 	my $sf = $splitted[0];
 	my $method = $splitted[1];
 	my $db = $splitted[2];	
@@ -100,7 +98,6 @@ while( defined( my $line = <IN> ) ){
 	
 	# if the triplet has not been computed --> add to hashmap 
 	if ( ! $result_hash{$key_result} ){
-		print $key_result; 
 		if ($hash{$key}){
 		  $hash{$key} =$hash{$key}.",".$method;
 	
@@ -118,15 +115,15 @@ while( defined( my $line = <IN> ) ){
 close(IN);
 
 
-print Dumper \%hash;
 
 
 
-	my $f; 
-	open( $f, '>', "$dir/caching-infos-current-run") or die "Could not open file  $!";
-	print $f Data::Dumper->Dump( [ \%result_hash ], [ qw(*cached) ] );
-	print $f Data::Dumper->Dump( [ \%hash ], [ qw(*toRun) ] );
-	close ($f);
+
+	my $file; 
+	open( $file, '>', "$dir/CACHE/caching-infos-current-run") or die "Could not open file  $!";
+	print $file Data::Dumper->Dump( [ \%result_hash ], [ qw(*cached) ] );
+	print $file Data::Dumper->Dump( [ \%hash ], [ qw(*toRun) ] );
+	close ($file);
 
 
 
@@ -154,11 +151,7 @@ foreach my $key ( keys %hash) {
 
 	#Run Nextflow
 	
-	my $command = "nextflow -q run $dir/alnscore.nf -resume --dataset ".$db." --score ".$sf." --newBase ".$dir." --id ".$id;
-
-
-	
-
+	my $command = "nextflow -q run $dir/alnscore.nf --dataset ".$db." --score ".$sf." --newBase ".$dir." --id ".$id;
 
 	my $output = `$command`;
 
@@ -166,10 +159,10 @@ foreach my $key ( keys %hash) {
 	$output=~s/WARN: It seems you never run this project before -- Option `-resume` is ignored\n//;
 	
 	#Save the results into the results file
-	my $f; 
-	open( $f, '>>', "$result_file") or die "Could not open file  $!";
-	print $f $output;
-	close ($f);
+	my $fresult; 
+	open( $fresult, '>>', "$result_file") or die "Could not open file  $!";
+	print $fresult $output;
+	close ($fresult);
 
 	print $output;
 

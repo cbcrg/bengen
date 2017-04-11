@@ -1,0 +1,19 @@
+%cached = (
+            'baliscore,balibase,mafft,BB11005' => 'true',
+            'baliscore,balibase,clustalo,BB11005' => 'true',
+            'baliscore,balibase,mafft,BB11006' => 'true',
+            'baliscore,balibase,clustalo,BB11007' => 'true',
+            'baliscore,balibase,mafft,BB11003' => 'true',
+            'baliscore,balibase,mafft,BB11002' => 'true',
+            'baliscore,balibase,clustalo,BB11006' => 'true',
+            'baliscore,balibase,clustalo,BB11004' => 'true',
+            'baliscore,balibase,clustalo,BB11001' => 'true',
+            'baliscore,balibase,mafft,BB11008' => 'true',
+            'baliscore,balibase,mafft,BB11004' => 'true',
+            'baliscore,balibase,mafft,BB11007' => 'true',
+            'baliscore,balibase,clustalo,BB11008' => 'true',
+            'baliscore,balibase,clustalo,BB11003' => 'true',
+            'baliscore,balibase,mafft,BB11001' => 'true',
+            'baliscore,balibase,clustalo,BB11002' => 'true'
+          );
+%toRun = ();

@@ -21,16 +21,15 @@
 params.methods_file ="methods.txt"
 methods = file (params.methods_file)
 
-params.constraints_file="constraints.txt"
-constraints_f= file(params.constraints_file)
-
-params.result_file="results.csv"
-result_f= file(params.result_file)
+params.result_file="latest_run.csv"
  
+
+
+//Metadata files
 params.operations_file="metadata/operations.ttl"
 operations= file(params.operations_file)
 
-params.families_file="metadata/families.ttl"
+params.families_file="metadata/families_test.ttl"
 families= file(params.families_file)
 
 params.query_file="metadata/query.rq"
@@ -62,6 +61,12 @@ process create_run {
 	
 	container "bengen/apache-jena"
 	
+	input: 
+	file edam 
+	file families
+	file operations
+	file query 
+
 	
 	output: 
 	
@@ -94,17 +99,19 @@ process create_run {
 
 process create_results{
 
-	publishDir baseDir
+	publishDir "CACHE"
 
         input : 
 
 	file(run_file_from_ch) from run_table
 	file methods
 
-        
+
+
 	"""
-	run-nf.pl $baseDir $methods $baseDir/${params.result_file} $run_file_from_ch  > results.csv
+	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch  >> ${params.result_file}
       
+	cp "$baseDir/CACHE/${params.result_file}" "$baseDir/results.csv"
 	"""
 
 

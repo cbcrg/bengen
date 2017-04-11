@@ -12,3 +12,5 @@ RUN wget -q http://apache.rediris.es/jena/binaries/apache-jena-3.2.0.tar.gz &&\
   update-alternatives --config java  
 
 ENV PATH "/apache-jena-3.2.0/bin:$PATH"
+
+
