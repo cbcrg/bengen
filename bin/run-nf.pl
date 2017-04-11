@@ -126,6 +126,16 @@ close(IN);
 	close ($file);
 
 
+if ( -f $result_file){ 
+	open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
+	while( defined( my $line = <IN> ) ){
+		print $line ; 
+	}
+	close (IN);
+}
+
+
+
 
 ## RUN NEXTFLOW AND STORE THE RESULTS  
 
@@ -159,12 +169,8 @@ foreach my $key ( keys %hash) {
 	$output=~s/WARN: It seems you never run this project before -- Option `-resume` is ignored\n//;
 	
 	#Save the results into the results file
-	my $fresult; 
-	open( $fresult, '>>', "$result_file") or die "Could not open file  $!";
-	print $fresult $output;
-	close ($fresult);
 
-	#print $output;
+	print $output;
 
  }
 

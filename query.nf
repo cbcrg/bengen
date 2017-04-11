@@ -21,7 +21,7 @@
 params.methods_file ="methods.txt"
 methods = file (params.methods_file)
 
-params.result_file="latest_run.csv"
+params.cache_file="cache.csv"
  
 
 
@@ -86,12 +86,18 @@ process create_run {
  */
 process create_results{
 
+   	 publishDir "CACHE", mode: 'copy', overwrite: true
+
+	
         input : 
 	file(run_file_from_ch) from run_table
 	file methods
+	
+	output: 
+	file("${params.cache_file}")
 
 	"""
-	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch 
+	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.cache_file}" $run_file_from_ch > "${params.cache_file}"
       
 	"""
 }
