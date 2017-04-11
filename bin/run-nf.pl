@@ -10,7 +10,7 @@ use Data::Dumper;
 #
 
 
-my ($dir, $methods_file, $result_file, $run_file ) = @ARGV;
+my ($dir, $methods_file, $result_file, $run_file, $cache_file ) = @ARGV;
 
 
 my %hash = ();
@@ -126,15 +126,17 @@ close(IN);
 	close ($file);
 
 
+
+open( OUT, '>', "$cache_file") or die "Could not open file  $!";
+
 if ( -f $result_file){ 
 	open IN  ,'<', "$result_file" or die "can't open file  for reading: $!";
 	while( defined( my $line = <IN> ) ){
-		print $line ; 
+
+		print OUT $line ; 
 	}
 	close (IN);
 }
-
-
 
 
 ## RUN NEXTFLOW AND STORE THE RESULTS  
@@ -170,7 +172,8 @@ foreach my $key ( keys %hash) {
 	
 	#Save the results into the results file
 
-	print $output;
-
+	print OUT $output;
  }
+close (OUT);
+
 

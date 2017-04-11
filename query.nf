@@ -97,7 +97,7 @@ process create_results{
 	file("${params.cache_file}")
 
 	"""
-	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.cache_file}" $run_file_from_ch > "${params.cache_file}"
+	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.cache_file}" $run_file_from_ch "${params.cache_file}"
       
 	"""
 }
