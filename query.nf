@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
+ * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors, Luisa Santus, Maria Chatzou and Paolo Di Tommaso.
  *
  *   This file is part of 'Bengen'.
  *
@@ -39,24 +39,18 @@ params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
 
 
-
 //create the file if it does not exist
 File f = new File("results.csv");
 if(!f.exists())
     f.createNewFile();
-
-
-
 
 params.run ="false"
 
 
 
 /*
-* CREATE table run.csv
-*/
-
-
+ * CREATE table run.csv
+ */
 process create_run {
 	
 	container "bengen/apache-jena"
@@ -66,10 +60,8 @@ process create_run {
 	file families
 	file operations
 	file query 
-
 	
-	output: 
-	
+	output: 	
 	file('run_for_channel.csv') into run_table
 	
 
@@ -86,50 +78,23 @@ process create_run {
 	cat "$baseDir/${params.run}" > run_for_channel.csv	
 	
 	"""
-
 }
 
 
-
-
 /*
-* CREATE table results.csv using the run.nf script
-*/
-
-
+ * CREATE table results.csv using the run.nf script
+ */
 process create_results{
 
-
         input : 
-
 	file(run_file_from_ch) from run_table
 	file methods
-
-
 
 	"""
 	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch 
       
 	"""
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
