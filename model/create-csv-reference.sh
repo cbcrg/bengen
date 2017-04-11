@@ -29,7 +29,7 @@ type="edam:data_1384"
 
 for dataset in $all_datasets;{
 	
-	if [ "$dataset" == "balibase" ]; then { 
+	if [ "$dataset" == "balibase-4.0" ]; then { 
 		format="edam:format_2555"; 
 		extension=".xml.ref"
 	} else  format="edam:format_1984" 
@@ -39,10 +39,10 @@ for dataset in $all_datasets;{
 	cd $dataset;
 	#cd "all";
 
-	if [ "$dataset" == "balibase"  ];  then {
+	if [ "$dataset" == "balibase-4.0"  ];  then {
 		version="4.0" ; 
 
-	} elif [ "$dataset" == "prefab" ]; then {
+	} elif [ "$dataset" == "prefab-4.0" ]; then {
 		version="4.0" ;
 		
 	} else  version="1.0"   ; fi 
@@ -68,7 +68,7 @@ for dataset in $all_datasets;{
 		
 		}
 	
-		echo $id_nofa","$type","$extension","$format","$dataset","$version","$num_seq$feature_value >> $ref;
+		echo $id_nofa","$type","$extension","$format","$dataset","$version$feature_value >> $ref;
 		cd "$benchmark_datasets/$dataset";
 	}
 	cd ..

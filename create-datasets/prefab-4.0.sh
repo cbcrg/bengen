@@ -2,10 +2,10 @@
 bengen=$1
 benchmarkPath="$bengen/benchmark_datasets"
 cd $benchmarkPath
-[[ -d  "prefab" ]]  && rm -rf prefab
+[[ -d  "prefab-4.0" ]]  && rm -rf prefab-4.0
 
-mkdir prefab
-cd prefab
+mkdir prefab-4.0
+cd prefab-4.0
 
 
 

@@ -2,10 +2,10 @@
 bengen=$1
 benchmarkPath="$bengen/benchmark_datasets"
 cd $benchmarkPath
-[[ -d  "homfam_clustalo" ]]  && rm -rf homfam_clustalo
+[[ -d  "homfam_clustalo-1.0" ]]  && rm -rf homfam_clustalo-1.0
 
-mkdir homfam_clustalo 
-cd homfam_clustalo
+mkdir homfam_clustalo-1.0
+cd homfam_clustalo-1.0
 
 
 wget -q http://www.clustal.org/omega/homfam-20110613-25.tar.gz 

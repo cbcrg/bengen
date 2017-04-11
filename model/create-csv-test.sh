@@ -27,9 +27,9 @@ for dataset in $all_datasets;{
 	cd "$benchmark_datasets/$dataset";
 
 
-	if [ "$dataset" == "balibase"  ];  then {
+	if [ "$dataset" == "balibase-4.0"  ];  then {
 		version="4.0" ; 
-	} elif [ "$dataset" == "prefab" ]; then {
+	} elif [ "$dataset" == "prefab-4.0" ]; then {
 		version="4.0" ;
 	} else  version="1.0"   ; fi 
 

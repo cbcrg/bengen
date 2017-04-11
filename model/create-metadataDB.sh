@@ -1,7 +1,7 @@
 #DEPENDENCY : TARQL (APACHE-JENA)
 
 
-family_rdf="../metadata/families.ttl"
+family_rdf="../metadata/families_test.ttl"
 operations_rdf="../metadata/operations.ttl"
 
 

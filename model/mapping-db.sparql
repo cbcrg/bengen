@@ -15,6 +15,6 @@ CONSTRUCT {
 FROM <file:toModel-db.csv>
 
 WHERE{
- BIND (URI(CONCAT('http://bengen.com/', ?name, '-', ?version)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?name)) AS ?URI)
 
 }

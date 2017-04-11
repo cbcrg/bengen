@@ -3,12 +3,13 @@
 bengen=$1
 benchmarkPath="$bengen/benchmark_datasets"
 cd $benchmarkPath
-[[ -d  "oxfam" ]]  && rm -rf oxfam
+[[ -d  "oxfam-1.0" ]]  && rm -rf oxfam-1.0
 
 wget -q https://mafft.sb.ecei.tohoku.ac.jp/material/dataset/benchmark/oxfam.tgz 
 tar xf oxfam.tgz 
-rm -rf oxfam.tgz 
-cd oxfam 
+rm -rf oxfam.tgz
+mv oxfam oxfam-1.0 
+cd oxfam-1.0
 
  
 

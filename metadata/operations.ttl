@@ -8,11 +8,11 @@
 <http://bengen.com/clustalo-1.0>
         rdf:type         edam:operation_0499 ;
         rdfs:label       "clustalo" ;
-        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929> ;
+        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929-100> ;
         edam:has_output  <http://bengen.com/edam:data_1384-edam:format_1984> ;
         edam:has_topic   edam:topic_0091 .
 
-<http://bengen.com/edam:data_2976-edam:format_1929>
+<http://bengen.com/edam:data_2976-edam:format_1929-100>
         rdf:type         edam:data_2976 ;
         SIO:SIO_000794   100 ;
         edam:has_format  edam:format_1929 .
@@ -24,11 +24,11 @@
 <http://bengen.com/mafft-1.0>
         rdf:type         edam:operation_0492 ;
         rdfs:label       "mafft" ;
-        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929> ;
+        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929-10000> ;
         edam:has_output  <http://bengen.com/edam:data_1384-edam:format_1984> ;
         edam:has_topic   edam:topic_0091 .
 
-<http://bengen.com/edam:data_2976-edam:format_1929>
+<http://bengen.com/edam:data_2976-edam:format_1929-10000>
         rdf:type         edam:data_2976 ;
         SIO:SIO_000794   10000 ;
         edam:has_format  edam:format_1929 .
@@ -68,21 +68,21 @@
         edam:has_format  edam:format_1984 .
 
 <http://bengen.com/balibase-4.0>
-        rdfs:label    "balibase" ;
+        rdfs:label    "balibase-4.0" ;
         doap:Version  4.0 .
 
 <http://bengen.com/prefab-4.0>
-        rdfs:label    "prefab" ;
+        rdfs:label    "prefab-4.0" ;
         doap:Version  4.0 .
 
 <http://bengen.com/homfam_clustalo-1.0>
-        rdfs:label    "homfam_clustalo" ;
+        rdfs:label    "homfam_clustalo-1.0" ;
         doap:Version  1.0 .
 
 <http://bengen.com/homfam_mafft-1.0>
-        rdfs:label    "homfam_mafft" ;
+        rdfs:label    "homfam_mafft-1.0" ;
         doap:Version  1.0 .
 
 <http://bengen.com/oxfam-1.0>
-        rdfs:label    "oxfam" ;
+        rdfs:label    "oxfam-1.0" ;
         doap:Version  1.0 .

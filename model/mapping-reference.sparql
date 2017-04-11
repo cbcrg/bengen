@@ -42,6 +42,6 @@ FROM <file:toModel-reference.csv>
 WHERE{
 
  BIND (URI(CONCAT('http://bengen.com/', ?id ,"-",?dataset)) AS ?URI)
- BIND (URI(CONCAT('http://bengen.com/', ?dataset,"-",?version )) AS ?URI_DATASET)
+ BIND (URI(CONCAT('http://bengen.com/', ?dataset )) AS ?URI_DATASET)
 
 }

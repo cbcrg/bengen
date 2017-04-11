@@ -5,9 +5,9 @@ subsetPath1="$bengen/create-datasets/balibase-subset1.csv"
 subsetPath2="$bengen/create-datasets/balibase-subset2.csv"
 cd $benchmarkPath
 mkdir temp
-[[ -d  "balibase" ]]  && rm -r balibase 
-mkdir balibase
-cd balibase
+[[ -d  "balibase-4.0" ]]  && rm -r balibase-4.0
+mkdir balibase-4.0
+cd balibase-4.0
 
 
 
