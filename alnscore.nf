@@ -110,7 +110,7 @@ else{
 
 process run_method {
   
-  publishDir "${params.newBase}/temp_results/$method/$dataset_name/$id"
+  publishDir "${params.newBase}/methods_results/$method/$dataset_name/$id"
   tag "$method, $dataset_name"
   container "$method"
   
@@ -133,6 +133,7 @@ process run_method {
  */
 
 process INTERMEDIATE_extract_subaln {
+  publishDir "${params.newBase}/methods_modified_results/$method/$dataset_name/$id"
   tag "$method"
   container "$method"
   
@@ -143,10 +144,10 @@ process INTERMEDIATE_extract_subaln {
   
   
   output: 
-  set method, dataset_name, id, file('method.out') into modified_methods_result
+  set method, dataset_name, id, file('method_modified.out') into modified_methods_result
   
   """
-  extract_aln.pl $datasets_home/${id}.fa.ref $aln
+  [[ -f $datasets_home/${id}.fa.ref ]] 	&& extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out 
   """
 }
 
