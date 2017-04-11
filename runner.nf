@@ -53,8 +53,8 @@ params.run ="false"
 
 
 /*
-* CREATE table run.csv
-*/
+ * CREATE table run.csv
+ */
 
 
 process create_run {
@@ -68,8 +68,7 @@ process create_run {
 	file query 
 
 	
-	output: 
-	
+	output: 	
 	file('run_for_channel.csv') into run_table
 	
 
@@ -91,28 +90,27 @@ process create_run {
 
 
 
-
 /*
-* CREATE table results.csv using the run.nf script
-*/
+ * CREATE table results.csv using the run.nf script
+ */
 
 
 process create_results{
 
-
+	publishDir "CASHE" 
+	
         input : 
-
 	file(run_file_from_ch) from run_table
 	file methods
-
+	
+	output:
+	file('latest_run_status.csv')
 
 
 	"""
-	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch 
+	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.result_file}" $run_file_from_ch > latest_run_status.csv
       
 	"""
-
-
 }
 
 
