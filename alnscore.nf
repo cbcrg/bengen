@@ -109,7 +109,8 @@ else{
  */
 
 process run_method {
-  
+    //else
+  //     Files(${params.newBase}/methods_results/$method/$dataset_name/$id/method.out, method.out)
   publishDir "${params.newBase}/methods_results/$method/$dataset_name/$id"
   tag "$method, $dataset_name"
   container "$method"
@@ -118,14 +119,16 @@ process run_method {
   each method from boxes
   set dataset_name, id, file(input) from dataset_fasta 
   
-  
   output: 
   set method, dataset_name, id, file('method.out') into methods_result
-  
-  script:
-  template method
 
-  
+  script:
+  if ( !file("${params.newBase}/methods_results/$method/$dataset_name/$id/method.out").exists() )
+       template method 
+  else {
+       template "bengen/copy"
+  }
+    
 }
 
 /* 
@@ -133,21 +136,27 @@ process run_method {
  */
 
 process INTERMEDIATE_extract_subaln {
+
   publishDir "${params.newBase}/methods_modified_results/$method/$dataset_name/$id"
   tag "$method"
   container "$method"
   
   input: 
   set method, dataset_name, id, file(aln) from methods_result
-
   file datasets_home 
-  
   
   output: 
   set method, dataset_name, id, file('method_modified.out') into modified_methods_result
-  
+
+
   """
-  [[ -f $datasets_home/${id}.fa.ref ]] 	&& extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out 
+  if [ ! -f ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out ]; then
+
+    [[ -f $datasets_home/${id}.fa.ref ]] 	&& extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out
+  
+  else
+    cp ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out method_modified.out
+  fi
   """
 }
 
