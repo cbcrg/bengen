@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
+ * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors, Luisa Santus, Maria Chatzou and Paolo Di Tommaso.
  *
  *   This file is part of 'Bengen'.
  *
@@ -122,11 +122,8 @@ process run_method {
   set method, dataset_name, id, file('method.out') into methods_result
 
   script:
-  if ( !file("${params.newBase}/methods_results/$method/$dataset_name/$id/method.out").exists() )
-       template method 
-  else {
-       template "bengen/copy"
-  }
+  template method 
+
     
 }
 
@@ -154,19 +151,14 @@ process MANIPULATION_extract_subaln {
 
 
   """
-  if [ ! -f ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out ]; then
-
     [[ -f $datasets_home/${id}.fa.ref ]] && extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out
-  
-  else
-    cp ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out method_modified.out
-  fi
+
   """
 }
 
 
 /* 
- * Evaluate the score for the ouput of each method 
+ * Evaluate the score for the ouput of each method    
  */
 
 process run_score {
