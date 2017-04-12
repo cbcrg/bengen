@@ -43,7 +43,7 @@ FROM <file:toModel-test.csv>
 
 WHERE{
 
- BIND (URI(CONCAT('http://bengen.com/', ?id ,"-",?dataset)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?id ,"-test")) AS ?URI)
  BIND (URI(CONCAT('http://bengen.com/', ?dataset)) AS ?URI_DATASET)
 
 }
