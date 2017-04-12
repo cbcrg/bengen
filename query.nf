@@ -18,13 +18,10 @@
  */
 
 
-params.methods_file ="methods.txt"
-methods = file (params.methods_file)
+methods = file ("methods.txt")
 
 params.cache_file="cache.csv"
  
-
-
 //Metadata files
 params.operations_file="metadata/operations.ttl"
 operations= file(params.operations_file)
@@ -44,7 +41,51 @@ File f = new File("results.csv");
 if(!f.exists())
     f.createNewFile();
 
+
+
 params.run ="false"
+
+
+
+/*
+*   Parameters connected to the query file.
+*   This part is very tightly connected to the structure of the ontology.
+*   Parameters and query modifications have to change depending on the topic.
+*
+*   Depending on the parameters an appendix is 
+*/
+
+//----------------------------MSA's Specific-------------------------------------------------//
+
+String appendix = ""
+
+
+params.method="false"
+params.score="false"
+params.database="false"
+params.id="false"
+
+params.structural="false"
+params.tree_based="false"
+
+
+if( "${params.method}" != "false" ) appendix += "?msa rdfs:label \"${params.method}\".\n" 
+
+if( "${params.score}" != "false" ) appendix += "?sf rdfs:label \"${params.score}\".\n"
+
+if( "${params.database}" != "false" ) appendix += "?URI_DATASET rdfs:label \"${params.database}\".\n"
+
+if( "${params.id}" != "false" ) appendix += "?ref edam:data_1066 \"${params.id}\".\n"
+
+if( "${params.structural}" !="false") appendix += "?msa rdf:type edam:operation_0294 ."
+
+if( "${params.tree_based}" != "false" ) appendix += "?msa rdf:type edam:operation_0499 ."
+
+def extendedQuery = query.text.replaceAll("#insert here#","$appendix\n  #insert here#")
+query.write(extendedQuery);
+
+//-------------------------------------------------------------------------------------------//
+
 
 
 
@@ -59,7 +100,7 @@ process create_run {
 	file edam 
 	file families
 	file operations
-	file query 
+	file query from query_ch
 	
 	output: 	
 	file('run_for_channel.csv') into run_table
@@ -84,6 +125,7 @@ process create_run {
 /*
  * CREATE table results.csv using the run.nf script
  */
+
 process create_results{
 
    	publishDir "CACHE", mode: 'copy', overwrite: true
