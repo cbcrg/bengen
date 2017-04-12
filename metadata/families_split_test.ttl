@@ -5,7 +5,7 @@
 @prefix SIO:  <http://semanticscience.org/resource/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://bengen.com/BB11001-test>
+<http://bengen.com/BB11001-balibase-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "BB11001" ;
         edam:data_1064       "BB11001" ;
@@ -15,7 +15,7 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/BB11002-test>
+<http://bengen.com/BB11002-balibase-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "BB11002" ;
         edam:data_1064       "BB11002" ;
@@ -25,7 +25,7 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/BB11003-test>
+<http://bengen.com/BB11003-balibase-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "BB11003" ;
         edam:data_1064       "BB11003" ;
@@ -35,7 +35,7 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/BB11004-test>
+<http://bengen.com/BB11004-balibase-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "BB11004" ;
         edam:data_1064       "BB11004" ;
@@ -45,7 +45,7 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/BB11005-test>
+<http://bengen.com/BB11005-balibase-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "BB11005" ;
         edam:data_1064       "BB11005" ;
@@ -55,7 +55,7 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/1a0cA_1a0dA-test>
+<http://bengen.com/1a0cA_1a0dA-prefab-4.0-test>
         rdf:type             edam:data_1233 ;
         rdfs:label           "1a0cA_1a0dA" ;
         edam:data_1064       "1a0cA_1a0dA" ;
