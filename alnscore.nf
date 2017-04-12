@@ -69,7 +69,7 @@ dataset_fasta = Channel
 
 
 
-//per default uses the files aligners.txt and scores.txt
+//per default uses the files methods.txt and scores.txt
 //if asked in the command line one aligner and one scoring function can be used
 params.score="false"
 params.method="false"
@@ -105,12 +105,11 @@ else{
 
 
 /* 
- * Execute an alignment job for each input sequence in the dataset 
+ * Execute a method job for each input file in the dataset 
  */
 
 process run_method {
-    //else
-  //     Files(${params.newBase}/methods_results/$method/$dataset_name/$id/method.out, method.out)
+ 
   publishDir "${params.newBase}/methods_results/$method/$dataset_name/$id"
   tag "$method, $dataset_name"
   container "$method"
@@ -132,10 +131,15 @@ process run_method {
 }
 
 /* 
- * Extract all sequences there is a reference for
+ * Manipulation Step: 
+ * This step is specific for MSA's manipulation and it extracts the sequences from the alignment, for which there is a reference for. 
+ *
+ * In case the benchmarked methods are nor Multiple sequence aligners this process should not be used.
+ * It can be substituted by an equivalent manipulation.
+ *
  */
 
-process INTERMEDIATE_extract_subaln {
+process MANIPULATION_extract_subaln {
 
   publishDir "${params.newBase}/methods_modified_results/$method/$dataset_name/$id"
   tag "$method"
@@ -152,7 +156,7 @@ process INTERMEDIATE_extract_subaln {
   """
   if [ ! -f ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out ]; then
 
-    [[ -f $datasets_home/${id}.fa.ref ]] 	&& extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out
+    [[ -f $datasets_home/${id}.fa.ref ]] && extract_aln.pl $datasets_home/${id}.fa.ref $aln  || cp $aln method_modified.out
   
   else
     cp ${params.newBase}/methods_modified_results/$method/$dataset_name/$id/method_modified.out method_modified.out
@@ -162,7 +166,7 @@ process INTERMEDIATE_extract_subaln {
 
 
 /* 
- * Evaluate the alignment score 
+ * Evaluate the score for the ouput of each method 
  */
 
 process run_score {
@@ -184,7 +188,11 @@ process run_score {
 }
 
 /* 
- * Create the output file 
+ * Create the output file in the required format specified by the renderer parameter.
+ * It is based on the groovy SimpleTemplateEngine --> The template's files are stored in the template_output folder.
+ * 
+ * If needed a new template file can be added in the template_ouput folder : NEW_TEMPLATE_NAME.txt .
+ * Afterwards it can be automatically used by setting the params.renderer="NEW_TEMPLATE_NAME" (or calling it by the command line --renderer "NEW_TEMPLATE_NAME").
  */
 
 def map =[]
