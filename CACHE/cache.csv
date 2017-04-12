@@ -1,0 +1,14 @@
+bengen/fastsp,bengen/clustalo,prefab-4.0,1a0cA_1a0dA,0.0,0.0,1.0,1.0,1.0640732265446224,0.0
+bengen/fastsp,bengen/mafft,prefab-4.0,1a0cA_1a0dA,0.0,0.0,1.0,1.0,1.0297482837528604,0.0
+bengen/qscore,bengen/clustalo,prefab-4.0,1a0cA_1a0dA,0.998,0.998,0.998,0.998
+bengen/qscore,bengen/mafft,prefab-4.0,1a0cA_1a0dA,1,1,1,1
+bengen/baliscore,bengen/clustalo,balibase-4.0,BB11002,0.536,0.000
+bengen/baliscore,bengen/mafft,balibase-4.0,BB11002,0.586,0.000
+bengen/baliscore,bengen/clustalo,balibase-4.0,BB11004,0.556,0.400
+bengen/baliscore,bengen/mafft,balibase-4.0,BB11004,0.585,0.420
+bengen/baliscore,bengen/clustalo,balibase-4.0,BB11003,0.653,0.480
+bengen/baliscore,bengen/mafft,balibase-4.0,BB11003,0.489,0.350
+bengen/baliscore,bengen/clustalo,balibase-4.0,BB11001,0.956,0.910
+bengen/baliscore,bengen/mafft,balibase-4.0,BB11001,0.892,0.820
+bengen/baliscore,bengen/clustalo,balibase-4.0,BB11005,0.442,0.200
+bengen/baliscore,bengen/mafft,balibase-4.0,BB11005,0.392,0.180
