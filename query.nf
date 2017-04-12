@@ -86,8 +86,21 @@ query.write(extendedQuery);
 
 //-------------------------------------------------------------------------------------------//
 
+/*
+ * CREATE table run.csv
+ */
+process split_ontology {
+	
+	input: 
+	file families
+	
+//	output: 	
+//	file("query*") into splitted_onto
 
+	script:
 
+}
+return
 
 /*
  * CREATE table run.csv
@@ -98,7 +111,7 @@ process create_run {
 	
 	input: 
 	file edam 
-	file families
+	file(families) from splitted_onto
 	file operations
 	file query from query_ch
 	
@@ -110,13 +123,13 @@ process create_run {
 
 	if( "${params.run}" == "false")
 	"""
-	sparql  -data=$edam -data=$families -data=$operations -query=$query -results=csv| tail -n +2 > run_for_channel.csv
+	sparql  -data=$edam -data=$families -data=$operations -query=$query -results=csv| tail -n +2 >> run_for_channel.csv
 	
 	"""
 	else 
 	
 	"""
-	cat "$baseDir/${params.run}" > run_for_channel.csv	
+	cat "$baseDir/${params.run}" >> run_for_channel.csv	
 	
 	"""
 }
@@ -129,9 +142,8 @@ process create_run {
 process create_results{
 
    	publishDir "CACHE", mode: 'copy', overwrite: true
-
 	
-        input : 
+    input : 
 	file(run_file_from_ch) from run_table
 	file methods
 	
