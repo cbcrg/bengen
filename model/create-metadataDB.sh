@@ -11,13 +11,19 @@ metadata(){
 	tarql mapping-db.sparql |sed "s/\"\(.*:.*\)\"/\1/g"| sed '/^@/ d' | sed "s/\(Version.*\)\"\(.*\)\"/\1\2/g" >> $operations_rdf 
 
 	tarql mapping-test.sparql | sed "s/\"\(.*:.*\)\"/\1/g " |  sed "s/\(SIO_000794.*\)\"\(.*\)\"/\1\2/g"  >$family_rdf
-	tarql mapping-reference.sparql | sed "s/\"\(.*:.*\)\"/\1/g " >>$family_rdf
+	tarql mapping-reference.sparql | sed "s/\"\(.*:.*\)\"/\1/g "| sed '/^@/ d' >>$family_rdf
 
 	echo "Metadata files are ready!"
 };
 
 
+filter(){
 
+	perl filterMetadata.pl $operations_rdf
+	perl filterMetadata.pl $family_rdf
+
+
+};
 
 
 
@@ -28,6 +34,7 @@ then
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
 	    metadata
+	    filter
 	fi
 else 
 	metadata
