@@ -54,6 +54,40 @@ padding-bottom: 50px;
   padding-bottom: 70px;
 
 }
+ #step1{
+ background-color: #D0D6E1;
+ height: 160px;
+
+}
+
+#step2{
+background-color: #B5C2DC;
+height: 160px;
+
+}
+
+#step3{
+background-color: #92A5CA;
+height: 160px;
+
+
+}
+.steps-wrapper{
+
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: 8%;
+
+
+}
+
+
+#steps {
+
+
+	height: 200px;
+
+}
 
 .main{
   margin-left: 5%;
@@ -179,4 +213,19 @@ border-width: 0px 0px 0px 8px;
 #up_dx:hover{
 	background-color: #E5F4FF;
 
+}
+
+
+.myButton {
+	margin-top: 50px;
+	background-color:#C7C7C7;
+	color:#404040;
+	font-size:17px;
+	padding:1px 15px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+
+.myButton:hover{
+	title: "dfasf";
 }
