@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Bengen is a Containerization-based Multiple Sequence Aligners prototype.
+Bengen is a Containerization-based Multiple Sequence Aligners benchmarking prototype.
 
 It allows to test each selcted MSA in the project on each selected Dataset using each selected scoring function. 
 
