@@ -35,6 +35,7 @@ query= file(params.query_file)
 params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
 
+params.splitOntoBy=2
 
 //create the file if it does not exist
 File f = new File("results.csv");
@@ -86,8 +87,22 @@ query.write(extendedQuery);
 
 //-------------------------------------------------------------------------------------------//
 
+/*
+ * CREATE table run.csv
+ */
+process split_ontology {
+	
+	input: 
+	file families
+	publishDir "LALA"
 
+	output: 	
+	file('query*') into splitted_onto
 
+	"""
+	groovy $baseDir/bin/split_onto.groovy ${families} ${params.splitOntoBy}
+	"""
+}
 
 /*
  * CREATE table run.csv
@@ -95,12 +110,13 @@ query.write(extendedQuery);
 process create_run {
 	
 	container "bengen/apache-jena"
-	
+	publishDir "LALA"
+
 	input: 
 	file edam 
-	file families
+	file(families) from splitted_onto.flatten()
 	file operations
-	file query from query_ch
+	file query from query
 	
 	output: 	
 	file('run_for_channel.csv') into run_table
@@ -116,7 +132,7 @@ process create_run {
 	else 
 	
 	"""
-	cat "$baseDir/${params.run}" > run_for_channel.csv	
+	cat "$baseDir/${params.run}" >> run_for_channel.csv	
 	
 	"""
 }
@@ -129,9 +145,8 @@ process create_run {
 process create_results{
 
    	publishDir "CACHE", mode: 'copy', overwrite: true
-
 	
-        input : 
+    input : 
 	file(run_file_from_ch) from run_table
 	file methods
 	
