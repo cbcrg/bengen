@@ -45,7 +45,7 @@ if(!f.exists())
 
 
 params.run ="false"
-
+run_file=file(params.run)
 
 
 /*
@@ -92,12 +92,15 @@ query.write(extendedQuery);
  */
 process split_ontology {
 	
+	container "bengen/groovy"
+
 	input: 
 	file families
-	publishDir "LALA"
+
+	
 
 	output: 	
-	file('query*') into splitted_onto
+	file('fam_split*') into splitted_onto
 
 	"""
 	groovy $baseDir/bin/split_onto.groovy ${families} ${params.splitOntoBy}
@@ -110,13 +113,14 @@ process split_ontology {
 process create_run {
 	
 	container "bengen/apache-jena"
-	publishDir "LALA"
+
 
 	input: 
 	file edam 
-	file(families) from splitted_onto.flatten()
+	file(families_split) from splitted_onto.flatten()
 	file operations
 	file query from query
+	file run_file
 	
 	output: 	
 	file('run_for_channel.csv') into run_table
@@ -126,13 +130,13 @@ process create_run {
 
 	if( "${params.run}" == "false")
 	"""
-	sparql  -data=$edam -data=$families -data=$operations -query=$query -results=csv| tail -n +2 > run_for_channel.csv
+	sparql  -data=$edam -data=$families_split -data=$operations -query=$query -results=csv| tail -n +2 > run_for_channel.csv
 	
 	"""
 	else 
 	
 	"""
-	cat "$baseDir/${params.run}" >> run_for_channel.csv	
+	cat $run_file >> run_for_channel.csv	
 	
 	"""
 }

@@ -41,7 +41,7 @@ for ( i in test_map)
     if( splitby == count ){
         count=0;
         countf++
-        f = new File("query${countf}.ttl")
+        f = new File("fam_split${countf}.ttl")
         f << prefix
     }
   
