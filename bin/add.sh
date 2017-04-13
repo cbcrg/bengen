@@ -8,7 +8,6 @@ echo $bengen;
 operations="$bengen/metadata/operations.ttl"
 
 #Read command line parameters
-MAKE=NO
 
 while getopts ":n:m:t:" opt; do
   case $opt in
@@ -54,10 +53,6 @@ lookForName=`grep -c "${DockerHubRepo}/${MethodName}" "${bengen}/images_docker"`
 	cp "${TEMPLATEPATH}" "$bengen/templates/${DockerHubRepo}/${MethodName}"; } || \
 { echo "Could not find Metadatafile or templatefile"; echo ${ALERT}; exit 0 ; }
 
-echo "hola"
-
-## call the make command if required
-[[ ${MAKE} == "YES" ]] && { ${bengen}/make ;  }
 
 
 
