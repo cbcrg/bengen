@@ -1,0 +1,182 @@
+body{
+	background-color: white;
+}
+.logo{
+padding-bottom: 50px;
+
+}
+.row-header{
+  width : 100%;
+  height: 20px;
+	-webkit-transform: translateZ(0);
+
+}
+.pic-puzzle img{
+ width: 50%;
+ height: 20%;
+
+}
+.row-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: rigth;
+    background-color: #C0C0C0;
+}
+
+.row-header ul li {
+
+	padding-left: 20px;
+  float: right;
+}
+
+.row-header ul li  a {
+    display: block;
+    color: white;
+    text-align: rigth;
+    padding: 19px 19px;
+    text-decoration: none;
+    transition: width 4s ease;
+
+
+
+}
+.row-header li a:hover {
+
+    color: inherit;
+    text-decoration: none;
+    transition: width .5s ease;
+
+}
+
+.wrapper {
+  padding-bottom: 70px;
+
+}
+
+.main{
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.main h2{
+  padding-top: 35px;
+}
+.main img{
+	display: block;
+	margin: 0 auto;
+}
+.icon{
+  width: 50%;
+  height: 40%;
+padding: 20px;
+
+}
+.container-logos{
+
+	background-color: #ECECEC;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
+ #Protein{
+	background-color: #9A569A;
+}
+ #DNA{
+	background-color: #69A46B;
+
+}
+ #RNA{
+	background-color: #5369B3;
+}
+
+#DNA:hover{
+	background-color: grey;
+
+}
+#RNA:hover{
+	background-color: grey;
+
+}
+
+
+ #bench-icon h1{
+	padding-top: 40%;
+ }
+
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 300px;
+  text-align: center;
+  background: #000;
+
+
+}
+
+.circle a{
+		text-decoration: none;
+		color: inherit;
+}
+
+.row-header li a:hover {
+
+	color: inherit;
+	text-decoration: none;
+	transition: width .5s ease;
+	box-shadow: 0px 0px 150px #000000;
+	z-index: 2;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.5);
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.5);
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.5);
+	transition: all 200ms ease-in;
+	transform: scale(1.5);
+}
+
+
+#bench-icon:hover{
+	color: inherit;
+	text-decoration: none;
+	transition: width .5s ease;
+	z-index: 2;
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#bench-icon a:hover{
+	color:grey;
+	text-decoration: none;
+
+}
+
+.icons{
+	padding-top: 80px;
+}
+#up_dx{
+position:absolute;
+ right:5%; top:100px;
+ background-color: #D1ECFF;
+ width:150px; height:100px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+border-style: solid;
+border-width: 0px 0px 0px 8px;
+
+}
+
+#up_dx:hover{
+	background-color: #E5F4FF;
+
+}
