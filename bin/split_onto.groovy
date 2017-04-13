@@ -41,13 +41,15 @@ for ( i in test_map)
     if( splitby == count ){
         count=0;
         countf++
-        f = new File("query$countf")
+        f = new File("query${countf}.ttl")
         f << prefix
     }
   
     //println i.value
     //println ref_map[i.key]
+
     f << i.value
     f << ref_map[i.key]
     count++;
+
 }
