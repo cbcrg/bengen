@@ -33,9 +33,9 @@ for (item in ar) {
 
 int count=0 
 def countf=0
-f = new File("query$countf")
+f = new File("fam_split${countf}.ttl")
 f << prefix
-def f = new File("query0")
+def f = new File("fam_split0.ttl")
 for ( i in test_map)
 {   
     if( splitby == count ){

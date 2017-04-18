@@ -1,1 +1,0 @@
-cp ${params.newBase}/methods_results/$method/$dataset_name/$id/method.out method.out

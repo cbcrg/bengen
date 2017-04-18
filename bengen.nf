@@ -85,7 +85,7 @@ if( "${params.score}" == "false"){
   boxes_score = file(params.scores).readLines().findAll { it.size()>0 }	
 }
 else {
-  boxes_score=["bengen/$params.score"]
+  boxes_score=["$params.score"]
 }
 
 
@@ -98,7 +98,7 @@ if( "${params.method}" == "false"){
   boxes = file(params.methods).readLines().findAll { it.size()>0 }	
 }
 else{
-  boxes=["bengen/$params.method"]
+  boxes=["$params.method"]
 }
 
 

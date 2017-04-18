@@ -71,8 +71,38 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?max_size where {
  ?ref oboInOwl:inSubset ?URI_DATASET. 
  ?URI_DATASET rdfs:label ?db_name.
  ?URI_DATASET doap:Version ?db_version.
+  
+  
 
 
- #insert here#
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #insert here#
 
 }

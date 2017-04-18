@@ -6,8 +6,8 @@ operations_rdf="../metadata/operations.ttl"
 
 
 metadata(){
-	tarql mapping-msa.sparql  |sed "s/\"\(.*:.*\)\"/\1/g" |  sed "s/\(SIO_000794.*\)\"\(.*\)\"/\1\2/g" > $operations_rdf 
-	tarql mapping-sf.sparql |sed "s/\"\(.*:.*\)\"/\1/g"| sed '/^@/ d'  >> $operations_rdf 
+	tarql mapping-msa.sparql  |sed "s/\"\(edam:.*\)\"/\1/g" |  sed "s/\(SIO_000794.*\)\"\(.*\)\"/\1\2/g" > $operations_rdf 
+	tarql mapping-sf.sparql |sed "s/\"\(edam:.*\)\"/\1/g"| sed '/^@/ d'  >> $operations_rdf 
 	tarql mapping-db.sparql |sed "s/\"\(.*:.*\)\"/\1/g"| sed '/^@/ d' | sed "s/\(Version.*\)\"\(.*\)\"/\1\2/g" >> $operations_rdf 
 
 	tarql mapping-test.sparql | sed "s/\"\(.*:.*\)\"/\1/g " |  sed "s/\(SIO_000794.*\)\"\(.*\)\"/\1\2/g"  >$family_rdf

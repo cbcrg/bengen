@@ -8,7 +8,7 @@ PREFIX doap: <http://usefulinc.com/ns/doap#>
 CONSTRUCT {
   
     ?URI a ?type;
-	 rdfs:label ?label;
+	 rdfs:label ?NAMEandVERSION;
 	 edam:has_input ?URI_INPUT;
 	 edam:has_output ?URI_OUTPUT ;	
          edam:has_topic ?topic.
@@ -33,5 +33,6 @@ WHERE{
  BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
  BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format,'-', ?max_count)) AS ?URI_INPUT)
  BIND (URI(CONCAT('http://bengen.com/', ?output, '-', ?output_format)) AS ?URI_OUTPUT)
+ BIND (CONCAT(?label, ':', ?version ) AS ?NAMEandVERSION) 
 }
 

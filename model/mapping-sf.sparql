@@ -5,7 +5,7 @@ PREFIX edam: <http://edamontology.org/>
 CONSTRUCT {
   
     ?URI a ?type;
-	 rdfs:label ?label;
+	 rdfs:label ?NAMEandVERSION;
  	 edam:has_input ?URI_INPUT;
          edam:has_topic ?topic.
 
@@ -22,7 +22,7 @@ FROM <file:toModel-sf.csv>
 WHERE{
  BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
  BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format)) AS ?URI_INPUT)
-
+ BIND (CONCAT(?label, ':', ?version) AS ?NAMEandVERSION) 
 }
 
 

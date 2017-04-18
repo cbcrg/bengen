@@ -22,6 +22,9 @@ methods = file ("methods.txt")
 
 params.cache_file="cache.csv"
  
+cache= file("$baseDir/CACHE/${params.cache_file}")
+
+
 //Metadata files
 params.operations_file="metadata/operations.ttl"
 operations= file(params.operations_file)
@@ -97,8 +100,6 @@ process split_ontology {
 	input: 
 	file families
 
-	
-
 	output: 	
 	file('fam_split*') into splitted_onto
 
@@ -106,6 +107,7 @@ process split_ontology {
 	groovy $baseDir/bin/split_onto.groovy ${families} ${params.splitOntoBy}
 	"""
 }
+
 
 /*
  * CREATE table run.csv
@@ -150,9 +152,10 @@ process create_results{
 
    	publishDir "CACHE", mode: 'copy', overwrite: true
 	
-    input : 
+   	input : 
 	file(run_file_from_ch) from run_table
 	file methods
+	file cache
 	
 	output: 
 	file("${params.cache_file}")

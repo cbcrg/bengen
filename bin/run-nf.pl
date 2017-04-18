@@ -16,15 +16,6 @@ my ($dir, $methods_file, $result_file, $run_file, $cache_file ) = @ARGV;
 my %hash = ();
 my %result_hash= ();
 
-my $dhid;
-
-open IN  ,'<', "$dir/images_docker" or die "can't open file  for reading: $!";
-
-while( defined( my $line = <IN> ) ){		
-	my @temp= split /\//, $line ; 	
-	 $dhid=$temp[0];
-}
-close(IN);
 
 
 ##CREATE HASMAP TO SEE WHAT HAS ALREADY BEEN COMPUTED
@@ -39,7 +30,7 @@ if ( -f $result_file){
 		chomp $line; 
 
 	
-		$line =~ s/$dhid\///g;
+
 
 		my @splitted = split /,/, $line; 
 		my $sf = $splitted[0];
@@ -120,7 +111,7 @@ close(IN);
 
 
 	my $file; 
-	open( $file, '>', "$dir/CACHE/caching-infos-current-run") or die "Could not open file  $!";
+	open( $file, '>', "$dir/CACHE/infos-current-run") or die "Could not open file  $!";
 	print $file Data::Dumper->Dump( [ \%result_hash ], [ qw(*cached) ] );
 	print $file Data::Dumper->Dump( [ \%hash ], [ qw(*toRun) ] );
 	close ($file);
@@ -152,13 +143,13 @@ foreach my $key ( keys %hash) {
 
 	my $method = $hash{$key};
 	#format method name --> $dhid/method 
-	$method=~ s/,/\n$dhid\//g;
+	$method=~ s/,/\n/g;
 
 
 	#Add ALL the aligners to run into the aligners file
 	my $fh;
 	open( $fh, '>', "$dir/$methods_file") or die "Could not open file  $!";
-	print $fh "$dhid/".$method;
+	print $fh $method;
 	close ($fh);
 
 	#Run Nextflow
@@ -170,10 +161,10 @@ foreach my $key ( keys %hash) {
 	close (OUT_bash);
 
 	system( "chmod u+x run_nf.sh" );
-	my $output="lala";
+	my $output="-";
 	$output = `./run_nf.sh`;
 
-	if($output eq "lala"){
+	if($output eq "-"){
 		print "ERROR NEXTFLOW command did not work!";
 		exit;
 	}
