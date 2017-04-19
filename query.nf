@@ -22,7 +22,8 @@ import java.io.FileWriter;
 methods = file ("methods.txt")
 
 
- 
+split_script = file ("$baseDir/bin/split_onto.groovy")
+
 cache= file("$baseDir/CACHE/cache.csv")
 
 //Metadata files
@@ -105,7 +106,11 @@ query.write(extendedQuery);
 
 /*
  * Split the families ontology into chunks so that it can be run in parallel 
+ * ( The split scripts works for the msas --> not for ANY user case )
+ * It can just be deleted and instead of passing the channel to the create_run process the file families should be given.
  */
+
+
 
 process split_ontology {
 	
@@ -113,19 +118,20 @@ process split_ontology {
 
 	input: 
 	file families
-
+	file split_script 
 
 	output: 	
 	file('fam_split*') into splitted_onto
 
 	"""
-	groovy $baseDir/bin/split_onto.groovy ${families} ${params.splitOntoBy}
+	groovy $split_script ${families} ${params.splitOntoBy}
 	"""
 }
 
 
 /*
- * CREATE table run.csv
+ * CREATE table run.csv --> What has to run 
+ * If a manually created run.csv class is given the metadata database is queried. 
  */
 process create_run {
 	
@@ -174,17 +180,19 @@ process create_results{
 
 	"""
 	run-nf.pl $baseDir $methods $cache $run_file_from_ch >> "result_temp.csv"
-      
 	"""
 }
 
 
+
+// Create new channel after waiting for all of the rest being processed
 cache_ch
     .collectFile()
     .set{collected_cache}
     
 
 
+// Merge all the results and overwrite the cache file
 process merge_results{
 
    	publishDir "CACHE", mode: 'move', overwrite: true
@@ -197,10 +205,10 @@ process merge_results{
 	file "cache.csv"	
 
 	"""
-	cat $cache > "temp"
-        cat $new_cache >> "temp"
+	cat $cache > "temporary_cache"
+        cat $new_cache >> "temporary_cache"
 	rm $cache
-	mv "temp" "cache.csv"
+	mv "temporary_cache" "cache.csv"
 	"""
 }
 
