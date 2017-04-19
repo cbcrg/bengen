@@ -16,14 +16,14 @@
  *   You should have received a copy of the GNU General Public License
  *   along with Bengen.  If not, see <http://www.gnu.org/licenses/>.
  */
+import java.io.FileWriter;
 
 
 methods = file ("methods.txt")
 
-params.cache_file="cache.csv"
- 
-cache= file("$baseDir/CACHE/${params.cache_file}")
 
+ 
+cache= file("$baseDir/CACHE/cache.csv")
 
 //Metadata files
 params.operations_file="metadata/operations.ttl"
@@ -33,7 +33,7 @@ params.families_file="metadata/families_test.ttl"
 families= file(params.families_file)
 
 params.query_file="metadata/query.rq"
-query= file(params.query_file)
+query_original= file(params.query_file)
 
 params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
@@ -50,6 +50,16 @@ if(!f.exists())
 params.run ="false"
 run_file=file(params.run)
 
+
+
+
+//Create modified-base
+query_m= new File("metadata/query_modified.rq");
+fileOut = new FileWriter(query_m);
+fileOut.write("");
+fileOut.write(query_original.text);
+fileOut.close();
+query=file("metadata/query_modified.rq");
 
 /*
 *   Parameters connected to the query file.
@@ -90,15 +100,20 @@ query.write(extendedQuery);
 
 //-------------------------------------------------------------------------------------------//
 
+
+
+
 /*
- * CREATE table run.csv
+ * Split the families ontology into chunks so that it can be run in parallel 
  */
+
 process split_ontology {
 	
 	container "bengen/groovy"
 
 	input: 
 	file families
+
 
 	output: 	
 	file('fam_split*') into splitted_onto
@@ -116,16 +131,15 @@ process create_run {
 	
 	container "bengen/apache-jena"
 
-
 	input: 
 	file edam 
 	file(families_split) from splitted_onto.flatten()
 	file operations
-	file query from query
+	file query
 	file run_file
 	
 	output: 	
-	file('run_for_channel.csv') into run_table
+	 file('run_for_channel.csv') into run_table
 	
 
 	script: 
@@ -139,7 +153,7 @@ process create_run {
 	
 	"""
 	cat $run_file >> run_for_channel.csv	
-	
+
 	"""
 }
 
@@ -150,21 +164,46 @@ process create_run {
 
 process create_results{
 
-   	publishDir "CACHE", mode: 'copy', overwrite: true
-	
    	input : 
 	file(run_file_from_ch) from run_table
 	file methods
 	file cache
 	
 	output: 
-	file("${params.cache_file}")
+	file("result_temp.csv") into cache_ch
 
 	"""
-	run-nf.pl $baseDir $methods "$baseDir/CACHE/${params.cache_file}" $run_file_from_ch "${params.cache_file}"
+	run-nf.pl $baseDir $methods $cache $run_file_from_ch >> "result_temp.csv"
       
 	"""
 }
+
+
+cache_ch
+    .collectFile()
+    .set{collected_cache}
+    
+
+
+process merge_results{
+
+   	publishDir "CACHE", mode: 'move', overwrite: true
+
+	input: 
+	file(new_cache) from collected_cache
+	file cache
+
+	output:
+	file "cache.csv"	
+
+	"""
+	cat $cache > "temp"
+        cat $new_cache >> "temp"
+	rm $cache
+	mv "temp" "cache.csv"
+	"""
+}
+
 
 
 
