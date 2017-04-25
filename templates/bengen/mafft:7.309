@@ -1,1 +1,0 @@
-mafft --thread $task.cpus --anysymbol --quiet $input > method.out

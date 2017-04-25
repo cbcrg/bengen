@@ -1,2 +1,0 @@
-t_coffee -multi_core=$task.cpus -in=$input -output msf -run_name aln
-t_coffee -other_pg seq_reformat aln.msf -output fasta > method.out

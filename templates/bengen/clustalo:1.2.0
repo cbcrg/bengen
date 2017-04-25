@@ -1,1 +1,0 @@
-clustalo -i $input -o method.out --outfmt fasta --threads $task.cpus --force
