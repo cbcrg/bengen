@@ -33,6 +33,6 @@ WHERE{
  BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
  BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format,'-', ?max_count)) AS ?URI_INPUT)
  BIND (URI(CONCAT('http://bengen.com/', ?output, '-', ?output_format)) AS ?URI_OUTPUT)
- BIND (CONCAT(?label, ':', ?version ) AS ?NAMEandVERSION) 
+ BIND (CONCAT(?label, '-v', ?version ) AS ?NAMEandVERSION) 
 }
 

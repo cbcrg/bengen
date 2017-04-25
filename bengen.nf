@@ -111,7 +111,7 @@ else{
 process run_method {
  
   publishDir "${params.newBase}/methods_results/$method/$dataset_name/$id"
-  tag "$method, $dataset_name"
+  tag "$method, $dataset_name, $id"
   container "$method"
   
   input: 
@@ -206,7 +206,9 @@ def createOutput(String format, allResults, outputPath){
 
 	
 	//print for testing
-	print "${template.toString()}";
+
+		print "${template.toString()}";
+	
 }
 
 
