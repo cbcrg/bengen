@@ -9,8 +9,13 @@ RUN wget -q http://apache.rediris.es/jena/binaries/apache-jena-3.2.0.tar.gz &&\
   tar -zxvf jdk-8u45-linux-x64.tar.gz &&\
   cd jdk1.8.0_45/ &&\
   update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_45/bin/java 100  &&\
-  update-alternatives --config java  
+  update-alternatives --config java 
+
 
 ENV PATH "/apache-jena-3.2.0/bin:$PATH"
 
+RUN wget -q https://github.com/tarql/tarql/releases/download/v1.1/tarql-1.1-bin.tar.gz &&\
+tar xf tarql-1.1-bin.tar.gz 
 
+
+ENV PATH "/tarql-1.1/bin:$PATH"

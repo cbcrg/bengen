@@ -25,12 +25,12 @@ methods = file ("methods.txt")
 split_script = file ("$baseDir/bin/split_onto.groovy")
 
 cache= file("$baseDir/CACHE/cache.csv")
-
+bengen_proj =file("$baseDir")
 //Metadata files
 params.operations_file="metadata/operations.ttl"
 operations= file(params.operations_file)
 
-params.families_file="metadata/families_test.ttl"
+params.families_file="metadata/families_split_test.ttl"
 families= file(params.families_file)
 
 params.query_file="metadata/query.rq"
@@ -165,52 +165,68 @@ process create_run {
 
 
 /*
- * CREATE table results.csv using the run.nf script
+ * Launch bengen.nf
  */
 
 process create_results{
 
    	input : 
-	file(run_file_from_ch) from run_table
-	file methods
-	file cache
+	file(run_line) from run_table.splitText()
+	file(bengen_proj)
 	
 	output: 
-	file("result_temp.csv") into cache_ch
+	stdout into results
 
 	"""
-	run-nf.pl $baseDir $methods $cache $run_file_from_ch >> "result_temp.csv"
-	"""
-}
+	line=`cat ${run_line}` ; IFS=',' ; read -a array <<< "\$line" ;
 
+	sf=\${array[0]}
+    	msa=\${array[1]}
+	db=\${array[2]}
+	id=\${array[3]}
 
+	nextflow -q run $bengen_proj/bengen.nf --method \$msa --score \$sf --dataset \$db --id \$id --renderer csv-extended >result
+	
+	convertLine.pl result  
 
-// Create new channel after waiting for all of the rest being processed
-cache_ch
-    .collectFile()
-    .set{collected_cache}
-    
-
-
-// Merge all the results and overwrite the cache file
-process merge_results{
-
-   	publishDir "CACHE", mode: 'move', overwrite: true
-
-	input: 
-	file(new_cache) from collected_cache
-	file cache
-
-	output:
-	file "cache.csv"	
-
-	"""
-	cat $cache > "temporary_cache"
-        cat $new_cache >> "temporary_cache"
-	rm $cache
-	mv "temporary_cache" "cache.csv"
 	"""
 }
+
+
+//results.splitText( by: 2).subscribe{ println it ; println "---------" }
+
+
+/*
+ * CREATE table results.csv using the run.nf script
+ */
+
+script=file("$baseDir/bin/mapping-score.sparql")
+
+
+process update_metadata{
+
+      container "bengen/apache-jena"
+
+      input: 
+      file line from results.splitText( by: 2)
+      file script 
+
+      output: 
+ 
+      stdout into result_final
+
+      """
+      tarql $script $line | sed '/^@/ d'  
+      """
+
+}
+
+result_final.subscribe{println it}
+
+
+
+
+
 
 
 
