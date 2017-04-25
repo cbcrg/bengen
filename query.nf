@@ -193,12 +193,12 @@ process create_results{
 }
 
 
-//results.splitText( by: 2).subscribe{ println it ; println "---------" }
 
 
 /*
  * CREATE table results.csv using the run.nf script
  */
+
 
 script=file("$baseDir/bin/mapping-score.sparql")
 
@@ -213,21 +213,45 @@ process update_metadata{
 
       output: 
  
-      stdout into result_final
+      file("res") into meta
 
       """
-      tarql $script $line | sed '/^@/ d'  
+      tarql $script $line | sed '/^@/ d'  > res
       """
 
 }
 
-result_final.subscribe{println it}
 
 
 
+meta.collectFile().set{collected}
 
+      
+  
+scores_file=file( "$baseDir/metadata/scores.ttl" )
 
+/* */
+// Merge all the results and overwrite the cache file
 
+process merge_results{
+
+   	publishDir "metadata", mode: 'move', overwrite: true
+
+	input:
+	file(meta_file) from collected
+	file scores_file
+
+	output:
+	file "scores.ttl"	
+
+	"""
+	cat $scores_file > "temp"
+	cat $meta_file >> "temp"
+	rm $scores_file
+	mv "temp" "scores.ttl"
+	"""
+}
+ 
 
 
 
