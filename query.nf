@@ -16,13 +16,15 @@
  *   You should have received a copy of the GNU General Public License
  *   along with Bengen.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+
 import java.io.FileWriter;
 
-
-methods = file ("methods.txt")
-split_script = file ("$baseDir/bin/split_onto.groovy")
-cache= file("$baseDir/CACHE/cache.csv")
+//files needed
 bengen_proj =file("$baseDir")
+scores_file=file( "$baseDir/metadata/scores.ttl" )
+script=file("$baseDir/bin/mapping-score.sparql")
+split_script = file ("$baseDir/bin/split_onto.groovy")
 
 //Metadata files
 params.operations_file="metadata/operations.ttl"
@@ -37,22 +39,13 @@ query_original= file(params.query_file)
 params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
 
-scores_file=file( "$baseDir/metadata/scores.ttl" )
-
-script=file("$baseDir/bin/mapping-score.sparql")
 
 
+//other params
 params.splitOntoBy=2
-
 params.force="false"
 
-//create the file if it does not exist
-File f = new File("results.csv");
-if(!f.exists())
-    f.createNewFile();
-
-
-
+//runfile if no metadata procedure in wished
 params.run ="false"
 run_file=file(params.run)
 
@@ -172,7 +165,8 @@ process create_run {
 
 
 /*
- * Launch bengen.nf
+ * Launch bengen.nf and convert the result into the required format. 
+ *  Each line of the run file is processed individialy (splitText)
  */
 
 process create_results{
@@ -201,7 +195,7 @@ process create_results{
 
 
 /*
- * CREATE results in metadata format
+ * CREATE results in metadata format ( Mapping procedure can be found in the $script file. ) 
  */
 
 
@@ -226,7 +220,7 @@ process create_metadata{
 
 meta.collectFile().set{collected}
 
-// Merge all the results and overwrite the scores.ttl file
+// Append the new results into the scores.ttl file ( Metadata Database ) in order for them to be cached in teh next round.
 
 process update_metadata_file{
 
