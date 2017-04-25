@@ -19,21 +19,26 @@ padding-bottom: 50px;
 
 
  #step1{
- background-color: #D0D6E1;
+ background-color: #6FD8E0;
  height: 160px;
+border-radius: 25px;
+    border: 2px solid #66B2FF	;
 
 }
 
 #step2{
-background-color: #B5C2DC;
+background-color: #70D7AB;
 height: 160px;
+border-radius: 25px;
+    border: 2px solid #3BC6A1;
 
 }
 
 #step3{
-background-color: #92A5CA;
+background-color: #B2CB5E;
 height: 160px;
-
+border-radius: 25px;
+    border: 2px solid #73AD21;
 
 }
 .steps-wrapper{
@@ -47,10 +52,7 @@ height: 160px;
 
 
 #steps {
-
-
 	height: 200px;
-
 }
 
 .main{
@@ -81,14 +83,14 @@ padding: 20px;
 }
 
  #Protein{
-	background-color: #9A569A;
+	background-color: #58ACDF;
 }
  #DNA{
-	background-color: #69A46B;
+	background-color: #6FD8E0;
 
 }
  #RNA{
-	background-color: #5369B3;
+	background-color: #70D7AB;
 }
 
 #DNA:hover{
@@ -163,6 +165,16 @@ border-width: 0px 0px 0px 8px;
 
 }
 
+.Logo p{
+
+   font-size:100px;
+   color: #70D7AB ;
+   font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+}[/css];
+
+
+
+}
 
 .myButton {
 	margin-top: 50px;
