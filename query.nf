@@ -20,12 +20,10 @@ import java.io.FileWriter;
 
 
 methods = file ("methods.txt")
-
-
 split_script = file ("$baseDir/bin/split_onto.groovy")
-
 cache= file("$baseDir/CACHE/cache.csv")
 bengen_proj =file("$baseDir")
+
 //Metadata files
 params.operations_file="metadata/operations.ttl"
 operations= file(params.operations_file)
@@ -39,7 +37,14 @@ query_original= file(params.query_file)
 params.edam_file="metadata/EDAM_1.16.owl"
 edam= file(params.edam_file)
 
+scores_file=file( "$baseDir/metadata/scores.ttl" )
+
+script=file("$baseDir/bin/mapping-score.sparql")
+
+
 params.splitOntoBy=2
+
+params.force="false"
 
 //create the file if it does not exist
 File f = new File("results.csv");
@@ -69,6 +74,8 @@ query=file("metadata/query_modified.rq");
 *
 *   Depending on the parameters an appendix is 
 */
+
+
 
 //----------------------------MSA's Specific-------------------------------------------------//
 
@@ -100,7 +107,6 @@ def extendedQuery = query.text.replaceAll("#insert here#","$appendix\n  #insert 
 query.write(extendedQuery);
 
 //-------------------------------------------------------------------------------------------//
-
 
 
 
@@ -143,6 +149,7 @@ process create_run {
 	file operations
 	file query
 	file run_file
+	file scores_file
 	
 	output: 	
 	 file('run_for_channel.csv') into run_table
@@ -152,7 +159,7 @@ process create_run {
 
 	if( "${params.run}" == "false")
 	"""
-	sparql  -data=$edam -data=$families_split -data=$operations -query=$query -results=csv| tail -n +2 > run_for_channel.csv
+	sparql  -data=$edam -data=$families_split -data=$operations -data=$scores_file -query=$query -results=csv| tail -n +2 > run_for_channel.csv
 	
 	"""
 	else 
@@ -193,17 +200,12 @@ process create_results{
 }
 
 
-
-
 /*
- * CREATE table results.csv using the run.nf script
+ * CREATE results in metadata format
  */
 
 
-script=file("$baseDir/bin/mapping-score.sparql")
-
-
-process update_metadata{
+process create_metadata{
 
       container "bengen/apache-jena"
 
@@ -222,18 +224,11 @@ process update_metadata{
 }
 
 
-
-
 meta.collectFile().set{collected}
 
-      
-  
-scores_file=file( "$baseDir/metadata/scores.ttl" )
+// Merge all the results and overwrite the scores.ttl file
 
-/* */
-// Merge all the results and overwrite the cache file
-
-process merge_results{
+process update_metadata_file{
 
    	publishDir "metadata", mode: 'move', overwrite: true
 

@@ -7,7 +7,7 @@ prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#>
 prefix SIO:  <http://semanticscience.org/resource/> 
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
-select distinct ?sf_name ?msa_name ?db_name ?ref_id ?max_size where { 
+select distinct ?sf_name ?msa_name ?db_name ?ref_id  where { 
 
 
 
@@ -73,35 +73,13 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id ?max_size where {
  ?URI_DATASET doap:Version ?db_version.
   
   
+#----- CACHING
 
+# ?score a edam:data_1772.
+# ?score rdfs:label ?score_name.
+ BIND (URI(CONCAT('http://bengen.com/' ,?msa_name, '-', ?sf_name,'-', ?db_name,'-', ?ref_id)) AS ?URI)
+ FILTER NOT EXISTS { ?score edam:isDefinedBy ?URI . }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   #insert here#
 

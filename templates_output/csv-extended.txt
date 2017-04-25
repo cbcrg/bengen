@@ -1,0 +1,13 @@
+<% 
+
+
+all.each {
+
+%>$it.score,$it.method,$it.dataset,$it.id<%
+ 
+it.scores.each{k, v ->%>,$k=$v<%}
+
+} 
+
+
+%>

@@ -9,7 +9,7 @@ my $value_begin="";
 
 open IN  ,'<', "$file" or die "can't open file  for reading: $!";
 
-while( defined( my $line = <IN> ) && $line ne "\n" ){
+while( defined( my $line = <IN> ) ){
 
 	chomp $line; 
 

@@ -13,7 +13,7 @@ CONSTRUCT {
 	 edam:is_output_of ?sf;
          edam:is_output_of ?db;
 	 edam:is_output_of ?id;
-	 edam:is_defined_by ?URI_DEF;
+	 edam:isDefinedBy ?URI_DEF;
          rdf:value ?value;
 
 
@@ -21,6 +21,6 @@ CONSTRUCT {
   }
 
 WHERE{
- BIND (URI(CONCAT('http://bengen.com/','?label','-' ,?msa, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/',?label,'-' ,?msa, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI)
  BIND (URI(CONCAT('http://bengen.com/', ?msa, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI_DEF)
 }
