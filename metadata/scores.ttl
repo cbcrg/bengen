@@ -5,18 +5,82 @@
 @prefix SIO:  <http://semanticscience.org/resource/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+<http://bengen.com/TC-bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11002>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "TC" ;
+        edam:is_output_of  "bengen/clustalo-v1.2.0" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11002" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11002> ;
+        rdf:value          "0.000" .
 
+<http://bengen.com/SP-bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11001>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "SP" ;
+        edam:is_output_of  "bengen/mafft-v7.309" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11001" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11001> ;
+        rdf:value          "0.892" .
 
+<http://bengen.com/TC-bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11002>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "TC" ;
+        edam:is_output_of  "bengen/mafft-v7.309" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11002" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11002> ;
+        rdf:value          "0.000" .
 
+<http://bengen.com/SP-bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11002>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "SP" ;
+        edam:is_output_of  "bengen/clustalo-v1.2.0" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11002" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11002> ;
+        rdf:value          "0.536" .
+
+<http://bengen.com/SP-bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11002>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "SP" ;
+        edam:is_output_of  "bengen/mafft-v7.309" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11002" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11002> ;
+        rdf:value          "0.586" .
+
+<http://bengen.com/SP-bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11001>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "SP" ;
+        edam:is_output_of  "bengen/clustalo-v1.2.0" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11001" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11001> ;
+        rdf:value          "0.956" .
+
+<http://bengen.com/TC-bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11001>
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "TC" ;
+        edam:is_output_of  "bengen/clustalo-v1.2.0" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11001" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/clustalo-v1.2.0-bengen/baliscore-v3.01-balibase-4.0-BB11001> ;
+        rdf:value          "0.910" .
 
 <http://bengen.com/TC-bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11001>
-        rdf:type            edam:data_1772 ;
-        rdfs:label          "TC" ;
-        edam:is_output_of   "bengen/mafft-v7.309" ;
-        edam:is_output_of   "bengen/baliscore-v3.01" ;
-        edam:is_output_of   "balibase-4.0" ;
-        edam:is_output_of   "BB11001" ;
-        edam:is_defined_by  <http://bengen.com/bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11001> ;
-        rdf:value           "0.820" .
-
-
+        rdf:type           edam:data_1772 ;
+        rdfs:label         "TC" ;
+        edam:is_output_of  "bengen/mafft-v7.309" ;
+        edam:is_output_of  "bengen/baliscore-v3.01" ;
+        edam:is_output_of  "balibase-4.0" ;
+        edam:is_output_of  "BB11001" ;
+        edam:isDefinedBy   <http://bengen.com/bengen/mafft-v7.309-bengen/baliscore-v3.01-balibase-4.0-BB11001> ;
+        rdf:value          "0.820" .

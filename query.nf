@@ -20,39 +20,29 @@
 
 import java.io.FileWriter;
 
-//files needed
-bengen_proj =file("$baseDir")
+
+
+//Metadata files and Query
+operations= file("$baseDir/metadata/operations.ttl")
+families= file("$baseDir/metadata/families_split_test.ttl")
 scores_file=file( "$baseDir/metadata/scores.ttl" )
+edam= file("$baseDir/metadata/EDAM_1.16.owl")
+query_original= file("metadata/query.rq")
+
+//Other files needed
+bengen_proj =file("$baseDir")
 script=file("$baseDir/bin/mapping-score.sparql")
 split_script = file ("$baseDir/bin/split_onto.groovy")
 
-//Metadata files
-params.operations_file="metadata/operations.ttl"
-operations= file(params.operations_file)
-
-params.families_file="metadata/families_split_test.ttl"
-families= file(params.families_file)
-
-params.query_file="metadata/query.rq"
-query_original= file(params.query_file)
-
-params.edam_file="metadata/EDAM_1.16.owl"
-edam= file(params.edam_file)
-
-
-
-//other params
+//Other params
 params.splitOntoBy=2
 params.force="false"
 
-//runfile if no metadata procedure in wished
+//Runfile --> if other metadata procedure has to be introduced.
 params.run ="false"
 run_file=file(params.run)
 
-
-
-
-//Create modified-base
+//Create modified-query
 query_m= new File("metadata/query_modified.rq");
 fileOut = new FileWriter(query_m);
 fileOut.write("");
@@ -65,7 +55,7 @@ query=file("metadata/query_modified.rq");
 *   This part is very tightly connected to the structure of the ontology.
 *   Parameters and query modifications have to change depending on the topic.
 *
-*   Depending on the parameters an appendix is 
+*   Depending on the parameters an appendix is
 */
 
 
@@ -84,7 +74,7 @@ params.structural="false"
 params.tree_based="false"
 
 
-if( "${params.method}" != "false" ) appendix += "?msa rdfs:label \"${params.method}\".\n" 
+if( "${params.method}" != "false" ) appendix += "?msa rdfs:label \"${params.method}\".\n"
 
 if( "${params.score}" != "false" ) appendix += "?sf rdfs:label \"${params.score}\".\n"
 
@@ -104,7 +94,7 @@ query.write(extendedQuery);
 
 
 /*
- * Split the families ontology into chunks so that it can be run in parallel 
+ * Split the families ontology into chunks so that it can be run in parallel
  * ( The split scripts works for the msas --> not for ANY user case )
  * It can just be deleted and instead of passing the channel to the create_run process the file families should be given.
  */
@@ -112,14 +102,14 @@ query.write(extendedQuery);
 
 
 process split_ontology {
-	
+
 	container "bengen/groovy"
 
-	input: 
+	input:
 	file families
-	file split_script 
+	file split_script
 
-	output: 	
+	output:
 	file('fam_split*') into splitted_onto
 
 	"""
@@ -129,73 +119,86 @@ process split_ontology {
 
 
 /*
- * CREATE table run.csv --> What has to run 
- * If a manually created run.csv class is given the metadata database is queried. 
+ * CREATE table run.csv --> What has to run
+ * If a manually created run.csv class is given the metadata database is queried.
  */
 process create_run {
-	
+
 	container "bengen/apache-jena"
 
-	input: 
-	file edam 
+	input:
+	file edam
 	file(families_split) from splitted_onto.flatten()
 	file operations
 	file query
 	file run_file
 	file scores_file
-	
-	output: 	
-	 file('run_for_channel.csv') into run_table
-	
 
-	script: 
+	output:
+	 file('run_for_channel.csv') into run_table
+
+
+	script:
 
 	if( "${params.run}" == "false")
 	"""
 	sparql  -data=$edam -data=$families_split -data=$operations -data=$scores_file -query=$query -results=csv| tail -n +2 > run_for_channel.csv
-	
+
 	"""
-	else 
-	
+	else
+
 	"""
-	cat $run_file >> run_for_channel.csv	
+	cat $run_file >> run_for_channel.csv
 
 	"""
 }
 
 
 /*
- * Launch bengen.nf and convert the result into the required format. 
- *  Each line of the run file is processed individialy (splitText)
+ * Launch bengen.nf and convert the result into the required format.
+ *  Each line of the run file is processed individually (splitText)
+ *
+ * The convert line Script converts the csv format ouput stored in result into a two-line input for the tarql parser.
+ *
+ * The csv extended format looks like this :
+ *
+ * Baliscore, Mafft, Balibase, B10001, TC=0.5, SP=0.6
+ *
+ * The output of this script looks like this :
+ *
+ * sf,method,db,id,label,value
+ * Baliscore, Mafft, Balibase, B10001, TC,0.5
+ * sf,method,db,id,label,value
+ * Baliscore, Mafft, Balibase, B10001, SP,0.6
  */
 
 process create_results{
 
-   	input : 
+  input :
 	file(run_line) from run_table.splitText()
 	file(bengen_proj)
-	
-	output: 
+
+	output:
 	stdout into results
 
 	"""
 	line=`cat ${run_line}` ; IFS=',' ; read -a array <<< "\$line" ;
 
 	sf=\${array[0]}
-    	msa=\${array[1]}
+  msa=\${array[1]}
 	db=\${array[2]}
 	id=\${array[3]}
 
 	nextflow -q run $bengen_proj/bengen.nf --method \$msa --score \$sf --dataset \$db --id \$id --renderer csv-extended >result
-	
-	convertLine.pl result  
+
+	convertLine.pl result
 
 	"""
 }
 
 
 /*
- * CREATE results in metadata format ( Mapping procedure can be found in the $script file. ) 
+ * CREATE results in metadata format ( Mapping procedure can be found in the $script file. )
  */
 
 
@@ -203,14 +206,15 @@ process create_metadata{
 
       container "bengen/apache-jena"
 
-      input: 
+      input:
       file line from results.splitText( by: 2)
-      file script 
+      file script
 
-      output: 
- 
+      output:
+
       file("res") into meta
 
+      script:
       """
       tarql $script $line | sed '/^@/ d'  > res
       """
@@ -220,7 +224,9 @@ process create_metadata{
 
 meta.collectFile().set{collected}
 
-// Append the new results into the scores.ttl file ( Metadata Database ) in order for them to be cached in teh next round.
+/*
+* Append the new results into the scores.ttl file ( Metadata Database ) in order for them to be cached in teh next round.
+*/
 
 process update_metadata_file{
 
@@ -231,7 +237,7 @@ process update_metadata_file{
 	file scores_file
 
 	output:
-	file "scores.ttl"	
+	file "scores.ttl"
 
 	"""
 	cat $scores_file > "temp"
@@ -240,10 +246,3 @@ process update_metadata_file{
 	mv "temp" "scores.ttl"
 	"""
 }
- 
-
-
-
-
-
-

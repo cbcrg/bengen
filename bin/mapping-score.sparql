@@ -1,26 +1,26 @@
-PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX edam: <http://edamontology.org/> 
-PREFIX void: <http://rdfs.org/ns/void#> 
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX edam: <http://edamontology.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
 PREFIX SIO: <http://semanticscience.org/resource/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
 CONSTRUCT {
-  
-    ?URI a edam:data_1772 ;
+
+   ?URI a edam:data_1772 ;
 	 rdfs:label ?label;
-	 edam:is_output_of ?msa;
+	 edam:is_output_of ?method;
 	 edam:is_output_of ?sf;
-         edam:is_output_of ?db;
+   edam:is_output_of ?db;
 	 edam:is_output_of ?id;
 	 edam:isDefinedBy ?URI_DEF;
-         rdf:value ?value;
+   rdf:value ?value;
 
 
-	 
+
   }
 
 WHERE{
- BIND (URI(CONCAT('http://bengen.com/',?label,'-' ,?msa, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI)
- BIND (URI(CONCAT('http://bengen.com/', ?msa, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI_DEF)
+ BIND (URI(CONCAT('http://bengen.com/',?label,'-' ,?method, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?method, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI_DEF)
 }
