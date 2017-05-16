@@ -6,6 +6,8 @@
     <title>
         <g:layoutTitle default="BenGen"/>
     </title>
+    <asset:link rel="icon" href="icon_BG.png" type="image/x-ico" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     	<asset:stylesheet src="bootstrap.css"/>
 	<asset:stylesheet src="layout.css"/>

@@ -29,7 +29,18 @@
 <br>
 
 
+
 <input type="submit" value="GO" >
+
+<g:form name="form" controller="getmetadata" id="hola">
+
+            <div class="text-field"><label>First Name: </label><g:textField name="firstName" value="${firstName}" /></div>
+
+            <div class="text-field"><label>Last Name: </label><g:textField name="lastName" value="${lastName}" /></div>
+
+            <div class="submit"><g:actionSubmit value="Submit" action="collect"/></div>
+
+        </g:form>
 
 
 </center>

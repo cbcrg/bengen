@@ -209,14 +209,16 @@ process create_metadata{
       input:
       file line from results.splitText( by: 2)
       file script
+      file scores_file
 
       output:
 
       file("res") into meta
 
       script:
+
       """
-      tarql $script $line | sed '/^@/ d'  > res
+      [[ grep -c ^@ ${scores_file} > 0 ]] &&   echo "hi"  
       """
 
 }
