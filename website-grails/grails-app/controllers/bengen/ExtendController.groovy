@@ -30,11 +30,22 @@ class ExtendController {
 
 
       "${currentpath}/bin/myScript.sh".execute()
-      def p1 = "git pull bengen".execute()
+      def p1 = "git stash  && git pull bengen".execute()
       p1.waitFor()
 
-      "${currentpath}/bengen/bin/add.sh -n ${name} -m ${metadata_path} -t ${template_path}".execute()
-      render(view: "/extendResult", model: [ name:name ] )
+
+
+      def p2 = "sh ${currentpath}/bengen/bin/add.sh -m ${metadata_path} -n ${name} -t ${template_path}".execute()
+      p2.waitFor()
+
+
+
+
+      name = params.name
+      def meta = metadata_path
+      def templ = template_path
+      def error = p1.text
+      render(view: "/extendResult", model: [ name:name , meta: meta , templ:templ , error: error] )
 
     }
 

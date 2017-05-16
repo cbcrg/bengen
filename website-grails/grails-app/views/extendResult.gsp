@@ -10,7 +10,12 @@
 
 
 NAME=${name}
-
+<br>
+META = ${meta}
+<br>
+TEMP =${templ}
+<br>
+ERROR=${error}
 
 
 <br>

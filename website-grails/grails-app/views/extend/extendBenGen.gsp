@@ -10,6 +10,7 @@
 <body>
 <div id="header"></div>
 <center>
+  <br>
 <h1>Extend BenGen</h1>
 <h3> ( If you did not create yet your metadata file you can easily do it
   <a href="getMetadata.html">here</a>) </h3>
