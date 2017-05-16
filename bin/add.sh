@@ -3,7 +3,6 @@ file=$(basename "$path");
 bengen=`echo $path | sed "s/\/bin\/$file//g"`;
 
 
-echo $bengen; 
 
 operations="$bengen/metadata/operations.ttl"
 
@@ -32,9 +31,12 @@ ALERT=" Please read the instruction on how to use this script on https://github.
 [[ ${METADATAPATH} == "" ]] && { echo "Path of Metadatafile is missing"; echo ${ALERT}; exit 0; }
 [[ ${TEMPLATEPATH} == ""  ]] && { echo "Path of Templatefile is missing"; echo ${ALERT}; exit 0; }
 
+
+OIFS=$IFS
 IFS='/'; array=($NAME);
 DockerHubRepo=${array[0]}
 MethodName=${array[1]}
+IFS=$OIFS
 
 
 #If templatefile with the same name already exist --> exit
@@ -42,27 +44,17 @@ MethodName=${array[1]}
 
 
 #If image name does not already exist in images_docker --> add it
-lookForName=`grep -c "${DockerHubRepo}/${MethodName}" "${bengen}/images_docker"`
-[[ $lookForName -gt  0 ]] || echo "${DockerHubRepo}/${MethodName}" >> "${bengen}/images_docker" && echo "WARNING : the name of the image was already included in the project."
+
+lookForName=`grep -cx "\(^${DockerHubRepo}/${MethodName}$\)\|\(^${DockerHubRepo}/${MethodName}@.*\)" "${bengen}/images_docker"`
+
+if [ $lookForName -gt  0 ]; then
+    echo "WARNING : the name of the image was already included in the project."
+else
+    echo "${DockerHubRepo}/${MethodName}" >> "${bengen}/images_docker";
+fi
 
 
-
-
-[[ -f ${METADATAPATH} && -f ${TEMPLATEPATH} ]] && { cat "${METADATAPATH}" >> "$operations"; 
-	[[ -d "$bengen/templates/$DockerHubRepo" ]] || mkdir "$bengen/templates/$DockerHubRepo" ; 
+[[ -f ${METADATAPATH} && -f ${TEMPLATEPATH} ]] && { cat "${METADATAPATH}" >> "$operations";
+	[[ -d "$bengen/templates/$DockerHubRepo" ]] || mkdir "$bengen/templates/$DockerHubRepo" ;
 	cp "${TEMPLATEPATH}" "$bengen/templates/${DockerHubRepo}/${MethodName}"; } || \
 { echo "Could not find Metadatafile or templatefile"; echo ${ALERT}; exit 0 ; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
