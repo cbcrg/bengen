@@ -1,7 +1,8 @@
-path=`pwd`/`echo $0`;
+path=`echo $0`;
 file=$(basename "$path");
 bengen=`echo $path | sed "s/\/bin\/$file//g"`;
 
+echo `$bengen`
 
 
 operations="$bengen/metadata/operations.ttl"
@@ -51,6 +52,8 @@ if [ $lookForName -gt  0 ]; then
     echo "WARNING : the name of the image was already included in the project."
 else
     echo "${DockerHubRepo}/${MethodName}" >> "${bengen}/images_docker";
+    echo "HERE!!!!"
+
 fi
 
 
