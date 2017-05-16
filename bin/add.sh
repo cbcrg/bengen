@@ -54,7 +54,14 @@ else
 fi
 
 
-[[ -f ${METADATAPATH} && -f ${TEMPLATEPATH} ]] && { cat "${METADATAPATH}" >> "$operations";
-	[[ -d "$bengen/templates/$DockerHubRepo" ]] || mkdir "$bengen/templates/$DockerHubRepo" ;
-	cp "${TEMPLATEPATH}" "$bengen/templates/${DockerHubRepo}/${MethodName}"; } || \
-{ echo "Could not find Metadatafile or templatefile"; echo ${ALERT}; exit 0 ; }
+
+if [[ -f ${METADATAPATH} && -f ${TEMPLATEPATH} ]]; then
+    cat "${METADATAPATH}" >> "$operations";
+    if [  ! -d "$bengen/templates/$DockerHubRepo" ]; then
+        mkdir "$bengen/templates/$DockerHubRepo"
+    fi
+  	cp "${TEMPLATEPATH}" "$bengen/templates/${DockerHubRepo}/${MethodName}";
+
+else
+    echo "Could not find Metadatafile or templatefile"; echo ${ALERT}; exit 0 ;
+fi
