@@ -43,7 +43,7 @@ border-radius: 25px;
 }
 .steps-wrapper{
 
-	margin-top: 10%;
+	margin-top: 1%;
 	margin-left: 8%;
 	margin-right: 8%;
 
@@ -242,7 +242,7 @@ border-width: 0px 0px 0px 8px;
  top: -10px;
  right: 10px;
  border-radius: 100%;
- background-color: rgb(45, 138, 234);
+ background-color: white ;
  border: 20px dotted rgb(45, 138, 234);
  height: 90px;
  width: 90px;
@@ -252,8 +252,7 @@ border-width: 0px 0px 0px 8px;
  width:70px;
  margin-top:10px;
  margin-left:10px;
- border:5px solid rgb(21, 120, 223);
- background:rgb(21, 120, 223);
+ background:white;
  position:relative;
  border-radius:50%;
 }
@@ -267,6 +266,22 @@ border-width: 0px 0px 0px 8px;
  position:relative;
  border-radius:50%;
 }
+
+
+#mainrow{
+	margin-top: 5%;
+}
+
+
+
+.des{
+
+	border-left: 40px;
+}
+
+
+
+
 
 #one,
 #two,
@@ -289,19 +304,32 @@ border-width: 0px 0px 0px 8px;
 
 }
 #two {
- position: absolute;
+
  left: 220px;
  top: 41px;
+
 }
 
-#one , #three  {
+#one .teeth , #three .teeth  {
  -webkit-animation: rotate 5s infinite linear;
  -moz-animation: rotate 5s infinite linear;
  -o-animation: rotate 5s infinite  linear;
 	animation: rotate 5s infinite linear;
 }
 
-#one  + #two   {
+.whole {
+	-webkit-animation:	none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+ 	animation: none !important;
+
+
+
+}
+
+
+
+#one   + #two   {
  -webkit-animation: rotate 5s infinite linear;
  -moz-animation: rotate 5s infinite linear;
  -o-animation: rotate 5s infinite  linear;
@@ -335,4 +363,15 @@ border-width: 0px 0px 0px 8px;
  background-clip: content-box;
  box-sizing: content-box;
 -webkit-box-sizing:content-box;
+}
+
+
+.plate {
+	-webkit-animation:	none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+ 	animation: none !important;
+
+
+
 }

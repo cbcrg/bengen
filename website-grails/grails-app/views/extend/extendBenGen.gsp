@@ -15,6 +15,18 @@
 <h3> ( If you did not create yet your metadata file you can easily do it
   <a href="getMetadata.html">here</a>) </h3>
 
+
+  <g:if test="${flash.error}">
+    <div class="alert alert-error" style="display: block">${flash.error}</div>
+  </g:if>
+  <g:if test="${flash.message}">
+    <div class="message" style="display: block">${flash.message}</div>
+</g:if>
+
+
+
+
+
 <g:form name="form" controller="extend" id="collecting" method="post" enctype="multipart/form-data" >
   <div class="row">
       <div class="steps-wrapper">

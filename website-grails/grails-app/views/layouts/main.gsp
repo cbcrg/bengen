@@ -3,16 +3,21 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
     <title>
         <g:layoutTitle default="BenGen"/>
     </title>
-    <asset:link rel="icon" href="icon_BG.png" type="image/x-ico" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    	<asset:stylesheet src="bootstrap.css"/>
+
+  <asset:link rel="icon" href="icon_BG.png" type="image/x-ico" />
+  <asset:stylesheet src="bootstrap.css"/>
 	<asset:stylesheet src="layout.css"/>
+  <asset:stylesheet src="style.min.css"/>
+  <asset:stylesheet src="style.css"/>
 	<asset:javascript src="bootstrap.min.js"/>
 	<asset:javascript src="jquery-3.2.0.min.js"/>
+  <asset:javascript src="jstree.min.js" />
 
 
     <g:layoutHead/>

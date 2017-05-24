@@ -1,9 +1,11 @@
 package bengen
+import java.util.zip.ZipOutputStream
+import java.util.zip.ZipEntry
+import java.nio.channels.FileChannel
 
 class ExtendController {
 
     def index() {
-      flash.message = 'file cannot be empty'
 	     render view: "/extend/extendBenGen", model: []
     }
 
@@ -28,40 +30,46 @@ class ExtendController {
       File template_file = new File ( template_path)
       template_file_multipart.transferTo(template_file)
 
-
       "${currentpath}/bin/myScript.sh".execute()
       def p1 = "git stash  && git pull bengen".execute()
       p1.waitFor()
-
 
 
       def p2 = "sh ${currentpath}/bengen/bin/add.sh -m ${metadata_path} -n ${name} -t ${template_path}".execute()
       p2.waitFor()
 
 
+      def p3 = "zip -r bengen.zip ${currentpath}/bengen ".execute()
+      //p3.waitFor()
 
 
       name = params.name
       def meta = metadata_path
       def templ = template_path
-      def error = p1.text
+      def error = "Believe in it!"
       render(view: "/extendResult", model: [ name:name , meta: meta , templ:templ , error: error] )
 
     }
 
 
 
-    def showMessage(){
-
-    }
-
-
     def download(){
-      File file = File.createTempFile("temp",".txt")
-      file.write("hello world!")
-      response.setHeader "Content-disposition", "attachment; filename=${file.name}.txt"
-      response.contentType = 'text-plain'
-      response.outputStream << file.text
-      response.outputStream.flush()
+      
+      //define currentpath
+      def currentpath_temp = "pwd".execute().text
+      def currentpath= currentpath_temp.substring(0, currentpath_temp.length() - 1)
+
+      def file = new File("${currentpath}/bengen.zip")
+
+      if (file.exists()) {
+         response.setContentType("application/octet-stream")
+         response.setHeader("Content-disposition", "filename=${file.name}")
+         response.outputStream << file.bytes
+         return
+      }
+
+
+
+
     }
 }

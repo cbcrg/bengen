@@ -8,19 +8,21 @@
 </head>
 <body>
 
+<br>
 
-NAME=${name}
-<br>
-META = ${meta}
-<br>
-TEMP =${templ}
-<br>
-ERROR=${error}
 
 
 <br>
 
-Your version is ready, download it here.
+<center>
+---------------
+${error}
+  <h3>Your extended version of BenGen is ready to download.</h3>
+  <br>
+  <g:link controller="extend"  action="download"> DOWNLOAD BenGen</g:link>
+
+</center>
+
 
 
 

@@ -13,42 +13,141 @@
 
 <div style="margin-top:100px">
 
-
+<center>
 <div class="Logo">
-    <center><p >BenGen</p> </center>
-<!--	<center><g:img dir="images" file="BenGen.png" /></center> -->
+    <p >BenGen</p>
 </div>
 
 <div class="infos">
 
-<center>
+
 	<h2>A Containarization-based Benchmarking tool</h2>
 </div>
 
-<div class="row" >
-    <div class="col-xs-6">
-      <div class="gearBox">
-      <div id="one"><div class="teeth"><div class="plate"><div class="whole"> </div></div></div></div>
-      <div id="two"><div class="teeth"><div class="plate"><div class="whole"></div></div></div></div>
-      <div id="three"><div class="teeth"><div class="plate"><div class="whole"></div></div></div></div>
+</center>
 
-      </div>
+    <div class="row" id="mainrow">
+
+
+        <div class="col-xs-5">
+          <div class="gearBox">
+          <div id="one"><div class="teeth"><div class="plate"><!--<asset:image src="Docker.png"  style="height: 100% ;width: 100%;"/>--></div></div></div>
+          <div id="two"><div class="teeth"><div class="plate"></div></div></div>
+          <div id="three"><div class="teeth"><div class="plate"><!--<asset:image src="Github-img.png"  style="height: 85  % ;width: 85%;"/>--></div></div></div>
+          </div>
+        </div>
+
+        <center>
+
+
+
+        <div class="des">
+          <h3>Reproducible</h3> Every result can be reproduced thanks to the Docker containerization.<br>
+
+          <h3>Scalable</h3>  Nextflow allows to create a Docker-compatible scalable benchmarking structure.<br>
+
+
+          <h3>Open-Source</h3>
+          The Project can be found on GitHub and is supposed to be extended by Users too.<br>
+
+        </div>
+
+        </center>
 
 
 
     </div>
-    <div class="col-xs-6">
-      <h3>Reproducible</h3>
-      cause lalala<br>
-      <h3>Scalable</h3>
-      cause lalala<br>
-      <h3>Open-Source</h3>
-      cause lalal<br>
+
+</div>
+
+<hr>
 
 
-    </div>
+
+
+
+
+
+
+<div class="row">
+
+  <div class="col-xs-5" >
+
+    <center>
+
+    <h3>Here you can visualize the existing benchmarks</h3>
+
+      </center>
 
   </div>
+
+  <div class="col-xs-7">
+        <center>
+
+
+        <h4><g:link controller="msabenchmark">Multiple Sequence Aligners</g:link> <br></h4>
+        <h4><g:link controller="#">Mappers</g:link><br></h4>
+
+        </center>
+  </div>
+
+</div>
+
+<hr>
+
+<div class="row">
+
+  <div class="col-xs-5">
+
+    <center>
+
+    <h3>Extend BenGen</h3>
+    <h5>You can include your method's docker-container and test it!</h5>
+
+      </center>
+
+  </div>
+
+  <div class="col-xs-7">
+        <center>
+
+
+        <h4><g:link controller="extendBenGen">Extend Bengen >> </g:link> <br></h4>
+
+
+        </center>
+  </div>
+
+</div>
+
+<hr>
+
+
+<div class="row">
+
+  <div class="col-xs-5">
+
+    <center>
+
+    <h3>Create your metadata file</h3>
+    <h5>BenGen is an ontology based benchmark. Let us help you create the right metadata for your method.</h5>
+
+      </center>
+
+  </div>
+
+  <div class="col-xs-7">
+        <center>
+
+
+        <h4><g:link controller="getmetadata">Create your Metadata >> </g:link> <br></h4>
+
+
+        </center>
+  </div>
+
+</div>
+
 
 
 <!--!
