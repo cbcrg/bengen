@@ -20,7 +20,6 @@ Moreover the no-SQl database, which is updated in every run of BenGen, allows to
 ![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
 
 
-
 ## GETTING STARTED
 
 ### Dependencies 
@@ -85,8 +84,89 @@ So the next step is to upload the datasets on  [Zenodo](http://zenodo.org) and a
 
 By calling "make" every dataset is automatically downloaded and stored so that BenGen can run on them.
 
+**!**   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
+For more informations on HOW to store this information you can look at the metadata section.
+
+## METADATA
+
+BenGen is based on a RDF Database : a standardized No-SQL Database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
 
 
+First the metadata are created with the help of [tarql](https://tarql.github.io/) : a CSV to RDF converter.
+Then the information in RDF format are stored in the DB and can be queried using [sparql](https://jena.apache.org/tutorials/sparql.html). The query is already integrated in the BenGen project and the results of every run are automatically stored in the (local) RDF Database.
+
+Here an example on **how to create the metadata** about methods, scoring functions and datasets.
+This example is built for Multiple Sequence Aligners.
+
+0. Collect the metadata in csv format.hese file are the ones with the prefix "toModel" in the [model folder](https://github.com/cbcrg/bengen/tree/master/model). The first line defines a key-label, through which each value in each line can be accessed when converting the file using tarql. In order to make as clear and standaried as possible the metadata structure only definitions from existing ontologies are used ( mainly [EDAM](http://edamontology.org/page) ) 
+
+Example of a "toModel" file: 
+```
+id,version,label,type,input,output,input_format,output_format,topic,max_count
+bengen/clustalo,1.2.0,bengen/clustalo,edam:operation_0499,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,100
+bengen/mafft,7.309,bengen/mafft,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,10000
+```
+
+In the MSA's case every set of sequences has been annotated. Two scripts ([create-csv-reference.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-reference.sh) and [create-csv-test.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-test.sh)) automatically collect the needed information. 
+
+1. All the informations needed for the metadata creation step are collected in csv format.Now they have to be converted in the RDF (turtle) format. This can be done by writing a mapping in sparql format. A lot of examples can be found in the [model folder](https://github.com/cbcrg/bengen/tree/master/model) with the prefix "mapping".
+
+Example of mapping file : 
+
+```
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX edam: <http://edamontology.org/> 
+PREFIX void: <http://rdfs.org/ns/void#> 
+PREFIX SIO: <http://semanticscience.org/resource/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+
+CONSTRUCT {
+  
+    ?URI a ?type;
+	 rdfs:label ?NAMEandVERSION;
+	 edam:has_input ?URI_INPUT;
+	 edam:has_output ?URI_OUTPUT ;	
+         edam:has_topic ?topic.
+	
+
+   ?URI_INPUT a ?input; 
+	      	
+	      #Thought to be the MAXIMAL number of sequence the MSA can align. Depends on the Query.	
+	      SIO:SIO_000794 ?max_count;
+              edam:has_format ?input_format.
+  
+   ?URI_OUTPUT a ?output;
+ 	       edam:has_format ?output_format.
+		
+
+	 
+  }
+
+FROM <file:toModel-msa.csv>
+
+WHERE{
+ BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format,'-', ?max_count)) AS ?URI_INPUT)
+ BIND (URI(CONCAT('http://bengen.com/', ?output, '-', ?output_format)) AS ?URI_OUTPUT)
+ BIND (CONCAT(?label, '-v', ?version ) AS ?NAMEandVERSION) 
+}
+
+```
+
+
+
+
+
+
+
+
+Here the MSA's query [example](https://github.com/cbcrg/bengen/blob/master/metadata/query.rq).
+
+
+
+
+# WEBSITE Instruction
 
 
 
