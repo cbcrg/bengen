@@ -15,158 +15,367 @@
 <div class="main">
 
 
-<h3 id="introduction">Introduction</h3>
+  <h2 id="introduction">Introduction</h2>
 
-<p>Bengen is a Containerization-based Multiple Sequence Aligners prototype.</p>
+  <p>BenGen is a containerization and ontology-based benchmarking prototype.</p>
 
-<p>It allows to test each selcted MSA in the project on each selected Dataset using each selected scoring function. </p>
+  <h3 id="howdoesitwork">How does it work?</h3>
 
-<p>Bengen provides an <strong>elegant structure</strong> for a benchmarking workflow. <strong>Reproducibility</strong> is allowed thanks to Docker containers usage. Moreover it is extremely easy for a user to integrate new MSAs or Scoring functions and <strong>expand the project</strong>.</p>
+  <p>Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.</p>
 
-<h3 id="howdoesitwork">How does it work?</h3>
+  <p>Aligner tools are stored as Docker images in the Docker hub. A unique ID is assigned to each image. This guarantees the containers immutability and the full replicability of the benchmark over time.  </p>
 
-<p>Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.</p>
+  <p>Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).</p>
 
-<p>Aligner tools are stored as Docker images in the Docker hub. A unique ID is assigned to each image. This guarantees the containers immutability and the full replicability of the benchmark over time.  </p>
+  <p>GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease. <br> </p>
 
-<p>Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).</p>
+  <p>Moreover the no-SQl database, which is updated in every run of BenGen, allows to store metadata about the methods and their results.</p>
 
-<p>GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease. <br> </p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/bg-01.png" alt="alt tag" /></p>
 
-<p>
-<g:img dir="images" file="BenGen-dockers.png"/></p>
-<h2 id="gettingstarted">GETTING STARTED</h2>
+  <h2 id="gettingstarted">GETTING STARTED</h2>
 
-<h3 id="dependencies">Dependencies</h3>
+  <h3 id="dependencies">Dependencies</h3>
 
-<p>In order to run bengen on your machine <strong>Docker</strong> and <strong>Nextlfow</strong> need to be installed.</p>
+  <p>In order to run bengen on your machine <strong>Docker</strong> and <strong>Nextlfow</strong> need to be installed.</p>
 
-<ul>
-<li><a href="http://www.docker.com">Docker 1.0</a> </li>
+  <ul>
+  <li><a href="http://www.docker.com">Docker 1.0</a> </li>
 
-<li><a href="http://www.nextflow.io">Nextflow 0.18.+</a></li>
-</ul>
+  <li><a href="http://www.nextflow.io">Nextflow 0.18.+</a></li>
+  </ul>
 
-<h3 id="setup">Setup</h3>
+  <h3 id="setup">Setup</h3>
 
-<p>You first need to clone the Bengen repository </p>
+  <p>You first need to clone the Bengen repository </p>
 
-<pre><code>git clone https://github.com/cbcrg/bengen
-</code></pre>
+  <pre><code>git clone https://github.com/cbcrg/bengen
+  </code></pre>
 
-<p>Then move in the bengen directory and use make to create all the needed images</p>
+  <p>Then move in the bengen directory and use make to create all the needed images</p>
 
-<pre><code>cd bengen
-make
-</code></pre>
+  <pre><code>cd bengen
+  make
+  </code></pre>
 
-<p>Now you are ready to use Bengen!</p>
+  <p>Now you are ready to use Bengen!</p>
 
-<h2 id="configuration">CONFIGURATION</h2>
+  <h2 id="runningbengenlocally">RUNNING BENGEN LOCALLY</h2>
 
-<p>The overall benchmark is driven by a configuration file that allows the definition of different components </p>
+  <p>In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.</p>
 
-<ul>
-<li><strong>params.dataset</strong> : Defines which dataset to use. Right now only the datasets provided in the benchmark_dataset directory are allowed. If you want to use them all you can use : params.dataset="*".</li>
+  <pre><code>nextflow run bengen/main.nf
+  </code></pre>
 
-<li><strong>params.renderer</strong> : Choose which renderer to use among the ones provided (csv, html, json ) </li>
+  <p><strong>!Tip</strong>
+  You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.</p>
 
-<li><strong>params.out</strong> : choose how the outputfile should be named </li>
-</ul>
+  <pre><code>nextflow run bengen/main.nf -resume
+  </code></pre>
 
-<p>Example of configuration file content : </p>
+  <hr>
 
-<pre><code>docker.enabled = true
+  <h1 id="preprocessing">Preprocessing</h1>
 
-params.dataset= "balibase"
-params.renderer="csv"
+  <h2 id="datasets">Datasets</h2>
 
-params.out = ("output"+".${params.renderer}")
-</code></pre>
+  <p>In order to integrate a dataset in the Project you need to follow these steps: </p>
 
-<p><strong>Important</strong>
-Inside of the bengen directory you can find the <em>aligners.txt</em> file and the <em>scores.txt</em> file.
-They define which aligner to use and which score function to use.
-You can modify them by adding/removing lines with the name of the aligners/scores you want to run( bengen/NameOfAlignerOrScore ).</p>
+  <ol>
+  <li>Download and properly rename the datasets.</li>
 
-<p>Example of aligners.txt:</p>
+  <li>Upload the Datasets on Zenodo.</li>
 
-<pre><code>bengen/mafft
-bengen/tcoffee
-bengen/clustalo
-</code></pre>
+  <li>Add the link to the dataset folder in Zenodo in the datasetList file.</li>
+  </ol>
 
-<p>Example of scores.txt: </p>
+  <p>Here you can find more details on how to complete them: </p>
 
-<pre><code>bengen/qscore
-bengen/baliscore
-</code></pre>
+  <p>All the reference and test files have to be downloaded, named and stored following some easy rules :</p>
 
-<p><strong>!</strong>    You can see <strong>which aligners/scores are already integrated</strong> in the project by looking respectively in the boxes or boxes_score directories. You can find these in the bengen directory.</p>
+  <ul>
+  <li>The reference file must have a suffix “-reference”. Eg: “myFileXY-reference.myEnding” </li>
 
-<h2 id="runningbengenlocally">RUNNING BENGEN LOCALLY</h2>
+  <li>The Test file must have a suffix ”-test”. E.g. “myFileXY-test.myEnding”</li>
 
-<p>In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.</p>
+  <li>There must be a folder called “benchmark_dataset” where all the datasets-folders are stored.</li>
 
-<pre><code>nextflow run bengen/main.nf
-</code></pre>
+  <li>Every folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"</li>
+  </ul>
 
-<p><strong>!Tip</strong>
-You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.</p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/Datasets-organization.png" alt="alt tag" /></p>
 
-<pre><code>nextflow run bengen/main.nf -resume
-</code></pre>
+  <p>The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
+  As refrerence the MSA's datasets downlaod can be found on GitHub. The solution is implemented in bash.</p>
 
-<h2 id="modifybengen">MODIFY BENGEN</h2>
+  <p>By calling the script <a href="https://github.com/cbcrg/bengen/blob/master/bin/downlaodDatasets.sh">downlaodDatasets.sh</a> in the bin folder each file
+  is correctly named and stored.
+  The script calls every bash script contained in the folder <a href="https://github.com/cbcrg/bengen/tree/master/create-datasets">create-datasets</a>.
+  Every script is responsible for downloading one dataset. <br>
+  If a new Dataset has to be downlaoded the only thing to do is to add the new bash script inside the create-datasets folder.</p>
 
-<h3 id="addamultiplesequencealigner">Add a Multiple Sequence Aligner</h3>
+  <pre><code>cd bengen/bin
+  bash downloadDatasets.sh
+  </code></pre>
 
-<p>You can easily integrate your new MSA in Bengen by using a script that automatically does the work for you.</p>
+  <p>After having organized the datasets locally, these have to be published in order for other users to reproduce the results or even test new methods on them.</p>
 
-<p>In the bengen directory that you cloned you can find the <strong>add-aligner.sh</strong>  script. </p>
+  <p>So the next step is to upload the datasets on  <a href="http://zenodo.org">Zenodo</a> and add the link of the dataset in the datasetsList.</p>
 
-<p>ARGUMENTS: </p>
+  <p>By calling "make" every dataset is automatically downloaded and stored so that BenGen can run on them.</p>
 
-<ul>
-<li><strong>-n|--name</strong> =Name of your MSA  &emsp; &emsp; <em>compulsory</em><br></li>
+  <p><strong>!</strong>   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
+  For more informations on HOW to store this information you can look at the metadata section.</p>
 
-<li><strong>-d|--dockerfile</strong>= Complete Path to your Dockerfile &ensp;&ensp;  <em>compulsory</em><br></li>
+  <h2 id="metadata">Metadata</h2>
 
-<li><strong>-t|--template</strong> =Complete Path to your template file &ensp;&ensp; <em>compulsory</em> <br></li>
+  <p>BenGen is based on a RDF Database : a standardized No-SQL Database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.</p>
 
-<li><strong>--add</strong> No argument. If called automatically adds the MSA to the aligners.txt file &ensp;&ensp; <em>optional</em><br></li>
+  <p>First the metadata are created with the help of <a href="https://tarql.github.io/">tarql</a> : a CSV to RDF converter.
+  Then the information in RDF format are stored in the DB and can be queried using <a href="https://jena.apache.org/tutorials/sparql.html">sparql</a>. The query is already integrated in the BenGen project and the results of every run are automatically stored in the (local) RDF Database.</p>
 
-<li><strong>--make</strong> No argument. If used, calls the make command creating the image for the new MSA &ensp;&ensp; <em>optional</em><br></li>
-</ul>
+  <p>Here an example on <strong>how to create the metadata</strong> about methods, scoring functions and datasets.
+  This example is built for Multiple Sequence Aligners.</p>
 
-<p><br>
-Example : </p>
+  <ol>
+  <li>Collect the metadata in csv format.hese file are the ones with the prefix "toModel" in the <a href="https://github.com/cbcrg/bengen/tree/master/model">model folder</a>. The first line defines a key-label, through which each value in each line can be accessed when converting the file using tarql. In order to make as clear and standaried as possible the metadata structure only definitions from existing ontologies are used ( mainly <a href="http://edamontology.org/page">EDAM</a> ) </li>
+  </ol>
 
-<pre><code>bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
-</code></pre>
+  <p>Example of a "toModel" file: </p>
 
-<h2 id="contributetotheproject">CONTRIBUTE TO THE PROJECT</h2>
+  <pre><code>id,version,label,type,input,output,input_format,output_format,topic,max_count
+  bengen/clustalo,1.2.0,bengen/clustalo,edam:operation_0499,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,100
+  bengen/mafft,7.309,bengen/mafft,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,10000
+  </code></pre>
 
-<p>If you wish to contribute to the project you can integrate your new MSA in the public project.</p>
+  <p>In the MSA's case every set of sequences has been annotated. Two scripts (<a href="https://github.com/cbcrg/bengen/blob/master/model/create-csv-reference.sh">create-csv-reference.sh</a> and <a href="https://github.com/cbcrg/bengen/blob/master/model/create-csv-test.sh">create-csv-test.sh</a>) automatically collect the needed information. </p>
 
-<p>You need to follow these steps : </p>
+  <ol>
+  <li>All the informations needed for the metadata creation step are collected in csv format.Now they have to be converted in the RDF (turtle) format. This can be done by writing a mapping in sparql format. A lot of examples can be found in the <a href="https://github.com/cbcrg/bengen/tree/master/model">model folder</a> with the prefix "mapping".</li>
+  </ol>
 
-<ol>
-<li><strong>Clone</strong> the repository and modify it by adding your new MSa</li>
+  <p>Example of mapping file : </p>
 
-<li>Do a <strong>pull request</strong> to merge the project</li>
+  <pre><code>PREFIX rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+  PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+  PREFIX edam: &lt;http://edamontology.org/&gt;
+  PREFIX void: &lt;http://rdfs.org/ns/void#&gt;
+  PREFIX SIO: &lt;http://semanticscience.org/resource/&gt;
+  PREFIX doap: &lt;http://usefulinc.com/ns/doap#&gt;
 
-<li><strong>Upload the docker images</strong> on dockerhub </li>
-</ol>
+  CONSTRUCT {
 
-<p>Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
-<br><br>
+      ?URI a ?type;
+       rdfs:label ?NAMEandVERSION;
+       edam:has_input ?URI_INPUT;
+       edam:has_output ?URI_OUTPUT ;
+           edam:has_topic ?topic.
 
-<g:img dir="images" file="BenGen-workflow.png"/>
-<h2 id="finalnotes">Final Notes</h2>
 
-<p>The project is still under construction.</p>
+     ?URI_INPUT a ?input;
+
+            #Thought to be the MAXIMAL number of sequence the MSA can align. Depends on the Query.
+            SIO:SIO_000794 ?max_count;
+                edam:has_format ?input_format.
+
+     ?URI_OUTPUT a ?output;
+              edam:has_format ?output_format.
+
+
+
+    }
+
+  FROM &lt;file:toModel-msa.csv&gt;
+
+  WHERE{
+   BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
+   BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format,'-', ?max_count)) AS ?URI_INPUT)
+   BIND (URI(CONCAT('http://bengen.com/', ?output, '-', ?output_format)) AS ?URI_OUTPUT)
+   BIND (CONCAT(?label, '-v', ?version ) AS ?NAMEandVERSION)
+  }
+  </code></pre>
+
+  <p><strong>Step 0. and 1. in the MSAs case can be done by simply calling the <a href="https://github.com/cbcrg/bengen/blob/master/model/create-metadataDB.sh">create-metadataDB.sh</a> script.</strong> </p>
+
+  <pre><code>cd bengen/model
+  bash create-metadata.sh
+  </code></pre>
+
+  <ol>
+  <li><p>Now a query needs to be created. This defines which method can run on which kind of dataset and which scoring funciton is allowed to score the results. The query has to be written in sparql.Here the MSA's query <a href="https://github.com/cbcrg/bengen/blob/master/metadata/query.rq">example</a>.</p></li>
+
+  <li><p>the <a href="http://github.com/cbcrg/bengen/master/blob/bin/mapping-score.sparql">mapping-score.sparql</a> has to be in the bin folder and contains the instrutions to translate the results which are given in csv format to RDF format in order to add them to the DB.</p></li>
+  </ol>
+
+  <pre><code>PREFIX rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+  PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+  PREFIX edam: &lt;http://edamontology.org/&gt;
+  PREFIX void: &lt;http://rdfs.org/ns/void#&gt;
+  PREFIX SIO: &lt;http://semanticscience.org/resource/&gt;
+  PREFIX doap: &lt;http://usefulinc.com/ns/doap#&gt;
+
+  CONSTRUCT {
+
+     ?URI a edam:data_1772 ;
+       rdfs:label ?label;
+       edam:is_output_of ?method;
+       edam:is_output_of ?sf;
+     edam:is_output_of ?db;
+       edam:is_output_of ?id;
+       edam:isDefinedBy ?URI_DEF;
+     rdf:value ?value;
+
+
+
+    }
+
+  WHERE{
+   BIND (URI(CONCAT('http://bengen.com/',?label,'-' ,?method, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI)
+   BIND (URI(CONCAT('http://bengen.com/', ?method, '-', ?sf,'-', ?db,'-', ?id)) AS ?URI_DEF)
+  }
+  </code></pre>
+
+  <p>All the metadata files are store in the <a href="https://github.com/cbcrg/bengen/tree/master/metadata">metadata folder</a>. (The one in turtle, .ttl format).</p>
+
+  <hr>
+
+  <h1 id="contributetotheproject">Contribute to the Project</h1>
+
+  <h2 id="createanewbenchmarkusingbengensworkflow">-CREATE A NEW BENCHMARK USING BENGEN'S WORKFLOW</h2>
+
+  <h3 id="preprocessing-1">Preprocessing</h3>
+
+  <h4 id="1createdockerimagesanduplodthemindockerhubmodifytheimages_dockerfile">1. Create Docker images and uplod them in Dockerhub &amp; Modify the images_docker file</h4>
+
+  <p><strong>i.</strong> Create Docker images locally and upload the to  <a href="https://hub.docker.com/">DockerHub </a>.
+  They don't have to be necessarily in the bengen repository in order to work. You can put them in your own repository.</p>
+
+  <p><strong>ii.</strong> Add the list of the images you wish to test to the images_docker file.</p>
+
+  <p>For example: </p>
+
+  <pre><code>bengen/mafft
+  bengen/clustalo
+  bengen/baliscore
+  </code></pre>
+
+  <h4 id="2createanrdfmetadatadatabaseanditsquery">2. Create an RDF metadata Database and its Query</h4>
+
+  <ul>
+  <li>Create the RDF DB ( more informations on how to do so under the section "Metadata") and store it into the metadata folder</li>
+
+  <li>Create the query.sparql file : define what can run on what ( more informations on how to do so under the section "Metadata" ) and store it into the bin folder.</li>
+  </ul>
+
+  <h3 id="readytorun">Ready to Run!</h3>
+
+  <h4 id="1make">1. Make</h4>
+
+  <pre><code>make
+  </code></pre>
+
+  <h4 id="2runitandgetyourresults">2. Run it and get your results</h4>
+
+  <pre><code>nextflow run query.nf
+  </code></pre>
+
+  <h2 id="includeanewmethodtotheproject">INCLUDE A NEW METHOD TO THE PROJECT</h2>
+
+  <h3 id="commandlineversion">Command Line version</h3>
+
+  <h4 id="1collectwhatisneeded">1. Collect what is needed :</h4>
+
+  <p><strong>i.</strong> A docker image (uploaded in DockerHub) .
+  <strong>ii.</strong>  Template file.
+  Input file name has to be : $input
+  Output file name has to be : method.out</p>
+
+  <p>Example: </p>
+
+  <pre><code>clustalo -i $input -o method.out --outfmt fasta --force
+  </code></pre>
+
+  <p>NOTE : The output format of the method has to be the same format as the input for the scoring function. In case of MSA's output format MUST be a fasta format.</p>
+
+  <p>Many examples how to handle this can be found in the <a href="https://github.com/cbcrg/bengen/tree/master/templates/bengen">templates </a> directory.</p>
+
+  <p><strong>iii.</strong>  Metadata file ( if you are using the automatized version ).
+  This is the file that defines your method according to the ontology.
+  This can be created online in the BenGen website in the case of MSA's.</p>
+
+  <h4 id="2uploadthedockerimagetodockerhub">2. Upload the docker image to DockerHub</h4>
+
+  <h4 id="3callthescriptbengenbinaddmethodshhere">3. Call the script bengen/bin/addMethod.sh ( <a href="">here</a> )</h4>
+
+  <p>ARGUMENTS: </p>
+
+  <ul>
+  <li><strong>-n|--name</strong> =DockerHub<em>repository</em>name/Method<em>name  &emsp; &emsp; _compulsory</em><br></li>
+
+  <li><strong>-m|--metadata</strong>= Complete Path to your Metadata file &ensp;&ensp;  <em>compulsory</em><br></li>
+
+  <li><strong>-t|--template</strong> =Complete Path to your template file &ensp;&ensp; <em>compulsory</em> <br></li>
+
+  <li><strong>--make</strong> No argument. If used, calls the make command creating the image for the new Method locally &ensp;&ensp; <em>optional</em><br></li>
+  </ul>
+
+  <h3 id="websiteversion">Website Version</h3>
+
+  <p>The name of the new method ( or scoring function ) , the metadata file and the template file can be uploaded on the website and the extended version of BenGen can be downloaded.</p>
+
+  <p>{Right now it is working but too heavy to downlaod --> Sequences are saved in BenGen --> have to go to Zenodo--> then ready}</p>
+
+  <h2 id="contributetotheproject-1">CONTRIBUTE TO THE PROJECT</h2>
+
+  <p>If you wish to contribute to the project you can integrate your new MSA in the public project.</p>
+
+  <p>You need to follow these steps : </p>
+
+  <ol>
+  <li><strong>Clone</strong> the repository and modify it by adding your new MSa</li>
+
+  <li>Do a <strong>pull request</strong> to merge the project</li>
+
+  <li><strong>Upload the docker images</strong> on dockerhub </li>
+  </ol>
+
+  <p>Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
+  <br><br></p>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/bg-02.png" alt="alt tag" /></p>
+
+  <h1 id="msasontologydefinition">MSA's Ontology Definition</h1>
+
+  <p>For understanding the metadata you can look up the not human-understandable terms in the ontology websites. A suggested one for EDAM is <a href="https://www.ebi.ac.uk/ols/ontologies/edam">this one</a>. </p>
+
+  <p>Here an overview on how metadata look like, their connection and their meaning.</p>
+
+  <h4 id="msa">MSA :</h4>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/MSA-translated.png" alt="alt tag" /></p>
+
+  <h4 id="scoringfunction">Scoring Function:</h4>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/SF-translated.png" alt="alt tag" /></p>
+
+  <h4 id="testfile">Test File :</h4>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png" alt="alt tag" /></p>
+
+  <h4 id="referencefile">Reference File :</h4>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png" alt="alt tag" /></p>
+
+  <h4 id="dataset">Dataset:</h4>
+
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/DB-translated.png" alt="alt tag" /></p>
+
+  <h1 id="websiteinstruction">WEBSITE Instruction</h1>
+
+  <ul>
+  <li>Download <a href="https://grails.org/">Grails</a></li>
+  </ul>
 </div>
 
 </body>
-</html>	
+</html>

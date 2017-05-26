@@ -35,7 +35,7 @@
 			    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Benchmarks <span class="caret"></span></a>
 			    <ul class="dropdown-menu">
 				<li><g:link controller="msabenchmark">MSAs</g:link></li>
-				<li><a href="#">Mappers</a></li>
+
 
 			    </ul>
 			</li>

@@ -31,9 +31,16 @@
 
         <div class="col-xs-5">
           <div class="gearBox">
-          <div id="one"><div class="teeth"><div class="plate"><!--<asset:image src="Docker.png"  style="height: 100% ;width: 100%;"/>--></div></div></div>
+          <div id="one"><div class="teeth"></div></div>
+          <div class=""> <asset:image src="Docker.png" id="intern-one" style="height: 18% ;width: 16%;"/></div>
+
           <div id="two"><div class="teeth"><div class="plate"></div></div></div>
+          <div class=""> <asset:image src="NF-logo.png" id="intern-two" style="height: 19% ;width: 13%;"/></div>
+
+
           <div id="three"><div class="teeth"><div class="plate"><!--<asset:image src="Github-img.png"  style="height: 85  % ;width: 85%;"/>--></div></div></div>
+          <div class=""> <asset:image src="Github.png" id="intern-three" style="height: 19% ;width: 13%;"/></div>
+
           </div>
         </div>
 
@@ -86,7 +93,6 @@
 
 
         <h4><g:link controller="msabenchmark">Multiple Sequence Aligners</g:link> <br></h4>
-        <h4><g:link controller="#">Mappers</g:link><br></h4>
 
         </center>
   </div>
