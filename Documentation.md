@@ -16,7 +16,7 @@ GitHub stores and tracks code changes in consistent manner. It also provides a f
 
 Moreover the no-SQl database, which is updated in every run of BenGen, allows to store metadata about the methods and their results.
 
-[](https://github.com/luisas/bengen/blob/master/images/bg-01.png)
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-01.png)
 
 
 
@@ -219,7 +219,7 @@ WHERE{
 All the metadata files are store in the [metadata folder](https://github.com/cbcrg/bengen/tree/master/metadata). (The one in turtle, .ttl format).
 
 
-
+<hr>
 
 
 # Contribute to the Project
@@ -351,7 +351,7 @@ Here an overview on how metadata look like, their connection and their meaning.
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
 
 
-#### Referene File :
+#### Reference File :
 
 
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
