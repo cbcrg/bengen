@@ -46,6 +46,14 @@ Now you are ready to use Bengen!
 
 ## Datasets
 
+In order to integrate a dataset in the Project you need to follow these steps: 
+
+1. Download and properly rename the datasets.
+2. Upload the Datasets on Zenodo.
+3. Add the link to the dataset folder in Zenodo in the datasetList file.
+
+Here you can find more details on how to complete them: 
+
 All the reference and test files have to be downloaded, named and stored following some easy rules :
 
 *	The reference file must have a suffix “-reference”. Eg: “myFileXY-reference.myEnding” 
@@ -53,7 +61,9 @@ All the reference and test files have to be downloaded, named and stored followi
 *	There must be a folder called “benchmark_dataset” where all the datasets-folders are stored.
 * Every folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"
 
+
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/Datasets-organization.png)
+
 
 The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
 As refrerence the MSA's datasets downlaod can be found on GitHub. The solution is implemented in bash.
@@ -68,6 +78,12 @@ If a new Dataset has to be downlaoded the only thing to do is to add the new bas
 cd bengen/bin
 bash downloadDatasets.sh
 ```
+
+After having organized the datasets locally, these have to be published in order for other users to reproduce the results or even test new methods on them.
+
+So the next step is to upload the datasets on  [Zenodo](http://zenodo.org) and add the link of the dataset in the datasetsList.
+
+By calling "make" every dataset is automatically downloaded and stored so that BenGen can run on them.
 
 
 
