@@ -1,5 +1,4 @@
 # BenGen
-
 ## Introduction
 
 BenGen is a containerization and ontology-based benchmarking prototype.
@@ -17,7 +16,8 @@ GitHub stores and tracks code changes in consistent manner. It also provides a f
 
 Moreover the no-SQl database, which is updated in every run of BenGen, allows to store metadata about the methods and their results.
 
-![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
+[](https://github.com/luisas/bengen/blob/master/images/bg-01.png)
+
 
 
 ## GETTING STARTED
@@ -41,6 +41,26 @@ cd bengen
 make
 ```
 Now you are ready to use Bengen!
+
+
+## RUNNING BENGEN LOCALLY 
+
+In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.
+
+```
+nextflow run bengen/main.nf
+```
+**!Tip**
+You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.
+
+
+```
+nextflow run bengen/main.nf -resume
+```
+
+
+<hr>
+
 
 # Preprocessing 
 ## Datasets
@@ -87,7 +107,7 @@ By calling "make" every dataset is automatically downloaded and stored so that B
 **!**   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
 For more informations on HOW to store this information you can look at the metadata section.
 
-## METADATA
+## Metadata
 
 BenGen is based on a RDF Database : a standardized No-SQL Database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
 
@@ -198,11 +218,11 @@ WHERE{
 
 All the metadata files are store in the [metadata folder](https://github.com/cbcrg/bengen/tree/master/metadata). (The one in turtle, .ttl format).
 
-## ONTOLOGY DEFINITION 
 
 
 
-# CONTRIBUTE TO THE PROJECT
+
+# Contribute to the Project
 
 
 ## -CREATE A NEW BENCHMARK USING BENGEN'S WORKFLOW
@@ -292,10 +312,60 @@ The name of the new method ( or scoring function ) , the metadata file and the t
 {Right now it is working but too heavy to downlaod --> Sequences are saved in BenGen --> have to go to Zenodo--> then ready}
 
 
+## CONTRIBUTE TO THE PROJECT
+If you wish to contribute to the project you can integrate your new MSA in the public project.
+
+You need to follow these steps : 
+
+1. **Clone** the repository and modify it by adding your new MSa
+2. Do a **pull request** to merge the project
+3. **Upload the docker images** on dockerhub 
+
+Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
+<br><br>
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-02.png)
+
+
+# MSA's Ontology Definition
+
+For understanding the metadata you can look up the not human-understandable terms in the ontology websites. A suggested one for EDAM is [this one](https://www.ebi.ac.uk/ols/ontologies/edam). 
+
+Here an overview on how metadata look like, their connection and their meaning.
+
+#### MSA : 
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/MSA-translated.png)
+
+#### Scoring Function: 
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/SF-translated.png)
+
+
+#### Test File : 
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
+
+
+#### Referene File :
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
+
+
+#### Dataset: 
+
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/DB-translated.png)
+
+
 # WEBSITE Instruction
 
 * Download [Grails](https://grails.org/)
-
 
 
 
