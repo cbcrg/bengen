@@ -19,26 +19,26 @@ padding-bottom: 50px;
 
 
  #step1{
- background-color: #6FD8E0;
+ background-color: #0288D1;
  height: 160px;
 border-radius: 25px;
-    border: 2px solid #66B2FF	;
+    border: 2px solid #039BE5	;
 
 }
 
 #step2{
-background-color: #70D7AB;
+background-color: #29B6F6;
 height: 160px;
 border-radius: 25px;
-    border: 2px solid #3BC6A1;
+    border: 2px solid #29B6F6;
 
 }
 
 #step3{
-background-color: #B2CB5E;
+background-color: #B3E5FC;
 height: 160px;
 border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #B3E5FC;
 
 }
 .steps-wrapper{
@@ -243,7 +243,7 @@ border-width: 0px 0px 0px 8px;
  right: 10px;
  border-radius: 100%;
  background-color: white ;
- border: 20px dotted rgb(45, 138, 234);
+ border: 20px dotted #0E77D2;
  height: 90px;
  width: 90px;
 }
@@ -261,7 +261,7 @@ border-width: 0px 0px 0px 8px;
  width:30px;
  margin-top:15px;
  margin-left:15px;
- border:5px solid rgb(21, 120, 223);
+ border:5px solid #C9C9C9;
  background:#ededed;
  position:relative;
  border-radius:50%;
@@ -291,11 +291,12 @@ border-width: 0px 0px 0px 8px;
  left: 100px;
  top: 50px;
  border-radius: 100%;
- background-color: rgb(45, 138, 234);
+ background-color: #0E77D2;
  height: 110px;
  width: 110px;
  padding: 0;
 }
+
 
 #three{
 	position: absolute;
@@ -303,12 +304,35 @@ border-width: 0px 0px 0px 8px;
   top: 111px;
 
 }
-#two {
 
+
+#two{
+	position:absolute;
  left: 220px;
  top: 41px;
 
 }
+
+#intern-one{
+	position:absolute;
+	left: 113px;
+	top:73px;
+}
+
+#intern-two{
+	position:absolute;
+ left: 243px;
+ top: 63px;
+
+}
+
+
+#intern-three{
+	position: absolute;
+  left: 337px;
+  top: 138px;
+}
+
 
 #one .teeth , #three .teeth  {
  -webkit-animation: rotate 5s infinite linear;
@@ -317,19 +341,8 @@ border-width: 0px 0px 0px 8px;
 	animation: rotate 5s infinite linear;
 }
 
-.whole {
-	-webkit-animation:	none !important;
-  -moz-animation: none !important;
-  -o-animation: none !important;
- 	animation: none !important;
 
-
-
-}
-
-
-
-#one   + #two   {
+ #two  {
  -webkit-animation: rotate 5s infinite linear;
  -moz-animation: rotate 5s infinite linear;
  -o-animation: rotate 5s infinite  linear;
@@ -363,15 +376,4 @@ border-width: 0px 0px 0px 8px;
  background-clip: content-box;
  box-sizing: content-box;
 -webkit-box-sizing:content-box;
-}
-
-
-.plate {
-	-webkit-animation:	none !important;
-  -moz-animation: none !important;
-  -o-animation: none !important;
- 	animation: none !important;
-
-
-
 }

@@ -22,11 +22,11 @@ if (typeof jQuery !== 'undefined') {
 
 
 
+
 $('#demo').jstree({ 'core' : {
     'data' : [
        { "id" : "ajson1", "parent" : "#", "text" : "benchmark_datasets" },
        { "id" : "ajson3", "parent" : "ajson1", "text" : "Oxfam-v1.0" },
-
        { "id" : "ajson5", "parent" : "ajson1", "text" : "Balibase-v4.0" },
        { "id" : "ajson4", "parent" : "ajson5", "text" : "BB11001.xml.ref" },
        { "id" : "ajson6", "parent" : "ajson5", "text" : "BB11001.fa.test" },
