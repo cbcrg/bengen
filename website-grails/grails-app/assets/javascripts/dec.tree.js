@@ -5,7 +5,11 @@
  *     initial: [], (list of choice IDs for the root node)
  *     choices: {}  (keyed object of all possible choices)
  * }
+ *
+ * Adapted and modified by the BenGen Authors
 **/
+
+
 
 
 
@@ -130,115 +134,68 @@ var data = {
     // TOP LEVEL
 
     'method': {
-      name: 'Type',
+      name: 'method',
+      label: 'Type',
       children: ['msa']
     },
 
+
     'scoring function': {
-      name: 'Type',
+      name: 'scoring function',
+      label: 'Type',
       children: ['sequence alignment (protein)', 'sequence alignment (nucleic acid)']
     },
 
-    //MSA
-    'msa': {
-      name: 'Multiple Sequence Aligner',
-      children: ['romantic', 'scary', 'action', 'comedy']
-    },
-
-    // SF
+//SF
 
       //INPUT
     'sequence alignment (protein)': {
       name: 'sequence alignment (protein)',
       label: 'Input',
-      children: ['fasta-aln', 'xml']
-    },
-
-    'fasta-aln': {
-      name: 'Format'
-   },
-
-    'xml': {
-      name: 'Format'
+      children: ['fasta-alnP', 'xmlP']
     },
     'sequence alignment (nucleic acid)': {
-      name: 'Input',
-      children: ['fasta-alnn', 'xmll']
+      name: 'sequence alignment (nucleic acid)',
+      label: 'Input',
+      children: ['fasta-alnNA', 'xmlNA']
     },
 
-      //INPUT FORMAT
-
-      'fasta-aln': {
-        name: 'Format'
-     },
-
-      'xml': {
-        name: 'Format'
-      },
+    //INPUT FORMAT
 
 
+    'fasta-alnP': {
+      name: 'fasta-aln',
+      label: 'Format',
 
+   },
 
+    'xmlP': {
+      name: 'xml',
+      label: 'Format',
 
-
-
-
-    // WATCH MOVIE
-
-
-    'scary': {
-      name: 'Terrified'
-    },
-    'action': {
-      name: 'On the edge of our seats'
-    },
-    'comedy': {
-      name: 'Spit out our popcorn'
     },
 
-    // WATCH TV
+    'fasta-alnNA': {
+      name: 'fasta-aln',
+      label: 'Format',
 
-    'drama': {
-      name: 'Nail-biting suspense'
-    },
-    'sport': {
-      name: 'Cheer for the winner'
-    },
-    'comedy-tv': {
-      name: 'Cry with laughter'
-    },
+   },
 
-    // COOK
-    'spicy': {
-      name: 'Hot and spicy'
+    'xmlNA': {
+      name: 'xml',
+      label: 'Format'
     },
-    'traditional': {
-      name: 'Like Mum used to make'
+    //MSA
+    'msa': {
+      name: 'Multiple Sequence Aligner',
+      label: 'T'
     },
 
-    // CINEMA
-    'romantic-cine': {
-      name: 'Make out at the back'
-    },
-    'scary-cine': {
-      name: 'Covering our faces'
-    },
 
-    // DRINK
-    'beer': {
-      name: 'Pisswasser'
-    },
-    'whiskey': {
-      name: 'Black Bush'
-    },
 
-    // RESTAURANT
-    'italian': {
-      name: 'Spag bol'
-    },
-    'bbq': {
-      name: 'Meat in a bap'
-    }
+
+
+
 
   }
 };
@@ -265,7 +222,7 @@ $(function() {
     $list.empty();
     for(var i = 0; i < items.length; i++) {
       var item = items[i];
-      $list.append('<li><a href="#" data-choice="' + item.id + '">' + item.id + '</a></li>');
+      $list.append('<a id="dectree" href="#" data-choice="' + item.id + '">' + item.name + '</a><br>');
 
     }
 
@@ -290,11 +247,22 @@ $(function() {
     if(kids) {
       current_id = choiceId;
       renderList(kids);
+
+    }else{
+
+       $("#hideshow").show();
+      kids=['ready']
+      renderLists(kids);
+
+
+
+
     }
   });
 
   $('#back').on('click', function(e) {
     e.preventDefault();
+    $("#hideshow").hide();
     if(!current_id) return false;
     console.log('back button clicked', current_id);
     index=index-1;
@@ -329,7 +297,7 @@ $(function() {
 
   jQuery(function () {
 
-
+$("#first").css({"display":"none"}); $("#decisiontree").show();
 
 
       jQuery("[name='jftForm']").submit(function () {

@@ -118,7 +118,7 @@
         <center>
 
 
-        <h4><g:link controller="extend">Extend Bengen >> </g:link> <br></h4>
+        <h4><g:link controller="extendBenGen">Extend Bengen >> </g:link> <br></h4>
 
 
         </center>

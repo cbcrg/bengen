@@ -1,0 +1,29 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX edam: <http://edamontology.org/> 
+
+CONSTRUCT {
+  
+    ?URI a ?type;
+	 rdfs:label ?NAMEandVERSION;
+ 	 edam:has_input ?URI_INPUT;
+         edam:has_topic ?topic.
+
+   ?URI_INPUT a ?input; 
+              edam:has_format ?input_format.
+  
+   ?URI edam:has_output edam:data_1772.
+
+	 
+  }
+
+
+FROM <file:toModel-sf.csv>
+
+WHERE{
+ BIND (URI(CONCAT('http://bengen.com/', ?id, '-', ?version)) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?input,'-',?input_format)) AS ?URI_INPUT)
+ BIND (CONCAT(?label, '-v', ?version) AS ?NAMEandVERSION) 
+}
+
+

@@ -16,7 +16,6 @@
   <asset:stylesheet src="style.min.css"/>
   <asset:stylesheet src="style.css"/>
 	<asset:javascript src="bootstrap.min.js"/>
-  
 	<asset:javascript src="jquery-3.2.0.min.js"/>
   <asset:javascript src="jstree.min.js" />
 

@@ -31,7 +31,7 @@
 
   <p>Moreover the no-SQl database, which is updated in every run of BenGen, allows to store metadata about the methods and their results.</p>
 
-  <p><asset:image src="bg-01.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/bg-01.png" alt="alt tag" /></p>
 
   <h2 id="gettingstarted">GETTING STARTED</h2>
 
@@ -103,7 +103,7 @@
   <li>Every folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"</li>
   </ul>
 
-  <p><asset:image src="Datasets-organization.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/Datasets-organization.png" alt="alt tag" /></p>
 
   <p>The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
   As refrerence the MSA's datasets downlaod can be found on GitHub. The solution is implemented in bash.</p>
@@ -342,7 +342,7 @@
   <p>Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
   <br><br></p>
 
-  <p><asset:image src="bg-02.png"  style=""/> </p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/bg-02.png" alt="alt tag" /></p>
 
   <h1 id="msasontologydefinition">MSA's Ontology Definition</h1>
 
@@ -352,23 +352,23 @@
 
   <h4 id="msa">MSA :</h4>
 
-  <p><asset:image src="MSA-translated.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/MSA-translated.png" alt="alt tag" /></p>
 
   <h4 id="scoringfunction">Scoring Function:</h4>
 
-  <p><asset:image src="SF-translated.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/SF-translated.png" alt="alt tag" /></p>
 
   <h4 id="testfile">Test File :</h4>
 
-  <p><asset:image src="TEST-translated.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png" alt="alt tag" /></p>
 
   <h4 id="referencefile">Reference File :</h4>
 
-  <p><asset:image src="REFERENCE-translated.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png" alt="alt tag" /></p>
 
   <h4 id="dataset">Dataset:</h4>
 
-  <p><asset:image src="DB-translated.png"  style=""/></p>
+  <p><img src="https://github.com/cbcrg/bengen/blob/master/images/DB-translated.png" alt="alt tag" /></p>
 
   <h1 id="websiteinstruction">WEBSITE Instruction</h1>
 

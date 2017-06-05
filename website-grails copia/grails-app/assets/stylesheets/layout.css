@@ -18,31 +18,27 @@ padding-bottom: 50px;
 }
 
 
-#decisiontree{
-
-
-}
  #step1{
- background-color: #0288D1;
+ background-color: #6FD8E0;
  height: 160px;
 border-radius: 25px;
-    border: 2px solid #039BE5	;
+    border: 2px solid #66B2FF	;
 
 }
 
 #step2{
-background-color: #29B6F6;
+background-color: #70D7AB;
 height: 160px;
 border-radius: 25px;
-    border: 2px solid #29B6F6;
+    border: 2px solid #3BC6A1;
 
 }
 
 #step3{
-background-color: #B3E5FC;
+background-color: #B2CB5E;
 height: 160px;
 border-radius: 25px;
-    border: 2px solid #B3E5FC;
+    border: 2px solid #73AD21;
 
 }
 .steps-wrapper{

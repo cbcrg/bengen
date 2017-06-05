@@ -13,7 +13,7 @@
   <br>
 <h1>Extend BenGen</h1>
 <h3> ( If you did not create yet your metadata file you can easily do it
-  <g:link controller="getmetadata">here</g:link>) </h3>
+  <a href="getMetadata.html">here</a>) </h3>
 
 
   <g:if test="${flash.error}">
