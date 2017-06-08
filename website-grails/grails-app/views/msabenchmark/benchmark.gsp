@@ -17,7 +17,7 @@
 <h1>BENCHMARKING RESULTS</h1>
 
 
-<iframe src="http://glimmer.rstudio.com/rstudio/faithful/" style="border: none; width: 440px; height: 500px"></iframe>
+<iframe src="http://glimmer.rstudio.com/rstudio/faithful/" style="border: none; width: 100%; height: 100%"></iframe>
 
 
 
