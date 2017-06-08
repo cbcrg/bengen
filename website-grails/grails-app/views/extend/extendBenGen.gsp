@@ -39,7 +39,7 @@
 
            <h4>Type here the name </h4>
            <br>
-           <div class="text-field"><g:textField name="name"  placeholder="bengen/tcoffee" /></div>
+           <div class="text-field"><g:textField name="name"  pattern=".*/.*" placeholder="bengen/tcoffee" /></div>
          </div>
         </div>
 

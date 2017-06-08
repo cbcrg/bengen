@@ -136,7 +136,7 @@ var data = {
     'method': {
       name: 'method',
       label: 'Type',
-      children: ['msa']
+      children:['TBMsa', 'SBMsa', 'GeneralMsa']
     },
 
 
@@ -185,11 +185,132 @@ var data = {
       name: 'xml',
       label: 'Format'
     },
-    //MSA
-    'msa': {
-      name: 'Multiple Sequence Aligner',
-      label: 'T'
+
+
+    'TBMsa': {
+      name: 'Tree-Based Multiple Sequence Aligner',
+      label: 'Multiple Sequence Aligner',
+      children:['proteinTBMSA-small','NATBMSA-small','bothTBMSA-small','proteinTBMSA-big','NATBMSA-big','bothTBMSA-big']
     },
+
+
+    'SBMsa': {
+      name: 'Structure-Based Multiple Sequence Aligner',
+      label: 'Multiple Sequence Aligner',
+      children:['proteinSMSA-small','NASMSA-small','bothSMSA-small','proteinSMSA-big','NASMSA-big','bothSMSA-big']
+
+    },
+    'GeneralMsa': {
+      name: 'None of the previous ones',
+      label: 'Multiple Sequence Aligner',
+      children:['proteinGMSA-small','NAGMSA-small','bothGMSA-small','proteinGMSA-big','NAGMSA-big','bothGMSA-big']
+    },
+
+
+//Input
+
+  'proteinTBMSA-small': {
+    name: 'Small Set of protein Sequences',
+    label: 'Input',
+//    children:['MaxCountTBP']
+  },
+  'proteinTBMSA-big': {
+    name: 'Big Set of protein Sequences',
+    label: 'Input',
+//    children:['MaxCountTBP']
+  },
+  'NATBMSA-small': {
+    name: 'Small Set of Nucleic Acid Sequences',
+    label: 'Input',
+  //  children:['MaxCountTBN']
+  },
+  'NATBMSA-big': {
+    name: 'Big Set of Nucleic Acid Sequences',
+    label: 'Input',
+  //  children:['MaxCountTBN']
+  },
+  'bothTBMSA-small': {
+    name: 'Both of the previous ones (small set)',
+    label: 'Input',
+  //  children:['MaxCountTBB']
+  },
+  'bothTBMSA-big': {
+    name: 'Both of the previous ones (big set)',
+    label: 'Input',
+  //  children:['MaxCountTBB']
+  },
+
+  'proteinGMSA-small': {
+  name: 'Small Set of protein Sequences',
+  label: 'Input',
+  // children:['MaxCountGP']
+  },
+  'proteinGMSA-big': {
+  name: 'Big Set of protein Sequences',
+  label: 'Input',
+  // children:['MaxCountGP']
+  },
+  'NAGMSA-small': {
+  name: 'Small Set of Nucleic Acid Sequences',
+  label: 'Input',
+  // children:['MaxCountGN']
+  },
+  'NAGMSA-big': {
+  name: 'Big Set of Nucleic Acid Sequences',
+  label: 'Input',
+  // children:['MaxCountGN']
+  },
+  'bothGMSA-small': {
+  name: 'Both of the previous ones (small set)',
+  label: 'Input',
+  // children:['MaxCountGB']
+  },
+  'bothGMSA-big': {
+  name: 'Both of the previous ones (big set)',
+  label: 'Input',
+  // children:['MaxCountGB']
+  },
+  'proteinSMSA-small': {
+name: 'Small Set of protein Sequences',
+label: 'Input',
+// children:['MaxCountSP']
+},
+'proteinSMSA-big': {
+name: 'Big Set of protein Sequences',
+label: 'Input',
+// children:['MaxCountSP']
+},
+'NASMSA-small': {
+name: 'Small Set of Nucleic Acid Sequences',
+label: 'Input',
+// children:['MaxCountSN']
+},
+'NASMSA-big': {
+name: 'Big Set of Nucleic Acid Sequences',
+label: 'Input',
+// children:['MaxCountSN']
+},
+'bothSMSA-small': {
+name: 'Both of the previous ones (small set)',
+label: 'Input',
+// children:['MaxCountSB']
+},
+'bothSMSA-big': {
+name: 'Both of the previous ones (big set)',
+label: 'Input',
+// children:['MaxCountSB']
+},
+
+
+
+
+
+
+
+
+
+
+
 
 
 
