@@ -1,0 +1,87 @@
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix edam:<http://edamontology.org/>
+PREFIX void: <http://rdfs.org/ns/void#> 
+prefix oboInOwl:  <http://www.geneontology.org/formats/oboInOwl#> 
+prefix SIO:  <http://semanticscience.org/resource/> 
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+
+select distinct ?sf_name ?msa_name ?db_name ?ref_id ?URI where { 
+
+
+
+  ?msa_type rdfs:subClassOf edam:operation_0292 .
+  ?msa a ?msa_type .
+  ?msa rdfs:label ?msa_name .
+  ?msa edam:has_input ?msa_input .
+
+  ?sf a edam:operation_0259 .
+  ?sf rdfs:label ?sf_name .
+
+
+
+#-------- MSA (input+format) == TEST (type+format)
+
+ ?test a ?test_type .
+ ?test edam:file_extension  ?test_extension . 
+ FILTER regex(?test_extension, ".fa$") .
+ ?test edam:has_format ?test_format. 
+
+
+
+ # Msa output ==input sf
+ ?msa edam:has_output ?msa_out .
+ ?msa_out edam:has_format ?msa_out_format .
+ ?msa_out a ?msa_out_type .
+
+ ?sf edam:has_input  ?sf_input .
+ ?sf_input a ?msa_out_type .
+
+#----------- TEST (size) <= MSA (max_count)
+
+ ?test SIO:SIO_000794 ?test_size . 
+ ?msa_input SIO:SIO_000794 ?max_size .
+ FILTER (?max_size >= ?test_size) .
+
+##---- SF (input+format) == REF (type+format)
+
+ ?ref a ?ref_type .
+ ?ref edam:file_extension  ?ref_extension . 
+ FILTER regex(?ref_extension, ".*.ref$") .
+
+ ?ref rdfs:label ?label .
+ ?ref edam:has_format ?ref_format. 
+
+ ?sf_input a ?ref_type .
+ ?sf_input edam:has_format ?ref_format.
+
+
+
+#----------- REF (id) ==TEST (id)
+
+ ?ref edam:data_1066 ?ref_id . 
+ ?test edam:data_1064 ?ref_id . 
+ ?ref oboInOwl:inSubset ?subset_ref .
+ ?test oboInOwl:inSubset ?subset_ref.
+
+
+#----DATASET
+
+ ?ref oboInOwl:inSubset ?URI_DATASET. 
+ ?URI_DATASET rdfs:label ?db_name.
+ ?URI_DATASET doap:Version ?db_version.
+  
+  
+#----- CACHING
+
+# ?score a edam:data_1772.
+# ?score rdfs:label ?score_name.
+ BIND (URI(CONCAT('http://bengen.com/' ,?msa_name, '-', ?sf_name,'-', ?db_name,'-', ?ref_id)) AS ?URI)
+ FILTER NOT EXISTS { ?score edam:is_defined_by ?URI . }
+
+  
+  
+  #insert here#
+
+}

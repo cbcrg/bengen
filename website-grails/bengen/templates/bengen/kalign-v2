@@ -1,0 +1,1 @@
+kalign -i $input -o method.out -q -f fasta

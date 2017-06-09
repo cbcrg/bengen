@@ -15,7 +15,8 @@
 <br>
 
 <center>
-
+---------------
+${error}
   <h3>Your extended version of BenGen is ready to download.</h3>
   <br>
   <g:link controller="extend"  action="download"> DOWNLOAD BenGen</g:link>

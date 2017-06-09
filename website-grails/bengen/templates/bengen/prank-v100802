@@ -1,0 +1,3 @@
+prank -d=$input -quiet -o=aln 
+mv aln.1.fas method.out
+

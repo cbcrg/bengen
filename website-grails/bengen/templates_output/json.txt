@@ -1,0 +1,26 @@
+<% 
+
+
+
+ 
+%>{ "data":[<%
+initial = true ;
+
+all.each {
+	
+	if(initial==true){
+		initial=false; %>{"score":"$it.score","method":"$it.method","dataset":"$it.dataset","id":"$it.id"<%; 
+	}
+	else{
+		%>,{"score":"$it.score","method":"$it.method","dataset":"$it.dataset","id":"$it.id"<% 
+	} 
+
+	it.scores.each{k,v-> %>,$k:$v<%  }
+
+	%>}<%
+
+} 
+
+%>]}<%
+
+%>

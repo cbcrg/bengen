@@ -1,0 +1,3 @@
+python /upp/run_upp.py -s $input -m amino --cpu $task.cpus -o upp
+mv upp_alignment.fasta method.out
+

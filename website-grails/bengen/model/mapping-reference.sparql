@@ -1,0 +1,47 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX edam: <http://edamontology.org/> 
+PREFIX void: <http://rdfs.org/ns/void#> 
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX SIO: <http://semanticscience.org/resource/>
+
+#.FA.REF files
+# Information needed : size and in which subset they are
+
+
+CONSTRUCT {
+    
+
+    #data1384
+    ?URI a ?type; 
+	
+	 rdfs:label ?id;
+
+         edam:data_1066 ?id;          
+ 
+	 #File Name Extension
+	 edam:file_extension ?extension ;
+	 
+	 #Fasta Format
+         edam:has_format ?format ;
+
+         #Identity ( only if available ) 
+         edam:data_1412 ?identity;
+	 
+	 #In which dataset they are
+	 oboInOwl:inSubset ?URI_DATASET;   	
+
+	 #Other subsets --> RV11 for example
+	 oboInOwl:inSubset ?subset.
+	 
+  }
+
+
+FROM <file:toModel-reference.csv>
+
+WHERE{
+
+ BIND (URI(CONCAT('http://bengen.com/', ?id ,"-",?dataset,"-reference")) AS ?URI)
+ BIND (URI(CONCAT('http://bengen.com/', ?dataset )) AS ?URI_DATASET)
+
+}
