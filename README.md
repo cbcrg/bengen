@@ -65,7 +65,7 @@ Inside of the bengen directory you can find the _aligners.txt_ file and the _sco
 They define which aligner to use and which score function to use.
 You can modify them by adding/removing lines with the name of the aligners/scores you want to run( bengen/NameOfAlignerOrScore ).
 
-Example of aligners.txt:
+Example of methods.txt:
 ```
 bengen/mafft
 bengen/tcoffee
@@ -86,14 +86,14 @@ bengen/baliscore
 In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.
 
 ```
-nextflow run bengen/main.nf
+nextflow run bengen.nf
 ```
 **!Tip**
 You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.
 
 
 ```
-nextflow run bengen/main.nf -resume
+nextflow run bengen.nf -resume
 ```
 
 ## MODIFY BENGEN 
