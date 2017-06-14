@@ -1,4 +1,3 @@
-
 #ATTENTION --> Hardcoded
 
 ##TEST SEQUENCES
@@ -7,7 +6,7 @@ path=`pwd`/`echo $0`;
 file=$(basename "$path");
 bengen=`echo $path | sed "s/\/model\/$file//g"`;
 benchmark_datasets="$bengen/benchmark_datasets"
-create_datasets="$bengen/create-datasets"
+create_datasets="$bengen/model"
 cd $benchmark_datasets
 
 test="$bengen/model/toModel-test.csv"
@@ -38,14 +37,14 @@ for dataset in $all_datasets;{
 	all_test=`ls *.fa` ;
 	for id in $all_test ;{
 
-		num_seq=`grep ">" $id | wc -l` ;
-		id_nofa=${id:0:-3}
+		num_seq=`grep ">" $id | wc -l`
+		id_nofa=`echo $id | tail -c -4`
 
 
 		cd $create_datasets;
 		features_datasets=""
 
-		features_datasets=` find  -name "$dataset-subset*" `
+		features_datasets=` ls | grep $dataset-subset `
 		feature_value=""
 
 
@@ -53,7 +52,7 @@ for dataset in $all_datasets;{
 
 
 			feature_temp1=`cat $feature_file | grep $id_nofa | cut -d"," -f2 `
-			feature_temp=` echo $feature_temp1 | sed "s/ /,/g"`
+			feature_temp=`echo $feature_temp1 | sed "s/ /,/g" `
 
 
 			feature_value=$feature_value","$feature_temp
@@ -80,4 +79,5 @@ do
 	 header=$header",subset";
 done
 
-sed -i "1s;^;$header\n;" $test;
+temp=$test
+sed -i -e "1s;^;$header\n;" $test;

@@ -81,7 +81,7 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id  where {
  FILTER NOT EXISTS { ?score edam:isDefinedBy ?URI . }
 
 
-
+  
   #insert here#
 
 }

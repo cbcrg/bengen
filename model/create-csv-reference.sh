@@ -8,7 +8,7 @@ path=`pwd`/`echo $0`;
 file=$(basename "$path");
 bengen=`echo $path | sed "s/\/model\/$file//g"`;
 benchmark_datasets="$bengen/benchmark_datasets"
-create_datasets="$bengen/create-datasets"
+create_datasets="$bengen/model"
 cd $benchmark_datasets
 
 ref="$bengen/model/toModel-reference.csv"
@@ -32,7 +32,7 @@ for dataset in $all_datasets;{
 	if [ "$dataset" == "balibase-v4.0" ]; then {
 		format="edam:format_2555";
 		extension=".xml.ref"
-	} else  format="edam:format_1984" 
+	} else  format="edam:format_1984"
 		 extension=".fa.ref" ;
 	fi
 
@@ -53,13 +53,14 @@ for dataset in $all_datasets;{
 
 	for id in $all_test ;{
 		num_seq=`grep ">" $id | wc -l` ;
-		id_nofa=${id:0:-3}
+
+		id_nofa=`echo $id | tail -c -4  `
 		#extension=`echo $id | tail -c -4 `
 
 		cd $create_datasets
 		features_datasets=""
 		#find the subset
-		features_datasets=`find  -name "$dataset-identitypercentage*" `
+		features_datasets=`ls| grep $dataset-identitypercentage `
 		feature_value=""
 		for feature_file in  $features_datasets;{
 
