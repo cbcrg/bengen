@@ -3,6 +3,10 @@ all:
 	(\
 	docker pull $$x; \
 	); \
-	done
+	done \
 	
+	[[ -d benchmark_datasets ]] || mkdir benchmark_datasets; \
+        id=$$(docker create bengen/datasets); \
+	localPath=$$(pwd); \
+	docker cp $$id:/usr/toCopy/. $$localPath/benchmark_datasets;
 
