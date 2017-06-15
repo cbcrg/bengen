@@ -218,7 +218,7 @@ process create_metadata{
       script:
 
       """
-      [[ grep -c ^@ ${scores_file} > 0 ]] &&   echo "hi"  
+      tarql $script $line |  sed '/^@/ d'  > res
       """
 
 }
