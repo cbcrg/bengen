@@ -118,11 +118,11 @@ Here you can have an overview on how this should look like :
 
 After running the script, Bengen is ready for running on the new Dataset!
 
-If you want to let your script public and, by doing so, enablig other users to downlaod the dataset, you must create a docker image, in which your script is run and stores all the datasets-folders (see description above) in the directory /usr/toCopy INSIDE the docker container.Eventually, upload the container on dockerHub.
+If you want to let your script public and, by doing so, enablig other users to downlaod the dataset, you must **create a docker image**, in which your script is run and **stores** all **the datasets-folders** (see description above) in the directory /usr/toCopy INSIDE the docker image. So , for example, inside the the directory /usr/toCopy will contain two subdirectories called balibase-v4.0 and homfam_clustalo-v1.0 which will respectively contain the renamed test and reference files.Eventually, **upload the image on dockerHub**.
 
-Afterwards add the name of the image in the file [images_db_docker]()
+Afterwards, **add the name of the image in the file [images_db_docker](https://github.com/cbcrg/bengen/blob/master/images_db_docker)**
 
-In the end make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
+In the end, make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
 
 
 **!**   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
