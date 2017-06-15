@@ -4,11 +4,11 @@
 #later on comman line parameter
 
 
-path=`pwd`/`echo $0`;
+path=$(cd $(dirname $0);echo $PWD);
 file=$(basename "$path");
-bengen=`echo $path | sed "s/\/model\/$file//g"`;
+bengen=`echo $path | sed "s/\/model//g"`;
 benchmark_datasets="$bengen/benchmark_datasets"
-create_datasets="$bengen/model"
+create_datasets="$bengen/model/extra-info"
 cd $benchmark_datasets
 
 ref="$bengen/model/toModel-reference.csv"
@@ -73,4 +73,22 @@ for dataset in $all_datasets;{
 		cd "$benchmark_datasets/$dataset";
 	}
 	cd ..
+}
+
+
+
+
+db="$bengen/model/toModel-db.csv"
+headerDB="name,version"
+
+echo $headerDB > $db
+
+for dataset in $all_datasets;{
+
+	v=$(echo $dataset| cut -d"v" -f2)
+	echo $dataset, $v >> $db
+
+
+
+
 }

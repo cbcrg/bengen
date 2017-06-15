@@ -55,22 +55,22 @@
         edam:has_input  <http://bengen.com/edam:data_1384-edam:format_1984> ;
         edam:has_topic  edam:topic_0091 .
 
-<http://bengen.com/balibase-4.0>
-        rdfs:label    "balibase-4.0" ;
-        doap:Version  4.0 .
+<http://bengen.com/balibase-v4.0>
+        rdfs:label    "balibase-v4.0" ;
+        doap:Version   4.0 .
 
-<http://bengen.com/prefab-4.0>
-        rdfs:label    "prefab-4.0" ;
-        doap:Version  4.0 .
+<http://bengen.com/homfam_clustalo-v1.0>
+        rdfs:label    "homfam_clustalo-v1.0" ;
+        doap:Version   1.0 .
 
-<http://bengen.com/homfam_clustalo-1.0>
-        rdfs:label    "homfam_clustalo-1.0" ;
-        doap:Version  1.0 .
+<http://bengen.com/homfam_mafft-v1.0>
+        rdfs:label    "homfam_mafft-v1.0" ;
+        doap:Version   1.0 .
 
-<http://bengen.com/homfam_mafft-1.0>
-        rdfs:label    "homfam_mafft-1.0" ;
-        doap:Version  1.0 .
+<http://bengen.com/oxfam-v1.0>
+        rdfs:label    "oxfam-v1.0" ;
+        doap:Version   1.0 .
 
-<http://bengen.com/oxfam-1.0>
-        rdfs:label    "oxfam-1.0" ;
-        doap:Version  1.0 .
+<http://bengen.com/prefab-v4.0>
+        rdfs:label    "prefab-v4.0" ;
+        doap:Version   4.0 .

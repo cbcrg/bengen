@@ -12,6 +12,10 @@ operations_rdf="$metadata/operations.ttl"
 
 
 
+update(){
+	bash "$model/create-csv-test.sh"
+	bash "$model/create-csv-reference.sh"
+};
 
 
 metadata(){
@@ -22,7 +26,7 @@ metadata(){
 	tarql mapping-test.sparql | sed "s/\"\(.*:.*\)\"/\1/g " |  sed "s/\(SIO_000794.*\)\"\(.*\)\"/\1\2/g"  >$family_rdf
 	tarql mapping-reference.sparql | sed "s/\"\(.*:.*\)\"/\1/g "| sed '/^@/ d' >>$family_rdf
 
-	echo "Metadata files are ready!"
+	
 };
 
 
@@ -42,10 +46,18 @@ then
 	echo
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
-			cd $model
-	    metadata
-	    filter
+		read -p "Do you want to update the csv test and reference files?  If yes, toModel-test.csv toModel-reference.csv and toModel-db.csv will be overwritten based on the benchmark_datasets folder. " -n 1 -r
+	  echo
+	  if [[ $REPLY =~ ^[Yy]$ ]]
+	  then
+			update
+		fi
+		cd $model
+		metadata
+		filter
+
 	fi
+	echo "Metadata are ready!"
 else
-	metadata
+	exit
 fi
