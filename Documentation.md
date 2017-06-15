@@ -65,47 +65,69 @@ nextflow run bengen/main.nf -resume
 # Preprocessing 
 ## Datasets
 
-In order to integrate a dataset in the Project you need to follow these steps: 
+All the reference and test files have to be downloaded, properly re-named and stored.
 
-1. Download and properly rename the datasets.
-2. Upload the Datasets on Zenodo.
-3. Add the link to the dataset folder in Zenodo in the datasetList file.
 
-Here you can find more details on how to complete them: 
 
-All the reference and test files have to be downloaded, named and stored following some easy rules :
 
-*	The reference file must have a suffix “-reference”. Eg: “myFileXY-reference.myEnding” 
-*	The Test file must have a suffix ”-test”. E.g. “myFileXY-test.myEnding”
+### Downloading datasets : an Example
+The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
+In this section it is going to be shown the way datasets are integrated in the project.
+
+First we **created a script for each dataset** in order to download and reorder it after Bengen's structure.
+The solution is implemented in bash and here is how it looks like for homfam_clustalo : 
+```
+[[ -d  "homfam_clustalo-v1.0" ]]  && rm -rf homfam_clustalo-v1.0
+
+mkdir homfam_clustalo-v1.0
+cd homfam_clustalo-v1.0
+
+
+wget -q http://www.clustal.org/omega/homfam-20110613-25.tar.gz 
+tar xf homfam-20110613-25.tar.gz
+rm -rf homfam-20110613-25.tar.gz
+
+all_ref=`ls *ref.vie`
+fam_names=`for i in $all_ref;{ echo $i | awk -F_ref '{ print $1 }'; }`
+for i in $fam_names;{  sed -e s/-//g $i\_ref.vie > $i\_ref.fa ; }
+for i in $fam_names;{ cat $i\_test* $i\_ref.fa  > $i.fa; rm $i\_ref.fa; mv $i\_ref.vie $i.fa.ref; }
+
+rm -f *.vie
+cd ..
+echo "Homfam_clustalo downloaded!"
+```
+In order to make the downloading and reordering of the dataset as secure as possible, the scripts are stored and run inside a docker image ( bengen/datasets ) where the download happens.
+
+By calling the make command at the very beginning the docker image is automatically downloaded and the whole bechmark_datasets folder copied inside the bengen project. 
+
+
+
+### Integratig a new dataset
+
+1. Create a **script** to download it. You can have a look at the example above.
+This must be done following some easy rules :
+
+*	The Reference file must have the following sytax : “myFileXY.format.ref”, e.g: BB11001.xml.ref 
+*	The Test file must have the following sytax : “myFileXY.format”, e.g. BB11001.fa 
 *	There must be a folder called “benchmark_dataset” where all the datasets-folders are stored.
-* Every folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"
+* Every dataset-folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"
 
+Here you can have an overview on how this should look like : 
 
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/Datasets-organization.png)
 
+After running the script, Bengen is ready for running on the new Dataset!
 
-The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
-As refrerence the MSA's datasets downlaod can be found on GitHub. The solution is implemented in bash.
+If you want to let your script public and, by doing so, enablig other users to downlaod the dataset, you must create a docker image, in which your script is run and stores all the datasets-folders (see description above) in the directory /usr/toCopy INSIDE the docker container.Eventually, upload the container on dockerHub.
 
-By calling the script [downlaodDatasets.sh](https://github.com/cbcrg/bengen/blob/master/bin/downlaodDatasets.sh) in the bin folder each file 
-is correctly named and stored.
-The script calls every bash script contained in the folder [create-datasets](https://github.com/cbcrg/bengen/tree/master/create-datasets).
-Every script is responsible for downloading one dataset. <br>
-If a new Dataset has to be downlaoded the only thing to do is to add the new bash script inside the create-datasets folder.
+Afterwards add the name of the image in the file [images_db_docker]()
 
-```
-cd bengen/bin
-bash downloadDatasets.sh
-```
+In the end make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
 
-After having organized the datasets locally, these have to be published in order for other users to reproduce the results or even test new methods on them.
-
-So the next step is to upload the datasets on  [Zenodo](http://zenodo.org) and add the link of the dataset in the datasetsList.
-
-By calling "make" every dataset is automatically downloaded and stored so that BenGen can run on them.
 
 **!**   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
-For more informations on HOW to store this information you can look at the metadata section.
+This extra information are stored in the [extra-info](https://github.com/cbcrg/bengen/tree/master/model/extra-info) folder. You can find more information about this under the section METADATA.
+
 
 ## Metadata
 
