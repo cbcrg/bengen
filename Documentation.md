@@ -122,6 +122,9 @@ If you want to let your script public and, by doing so, enablig other users to d
 
 Afterwards, **add the name of the image in the file [images_db_docker](https://github.com/cbcrg/bengen/blob/master/images_db_docker)**
 
+Last but not least, metadata files have to be integrated in the project. In the case of multiple sequence aligner you can do this by calling the [create-metadataDB.sh](https://github.com/cbcrg/bengen/blob/master/model/create-metadataDB.sh) script and answering yes when asked is the csv files need to be updated. In this way, metadata are automatically created and integrated in the project. 
+**REMEMBER** : for the multiple sequence alignment prototype the test sequences MUST be in fasta format and their ending ".fa". The reference set of sequences can be supported in both xml and fasta format (endings respectively : ".xml.ref" and ".fa.ref".
+
 In the end, make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
 
 
