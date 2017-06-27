@@ -118,11 +118,14 @@ Here you can have an overview on how this should look like :
 
 After running the script, Bengen is ready for running on the new Dataset!
 
-If you want to let your script public and, by doing so, enablig other users to downlaod the dataset, you must create a docker image, in which your script is run and stores all the datasets-folders (see description above) in the directory /usr/toCopy INSIDE the docker container.Eventually, upload the container on dockerHub.
+If you want to let your script public and, by doing so, enablig other users to downlaod the dataset, you must **create a docker image**, in which your script is run and **stores** all **the datasets-folders** (see description above) in the directory /usr/toCopy INSIDE the docker image. So , for example, inside the the directory /usr/toCopy will contain two subdirectories called balibase-v4.0 and homfam_clustalo-v1.0 which will respectively contain the renamed test and reference files.Eventually, **upload the image on dockerHub**.
 
-Afterwards add the name of the image in the file [images_db_docker]()
+Afterwards, **add the name of the image in the file [images_db_docker](https://github.com/cbcrg/bengen/blob/master/images_db_docker)**
 
-In the end make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
+Last but not least, metadata files have to be integrated in the project. In the case of multiple sequence aligner you can do this by calling the [create-metadataDB.sh](https://github.com/cbcrg/bengen/blob/master/model/create-metadataDB.sh) script and answering yes when asked is the csv files need to be updated. In this way, metadata are automatically created and integrated in the project. 
+**REMEMBER** : for the multiple sequence alignment prototype the test sequences MUST be in fasta format and their ending ".fa". The reference set of sequences can be supported in both xml and fasta format (endings respectively : ".xml.ref" and ".fa.ref".
+
+In the end, make a pull request. After the maintainer's approval the dataset will be automatically downlaoded by calling "make".
 
 
 **!**   When downloading the datasets you may want to keep in mind that this is a good moment to store some informations about the data themselves in order to include them in the metadata. For example it might be interesting to know in which subset every file was stored.
@@ -131,8 +134,19 @@ This extra information are stored in the [extra-info](https://github.com/cbcrg/b
 
 ## Metadata
 
+
 BenGen is based on a RDF Database : a standardized No-SQL Database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
 
+The metadata are already stored in the [metadata](https://github.com/cbcrg/bengen/tree/master/metadata) folder.
+
+EDAM ([EDAM_1.16.owl](https://github.com/cbcrg/bengen/blob/master/metadata/EDAM_1.16.owl)) is the main ontology, from which definitions and operations are taken for creating the metadata.
+In [families.ttl](https://github.com/cbcrg/bengen/blob/master/metadata/families.ttl) metadata about the test and reference sequences are stored.
+In [operations.ttl](https://github.com/cbcrg/bengen/blob/master/metadata/operations.ttl) metadata about methods and scoring function are stored.
+The Sparql file [query.nf](https://github.com/cbcrg/bengen/blob/master/metadata/query.nf) will be used by bengen to query the metadata and find the possible running triplets ( SequenceFile, method, scoring function).
+
+In order to create the metadata files the [create-metadataDB.sh](https://github.com/cbcrg/bengen/blob/master/model/create-metadataDB.sh) script was used.
+
+### How Metadata are created
 
 First the metadata are created with the help of [tarql](https://tarql.github.io/) : a CSV to RDF converter.
 Then the information in RDF format are stored in the DB and can be queried using [sparql](https://jena.apache.org/tutorials/sparql.html). The query is already integrated in the BenGen project and the results of every run are automatically stored in the (local) RDF Database.
@@ -140,7 +154,7 @@ Then the information in RDF format are stored in the DB and can be queried using
 Here an example on **how to create the metadata** about methods, scoring functions and datasets.
 This example is built for Multiple Sequence Aligners.
 
-0. Collect the metadata in csv format.hese file are the ones with the prefix "toModel" in the [model folder](https://github.com/cbcrg/bengen/tree/master/model). The first line defines a key-label, through which each value in each line can be accessed when converting the file using tarql. In order to make as clear and standaried as possible the metadata structure only definitions from existing ontologies are used ( mainly [EDAM](http://edamontology.org/page) ) 
+0. Collect the metadata in csv format. These file are the ones with the prefix "toModel" in the [model folder](https://github.com/cbcrg/bengen/tree/master/model). The first line defines a key-label, through which each value in each line can be accessed when converting the file using tarql. In order to make as clear and standaried as possible the metadata structure only definitions from existing ontologies are used ( mainly [EDAM](http://edamontology.org/page) ) 
 
 Example of a "toModel" file: 
 ```
@@ -149,9 +163,9 @@ bengen/clustalo,1.2.0,bengen/clustalo,edam:operation_0499,edam:data_2976,edam:da
 bengen/mafft,7.309,bengen/mafft,edam:operation_0492,edam:data_2976,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,10000
 ```
 
-In the MSA's case every set of sequences has been annotated. Two scripts ([create-csv-reference.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-reference.sh) and [create-csv-test.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-test.sh)) automatically collect the needed information. 
+In the MSA's case every set of sequences has been annotated. Two scripts ([create-csv-reference.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-reference.sh) and [create-csv-test.sh](https://github.com/cbcrg/bengen/blob/master/model/create-csv-test.sh)) automatically collect the needed information and create the toModel file. 
 
-1. All the informations needed for the metadata creation step are collected in csv format.Now they have to be converted in the RDF (turtle) format. This can be done by writing a mapping in sparql format. A lot of examples can be found in the [model folder](https://github.com/cbcrg/bengen/tree/master/model) with the prefix "mapping".
+1. All the informations needed for the metadata creation step are collected in csv format. Now they have to be converted in the RDF (turtle) format. This can be done by writing a mapping in sparql format. A lot of examples can be found in the [model folder](https://github.com/cbcrg/bengen/tree/master/model) with the prefix "mapping".
 
 Example of mapping file : 
 
@@ -201,7 +215,7 @@ WHERE{
 
 ```
 cd bengen/model
-bash create-metadata.sh
+bash create-metadataDB.sh
 ```
 
 2. Now a query needs to be created. This defines which method can run on which kind of dataset and which scoring funciton is allowed to score the results. The query has to be written in sparql.Here the MSA's query [example](https://github.com/cbcrg/bengen/blob/master/metadata/query.rq).
