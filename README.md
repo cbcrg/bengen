@@ -2,21 +2,27 @@
 
 ### Introduction
 
-Bengen is a Containerization-based Multiple Sequence Aligners benchmarking prototype.
+Bengen is a Containerization-based Multiple Sequence Aligners benchmarking.
 
-It allows to test each selcted MSA in the project on each selected Dataset using each selected scoring function. 
+It allows the benchmarking of MSA algorithms on selected dataset and scoring functions. 
 
-Bengen provides an **elegant structure** for a benchmarking workflow. **Reproducibility** is allowed thanks to Docker containers usage. Moreover it is extremely easy for a user to integrate new MSAs or Scoring functions and **expand the project**.
+Bengen provides an **elegant structure** for the benchmarking workflow. **Reproducibility** is allowed 
+thanks to Docker containers usage. Moreover it is extremely easy for a user to integrate new MSAs or 
+scoring functions and **expand the project**.
 
 ### How does it work?
 
 Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.
 
-Aligner tools are stored as Docker images in the Docker hub. A unique ID is assigned to each image. This guarantees the containers immutability and the full replicability of the benchmark over time.  
+Aligner tools are stored as Docker images and available through the Docker Hub. 
+A unique ID is assigned to each image. This guarantees the containers immutability and 
+the full replicability of the benchmark over time.  
 
-Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).
+[Docker](https://www.docker.com/) provides a container runtime for local and cloud environments. 
+[Singularity](http://singularity.lbl.gov/) performs the same role in the context of HPC clusters.
 
-GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease. <br> 
+GitHub stores and tracks code changes in consistent manner. It also provides a friendly and 
+well-known user interface that would enable third parties to contribute their own tools with ease. <br> 
 
 
 ![alt tag](https://github.com/luisas/prova/blob/master/bengen_img01.png)
@@ -24,19 +30,21 @@ GitHub stores and tracks code changes in consistent manner. It also provides a f
 ## GETTING STARTED
 
 ### Dependencies 
-In order to run bengen on your machine **Docker** and **Nextlfow** need to be installed.
+In order to run bengen on your machine **Docker** and **Nextflow** need to be installed.
 
-* [Docker 1.0](http://www.docker.com) 
+* [Docker 1.11+](http://www.docker.com) 
 * [Nextflow 0.18.+](http://www.nextflow.io)
 
 ### Setup 
 
-You first need to clone the Bengen repository 
+You first need to clone the Bengen repository: 
+ 
 ```
 git clone https://github.com/cbcrg/bengen
 ```
 
-Then move in the bengen directory and use make to create all the needed images
+Then move in the bengen directory and use make to create all the needed images:
+
 ```
 cd bengen
 make
@@ -47,11 +55,11 @@ Now you are ready to use Bengen!
 ## CONFIGURATION 
 The overall benchmark is driven by a configuration file that allows the definition of different components 
 
-* **params.dataset** : Defines which dataset to use. Right now only the datasets provided in the benchmark_dataset directory are allowed. If you want to use them all you can use : params.dataset="*".
-* **params.renderer** : Choose which renderer to use among the ones provided (csv, html, json ) 
-* **params.out** : choose how the outputfile should be named 
+* **params.dataset**: Defines which dataset to use. Right now only the datasets provided in the benchmark_dataset directory are allowed. If you want to use them all you can use: `params.dataset="*"`.
+* **params.renderer**: Choose which renderer to use among the ones provided (csv, html, json). 
+* **params.out**: choose how the outputfile should be named. 
 
-Example of configuration file content : 
+Example of configuration file content: 
 ```
 docker.enabled = true
 
@@ -60,17 +68,20 @@ params.renderer="csv"
 
 params.out = ("output"+".${params.renderer}")
 ```
+
 **Important** 
-Inside of the bengen directory you can find the _aligners.txt_ file and the _scores.txt_ file.
+Inside of the bengen directory you can find the `methods.txt` file and the `scores.txt` file.
 They define which aligner to use and which score function to use.
-You can modify them by adding/removing lines with the name of the aligners/scores you want to run( bengen/NameOfAlignerOrScore ).
+You can modify them by adding/removing lines with the name of the aligners/scores you want to run (eg. bengen/NameOfAlignerOrScore).
 
 Example of methods.txt:
+
 ```
 bengen/mafft
 bengen/tcoffee
 bengen/clustalo
 ```
+
 Example of scores.txt: 
 
 ```
