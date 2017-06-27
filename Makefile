@@ -1,3 +1,5 @@
+SHELL := /bin/bash
+
 all:
 	for x in $$(cat *_docker); do \
 	(\
