@@ -19,7 +19,7 @@ echo > $test;
 
 type="edam:data_1233"
 extension=".fa"
-format="edam:1929"
+format="edam:format_1929"
 
 maxNrsubset=0
 for dataset in $all_datasets;{
