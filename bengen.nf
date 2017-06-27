@@ -200,9 +200,12 @@ def createOutput(String format, allResults, outputPath){
 	def template = new SimpleTemplateEngine().createTemplate(f.text).make(allResults);
 	
 	//write the file
-	def destination = new BufferedWriter(new FileWriter(outputPath));	
-	template.writeTo(destination);
-	destination.close();
+        def outfile = new File(outputPath)
+        if( !outfile.parentFile.exists() ) outfile.parentFile.mkdirs()
+	def destination = new BufferedWriter(new FileWriter(outfile));	
+	template.writeTo(destination)
+        destination.flush()
+	destination.close()
 
 	
 	//print for testing
