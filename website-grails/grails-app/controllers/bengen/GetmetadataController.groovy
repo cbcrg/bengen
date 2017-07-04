@@ -65,6 +65,7 @@ class GetmetadataController {
 
      //get label and version Separated
      def (label, version) = completeNameGlobal.tokenize( '-v' )
+     def (project, method) = label.tokenize('/');
      //get other values
      def (typeMain,others) = params.ret.tokenize(',') ;
 
@@ -78,7 +79,7 @@ class GetmetadataController {
      translated =translated+mapTranslation[type];
      translated =translated+ ","+mapTranslation[input];
      translated =translated+ ","+mapTranslation[input_format];
-     translated =translated+ ",Bioinformatics";
+     translated =translated+ ",edam:topic_0091";
    }
    else if ("$typeMain" == "method"){
     def (type,input,max_count) = params.ret.tokenize(',') ;
@@ -89,7 +90,7 @@ class GetmetadataController {
   //  translated =translated+ ","+mapTranslation[outputHERE];
     translated =translated+ ",edam:format_1929";
     translated =translated+ ",edam:format_1984";
-    translated =translated+ ",Bioinformatics";
+    translated =translated+ ",edam:topic_0091";
     translated =translated+ ","+getMaxCount(max_count);
 
   }
@@ -151,17 +152,17 @@ class GetmetadataController {
      writer3.print(p2.text);
      writer3.close();
 
-     File fileDest2 = new File("metadata-${completeNameGlobal}.txt")
+     File fileDest2 = new File("metadata-${method}.txt")
      file2.renameTo(fileDest2)
 
 
      def temp = "das";
-     def p3 ="bash ${currentpath}/bin/filter.sh ${currentpath}/metadata-${completeNameGlobal}.txt" .execute()
+     def p3 ="bash ${currentpath}/bin/filter.sh ${currentpath}/metadata-${method}.txt" .execute()
 
 
      p3.waitFor()
     //PREPARE FILE FOR DOWNLOAD
-     def file = new File("${currentpath}/metadata-${completeNameGlobal}.txt")
+     def file = new File("${currentpath}/metadata-${method}.txt")
 
      PrintWriter writer2 = new PrintWriter(file);
      writer2.print("");
