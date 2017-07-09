@@ -38,8 +38,9 @@
            <br>
 
            <h4>Type here the name </h4>
+           <h6>The format MUST BE "Projectname/nameofmethod-version" and the version must have the format "number.number".</h6>
            <br>
-           <div class="text-field"><g:textField name="name"  pattern=".*/.*" placeholder="bengen/tcoffee" /></div>
+           <div class="text-field"><g:textField name="name" required="required"  pattern=".*/.*-v\\d*.\\d*" placeholder="bengen/tcoffee-v11.00" /></div>
          </div>
         </div>
 
@@ -52,7 +53,7 @@
            <h4>Upload here your template file</h4>
            <br>
 
-           			<input  type="file" size="50"  name="template">
+           			<input  type="file" size="50"  required="required" name="template">
          </div>
         </div>
 
@@ -65,7 +66,7 @@
            <h4>Upload here your metadata file</h4>
            <br>
 
-           			<input  type="file" size="50"  name="metadata">
+           			<input  type="file" size="50" required="required" name="metadata">
          </div>
        </div>
 

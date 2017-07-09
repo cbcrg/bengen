@@ -16,7 +16,7 @@
   <asset:stylesheet src="style.min.css"/>
   <asset:stylesheet src="style.css"/>
 	<asset:javascript src="bootstrap.min.js"/>
-  
+
 	<asset:javascript src="jquery-3.2.0.min.js"/>
   <asset:javascript src="jstree.min.js" />
 
@@ -43,7 +43,6 @@
 			<li class="dropdown">
 			    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
 			    <ul class="dropdown-menu">
-				<li><g:link controller="extend">Extend</g:link></li>
 				<li><g:link controller="getmetadata">Create Metadata</g:link></li>
 
 			    </ul>

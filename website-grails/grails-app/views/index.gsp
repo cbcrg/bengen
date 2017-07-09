@@ -32,9 +32,9 @@
         <div class="col-xs-5">
           <div class="gearBox">
           <div id="one"><div class="teeth"></div></div>
-          <div class=""> <asset:image src="Docker.png" id="intern-one" style="height: 18% ;width: 16%;"/></div>
+          <div > <asset:image src="Docker.png" id="intern-one" style="height: 18% ;width: 16%;"/></div>
 
-          <div id="two"><div class="teeth"><div class="plate"></div></div></div>
+          <div id="two"><div class="teeth"></div></div>
           <div class=""> <asset:image src="NF-logo.png" id="intern-two" style="height: 19% ;width: 13%;"/></div>
 
 

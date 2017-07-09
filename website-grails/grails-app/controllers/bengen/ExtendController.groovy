@@ -42,7 +42,7 @@ class ExtendController {
 
 
       def p3 = "zip -r bengen.zip ./* ".execute()
-      //p3.waitFor()
+      p3.waitFor()
 
 
       name = params.name
