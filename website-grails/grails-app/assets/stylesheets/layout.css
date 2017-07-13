@@ -45,6 +45,17 @@ border-radius: 25px;
     border: 2px solid #B3E5FC;
 
 }
+
+
+#stepMetadata{
+background-color: #FFFFFF;
+height: 160px;
+border-radius: 6px;
+    border: 8px solid #039BE5;
+
+}
+
+
 .steps-wrapper{
 
 	margin-top: 1%;

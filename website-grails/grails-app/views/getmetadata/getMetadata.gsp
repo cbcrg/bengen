@@ -21,16 +21,15 @@
   <g:form name="form" controller="getmetadata"  method="post" enctype="multipart/form-data" >
   <br>
 	<br>
-  <h3 style="color=darkgrey;">Insert the name of what you want to include</h3>
-  <h5>Don't forget to put the version!!</h5>
+  <h3 style="color=darkgrey;">Type the name of the component you want to extend BenGen with</h3>
 	<h6>The format MUST BE "Projectname/nameofmethod-version"</h6>
-	<h6>the version must have the format "number.number".</h6> 
+	<h6>the version must have the format "number.number".</h6>
 	<h6>For example: bengen/tcoffee-v11.00</h6>
   <br>
 	 <div class="col-md-4">
 	 </div>
 	  <div class="col-md-4" id="steps" title="step1">
-	<div  id="step2" >
+	<div  id="stepMetadata" >
 		 <br> <br>
   <div class="text-field" id="labelinput"><g:textField name="name" required="required" pattern=".*/.*-v\\d*.\\d*" placeholder="bengen/tcoffee-v1.0" /></div>
   <div class="row">
