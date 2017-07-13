@@ -1,4 +1,0 @@
-id,version,label,type,input,input_format,topic
-bengen/baliscore,3.01,bengen/baliscore,edam:operation_0259,edam:data_1384,edam:format_2555,edam:topic_0091
-bengen/qscore,2.1,bengen/qscore,edam:operation_0259,edam:data_1384,edam:format_1984,edam:topic_0091
-bengen/fastsp,1.6.0,bengen/fastsp,edam:operation_0259,edam:data_1384,edam:format_1984,edam:topic_0091

@@ -1,5 +1,0 @@
-id,label,value
-bengen:threshold,very-small,100
-bengen:threshold,small,3000
-bengen:threshold,medium,10000
-bengen:threshold,large,100000

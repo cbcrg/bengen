@@ -1,2 +1,0 @@
-python /pasta/run_pasta.py  -d protein -o . -i $input  --num-cpus=$task.cpus 
-mv *.aln method.out
