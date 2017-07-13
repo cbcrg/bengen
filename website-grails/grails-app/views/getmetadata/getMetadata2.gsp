@@ -12,47 +12,25 @@
 <center>
 
 
-<div id="decisiontree">
+	<div id="decisiontree">
+	<br>
+	<h1 class="tree"></h1>
+	<br><br>
 
+	<div id="choices" ></div>
+	<br><br>
 
-<br>
-<h1 class="tree"></h1>
+	<button id="back">Back</button>
 
-
-
-<br><br>
-
-  <div id="choices" ></div>
-
-
-
-<br><br>
-
-<button id="back">Back</button>
-<!--!<button id="btn-save" type="submit" class="btn btn-primary">Save to file</button>-->
-
-<script>
-
-</script>
-
-
-
-
-<g:form name="jftForm" controller="Getmetadata" action="collect">
-
-    <g:hiddenField name="ret" value="ll"/>
-    <g:submitButton name="submit" value="Submit" id='hideshow' style="display: none;"/>
-
-</g:form>
+	<g:form name="jftForm" controller="Getmetadata" action="collect">
+	    <g:hiddenField name="ret"/>
+	    <g:submitButton name="submit" value="Submit" id='hideshow' style="display: none;"/>
+	</g:form>
 
 </center>
 
 
-<!--<div id="demo">askdjalsk</div>-->
 </div>
-
-
-
 
 
 </body>

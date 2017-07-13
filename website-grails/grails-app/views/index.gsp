@@ -3,7 +3,6 @@
 <head>
     <meta name="layout" content="main"/>
     <title>BenGen</title>
-
 </head>
 <body>
 
@@ -118,40 +117,10 @@
 
   <div class="col-xs-7">
         <center>
-
-
         <h4><g:link controller="getmetadata">Create your Metadata >> </g:link> <br></h4>
-
-
         </center>
   </div>
 
 </div>
-
-
-
-<!--!
-<div class="pic-puzzle">
-  <g:img dir="images" file="pic-puzzle.png" />
-</div>
-
-<center>
-
-
-<div class="icons">
-
-    <g:img dir="images" file="icon1.png" />
-
-
-    <g:img dir="images" file="icon2.png" />
-
-</div>
-</center>
--->
-
-
-
-
-
 </body>
 </html>

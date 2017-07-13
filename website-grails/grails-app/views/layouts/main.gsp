@@ -13,10 +13,6 @@
   <asset:link rel="icon" href="icon_BG.png" type="image/x-ico" />
   <asset:stylesheet src="bootstrap.css"/>
 	<asset:stylesheet src="layout.css"/>
-  <asset:stylesheet src="style.min.css"/>
-  <asset:stylesheet src="style.css"/>
-	<asset:javascript src="bootstrap.min.js"/>
-
 	<asset:javascript src="jquery-3.2.0.min.js"/>
   <asset:javascript src="jstree.min.js" />
 
