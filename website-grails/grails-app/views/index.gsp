@@ -49,13 +49,13 @@
 
 
         <div class="des">
-          <h3>Reproducible</h3> Every result can be reproduced thanks to the Docker containerization.<br>
+          <h3>Reproducible</h3> Full reproducibility of the results is ensured by Docker containarization.<br>
 
           <h3>Scalable</h3>  Nextflow allows to create a Docker-compatible scalable benchmarking structure.<br>
 
 
           <h3>Open-Source</h3>
-          The Project can be found on GitHub and is supposed to be extended by Users too.<br>
+          The Project can be found on GitHub and can be extended by users.<br>
 
         </div>
 
@@ -101,32 +101,6 @@
 
 <hr>
 
-<div class="row">
-
-  <div class="col-xs-5">
-
-    <center>
-
-    <h3>Extend BenGen</h3>
-    <h5>You can include your method's docker-container and test it!</h5>
-
-      </center>
-
-  </div>
-
-  <div class="col-xs-7">
-        <center>
-
-
-        <h4><g:link controller="extend">Extend Bengen >> </g:link> <br></h4>
-
-
-        </center>
-  </div>
-
-</div>
-
-<hr>
 
 
 <div class="row">
@@ -136,7 +110,7 @@
     <center>
 
     <h3>Create your metadata file</h3>
-    <h5>BenGen is an ontology based benchmark. Let us help you create the right metadata for your method.</h5>
+    <h5>BenGen is based on a Metadata Database. Let us help you create the right metadata for your method.</h5>
 
       </center>
 
