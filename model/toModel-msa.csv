@@ -1,7 +1,7 @@
 id,version,label,type,input,output,input_format,output_format,topic,max_count
 bengen/clustalo,1.2.0,bengen/clustalo,edam:operation_0492,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,1000
 bengen/mafft,7.309,bengen/mafft,edam:operation_0492,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,1000
-bengen/tcoffee,11.00,bengen/tcoffee,edam:operation_0499,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,1000
+bengen/tcoffee,11.00,bengen/tcoffee,edam:operation_0499,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,200
 bengen/pasta,1.0,bengen/pasta,edam:operation_0294,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,1000
 bengen/prank,100802,bengen/prank,edam:operation_0294,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,200
 bengen/sate,2.2.7,bengen/sate,edam:operation_0294,edam:data_1233,edam:data_1384,edam:format_1929,edam:format_1984,edam:topic_0091,200
