@@ -68,15 +68,15 @@ nextflow run bengen/main.nf -resume
 All the reference and test files have to be downloaded, properly re-named and stored.
 
 
+### Downloading datasets: an Example
 
-
-### Downloading datasets : an Example
-The datasets downlad is part of the preprocessing and, as such, can be completed in many different ways.
+The datasets download is part of the preprocessing and, as such, can be completed in many different ways.
 In this section it is going to be shown the way datasets are integrated in the project.
 
 First we **created a script for each dataset** in order to download and reorder it after Bengen's structure.
-The solution is implemented in bash and here is how it looks like for homfam_clustalo : 
-```
+The solution is implemented in bash and here is how it looks like for `homfam_clustalo`: 
+
+```bash
 [[ -d  "homfam_clustalo-v1.0" ]]  && rm -rf homfam_clustalo-v1.0
 
 mkdir homfam_clustalo-v1.0
@@ -96,6 +96,7 @@ rm -f *.vie
 cd ..
 echo "Homfam_clustalo downloaded!"
 ```
+
 In order to make the downloading and reordering of the dataset as secure as possible, the scripts are stored and run inside a docker image ( bengen/datasets ) where the download happens.
 
 By calling the make command at the very beginning the docker image is automatically downloaded and the whole bechmark_datasets folder copied inside the bengen project. 
@@ -104,15 +105,15 @@ By calling the make command at the very beginning the docker image is automatica
 
 ### Integratig a new dataset
 
-1. Create a **script** to download it. You can have a look at the example above.
+1. Create a *script* to download it. You can have a look at the example above.
 This must be done following some easy rules :
 
-*	The Reference file must have the following sytax : “myFileXY.format.ref”, e.g: BB11001.xml.ref 
-*	The Test file must have the following sytax : “myFileXY.format”, e.g. BB11001.fa 
-*	There must be a folder called “benchmark_dataset” where all the datasets-folders are stored.
-* Every dataset-folder has to be named "NAME-vVERSION". Eg: "balibase-v4.0"
+*	The Reference file must have the following syntax: *myFileXY.format.ref*, e.g. `BB11001.xml.ref` 
+*	The Test file must have the following syntax: *myFileXY.format*, e.g. `BB11001.fa` 
+*	There must be a folder called `benchmark_dataset` where all the datasets-folders are stored.
+*   Every dataset-folder has to be named *NAME-vVERSION*. e.g. `balibase-v4.0`
 
-Here you can have an overview on how this should look like : 
+Here you can have an overview on how this should look like: 
 
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/Datasets-organization.png)
 
@@ -135,14 +136,14 @@ This extra information are stored in the [extra-info](https://github.com/cbcrg/b
 ## Metadata
 
 
-BenGen is based on a RDF Database : a standardized No-SQL Database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
+Bengen is based on a RDF database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
 
 The metadata are already stored in the [metadata](https://github.com/cbcrg/bengen/tree/master/metadata) folder.
 
 EDAM ([EDAM_1.16.owl](https://github.com/cbcrg/bengen/blob/master/metadata/EDAM_1.16.owl)) is the main ontology, from which definitions and operations are taken for creating the metadata.
 In [families.ttl](https://github.com/cbcrg/bengen/blob/master/metadata/families.ttl) metadata about the test and reference sequences are stored.
 In [operations.ttl](https://github.com/cbcrg/bengen/blob/master/metadata/operations.ttl) metadata about methods and scoring function are stored.
-The Sparql file [query.nf](https://github.com/cbcrg/bengen/blob/master/metadata/query.nf) will be used by bengen to query the metadata and find the possible running triplets ( SequenceFile, method, scoring function).
+The Sparql file [query.nf](https://github.com/cbcrg/bengen/blob/master/query.nf) will be used by bengen to query the metadata and find the possible running triplets (SequenceFile, method, scoring function).
 
 In order to create the metadata files the [create-metadataDB.sh](https://github.com/cbcrg/bengen/blob/master/model/create-metadataDB.sh) script was used.
 

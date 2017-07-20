@@ -55,18 +55,17 @@ Now you are ready to use Bengen!
 ## CONFIGURATION 
 The overall benchmark is driven by a configuration file that allows the definition of different components 
 
-* **params.dataset**: Defines which dataset to use. Right now only the datasets provided in the benchmark_dataset directory are allowed. If you want to use them all you can use: `params.dataset="*"`.
-* **params.renderer**: Choose which renderer to use among the ones provided (csv, html, json). 
-* **params.out**: choose how the outputfile should be named. 
+* `params.dataset`: Defines which dataset to use. Right now only the datasets provided in the `benchmark_dataset` directory are allowed. If you want to use them all you can use: `params.dataset="*"`.
+* `params.renderer`: Choose which renderer to use among the ones provided (csv, html, json). 
+* `params.out`: choose how the outputfile should be named. 
 
 Example of configuration file content: 
 ```
 docker.enabled = true
 
-params.dataset= "balibase"
-params.renderer="csv"
-
-params.out = ("output"+".${params.renderer}")
+params.dataset = "balibase"
+params.renderer = "csv"
+params.out = "output.${params.renderer}"
 ```
 
 **Important** 
@@ -74,7 +73,7 @@ Inside of the bengen directory you can find the `methods.txt` file and the `scor
 They define which aligner to use and which score function to use.
 You can modify them by adding/removing lines with the name of the aligners/scores you want to run (eg. bengen/NameOfAlignerOrScore).
 
-Example of methods.txt:
+Example of `methods.txt`:
 
 ```
 bengen/mafft
@@ -82,7 +81,7 @@ bengen/tcoffee
 bengen/clustalo
 ```
 
-Example of scores.txt: 
+Example of `scores.txt`: 
 
 ```
 bengen/qscore
@@ -94,13 +93,13 @@ bengen/baliscore
 
 ## RUNNING BENGEN LOCALLY 
 
-In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.
+In order to run bengen on your machine after having followed the steps under the *Getting started* section and modified the configuration file you can trigger the computation locally using the following command.
 
 ```
 nextflow run bengen.nf
 ```
 **!Tip**
-You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.
+You can use the `-resume` command to cache what was already computed. This could happen if you run bengen multiple times.
 
 
 ```
@@ -113,7 +112,7 @@ nextflow run bengen.nf -resume
 
 You can easily integrate your new MSA in Bengen by using a script that automatically does the work for you.
 
-In the bengen directory that you cloned you can find the **add-aligner.sh**  script. 
+In the bengen directory that you cloned you can find the `add-aligner.sh`  script. 
 
 
 
@@ -125,12 +124,12 @@ ARGUMENTS:
  * **--make** No argument. If used, calls the make command creating the image for the new MSA &ensp;&ensp; _optional_<br>
 
 <br>
-Example : 
-```
-bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
-```
+Example: 
 
-##CONTRIBUTE TO THE PROJECT
+    bash add-aligner.sh --name=MSA-NAME -d=/complete/path/to/your/Dockerfile -t=/complete/path/to/your/templatefile --add --make
+
+
+## CONTRIBUTE TO THE PROJECT
 If you wish to contribute to the project you can integrate your new MSA in the public project.
 
 You need to follow these steps : 
