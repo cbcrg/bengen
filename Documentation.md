@@ -145,7 +145,7 @@ use TARQL for modelling. The collected data, which are stored in the CSV file, m
 integrate the metadata in the project and write a query.
 When metadata are ready, they can be integrated in the project depending on the specific needs. In the case of BenGen, integrating the metadata database actually means saving the Turtle-format metadata files in the project, so that a query can be run on them whenever needed. One thing that is normally done, when a metadata database is created, is to write a query for them, and this should be written in SPARQL. More details about the SPARQL query language can be found unde the section ”Material and Methods”.
 
-## How the metadata were created in BenGen
+## How the metadata were created in BenGen: a concrete example.
 
 
 Bengen is based on a RDF database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
