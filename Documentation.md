@@ -42,9 +42,10 @@ Create a csv file with the right header: this one can be found as an example in 
 Use TARQL and the corresponding sparql file for converting it into the right format.
 
 Here an example for the multiple sequence aligners: 
+[mapping-msa.sparql](https://github.com/cbcrg/bengen/blob/master/model/mapping-msa.sparql)
 
 ```
-tarql [mapping-msa.sparql](https://github.com/cbcrg/bengen/blob/master/model/mapping-msa.sparql) yourTable.csv
+tarql mapping-msa.sparql yourTable.csv
 ```
 
 
