@@ -127,14 +127,14 @@ You can easily integrate your new MSA in Bengen by using a script that automatic
 In the bengen directory that you cloned you can find the `add.sh`  script. 
 
 ARGUMENTS: 
- * **-n=** Name of your MSA  &emsp; &emsp; _compulsory_<br>
- * **-m=** Complete Path to your metadata file &ensp;&ensp;  _compulsory_<br>
- * **-t=** Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
+ * **-n ** Name of your MSA  &emsp; &emsp; _compulsory_<br>
+ * **-m ** Complete Path to your metadata file &ensp;&ensp;  _compulsory_<br>
+ * **-t ** Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
 
 <br>
 Example: 
 
-    bash add.sh --name=MSA-NAME -m=/complete/path/to/your/metadatafile -t=/complete/path/to/your/templatefile 
+    bash add.sh --n MSA-NAME -m /complete/path/to/your/metadatafile -t /complete/path/to/your/templatefile 
     
 You can find more inforamation on how to properly create the metadata and template files under the [documentation](https://github.com/cbcrg/bengen/blob/master/Documentation.md)
 
