@@ -150,6 +150,6 @@ You need to follow these steps :
 
 Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
 <br><br>
-![alt tag](https://github.com/luisas/prova/blob/master/Bengen2.0.png)
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-02.png)
 
 
