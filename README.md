@@ -124,7 +124,7 @@ bengen/baliscore
 
 You can easily integrate your new MSA in Bengen by using a script that automatically does the work for you.
 
-In the bengen directory that you cloned you can find the `add-aligner.sh`  script. 
+In the bengen directory that you cloned you can find the `add.sh`  script. 
 
 ARGUMENTS: 
  * **-n=** Name of your MSA  &emsp; &emsp; _compulsory_<br>
@@ -134,7 +134,7 @@ ARGUMENTS:
 <br>
 Example: 
 
-    bash add-aligner.sh --name=MSA-NAME -m=/complete/path/to/your/metadatafile -t=/complete/path/to/your/templatefile 
+    bash add.sh --name=MSA-NAME -m=/complete/path/to/your/metadatafile -t=/complete/path/to/your/templatefile 
     
 You can find more inforamation on how to properly create the metadata and template files under the [documentation](https://github.com/cbcrg/bengen/blob/master/Documentation.md)
 
