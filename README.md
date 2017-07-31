@@ -127,9 +127,9 @@ You can easily integrate your new MSA in Bengen by using a script that automatic
 In the bengen directory that you cloned you can find the `add.sh`  script. 
 
 ARGUMENTS: 
- * **-n ** Name of your MSA  &emsp; &emsp; _compulsory_<br>
- * **-m ** Complete Path to your metadata file &ensp;&ensp;  _compulsory_<br>
- * **-t ** Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
+ * **-n** Name of your MSA  &emsp; &emsp; _compulsory_<br>
+ * **-m** Complete Path to your metadata file &ensp;&ensp;  _compulsory_<br>
+ * **-t** Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
 
 <br>
 Example: 
