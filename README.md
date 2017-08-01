@@ -43,8 +43,7 @@ git clone https://github.com/cbcrg/bengen
 Then move in the bengen directory and use make to create all the needed images:
 
 ```
-cd bengen
-make
+cd bengen && make
 ```
 
 Now you are ready to use Bengen!
