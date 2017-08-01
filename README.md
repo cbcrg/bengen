@@ -55,8 +55,8 @@ In order to run BenGen on your machine in its automatic mode, after having follo
 ```
 nextflow run query.nf
 ```
-**!Tip**
-You can use the `-resume` command to cache what was already computed. This could happen if you run bengen multiple times.
+**Tip:**
+You can use the `-resume` command to cache what was already computed. This could happen if you run BenGen multiple times.
 
 ```
 nextflow run query.nf -resume
@@ -71,8 +71,8 @@ In order to run BenGen manually, and so define the datasets, scoring functions a
 ```
 nextflow run bengen.nf
 ```
-**!Tip**
-You can use the `-resume` command to cache what was already computed. This could happen if you run bengen multiple times.
+**Tip:**
+You can use the `-resume` command to cache what was already computed. This could happen if you run BenGen multiple times.
 
 ```
 nextflow run bengen.nf -resume
