@@ -31,7 +31,7 @@ else if ("$params.html" == true){params.renderer="html" }
 else{params.renderer="csv" }
 
 params.newBase="$baseDir"
-params.dataset_folder="benchmark_datasets"
+params.dataset_folder="benchmark_datasets_demo"
 params.methods = "$baseDir/methods.txt"
 params.scores="$baseDir/scores.txt"
 params.dataset="*"
@@ -61,7 +61,8 @@ if( "${params.id}" != "false"){ file= "${params.id}"}
  *
  */
 params.datasets_directory="$baseDir/${params.dataset_folder}/${params.dataset}"
-datasets_home= file(params.datasets_directory)
+datasets_home= "$baseDir/${params.dataset_folder}/${params.dataset}"
+
 
 dataset_fasta = Channel
 	.fromPath("${params.datasets_directory}/${file}.fa")
