@@ -54,7 +54,7 @@ for dataset in $all_datasets;{
 	for id in $all_test ;{
 		num_seq=`grep ">" $id | wc -l` ;
 
-		id_nofa=`echo $id | tail -c -4  `
+		id_nofa=`echo $id | sed 's/.fa//g'  `
 		#extension=`echo $id | tail -c -4 `
 
 		cd $create_datasets

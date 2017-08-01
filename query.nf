@@ -23,8 +23,8 @@ import java.io.FileWriter;
 
 
 //Metadata files and Query
-operations= file("$baseDir/metadata/operations.ttl")
-families= file("$baseDir/metadata/families_split_test.ttl")
+operations= file("$baseDir/metadata/operations_demo.ttl")
+families= file("$baseDir/metadata/families_demo.ttl")
 scores_file=file( "$baseDir/metadata/scores.ttl" )
 edam= file("$baseDir/metadata/EDAM_1.16.owl")
 query_original= file("metadata/query.rq")

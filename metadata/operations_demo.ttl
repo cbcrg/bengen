@@ -1,0 +1,76 @@
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix edam:  <http://edamontology.org/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix SIO:  <http://semanticscience.org/resource/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://bengen.com/bengen/clustalo-1.2.0>
+        rdf:type         edam:operation_0499 ;
+        rdfs:label       "bengen/clustalo-v1.2.0" ;
+        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929-100> ;
+        edam:has_output  <http://bengen.com/edam:data_1384-edam:format_1984> ;
+        edam:has_topic   edam:topic_0091 .
+
+<http://bengen.com/edam:data_2976-edam:format_1929-100>
+        rdf:type         edam:data_2976 ;
+        SIO:SIO_000794   100 ;
+        edam:has_format  edam:format_1929 .
+
+<http://bengen.com/edam:data_1384-edam:format_1984>
+        rdf:type         edam:data_1384 ;
+        edam:has_format  edam:format_1984 .
+
+<http://bengen.com/bengen/mafft-7.309>
+        rdf:type         edam:operation_0492 ;
+        rdfs:label       "bengen/mafft-v7.309" ;
+        edam:has_input   <http://bengen.com/edam:data_2976-edam:format_1929-10000> ;
+        edam:has_output  <http://bengen.com/edam:data_1384-edam:format_1984> ;
+        edam:has_topic   edam:topic_0091 .
+
+<http://bengen.com/edam:data_2976-edam:format_1929-10000>
+        rdf:type         edam:data_2976 ;
+        SIO:SIO_000794   10000 ;
+        edam:has_format  edam:format_1929 .
+
+<http://bengen.com/bengen/baliscore-3.01>
+        rdf:type        edam:operation_0259 ;
+        rdfs:label      "bengen/baliscore-v3.01" ;
+        edam:has_input  <http://bengen.com/edam:data_1384-edam:format_2555> ;
+        edam:has_topic  edam:topic_0091 .
+
+<http://bengen.com/edam:data_1384-edam:format_2555>
+        rdf:type         edam:data_1384 ;
+        edam:has_format  edam:format_2555 .
+
+<http://bengen.com/bengen/qscore-2.1>
+        rdf:type        edam:operation_0259 ;
+        rdfs:label      "bengen/qscore-v2.1" ;
+        edam:has_input  <http://bengen.com/edam:data_1384-edam:format_1984> ;
+        edam:has_topic  edam:topic_0091 .
+
+<http://bengen.com/bengen/fastsp-1.6.0>
+        rdf:type        edam:operation_0259 ;
+        rdfs:label      "bengen/fastsp-v1.6.0" ;
+        edam:has_input  <http://bengen.com/edam:data_1384-edam:format_1984> ;
+        edam:has_topic  edam:topic_0091 .
+
+<http://bengen.com/balibase-v4.0>
+        rdfs:label    "balibase-v4.0" ;
+        doap:Version   4.0 .
+
+<http://bengen.com/homfam_clustalo-v1.0>
+        rdfs:label    "homfam_clustalo-v1.0" ;
+        doap:Version   1.0 .
+
+<http://bengen.com/homfam_mafft-v1.0>
+        rdfs:label    "homfam_mafft-v1.0" ;
+        doap:Version   1.0 .
+
+<http://bengen.com/oxfam-v1.0>
+        rdfs:label    "oxfam-v1.0" ;
+        doap:Version   1.0 .
+
+<http://bengen.com/prefab-v4.0>
+        rdfs:label    "prefab-v4.0" ;
+        doap:Version   4.0 .

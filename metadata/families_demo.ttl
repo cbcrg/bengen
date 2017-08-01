@@ -15,16 +15,6 @@
         oboInOwl:inSubset    <http://bengen.com/balibase-v4.0> ;
         oboInOwl:inSubset    "R1-5" .
 
-<http://bengen.com/BB11002-balibase-v4.0-test>
-        rdf:type             edam:data_1233 ;
-        rdfs:label           "BB11002" ;
-        edam:data_1064       "BB11002" ;
-        edam:file_extension  ".fa" ;
-        edam:has_format      edam:1929 ;
-        SIO:SIO_000794       8 ;
-        oboInOwl:inSubset    <http://bengen.com/balibase-v4.0> ;
-        oboInOwl:inSubset    "R1-5" .
-
 
 <http://bengen.com/BB11001-balibase-v4.0-reference>
         rdf:type             edam:data_1384 ;
@@ -34,10 +24,21 @@
         edam:has_format      edam:format_2555 ;
         oboInOwl:inSubset    <http://bengen.com/balibase-v4.0> .
 
-<http://bengen.com/BB11002-balibase-v4.0-reference>
-        rdf:type             edam:data_1384 ;
-        rdfs:label           "BB11002" ;
-        edam:data_1066       "BB11002" ;
-        edam:file_extension  ".xml.ref" ;
-        edam:has_format      edam:format_2555 ;
-        oboInOwl:inSubset    <http://bengen.com/balibase-v4.0> .
+
+<http://bengen.com/12asA_1atiA-prefab>
+                rdf:type             edam:data_1233 ;
+                rdfs:label           "12asA_1atiA" ;
+                edam:data_1064       "12asA_1atiA" ;
+                edam:file_extension  ".fa" ;
+                edam:has_format      edam:1929 ;
+                SIO:SIO_000794       44 ;
+                oboInOwl:inSubset    <http://bengen.com/prefab-v4.0> .
+
+<http://bengen.com/12asA_1atiA-prefab>
+                        rdf:type             edam:data_1384 ;
+                        rdfs:label           "12asA_1atiA" ;
+                        edam:data_1066       "12asA_1atiA" ;
+                        edam:file_extension  ".fa.ref" ;
+                        edam:has_format      edam:format_1984 ;
+                        edam:data_1412       "44" ;
+                        oboInOwl:inSubset    <http://bengen.com/prefab-v4.0> .
