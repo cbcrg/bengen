@@ -1,72 +1,61 @@
-# BenGen
-## Introduction
 
-BenGen is a containerization and ontology-based benchmarking prototype.
+# HOWTOs
 
+Here some instructions are presented on how to complete different task in particular for the MSA's version of BenGen.
 
-### How does it work?
+## How to create a template file 
+There are two different types of template files: for methods and scoring function.
 
-Nextflow is the skeleton of Bengen and defines the Benchmarking workflow.
+A template file basically contains information about the commandline.
 
-Aligner tools are stored as Docker images in the Docker hub. A unique ID is assigned to each image. This guarantees the containers immutability and the full replicability of the benchmark over time.  
+A method recieves as input the **$input**, which in the case of multiple sequence aligner is a set of sequences generally in fasta format; the method must then provide the output in a file called **method.out**.
 
-Docker provides a container runtime for local and cloud environments. Singularity performs the same role in the context of HPC and supercomputers (eg. Marenostrum).
-
-GitHub stores and tracks code changes in consistent manner. It also provides a friendly and well-known user interface that would enable third parties to contribute their own tools with ease. <br> 
-
-Moreover the no-SQl database, which is updated in every run of BenGen, allows to store metadata about the methods and their results.
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-01.png)
-
-
-
-## GETTING STARTED
-
-### Dependencies 
-In order to run bengen on your machine **Docker** and **Nextlfow** need to be installed.
-
-* [Docker 1.0](http://www.docker.com) 
-* [Nextflow 0.18.+](http://www.nextflow.io)
-
-### Setup 
-
-You first need to clone the Bengen repository 
+An example: 
 ```
-git clone https://github.com/cbcrg/bengen
+muscle -in $input -fastaout method.out
 ```
 
-Then move in the bengen directory and use make to create all the needed images
+A scoring function recieves as test-input **$input**, which is the output of the method; as reference, it will recieve the reference file in the bechmark_datastes folder, for example **$datasets_home/${id}.fa.ref** is in the case of the multiple sequence aligner. Eventually, the scoring function needs to ouptut the result in the file **score.out**.
+
+**!** The output format of the scoring function must be : Id=value;id=value;
+
+An example: 
 ```
-cd bengen
-make
+qscore -test $input -ref $datasets_home/${id}.fa.ref -modeler -cline -ignoretestcase -ignorerefcase > score_temp.out
+sed 's/Test.*.ref;//g' score_temp.out> score.out
 ```
-Now you are ready to use Bengen!
+
+![alt tag](https://github.com/cbcrg/bengen/blob/master/images/interface.png)
 
 
-## RUNNING BENGEN LOCALLY 
+## How to create a Metadata file
 
-In order to run bengen on your machine after having followed the steps under the "Getting started" section and modified the configuration file you can trigger the computation locally using the following command.
+A metadata file can be created in two ways: manually or with the help of the website ( in the MSA's case ).
+
+### Manually 
+To manually create a metadata file 2 steps are needed: 
+
+**Step number one**
+Create a csv file with the right header: this one can be found as an example in the correposnding csv file e.g. for [multiple sequence aligners](https://github.com/cbcrg/bengen/blob/master/model/toModel-msa.csv) in the model folder. What is needed is an imitation of the csv file, with the new data needed for the new component.
+
+**Step number two**
+Use TARQL and the corresponding sparql file for converting it into the right format.
+
+Here an example for the multiple sequence aligners: 
+[mapping-msa.sparql](https://github.com/cbcrg/bengen/blob/master/model/mapping-msa.sparql)
 
 ```
-nextflow run bengen/main.nf
-```
-**!Tip**
-You can use the -resume command to cache what was already computed. This could happen if you run bengen multiple times.
-
-
-```
-nextflow run bengen/main.nf -resume
+tarql mapping-msa.sparql yourTable.csv
 ```
 
 
-<hr>
+### Website
 
+On the website under the section help a metadata file can be created for scoring functions and methods, in the MSA's benchmarking context.
 
-# Preprocessing 
-## Datasets
+## How to download and integrate a new Dataset
 
 All the reference and test files have to be downloaded, properly re-named and stored.
-
 
 ### Downloading datasets: an Example
 
@@ -103,7 +92,7 @@ By calling the make command at the very beginning the docker image is automatica
 
 
 
-### Integratig a new dataset
+### Integrating a new dataset
 
 1. Create a *script* to download it. You can have a look at the example above.
 This must be done following some easy rules :
@@ -133,7 +122,30 @@ In the end, make a pull request. After the maintainer's approval the dataset wil
 This extra information are stored in the [extra-info](https://github.com/cbcrg/bengen/tree/master/model/extra-info) folder. You can find more information about this under the section METADATA.
 
 
-## Metadata
+
+
+
+
+## How to use Metadata in a project: a general example.
+Integrating metadata in a project is useful for both automation and for a consistent and machine-readable description of the components. While the amount of data to be analyzed and methods to be tested raise, these issues become more relevant in bioinformatics projects; for this reason here a summary is provided on how to create and use metadata so that these information can be used with ease in other projects than BenGen, too.
+## Step number 1:
+define your needs. The first thing to be done is to clearly define which are the components of the project which need a metadata description and make an informal schema about the main proprieties of these components. In the case of bioinformatics methods, it can be needed, for example, a definition of what the algorithm is (multiple sequence aligner, assembler ..) and which input/output it has.
+## Step number 2:
+find the right ontology and ontology terms. It is good practice base the creation of metadata on existing ontologies, in order to make the meta- data community-understandable and sharable; this means that the vocabulary of the new metadata should be selected from existing ontologies’ terms. Depending on what the metadata describe, the right ontology must be found. In the case of bioinformatics meth- ods the EDAM [23] ontology can be very useful, which is the one which describes the main components of the BenGen prototype. EBI currently maintains an exhaustive list of ontologies, which can be found at the ”ontologies look up service” [46]. Terms from different ontologies can be combined in the description of a compomnent of the metadata
+   
+database.
+## Step number 3:
+create a model. A formal model must be then created. SPARQL is
+the perfect tool for this task. A sparql model file will be created for each component which needs metadata information, for example one model for multiple sequence aligners and one model for scoring functions. Under the section ”Material and Methods” a complete description of SPARQL and examples are provided.
+## Step number 4:
+collect the data. The data to be modelled must be collected and saved in the proper way in a csv format. For this reason, the way columns are called and which information are collected, is based on the previously created SPARQL model file. As described in the ”Material and Methods” section under ”TARQL” the first line of the file, called header, defines the name of the columns, through which the SPARQL file can access the right data to model. The collection of the data can be accomplished in several ways, even manually if this is the easiest way for the user. One common and easy way to do so is to create a script that automatically collects information from the data, as it is done for the test and reference sequences in the BenGen project.
+## Step number 5:
+use TARQL for modelling. The collected data, which are stored in the CSV file, must be modelled using the SPARQL model. This can be achieved with the help of TARQL (See section ”Material and Methods”).
+## Step number 6 :
+integrate the metadata in the project and write a query.
+When metadata are ready, they can be integrated in the project depending on the specific needs. In the case of BenGen, integrating the metadata database actually means saving the Turtle-format metadata files in the project, so that a query can be run on them whenever needed. One thing that is normally done, when a metadata database is created, is to write a query for them, and this should be written in SPARQL. More details about the SPARQL query language can be found unde the section ”Material and Methods”.
+
+## How the metadata were created in BenGen: a concrete example.
 
 
 Bengen is based on a RDF database. It stores metadata about about every method, scoring function and file in the datasets and all the benchmarking results.
@@ -259,150 +271,7 @@ All the metadata files are store in the [metadata folder](https://github.com/cbc
 <hr>
 
 
-# Contribute to the Project
 
-
-## -CREATE A NEW BENCHMARK USING BENGEN'S WORKFLOW
-
-### Preprocessing
-
-#### 1. Create Docker images and uplod them in Dockerhub & Modify the images_docker file
-
-**i.** Create Docker images locally and upload the to  [DockerHub ](https://hub.docker.com/).
-They don't have to be necessarily in the bengen repository in order to work. You can put them in your own repository.
-
-**ii.** Add the list of the images you wish to test to the images_docker file.
-
-For example: 
-```
-bengen/mafft
-bengen/clustalo
-bengen/baliscore
-```
-
-#### 2. Create an RDF metadata Database and its Query
-
- * Create the RDF DB ( more informations on how to do so under the section "Metadata") and store it into the metadata folder
- * Create the query.sparql file : define what can run on what ( more informations on how to do so under the section "Metadata" ) and store it into the bin folder.
- 
-
-
-
-### Ready to Run! 
-
-#### 1. Make
-
-```
-make
-```
-
-#### 2. Run it and get your results 
-
-```
-nextflow run query.nf
-```
-
-
-##  INCLUDE A NEW METHOD TO THE PROJECT
-
-### Command Line version
-
-#### 1. Collect what is needed : 
-
-**i.** A docker image (uploaded in DockerHub) .
-**ii.**  Template file.
-Input file name has to be : $input
-Output file name has to be : method.out
-
-Example: 
-
-```
-clustalo -i $input -o method.out --outfmt fasta --force
-
-```
-
-NOTE : The output format of the method has to be the same format as the input for the scoring function. In case of MSA's output format MUST be a fasta format.
-
-Many examples how to handle this can be found in the [templates ](https://github.com/cbcrg/bengen/tree/master/templates/bengen) directory.
-
-
-**iii.**  Metadata file ( if you are using the automatized version ).
-This is the file that defines your method according to the ontology.
-This can be created online in the BenGen website in the case of MSA's.
-
-#### 2. Upload the docker image to DockerHub 
-
-#### 3. Call the script bengen/bin/addMethod.sh ( [here]() ) 
-
-ARGUMENTS: 
-
- * **-n|--name** =DockerHub_repository_name/Method_name  &emsp; &emsp; _compulsory_<br>
- * **-m|--metadata**= Complete Path to your Metadata file &ensp;&ensp;  _compulsory_<br>
- * **-t|--template** =Complete Path to your template file &ensp;&ensp; _compulsory_ <br>
- * **--make** No argument. If used, calls the make command creating the image for the new Method locally &ensp;&ensp; _optional_<br>
-
-
-### Website Version
-
-The name of the new method ( or scoring function ) , the metadata file and the template file can be uploaded on the website and the extended version of BenGen can be downloaded.
-
-{Right now it is working but too heavy to downlaod --> Sequences are saved in BenGen --> have to go to Zenodo--> then ready}
-
-
-## CONTRIBUTE TO THE PROJECT
-If you wish to contribute to the project you can integrate your new MSA in the public project.
-
-You need to follow these steps : 
-
-1. **Clone** the repository and modify it by adding your new MSa
-2. Do a **pull request** to merge the project
-3. **Upload the docker images** on dockerhub 
-
-Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
-<br><br>
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-02.png)
-
-
-# MSA's Ontology Definition
-
-For understanding the metadata you can look up the not human-understandable terms in the ontology websites. A suggested one for EDAM is [this one](https://www.ebi.ac.uk/ols/ontologies/edam). 
-
-Here an overview on how metadata look like, their connection and their meaning.
-
-#### MSA : 
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/MSA-translated.png)
-
-#### Scoring Function: 
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/SF-translated.png)
-
-
-#### Test File : 
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
-
-
-#### Reference File :
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/TEST-translated.png)
-
-
-#### Dataset: 
-
-
-![alt tag](https://github.com/cbcrg/bengen/blob/master/images/DB-translated.png)
-
-
-# WEBSITE Instruction
-
-* Download [Grails](https://grails.org/)
 
 
 
