@@ -62,7 +62,8 @@ You can use the `-resume` command to cache what was already computed. This could
 nextflow run query.nf -resume
 ```
 
-In this way, the Metadata dataset is queried and the datasets, methods and scoring functions are automatically selected and run.
+In this way, the Metadata dataset is queried and the datasets, methods and scoring functions are automatically selected and run. The selection depends on the [query.rq](https://github.com/cbcrg/bengen/blob/master/metadata/query.rq) sparql file: this selects only the eligible combinations which can be run.
+Eventually the results are stored in the [scores.ttl](https://github.com/cbcrg/bengen/blob/master/metadata/scores.ttl) file in the proper RDF format.
 
 ## RUNNING BENGEN LOCALLY (manually)
 
@@ -150,5 +151,8 @@ You need to follow these steps :
 Afterwards the maintainer of the project will recieve a notification and accept it if relevant to the project. Then the maintainer triggers the computation and the new results are shown on a public HTML page.
 <br><br>
 ![alt tag](https://github.com/cbcrg/bengen/blob/master/images/bg-02.png)
+
+
+
 
 
