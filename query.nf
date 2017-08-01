@@ -189,7 +189,7 @@ process create_results{
 	db=\${array[2]}
 	id=\${array[3]}
 
-	nextflow -q run $bengen_proj/bengen.nf --method \$msa --score \$sf --dataset \$db --id \$id --renderer csv-extended >result
+	nextflow -q run $baseDir/bengen.nf --method \$msa --score \$sf --dataset \$db --id \$id --renderer csv-extended >result
 
 	convertLine.pl result
 
