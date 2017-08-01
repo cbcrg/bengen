@@ -38,7 +38,7 @@
 
 
           <div id="three"><div class="teeth"><div class="plate"><!--<asset:image src="Github-img.png"  style="height: 85  % ;width: 85%;"/>--></div></div></div>
-          <div class=""> <asset:image src="Github.png" id="intern-three" style="height: 19% ;width: 13%;"/></div>
+          <div class=""> <asset:image src="rdf.png" id="intern-three" style="height: 19% ;width: 12.5%;"/></div>
 
           </div>
         </div>
@@ -52,6 +52,8 @@
 
           <h3>Scalable</h3>  Nextflow allows to create a Docker-compatible scalable benchmarking structure.<br>
 
+          <h3>Automatic</h3>
+          A metadata DB allows the automation of the benchmark and the generation of machine-readable results.<br>
 
           <h3>Open-Source</h3>
           The Project can be found on GitHub and can be extended by users.<br>

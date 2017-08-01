@@ -1,8 +1,6 @@
-path=`echo $0`;
-file=$(basename "$path");
-bengen=`echo $path | sed "s/\/bin\/$file//g"`;
+ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")";
 
-echo `$bengen`
+bengen=`sed s-/bin/add.sh--g <<< $ABSOLUTE_PATH`;
 
 
 operations="$bengen/metadata/operations.ttl"
@@ -47,6 +45,8 @@ IFS=$OIFS
 #If image name does not already exist in images_docker --> add it
 
 lookForName=`grep -cx "\(^${DockerHubRepo}/${MethodName}$\)\|\(^${DockerHubRepo}/${MethodName}@.*\)" "${bengen}/images_docker"`
+
+
 
 if [ $lookForName -gt  0 ]; then
     echo "WARNING : the name of the image was already included in the project."

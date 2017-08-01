@@ -31,7 +31,7 @@
 				 <br> <br>
 
 			  <div class="text-field" id="labelinput">
-					<g:textField name="name" required="required" pattern=".*/.*-v\\d*.\\d*" placeholder="bengen/tcoffee-v1.0" />
+					<g:textField name="name" required="required" pattern=".*/.*-v\\d*.\\{d,\\.}*" placeholder="bengen/tcoffee-v1.0" />
 				</div>
 
 			  <div class="row">

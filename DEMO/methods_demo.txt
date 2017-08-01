@@ -1,0 +1,2 @@
+bengen/clustalo-v1.2.0
+bengen/mafft-v7.309
