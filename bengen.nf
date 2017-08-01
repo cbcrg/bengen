@@ -32,8 +32,8 @@ else{params.renderer="csv" }
 
 params.newBase="$baseDir"
 params.dataset_folder="benchmark_datasets_demo"
-params.methods = "$baseDir/methods.txt"
-params.scores="$baseDir/scores.txt"
+params.methods = "$baseDir/DEMO/methods_demo.txt"
+params.scores="$baseDir/DEMO/scores_demo.txt"
 params.dataset="*"
 
 params.output_dir = ("$baseDir/output")

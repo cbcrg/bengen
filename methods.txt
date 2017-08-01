@@ -2,7 +2,7 @@ bengen/pasta-v1.0
 bengen/upp-v1.0
 bengen/muscle-v3.8.31
 bengen/sate-v2.2.7
-bengen/clustalo-v1.0
+bengen/clustalo-v1.2.0
 bengen/clustalw-v2.1
 bengen/tcoffee-v11.00
 bengen/mafft-v7.309
