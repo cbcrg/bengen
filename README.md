@@ -95,7 +95,7 @@ Example of configuration file content:
 ```
 docker.enabled = true
 
-params.dataset = "balibase"
+params.dataset = "balibase-v3.01"
 params.renderer = "csv"
 params.out = "output.${params.renderer}"
 ```
