@@ -79,6 +79,11 @@ You can use the `-resume` command to cache what was already computed. This could
 nextflow run bengen.nf -resume
 ```
 
+If you wish to test BenGen on a restricted amount of data in order to speed things up and quickly getting an overview on how it works you can use the following command: 
+
+```
+nextflow run bengen.nf --scores DEMO/scores_demo.txt --methods DEMO/methods_demo.txt --dataset_folder "benchmarking_datasets_demo"
+```
 
 The overall benchmark is driven by a **configuration file** that allows the definition of different components 
 
