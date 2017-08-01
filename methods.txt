@@ -1,2 +1,13 @@
-bengen/clustalo-v1.2.0
+bengen/pasta-v1.0
+bengen/upp-v1.0
+bengen/muscle-v3.8.31
+bengen/sate-v2.2.7
+bengen/clustalo-v1.0
+bengen/clustalw-v2.1
+bengen/tcoffee-v11.00
 bengen/mafft-v7.309
+bengen/kalign-v2
+bengen/prank-v100802
+bengen/dialign-v2.2.1
+bengen/probcons-v12
+bengen/msaprobs-v0.9.7
