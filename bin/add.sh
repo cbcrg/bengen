@@ -52,7 +52,6 @@ if [ $lookForName -gt  0 ]; then
     echo "WARNING : the name of the image was already included in the project."
 else
     echo "${DockerHubRepo}/${MethodName}" >> "${bengen}/images_docker";
-    echo "HERE!!!!"
 
 fi
 
