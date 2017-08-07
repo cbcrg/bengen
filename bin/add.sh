@@ -3,7 +3,7 @@ ABSOLUTE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_
 bengen=`sed s-/bin/add.sh--g <<< $ABSOLUTE_PATH`;
 
 
-operations="$bengen/metadata/operations.ttl"
+operations="$bengen/metadata/operations_demo.ttl"
 
 #Read command line parameters
 
