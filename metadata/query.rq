@@ -75,10 +75,10 @@ select distinct ?sf_name ?msa_name ?db_name ?ref_id  where {
 
 #----- CACHING
 
- ?score a edam:data_1772.
- ?score rdfs:label ?score_name.
- BIND (URI(CONCAT('http://bengen.com/' ,?msa_name, '-', ?sf_name,'-', ?db_name,'-', ?ref_id)) AS ?URI)
- FILTER NOT EXISTS { ?score edam:isDefinedBy ?URI . }
+# ?score a edam:data_1772.
+# ?score rdfs:label ?score_name.
+# BIND (URI(CONCAT('http://bengen.com/' ,?msa_name, '-', ?sf_name,'-', ?db_name,'-', ?ref_id)) AS ?URI)
+# FILTER NOT EXISTS { ?score edam:isDefinedBy ?URI . }
 
 
   #insert here#
