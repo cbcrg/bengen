@@ -43,34 +43,9 @@
         rdf:type         edam:data_1384 ;
         edam:has_format  edam:format_2555 .
 
-<http://bengen.com/bengen/qscore-2.1>
-        rdf:type        edam:operation_0259 ;
-        rdfs:label      "bengen/qscore-v2.1" ;
-        edam:has_input  <http://bengen.com/edam:data_1384-edam:format_1984> ;
-        edam:has_topic  edam:topic_0091 .
-
-<http://bengen.com/bengen/fastsp-1.6.0>
-        rdf:type        edam:operation_0259 ;
-        rdfs:label      "bengen/fastsp-v1.6.0" ;
-        edam:has_input  <http://bengen.com/edam:data_1384-edam:format_1984> ;
-        edam:has_topic  edam:topic_0091 .
 
 <http://bengen.com/balibase-v4.0>
         rdfs:label    "balibase-v4.0" ;
         doap:Version   4.0 .
 
-<http://bengen.com/homfam_clustalo-v1.0>
-        rdfs:label    "homfam_clustalo-v1.0" ;
-        doap:Version   1.0 .
 
-<http://bengen.com/homfam_mafft-v1.0>
-        rdfs:label    "homfam_mafft-v1.0" ;
-        doap:Version   1.0 .
-
-<http://bengen.com/oxfam-v1.0>
-        rdfs:label    "oxfam-v1.0" ;
-        doap:Version   1.0 .
-
-<http://bengen.com/prefab-v4.0>
-        rdfs:label    "prefab-v4.0" ;
-        doap:Version   4.0 .
