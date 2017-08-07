@@ -21,12 +21,12 @@ class GetmetadataController {
       'NATBMSA-big' : 'edam:data_2977,edam:data_1383',
       'NASMSA-big' : 'edam:data_2977,edam:data_1383',
       'NAGMSA-big' : 'edam:data_2977,edam:data_1383',
-      'bothTBMSA-small' : 'edam:data_2044,edam:data_0863',
-      'bothSMSA-small' : 'edam:data_2044,edam:data_0863',
-      'bothGMSA-small' : 'edam:data_2044,edam:data_0863',
-      'bothTBMSA-big' : 'edam:data_2044,edam:data_0863',
-      'bothSMSA-big' : 'edam:data_2044,edam:data_0863',
-      'bothGMSA-big' : 'edam:data_2044,edam:data_0863',
+      'bothTBMSA-small' : 'edam:data_2976,edam:data_1384',
+      'bothSMSA-small' : 'edam:data_2976,edam:data_1384',
+      'bothGMSA-small' : 'edam:data_2976,edam:data_1384',
+      'bothTBMSA-big' : 'edam:data_2976,edam:data_1384',
+      'bothSMSA-big' : 'edam:data_2976,edam:data_1384',
+      'bothGMSA-big' : 'edam:data_2976,edam:data_1384',
 
 
 
