@@ -1,20 +1,20 @@
 /*
- * Copyright (c) 2013-2016, Centre for Genomic Regulation (CRG) and the authors.
+ * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors.
  *
- *   This file is part of 'Piper-NF'.
+ *   This file is part of 'BENGEN'.
  *
- *   Piper-NF is free software: you can redistribute it and/or modify
+ *   BENGEN is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
  *   the Free Software Foundation, either version 3 of the License, or
  *   (at your option) any later version.
  *
- *   Piper-NF is distributed in the hope that it will be useful,
+ *   BENGEN is distributed in the hope that it will be useful,
  *   but WITHOUT ANY WARRANTY; without even the implied warranty of
  *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *   GNU General Public License for more details.
  *
  *   You should have received a copy of the GNU General Public License
- *   along with Piper-NF.  If not, see <http://www.gnu.org/licenses/>.
+ *   along with BENGEN.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 // define the dataset to process  
@@ -34,9 +34,10 @@ bali_home = file(params.balibase)
  * - fasta file to be aligned  
  * 
  */
-dataset = Channel
-            .fromPath("${params.balibase}/${params.dataset}")
-            .map { tuple( it.parent.name, it.baseName, it ) }
+Channel
+    .fromPath("${params.balibase}/${params.dataset}")
+    .map { tuple( it.parent.name, it.baseName, it ) }
+    .set { dataset }
 
 /* 
  * The method to be used 
