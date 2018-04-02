@@ -1,5 +1,7 @@
+#!/usr/bin/env nextflow
+
 /*
- * Copyright (c) 2013-2017, Centre for Genomic Regulation (CRG) and the authors, Luisa Santus, Maria Chatzou and Paolo Di Tommaso.
+ * Copyright (c) 2013-2018, Centre for Genomic Regulation (CRG) and the authors, Luisa Santus, Maria Chatzou and Paolo Di Tommaso.
  *
  *   This file is part of 'Bengen'.
  *
